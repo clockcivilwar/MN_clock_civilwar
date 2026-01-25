@@ -1,76 +1,290 @@
 // Minnesota Civil War Clock - Main JavaScript
 
+let currentData = null;
+
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize date selector
+    initDateSelector();
+
+    // Load initial data
+    const dateSelect = document.getElementById('date-select');
+    if (dateSelect && dateSelect.value) {
+        loadDateData(dateSelect.value);
+    }
+
     // Tab functionality for news section
+    initNewsTabs();
+
+    // Tab functionality for perspective section
+    initPerspectiveTabs();
+});
+
+// Initialize date selector
+function initDateSelector() {
+    // Load available dates
+    fetch('data/dates.json')
+        .then(response => response.json())
+        .then(data => {
+            const select = document.getElementById('date-select');
+            if (!select) return;
+
+            select.innerHTML = '';
+            data.available_dates.sort().reverse().forEach(date => {
+                const option = document.createElement('option');
+                option.value = date;
+                option.textContent = formatDateLong(date);
+                select.appendChild(option);
+            });
+
+            // Set to latest
+            select.value = data.latest;
+
+            // Add change listener
+            select.addEventListener('change', function() {
+                loadDateData(this.value);
+            });
+        })
+        .catch(err => {
+            console.log('Using static date selector');
+        });
+}
+
+// Load data for a specific date
+function loadDateData(date) {
+    showLoading(true);
+
+    fetch(`data/${date}.json`)
+        .then(response => {
+            if (!response.ok) throw new Error('Data not found');
+            return response.json();
+        })
+        .then(data => {
+            currentData = data;
+            renderData(data);
+            showLoading(false);
+        })
+        .catch(err => {
+            console.error('Error loading data:', err);
+            showLoading(false);
+        });
+}
+
+// Render all data to page
+function renderData(data) {
+    // Update clock
+    updateClock(data.clock.rating, data.clock.status, data.clock.trend);
+
+    // Update date display
+    const analysisDate = document.getElementById('analysis-date');
+    if (analysisDate) {
+        analysisDate.textContent = formatDateLong(data.date);
+    }
+
+    // Update clock description
+    const clockDesc = document.querySelector('.clock-meta .description');
+    if (clockDesc) {
+        clockDesc.textContent = data.clock.description;
+    }
+
+    // Update events section title
+    const eventsTitle = document.querySelector('#events-section h2');
+    if (eventsTitle) {
+        eventsTitle.textContent = `Key Events - ${formatDateLong(data.date)}`;
+    }
+
+    // Update events list
+    renderEvents(data.events);
+
+    // Update news section
+    renderNews(data.news);
+
+    // Update analysis section
+    renderAnalysis(data.analysis);
+
+    // Update watch items
+    renderWatch(data.watch);
+
+    // Update scale active state
+    updateScaleActive(data.clock.rating);
+}
+
+// Render events list
+function renderEvents(events) {
+    const list = document.getElementById('events-list');
+    if (!list) return;
+
+    list.innerHTML = events.map(event =>
+        `<li><strong>${event.title}:</strong> ${event.description}</li>`
+    ).join('');
+}
+
+// Render news section
+function renderNews(news) {
+    const sectionNote = document.querySelector('#news-section .section-note');
+    if (sectionNote) {
+        sectionNote.textContent = `${news.total_articles} articles extracted from ${news.total_sources} sources across the political spectrum`;
+    }
+
+    // Render MN Local
+    renderNewsRegion('mn-local', news.minnesota_local);
+
+    // Render US National
+    renderNewsRegion('us-national', news.us_national);
+}
+
+function renderNewsRegion(containerId, regionData) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const columns = ['left_leaning', 'centrist', 'right_leaning'];
+    const labels = ['Left-Leaning', 'Centrist', 'Right-Leaning'];
+
+    container.innerHTML = columns.map((col, idx) => {
+        const sources = regionData[col] || [];
+        const sourcesHtml = sources.map(source => `
+            <div class="source-block">
+                <h4>${source.name} <span class="article-count">${source.count} articles</span></h4>
+                <ul class="article-list">
+                    ${source.articles.map(article =>
+                        `<li><a href="${article.url}" target="_blank" rel="noopener">${article.headline}</a></li>`
+                    ).join('')}
+                </ul>
+            </div>
+        `).join('');
+
+        return `
+            <div class="news-column">
+                <h3>${labels[idx]}</h3>
+                ${sourcesHtml}
+            </div>
+        `;
+    }).join('');
+}
+
+// Render analysis section
+function renderAnalysis(analysis) {
+    // Update polarization note
+    const polarNote = document.querySelector('.polarization-note');
+    if (polarNote) {
+        polarNote.innerHTML = `<strong>Polarization Index:</strong> ${analysis.polarization_index.toFixed(1)} points gap between Left (${analysis.matrix.averages.left.toFixed(2)}) and Right (${analysis.matrix.averages.right.toFixed(2)}) averages`;
+    }
+
+    // Update summary table
+    renderSummaryTable(analysis.matrix);
+
+    // Update perspective cards
+    renderPerspectiveCards(analysis.perspectives);
+}
+
+function renderSummaryTable(matrix) {
+    const tbody = document.querySelector('.summary-table tbody');
+    if (!tbody) return;
+
+    const rows = ['politician', 'news_analyst', 'legal_expert', 'finance_analyst'];
+    const labels = ['Politician', 'News Analyst', 'Legal Expert', 'Finance Analyst'];
+
+    tbody.innerHTML = rows.map((row, idx) => {
+        const data = matrix[row];
+        return `
+            <tr>
+                <td>${labels[idx]}</td>
+                <td class="rating ${getRatingClass(data.left)}">${data.left}/12</td>
+                <td class="rating ${getRatingClass(data.center)}">${data.center}/12</td>
+                <td class="rating ${getRatingClass(data.right)}">${data.right}/12</td>
+                <td>${data.avg.toFixed(1)}</td>
+            </tr>
+        `;
+    }).join('') + `
+        <tr class="total-row">
+            <td><strong>Average</strong></td>
+            <td><strong>${matrix.averages.left.toFixed(2)}</strong></td>
+            <td><strong>${matrix.averages.center.toFixed(2)}</strong></td>
+            <td><strong>${matrix.averages.right.toFixed(2)}</strong></td>
+            <td><strong>${matrix.averages.overall.toFixed(2)}</strong></td>
+        </tr>
+    `;
+}
+
+function renderPerspectiveCards(perspectives) {
+    const perspectiveMap = {
+        'politician': 'politician',
+        'news': 'news_analyst',
+        'legal': 'legal_expert',
+        'finance': 'finance_analyst'
+    };
+
+    Object.entries(perspectiveMap).forEach(([containerId, dataKey]) => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const data = perspectives[dataKey];
+        const leanings = ['left', 'center', 'right'];
+        const classes = ['left', 'center', 'right'];
+        const labels = ['Left Wing', 'Centrist', 'Right Wing'];
+
+        container.innerHTML = leanings.map((leaning, idx) => {
+            const p = data[leaning];
+            return `
+                <div class="analysis-card ${classes[idx]}">
+                    <div class="card-header">
+                        <span class="leaning">${labels[idx]}</span>
+                        <span class="rating-badge">${p.rating}/12</span>
+                    </div>
+                    <h4>${p.role}</h4>
+                    <div class="card-body">
+                        <p><strong>Assessment:</strong> "${p.summary}"</p>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    });
+}
+
+// Render watch items
+function renderWatch(watch) {
+    const escalateList = document.querySelector('.watch-item.escalate ul');
+    const deescalateList = document.querySelector('.watch-item.deescalate ul');
+
+    if (escalateList) {
+        escalateList.innerHTML = watch.escalation.map(item => `<li>${item}</li>`).join('');
+    }
+
+    if (deescalateList) {
+        deescalateList.innerHTML = watch.deescalation.map(item => `<li>${item}</li>`).join('');
+    }
+}
+
+// Tab functionality
+function initNewsTabs() {
     const newsTabs = document.querySelectorAll('.news-tabs .tab-btn');
     const newsContents = document.querySelectorAll('.news-content');
 
     newsTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             const targetId = this.getAttribute('data-tab');
-
-            // Update active tab
             newsTabs.forEach(t => t.classList.remove('active'));
             this.classList.add('active');
-
-            // Show corresponding content
             newsContents.forEach(content => {
-                if (content.id === targetId) {
-                    content.classList.remove('hidden');
-                } else {
-                    content.classList.add('hidden');
-                }
+                content.classList.toggle('hidden', content.id !== targetId);
             });
         });
     });
+}
 
-    // Tab functionality for perspective section
+function initPerspectiveTabs() {
     const perspectiveTabs = document.querySelectorAll('.perspective-tabs .perspective-btn');
     const perspectiveContents = document.querySelectorAll('.perspective-content');
 
     perspectiveTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             const targetId = this.getAttribute('data-perspective');
-
-            // Update active tab
             perspectiveTabs.forEach(t => t.classList.remove('active'));
             this.classList.add('active');
-
-            // Show corresponding content
             perspectiveContents.forEach(content => {
-                if (content.id === targetId) {
-                    content.classList.remove('hidden');
-                } else {
-                    content.classList.add('hidden');
-                }
+                content.classList.toggle('hidden', content.id !== targetId);
             });
         });
     });
-
-    // Animate clock hand on load
-    animateClockHand(7); // Current rating is 7/12
-});
-
-// Animate clock hand to position
-function animateClockHand(rating) {
-    const clockHand = document.getElementById('clock-hand');
-    if (!clockHand) return;
-
-    // Calculate rotation: 0 = 6 o'clock (180deg), 12 = 12 o'clock (0deg)
-    // Each hour = 30 degrees
-    // Rating 7 = 7 * 30 = 210 degrees from 12 o'clock
-    const rotation = (rating / 12) * 360;
-
-    // Start from 0 and animate to target
-    clockHand.style.transition = 'none';
-    clockHand.style.transform = 'translateX(-50%) rotate(0deg)';
-
-    // Force reflow
-    clockHand.offsetHeight;
-
-    // Animate to target position
-    clockHand.style.transition = 'transform 2s ease-out';
-    clockHand.style.transform = `translateX(-50%) rotate(${rotation}deg)`;
 }
 
 // Update clock display
@@ -84,8 +298,20 @@ function updateClock(rating, status, trend) {
     if (clockTrend) clockTrend.textContent = trend;
 
     animateClockHand(rating);
+}
 
-    // Update scale active item
+// Animate clock hand to position
+function animateClockHand(rating) {
+    const clockHand = document.getElementById('clock-hand');
+    if (!clockHand) return;
+
+    const rotation = (rating / 12) * 360;
+    clockHand.style.transition = 'transform 1.5s ease-out';
+    clockHand.style.transform = `translateX(-50%) rotate(${rotation}deg)`;
+}
+
+// Update scale active state
+function updateScaleActive(rating) {
     const scaleItems = document.querySelectorAll('.scale-item');
     scaleItems.forEach(item => {
         item.classList.remove('active');
@@ -97,8 +323,27 @@ function updateClock(rating, status, trend) {
     });
 }
 
-// Utility: Format date
-function formatDate(dateString) {
+// Utility functions
+function formatDateLong(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('en-US', options);
+    return new Date(dateString + 'T12:00:00').toLocaleDateString('en-US', options);
+}
+
+function getRatingClass(rating) {
+    if (rating >= 8) return 'high';
+    if (rating >= 5) return 'medium';
+    return 'low';
+}
+
+function showLoading(show) {
+    let overlay = document.querySelector('.loading-overlay');
+    if (!overlay && show) {
+        overlay = document.createElement('div');
+        overlay.className = 'loading-overlay';
+        overlay.innerHTML = '<div class="loading-spinner"></div>';
+        document.body.appendChild(overlay);
+    }
+    if (overlay) {
+        overlay.classList.toggle('active', show);
+    }
 }

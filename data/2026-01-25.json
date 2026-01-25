@@ -1,0 +1,183 @@
+{
+  "date": "2026-01-25",
+  "clock": {
+    "rating": 7,
+    "status": "SEVERE",
+    "trend": "Rising",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {"title": "Second fatal shooting", "description": "Border Patrol agent killed Alex Pretti, an ICU nurse and VA employee, on Nicollet Ave"},
+    {"title": "National Guard activated", "description": "On standby in Minneapolis"},
+    {"title": "DOJ subpoenas", "description": "Issued to Gov. Walz, AG Ellison, Mayor Frey"},
+    {"title": "Federal judge", "description": "Orders ICE/DHS to preserve evidence"},
+    {"title": "2-year-old child", "description": "Transferred to Texas despite court order"},
+    {"title": "5-year-old detained", "description": "By ICE, sparking school district protests"},
+    {"title": "Tens of thousands march", "description": "In 'ICE Out' protests despite subzero temps"},
+    {"title": "Trump threatens Insurrection Act", "description": "Against Minnesota"}
+  ],
+  "news": {
+    "total_articles": 220,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 19,
+          "articles": [
+            {"headline": "Klobuchar, Frey on Minneapolis shooting during immigration action", "url": "https://www.minnpost.com/metro/2026/01/video-klobuchar-frey-on-minneapolis-shooting-during-immigration-action/"},
+            {"headline": "The man killed by Border Patrol was an ICU nurse, family says", "url": "https://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/"},
+            {"headline": "Man shot and killed during immigration crackdown, National Guard activated", "url": "https://www.minnpost.com/metro/2026/01/federal-officers-shoot-and-kill-man-in-minneapolis/"}
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 27,
+          "articles": [
+            {"headline": "Federal agents shoot, kill VA nurse on Minneapolis' Nicollet Ave.", "url": "https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/"},
+            {"headline": "ICE sends detained 2-year-old from Minneapolis to Texas, despite court order", "url": "https://sahanjournal.com/immigration/ice-minneapolis-2-year-old-detained-texas-transfer/"},
+            {"headline": "'Why detain a 5-year-old?' Columbia Heights school leaders speak out", "url": "https://sahanjournal.com/education/ice-minnesota-columbia-heights-students-detained/"}
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 25,
+          "articles": [
+            {"headline": "Federal judge orders ICE, DHS not to destroy evidence", "url": "https://www.twincities.com/2026/01/25/federal-judge-orders-ice-dhs-not-to-destroy-or-alter-evidence-in-minneapolis-shooting/"},
+            {"headline": "MN National Guard mobilized, ready to assist law enforcement", "url": "https://www.twincities.com/2026/01/17/mn-national-guard-mobilized-ready-to-assist-local-law-enforcement/"},
+            {"headline": "Tens of thousands march in Minneapolis to protest ICE surge", "url": "https://www.twincities.com/2026/01/23/ice-protest-st-paul-minneapolis-minnesota/"}
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 2,
+          "articles": [
+            {"headline": "The man killed by Border Patrol was an ICU nurse, family says", "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"}
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 12,
+          "articles": [
+            {"headline": "Antifa influencer declares 'guerrilla war' against ICE", "url": "https://alphanews.org/antifa-influencer-declares-guerrilla-war-against-ice-after-minnesota-shooting/"},
+            {"headline": "Anti-ICE mob storms St. Paul church, shuts down service", "url": "https://alphanews.org/utterly-despicable-anti-ice-mob-storms-st-paul-church-shuts-down-service/"},
+            {"headline": "Vance visits Minneapolis, defends ICE operations", "url": "https://alphanews.org/vance-visits-minneapolis-defends-ice-operations-and-calls-for-cooperation-from-local-officials/"}
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 8,
+          "articles": [
+            {"headline": "Border Patrol agent shot man armed with handgun in Minneapolis", "url": "https://www.americanexperiment.org/ice-agent-reportedly-shot-man-armed-with-a-handgun-in-minneapolis/"},
+            {"headline": "Lawfare rages, 24/7", "url": "https://www.americanexperiment.org/lawfare-rages-24-7/"}
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 25,
+          "articles": [
+            {"headline": "Live Updates: Anti-ICE protests", "url": "https://www.cnn.com/us/live-news/minneapolis-shooting-ice-protests-01-25-26"},
+            {"headline": "What we know about the killing of Alex Pretti by federal officers", "url": "https://www.cnn.com/2026/01/25/us/shooting-minneapolis-alex-pretti-killed"},
+            {"headline": "Video appears to show agent taking gun before shooting", "url": "https://www.cnn.com/2026/01/24/us/invs-videos-show-federal-officer-recovered-gun"}
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 25,
+          "articles": [
+            {"headline": "Videos of deadly Minneapolis shooting contradict government statements", "url": "https://apnews.com/article/minneapolis-ice-alex-pretti-videos-861a0d8f3ee182f3b5909b3613900e2e"},
+            {"headline": "Minneapolis mourns ICU nurse killed by Border Patrol agent", "url": "https://apnews.com/article/shooting-minneapolis-protests-ice-immigration-41437baa4b349279cf8abfaf1076162c"},
+            {"headline": "Man shot and killed during Minneapolis crackdown, National Guard activated", "url": "https://apnews.com/article/immigration-enforcement-minnesota-4d1499fc5962ab880f3816259e04bdbf"}
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 6,
+          "articles": [
+            {"headline": "Man shot by federal officers was an ICU nurse, parents say", "url": "https://www.pbs.org/newshour/nation/man-shot-and-killed-by-federal-officers-in-minnesota-was-an-icu-nurse-his-parents-say"},
+            {"headline": "Thousands brave frigid cold in Twin Cities 'ICE Out' protest", "url": "https://www.pbs.org/newshour/show/thousands-brave-frigid-cold-in-twin-cities-ice-out-protest"}
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 30,
+          "articles": [
+            {"headline": "Minnesota ICE official warns of unrest 'like nothing I've ever seen'", "url": "https://www.foxnews.com/media/minnesota-ice-official-urges-protests-remain-peaceful-amid-tensions-like-nothing-ive-ever-seen-before"},
+            {"headline": "Deputy AG defends federal agents in controversial shooting", "url": "https://www.foxnews.com/politics/deputy-ag-defends-ice-agents-minnesota-says-officers-acting-humanely"},
+            {"headline": "School board member ripped after anti-ICE church invasion arrest", "url": "https://www.foxnews.com/us/minnesota-school-board-member-chauntyll-allen-ripped-by-state-lawmaker-after-anti-ice-church-invasion-arrest"}
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 33,
+          "articles": [
+            {"headline": "Tim Walz compares Trump's ICE crackdown to Nazi occupation", "url": "https://nypost.com/2026/01/25/us-news/tim-walz-compares-trumps-ice-crackdown-to-nazi-occupation/"},
+            {"headline": "Trump blasts Minnesota pols for 'inciting insurrection'", "url": "https://nypost.com/2026/01/24/us-news/trump-blasts-minnesota-pols-for-inciting-insurrection-in-wake-of-shooting-where-are-the-local-police/"},
+            {"headline": "National Guard on 'standby' to quell anti-ICE unrest", "url": "https://nypost.com/2026/01/17/us-news/minnesota-national-guard-on-standby-and-reveal-planned-uniform-if-called-into-action-to-quell-anti-ice-unrest/"}
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 4.0,
+    "confidence_weighted_avg": 6.8,
+    "perspectives": {
+      "politician": {
+        "left": {"rating": 9, "role": "Progressive Democratic State Legislator from Minneapolis", "summary": "We are witnessing an unprecedented federal occupation of a major American city. We are one more incident away from catastrophic violence."},
+        "center": {"rating": 7, "role": "Moderate Independent State Senator from suburban Twin Cities", "summary": "The situation is extremely serious but not yet at the point of no return. Cooler heads could still prevail if leaders step back."},
+        "right": {"rating": 6, "role": "Conservative Republican Representative from rural Minnesota", "summary": "The unrest is real but being manufactured by radical left organizations. Federal officers are doing their lawful duty."}
+      },
+      "news_analyst": {
+        "left": {"rating": 9, "role": "Progressive Journalist from MinnPost", "summary": "This is the defining story of the Trump second term. The federal government has launched what can only be described as an occupation of Minneapolis."},
+        "center": {"rating": 7, "role": "Senior Editor at Star Tribune", "summary": "Federal agencies are stonewalling press. Videos raise serious questions about the government's account. Both sides have legitimate grievances."},
+        "right": {"rating": 5, "role": "Conservative Commentator at Alpha News", "summary": "The mainstream media is engaged in a massive disinformation campaign. Alex Pretti was armed and confronted federal officers."}
+      },
+      "legal_expert": {
+        "left": {"rating": 9, "role": "ACLU Immigration Rights Attorney", "summary": "We are witnessing a constitutional crisis of the highest order. Federal agents have defied court orders. This is lawlessness wearing a badge."},
+        "center": {"rating": 7, "role": "Constitutional Law Professor at University of Minnesota", "summary": "From a constitutional perspective, we're in genuinely novel territory. Most likely outcome: federal government prevails legally but political costs are enormous."},
+        "right": {"rating": 4, "role": "Former Federal Prosecutor", "summary": "Immigration enforcement is exclusively federal jurisdiction. State officials have no authority to obstruct. The shooting was clearly justified."}
+      },
+      "finance_analyst": {
+        "left": {"rating": 8, "role": "Progressive Economist", "summary": "The economic damage is already severe. Minnesota's economy depends heavily on immigrant labor. Long-term costs could set Minnesota back a decade."},
+        "center": {"rating": 6, "role": "Chief Economist at Federal Reserve Bank of Minneapolis", "summary": "Economic indicators show meaningful but not yet severe impacts. The key variable is duration - prolonged conflict could trigger regional recession."},
+        "right": {"rating": 4, "role": "Free-Market Economist at Center of the American Experiment", "summary": "The hand-wringing ignores costs illegal immigration has imposed for decades. This is a market correction, not a crisis."}
+      }
+    },
+    "matrix": {
+      "politician": {"left": 9, "center": 7, "right": 6, "avg": 7.3},
+      "news_analyst": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "legal_expert": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "finance_analyst": {"left": 8, "center": 6, "right": 4, "avg": 6.0},
+      "averages": {"left": 8.75, "center": 6.75, "right": 4.75, "overall": 6.75}
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Third shooting would push to 9-10 range",
+      "National Guard actual deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests/militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation with transparency",
+      "Release of detained children",
+      "Withdrawal of DOJ subpoenas",
+      "State-federal communication channel"
+    ]
+  }
+}
