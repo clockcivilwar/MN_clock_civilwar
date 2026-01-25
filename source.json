@@ -1,0 +1,36 @@
+{
+  "minnesota_local": {
+    "left_leaning": [
+      { "name": "MinnPost", "url": "https://www.minnpost.com" },
+      { "name": "Minnesota Reformer", "url": "https://minnesotareformer.com" },
+      { "name": "Sahan Journal", "url": "https://sahanjournal.com" }
+    ],
+    "centrist": [
+      { "name": "Star Tribune", "url": "https://www.startribune.com" },
+      { "name": "Pioneer Press", "url": "https://www.twincities.com" },
+      { "name": "MPR News", "url": "https://www.mprnews.org" }
+    ],
+    "right_leaning": [
+      { "name": "Alpha News", "url": "https://alphanews.org" },
+      { "name": "Center of the American Experiment", "url": "https://www.americanexperiment.org" },
+      { "name": "Minnesota Sun", "url": "https://theminnesotasun.com" }
+    ]
+  },
+  "us_national": {
+    "left_leaning": [
+      { "name": "MSNBC", "url": "https://www.msnbc.com" },
+      { "name": "CNN", "url": "https://www.cnn.com" },
+      { "name": "The New York Times", "url": "https://www.nytimes.com" }
+    ],
+    "centrist": [
+      { "name": "Associated Press", "url": "https://apnews.com" },
+      { "name": "Reuters", "url": "https://www.reuters.com" },
+      { "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour" }
+    ],
+    "right_leaning": [
+      { "name": "Fox News", "url": "https://www.foxnews.com" },
+      { "name": "The Daily Wire", "url": "https://www.dailywire.com" },
+      { "name": "New York Post", "url": "https://nypost.com" }
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minnesota Civil War Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Minnesota Civil War Clock</h1>
+        <p class="subtitle">Tracking State-Federal Tensions in Real Time</p>
+    </header>
+
+    <main>
+        <!-- Clock Section -->
+        <section id="clock-section">
+            <div class="clock-container">
+                <div class="clock-face">
+                    <div class="clock-center"></div>
+                    <div class="clock-hand" id="clock-hand"></div>
+                    <div class="clock-markers">
+                        <span class="marker" data-hour="12">12</span>
+                        <span class="marker" data-hour="1">1</span>
+                        <span class="marker" data-hour="2">2</span>
+                        <span class="marker" data-hour="3">3</span>
+                        <span class="marker" data-hour="4">4</span>
+                        <span class="marker" data-hour="5">5</span>
+                        <span class="marker" data-hour="6">6</span>
+                        <span class="marker" data-hour="7">7</span>
+                        <span class="marker" data-hour="8">8</span>
+                        <span class="marker" data-hour="9">9</span>
+                        <span class="marker" data-hour="10">10</span>
+                        <span class="marker" data-hour="11">11</span>
+                    </div>
+                </div>
+                <div class="clock-reading">
+                    <span class="clock-value" id="clock-value">7</span>
+                    <span class="clock-label">/ 12</span>
+                </div>
+                <div class="clock-status" id="clock-status">SEVERE</div>
+                <div class="clock-trend" id="clock-trend">Rising</div>
+            </div>
+            <div class="clock-meta">
+                <p class="date" id="analysis-date">January 25, 2026</p>
+                <p class="description">Civil disobedience, enforcement conflicts</p>
+            </div>
+        </section>
+
+        <!-- Scale Reference -->
+        <section id="scale-section">
+            <h2>Clock Scale</h2>
+            <div class="scale-grid">
+                <div class="scale-item" data-level="low">
+                    <span class="scale-range">0-2</span>
+                    <span class="scale-label">Peaceful</span>
+                    <span class="scale-desc">Normal political discourse</span>
+                </div>
+                <div class="scale-item" data-level="elevated">
+                    <span class="scale-range">3-4</span>
+                    <span class="scale-label">Elevated</span>
+                    <span class="scale-desc">Increased tensions, protests</span>
+                </div>
+                <div class="scale-item" data-level="high">
+                    <span class="scale-range">5-6</span>
+                    <span class="scale-label">High</span>
+                    <span class="scale-desc">Confrontations, legal battles</span>
+                </div>
+                <div class="scale-item active" data-level="severe">
+                    <span class="scale-range">7-8</span>
+                    <span class="scale-label">Severe</span>
+                    <span class="scale-desc">Civil disobedience, conflicts</span>
+                </div>
+                <div class="scale-item" data-level="critical">
+                    <span class="scale-range">9-10</span>
+                    <span class="scale-label">Critical</span>
+                    <span class="scale-desc">Widespread unrest</span>
+                </div>
+                <div class="scale-item" data-level="midnight">
+                    <span class="scale-range">11-12</span>
+                    <span class="scale-label">Midnight</span>
+                    <span class="scale-desc">Active civil conflict</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Events -->
+        <section id="events-section">
+            <h2>Key Events - January 25, 2026</h2>
+            <ul class="events-list" id="events-list">
+                <li><strong>Second fatal shooting:</strong> Border Patrol agent killed Alex Pretti, an ICU nurse and VA employee, on Nicollet Ave</li>
+                <li><strong>National Guard activated</strong> and on standby in Minneapolis</li>
+                <li><strong>DOJ subpoenas</strong> issued to Gov. Walz, AG Ellison, Mayor Frey</li>
+                <li><strong>Federal judge</strong> orders ICE/DHS to preserve evidence</li>
+                <li><strong>2-year-old child</strong> transferred to Texas despite court order</li>
+                <li><strong>5-year-old detained</strong> by ICE, sparking school district protests</li>
+                <li><strong>Tens of thousands march</strong> in "ICE Out" protests despite subzero temps</li>
+                <li><strong>Trump threatens Insurrection Act</strong> against Minnesota</li>
+            </ul>
+        </section>
+
+        <!-- News Section -->
+        <section id="news-section">
+            <h2>News Coverage</h2>
+            <p class="section-note">220 articles extracted from 18 sources across the political spectrum</p>
+
+            <div class="news-tabs">
+                <button class="tab-btn active" data-tab="mn-local">Minnesota Local</button>
+                <button class="tab-btn" data-tab="us-national">US National</button>
+            </div>
+
+            <div class="news-content" id="mn-local">
+                <div class="news-column">
+                    <h3>Left-Leaning</h3>
+                    <div class="source-block">
+                        <h4>MinnPost <span class="article-count">19 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.minnpost.com/metro/2026/01/video-klobuchar-frey-on-minneapolis-shooting-during-immigration-action/" target="_blank" rel="noopener">Klobuchar, Frey on Minneapolis shooting during immigration action</a></li>
+                            <li><a href="https://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/" target="_blank" rel="noopener">The man killed by Border Patrol was an ICU nurse, family says</a></li>
+                            <li><a href="https://www.minnpost.com/metro/2026/01/federal-officers-shoot-and-kill-man-in-minneapolis/" target="_blank" rel="noopener">Man shot and killed during immigration crackdown, National Guard activated</a></li>
+                        </ul>
+                    </div>
+                    <div class="source-block">
+                        <h4>Sahan Journal <span class="article-count">27 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/" target="_blank" rel="noopener">Federal agents shoot, kill VA nurse on Minneapolis' Nicollet Ave.</a></li>
+                            <li><a href="https://sahanjournal.com/immigration/ice-minneapolis-2-year-old-detained-texas-transfer/" target="_blank" rel="noopener">ICE sends detained 2-year-old from Minneapolis to Texas, despite court order</a></li>
+                            <li><a href="https://sahanjournal.com/education/ice-minnesota-columbia-heights-students-detained/" target="_blank" rel="noopener">'Why detain a 5-year-old?' Columbia Heights school leaders speak out</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-column">
+                    <h3>Centrist</h3>
+                    <div class="source-block">
+                        <h4>Pioneer Press <span class="article-count">25 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.twincities.com/2026/01/25/federal-judge-orders-ice-dhs-not-to-destroy-or-alter-evidence-in-minneapolis-shooting/" target="_blank" rel="noopener">Federal judge orders ICE, DHS not to destroy evidence</a></li>
+                            <li><a href="https://www.twincities.com/2026/01/17/mn-national-guard-mobilized-ready-to-assist-local-law-enforcement/" target="_blank" rel="noopener">MN National Guard mobilized, ready to assist law enforcement</a></li>
+                            <li><a href="https://www.twincities.com/2026/01/23/ice-protest-st-paul-minneapolis-minnesota/" target="_blank" rel="noopener">Tens of thousands march in Minneapolis to protest ICE surge</a></li>
+                        </ul>
+                    </div>
+                    <div class="source-block">
+                        <h4>MPR News <span class="article-count">2 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer" target="_blank" rel="noopener">The man killed by Border Patrol was an ICU nurse, family says</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-column">
+                    <h3>Right-Leaning</h3>
+                    <div class="source-block">
+                        <h4>Alpha News <span class="article-count">12 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://alphanews.org/antifa-influencer-declares-guerrilla-war-against-ice-after-minnesota-shooting/" target="_blank" rel="noopener">Antifa influencer declares 'guerrilla war' against ICE</a></li>
+                            <li><a href="https://alphanews.org/utterly-despicable-anti-ice-mob-storms-st-paul-church-shuts-down-service/" target="_blank" rel="noopener">Anti-ICE mob storms St. Paul church, shuts down service</a></li>
+                            <li><a href="https://alphanews.org/vance-visits-minneapolis-defends-ice-operations-and-calls-for-cooperation-from-local-officials/" target="_blank" rel="noopener">Vance visits Minneapolis, defends ICE operations</a></li>
+                        </ul>
+                    </div>
+                    <div class="source-block">
+                        <h4>Center of the American Experiment <span class="article-count">8 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.americanexperiment.org/ice-agent-reportedly-shot-man-armed-with-a-handgun-in-minneapolis/" target="_blank" rel="noopener">Border Patrol agent shot man armed with handgun in Minneapolis</a></li>
+                            <li><a href="https://www.americanexperiment.org/lawfare-rages-24-7/" target="_blank" rel="noopener">Lawfare rages, 24/7</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-content hidden" id="us-national">
+                <div class="news-column">
+                    <h3>Left-Leaning</h3>
+                    <div class="source-block">
+                        <h4>CNN <span class="article-count">25 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.cnn.com/us/live-news/minneapolis-shooting-ice-protests-01-25-26" target="_blank" rel="noopener">Live Updates: Anti-ICE protests</a></li>
+                            <li><a href="https://www.cnn.com/2026/01/25/us/shooting-minneapolis-alex-pretti-killed" target="_blank" rel="noopener">What we know about the killing of Alex Pretti by federal officers</a></li>
+                            <li><a href="https://www.cnn.com/2026/01/24/us/invs-videos-show-federal-officer-recovered-gun" target="_blank" rel="noopener">Video appears to show agent taking gun before shooting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-column">
+                    <h3>Centrist</h3>
+                    <div class="source-block">
+                        <h4>Associated Press <span class="article-count">25 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://apnews.com/article/minneapolis-ice-alex-pretti-videos-861a0d8f3ee182f3b5909b3613900e2e" target="_blank" rel="noopener">Videos of deadly Minneapolis shooting contradict government statements</a></li>
+                            <li><a href="https://apnews.com/article/shooting-minneapolis-protests-ice-immigration-41437baa4b349279cf8abfaf1076162c" target="_blank" rel="noopener">Minneapolis mourns ICU nurse killed by Border Patrol agent</a></li>
+                            <li><a href="https://apnews.com/article/immigration-enforcement-minnesota-4d1499fc5962ab880f3816259e04bdbf" target="_blank" rel="noopener">Man shot and killed during Minneapolis crackdown, National Guard activated</a></li>
+                        </ul>
+                    </div>
+                    <div class="source-block">
+                        <h4>PBS NewsHour <span class="article-count">6 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.pbs.org/newshour/nation/man-shot-and-killed-by-federal-officers-in-minnesota-was-an-icu-nurse-his-parents-say" target="_blank" rel="noopener">Man shot by federal officers was an ICU nurse, parents say</a></li>
+                            <li><a href="https://www.pbs.org/newshour/show/thousands-brave-frigid-cold-in-twin-cities-ice-out-protest" target="_blank" rel="noopener">Thousands brave frigid cold in Twin Cities 'ICE Out' protest</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-column">
+                    <h3>Right-Leaning</h3>
+                    <div class="source-block">
+                        <h4>Fox News <span class="article-count">30 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://www.foxnews.com/media/minnesota-ice-official-urges-protests-remain-peaceful-amid-tensions-like-nothing-ive-ever-seen-before" target="_blank" rel="noopener">Minnesota ICE official warns of unrest 'like nothing I've ever seen'</a></li>
+                            <li><a href="https://www.foxnews.com/politics/deputy-ag-defends-ice-agents-minnesota-says-officers-acting-humanely" target="_blank" rel="noopener">Deputy AG defends federal agents in controversial shooting</a></li>
+                            <li><a href="https://www.foxnews.com/us/minnesota-school-board-member-chauntyll-allen-ripped-by-state-lawmaker-after-anti-ice-church-invasion-arrest" target="_blank" rel="noopener">School board member ripped after anti-ICE church invasion arrest</a></li>
+                        </ul>
+                    </div>
+                    <div class="source-block">
+                        <h4>New York Post <span class="article-count">33 articles</span></h4>
+                        <ul class="article-list">
+                            <li><a href="https://nypost.com/2026/01/25/us-news/tim-walz-compares-trumps-ice-crackdown-to-nazi-occupation/" target="_blank" rel="noopener">Tim Walz compares Trump's ICE crackdown to Nazi occupation</a></li>
+                            <li><a href="https://nypost.com/2026/01/24/us-news/trump-blasts-minnesota-pols-for-inciting-insurrection-in-wake-of-shooting-where-are-the-local-police/" target="_blank" rel="noopener">Trump blasts Minnesota pols for 'inciting insurrection'</a></li>
+                            <li><a href="https://nypost.com/2026/01/17/us-news/minnesota-national-guard-on-standby-and-reveal-planned-uniform-if-called-into-action-to-quell-anti-ice-unrest/" target="_blank" rel="noopener">National Guard on 'standby' to quell anti-ICE unrest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section -->
+        <section id="analysis-section">
+            <h2>Multi-Perspective Analysis</h2>
+            <p class="section-note">12 perspectives across 4 roles and 3 political leanings</p>
+
+            <div class="analysis-summary">
+                <table class="summary-table">
+                    <thead>
+                        <tr>
+                            <th>Perspective</th>
+                            <th>Left Wing</th>
+                            <th>Centrist</th>
+                            <th>Right Wing</th>
+                            <th>Average</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Politician</td>
+                            <td class="rating high">9/12</td>
+                            <td class="rating medium">7/12</td>
+                            <td class="rating medium">6/12</td>
+                            <td>7.3</td>
+                        </tr>
+                        <tr>
+                            <td>News Analyst</td>
+                            <td class="rating high">9/12</td>
+                            <td class="rating medium">7/12</td>
+                            <td class="rating low">5/12</td>
+                            <td>7.0</td>
+                        </tr>
+                        <tr>
+                            <td>Legal Expert</td>
+                            <td class="rating high">9/12</td>
+                            <td class="rating medium">7/12</td>
+                            <td class="rating low">4/12</td>
+                            <td>6.7</td>
+                        </tr>
+                        <tr>
+                            <td>Finance Analyst</td>
+                            <td class="rating high">8/12</td>
+                            <td class="rating medium">6/12</td>
+                            <td class="rating low">4/12</td>
+                            <td>6.0</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td><strong>Average</strong></td>
+                            <td><strong>8.75</strong></td>
+                            <td><strong>6.75</strong></td>
+                            <td><strong>4.75</strong></td>
+                            <td><strong>6.75</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="polarization-note">
+                <strong>Polarization Index:</strong> 4.0 points gap between Left (8.75) and Right (4.75) averages
+            </div>
+
+            <div class="analysis-details">
+                <h3>Detailed Analysis by Perspective</h3>
+
+                <div class="perspective-tabs">
+                    <button class="perspective-btn active" data-perspective="politician">Politician</button>
+                    <button class="perspective-btn" data-perspective="news">News Analyst</button>
+                    <button class="perspective-btn" data-perspective="legal">Legal Expert</button>
+                    <button class="perspective-btn" data-perspective="finance">Finance Analyst</button>
+                </div>
+
+                <div class="perspective-content" id="politician">
+                    <div class="analysis-card left">
+                        <div class="card-header">
+                            <span class="leaning">Left Wing</span>
+                            <span class="rating-badge">9/12</span>
+                        </div>
+                        <h4>Progressive Democratic State Legislator from Minneapolis</h4>
+                        <div class="card-body">
+                            <p><strong>Key Factors:</strong></p>
+                            <ul>
+                                <li>Two fatal shootings by federal agents in weeks</li>
+                                <li>Federal government defying state court orders</li>
+                                <li>DOJ weaponization - subpoenas against elected officials</li>
+                                <li>Children being detained, schools disrupted</li>
+                                <li>National Guard activation signals potential for military confrontation</li>
+                            </ul>
+                            <p><strong>Assessment:</strong> "We are witnessing an unprecedented federal occupation of a major American city. We are one more incident away from catastrophic violence."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card center">
+                        <div class="card-header">
+                            <span class="leaning">Centrist</span>
+                            <span class="rating-badge">7/12</span>
+                        </div>
+                        <h4>Moderate Independent State Senator from suburban Twin Cities</h4>
+                        <div class="card-body">
+                            <p><strong>Key Factors:</strong></p>
+                            <ul>
+                                <li>Fatal shootings creating cycle of escalation</li>
+                                <li>Breakdown of state-federal cooperation unprecedented</li>
+                                <li>Economic disruption affecting businesses, schools</li>
+                                <li>Both sides claiming moral high ground</li>
+                                <li>Court orders being ignored suggests rule of law eroding</li>
+                            </ul>
+                            <p><strong>Assessment:</strong> "The situation is extremely serious but not yet at the point of no return. Cooler heads could still prevail if leaders step back."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card right">
+                        <div class="card-header">
+                            <span class="leaning">Right Wing</span>
+                            <span class="rating-badge">6/12</span>
+                        </div>
+                        <h4>Conservative Republican Representative from rural Minnesota</h4>
+                        <div class="card-body">
+                            <p><strong>Key Factors:</strong></p>
+                            <ul>
+                                <li>Antifa-aligned groups declaring "guerrilla war"</li>
+                                <li>Violent mobs attacking federal officers</li>
+                                <li>Democratic officials obstructing federal law enforcement</li>
+                                <li>Church invaded by radical protesters</li>
+                                <li>State officials comparing operations to Nazi occupation</li>
+                            </ul>
+                            <p><strong>Assessment:</strong> "The unrest is real but being manufactured by radical left organizations. Federal officers are doing their lawful duty."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="perspective-content hidden" id="news">
+                    <div class="analysis-card left">
+                        <div class="card-header">
+                            <span class="leaning">Left Wing</span>
+                            <span class="rating-badge">9/12</span>
+                        </div>
+                        <h4>Progressive Journalist from MinnPost</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "This is the defining story of the Trump second term. The federal government has launched what can only be described as an occupation of Minneapolis."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card center">
+                        <div class="card-header">
+                            <span class="leaning">Centrist</span>
+                            <span class="rating-badge">7/12</span>
+                        </div>
+                        <h4>Senior Editor at Star Tribune</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "Federal agencies are stonewalling press. Videos raise serious questions about the government's account. Both sides have legitimate grievances."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card right">
+                        <div class="card-header">
+                            <span class="leaning">Right Wing</span>
+                            <span class="rating-badge">5/12</span>
+                        </div>
+                        <h4>Conservative Commentator at Alpha News</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "The mainstream media is engaged in a massive disinformation campaign. Alex Pretti was armed and confronted federal officers."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="perspective-content hidden" id="legal">
+                    <div class="analysis-card left">
+                        <div class="card-header">
+                            <span class="leaning">Left Wing</span>
+                            <span class="rating-badge">9/12</span>
+                        </div>
+                        <h4>ACLU Immigration Rights Attorney</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "We are witnessing a constitutional crisis of the highest order. Federal agents have defied court orders. This is lawlessness wearing a badge."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card center">
+                        <div class="card-header">
+                            <span class="leaning">Centrist</span>
+                            <span class="rating-badge">7/12</span>
+                        </div>
+                        <h4>Constitutional Law Professor at University of Minnesota</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "From a constitutional perspective, we're in genuinely novel territory. Most likely outcome: federal government prevails legally but political costs are enormous."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card right">
+                        <div class="card-header">
+                            <span class="leaning">Right Wing</span>
+                            <span class="rating-badge">4/12</span>
+                        </div>
+                        <h4>Former Federal Prosecutor</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "Immigration enforcement is exclusively federal jurisdiction. State officials have no authority to obstruct. The shooting was clearly justified."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="perspective-content hidden" id="finance">
+                    <div class="analysis-card left">
+                        <div class="card-header">
+                            <span class="leaning">Left Wing</span>
+                            <span class="rating-badge">8/12</span>
+                        </div>
+                        <h4>Progressive Economist</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "The economic damage is already severe. Minnesota's economy depends heavily on immigrant labor. Long-term costs could set Minnesota back a decade."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card center">
+                        <div class="card-header">
+                            <span class="leaning">Centrist</span>
+                            <span class="rating-badge">6/12</span>
+                        </div>
+                        <h4>Chief Economist at Federal Reserve Bank of Minneapolis</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "Economic indicators show meaningful but not yet severe impacts. The key variable is duration - prolonged conflict could trigger regional recession."</p>
+                        </div>
+                    </div>
+                    <div class="analysis-card right">
+                        <div class="card-header">
+                            <span class="leaning">Right Wing</span>
+                            <span class="rating-badge">4/12</span>
+                        </div>
+                        <h4>Free-Market Economist at Center of the American Experiment</h4>
+                        <div class="card-body">
+                            <p><strong>Assessment:</strong> "The hand-wringing ignores costs illegal immigration has imposed for decades. This is a market correction, not a crisis."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Critical Watch -->
+        <section id="watch-section">
+            <h2>Critical Watch Items</h2>
+            <div class="watch-grid">
+                <div class="watch-item escalate">
+                    <h4>Escalation Triggers</h4>
+                    <ul>
+                        <li>Third shooting would push to 9-10 range</li>
+                        <li>National Guard actual deployment</li>
+                        <li>Federal arrests of state officials</li>
+                        <li>Spread to other cities</li>
+                        <li>Counter-protests/militia involvement</li>
+                    </ul>
+                </div>
+                <div class="watch-item deescalate">
+                    <h4>De-escalation Indicators</h4>
+                    <ul>
+                        <li>Federal pause in operations</li>
+                        <li>Independent investigation with transparency</li>
+                        <li>Release of detained children</li>
+                        <li>Withdrawal of DOJ subpoenas</li>
+                        <li>State-federal communication channel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="methodology">
+            <h3>Methodology</h3>
+            <p>This analysis synthesizes 220 articles from 18 news sources across the political spectrum, filtered for relevance to Minnesota ICE/National Guard operations. Each perspective is constructed from the analytical framework of that role, using evidence weighted toward sources that role would typically trust.</p>
+        </div>
+        <div class="sources">
+            <strong>Data Sources:</strong> MinnPost, Minnesota Reformer, Sahan Journal, Star Tribune, Pioneer Press, MPR News, Alpha News, Center of the American Experiment, Minnesota Sun, MSNBC, CNN, NYT, AP, Reuters, PBS, Fox News, Daily Wire, NY Post
+        </div>
+        <div class="footer-meta">
+            <p>Analysis Date: January 25, 2026</p>
+            <p>Minnesota Civil War Clock Project</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
