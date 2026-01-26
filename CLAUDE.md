@@ -53,10 +53,12 @@ git push
 
 ## 12 Perspectives (4 roles × 3 leanings)
 
-- **Politician:** Progressive Democrat, Moderate Independent, Conservative Republican
-- **News Analyst:** Progressive Journalist, Senior Editor, Conservative Commentator
-- **Legal Expert:** ACLU Attorney, Law Professor, Former Federal Prosecutor
-- **Finance Analyst:** Progressive Economist, Fed Economist, Free-Market Economist
+- **Politician:** Progressive State Legislator, Moderate State Senator, Conservative State Representative
+- **News Analyst:** Progressive Journalist, Senior News Editor, Conservative Commentator
+- **Legal Expert:** Civil Rights Attorney, Constitutional Law Professor, Former Federal Prosecutor
+- **Finance Analyst:** Progressive Economist, Regional Economist, Free-Market Economist
+
+Note: Include the prompt in opinions.json for transparency (no institution names in roles).
 
 ## Clock Scale
 

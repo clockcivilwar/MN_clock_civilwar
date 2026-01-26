@@ -96,12 +96,14 @@ DATE/
 
 | Role | Left | Center | Right |
 |------|------|--------|-------|
-| **Politician** | Progressive Democrat | Moderate Independent | Conservative Republican |
-| **News Analyst** | Progressive Journalist | Senior Editor | Conservative Commentator |
-| **Legal Expert** | ACLU Attorney | Constitutional Law Professor | Former Federal Prosecutor |
-| **Finance Analyst** | Progressive Economist | Fed Reserve Economist | Free-Market Economist |
+| **Politician** | Progressive State Legislator | Moderate State Senator | Conservative State Representative |
+| **News Analyst** | Progressive Journalist | Senior News Editor | Conservative Commentator |
+| **Legal Expert** | Civil Rights Attorney | Constitutional Law Professor | Former Federal Prosecutor |
+| **Finance Analyst** | Progressive Economist | Regional Economist | Free-Market Economist |
 
 ## opinions.json Format
+
+Include the prompt for transparency:
 
 ```json
 {
@@ -109,7 +111,8 @@ DATE/
   "perspectives": {
     "politician": {
       "left": {
-        "role": "Progressive Democratic State Legislator",
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze...",
         "rating": 10,
         "confidence": 95,
         "key_factors": ["..."],
