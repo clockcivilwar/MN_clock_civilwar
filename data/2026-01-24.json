@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-25",
+  "date": "2026-01-24",
   "clock": {
     "rating": 7,
     "status": "SEVERE",
@@ -9,47 +9,47 @@
   "events": [
     {
       "title": "Second fatal shooting",
-      "description": "Border Patrol agent killed Alex Pretti, an ICU nurse and VA employee, on Nicollet Ave"
+      "description": "Alex Pretti, ICU nurse and VA employee, shot and killed by Border Patrol agent on Nicollet Ave this morning"
     },
     {
-      "title": "National Guard activated",
-      "description": "and on standby in Minneapolis"
+      "title": "Victim identified",
+      "description": "Family confirms Pretti was a healthcare worker caring for veterans"
     },
     {
-      "title": "DOJ subpoenas",
-      "description": "issued to Gov. Walz, AG Ellison, Mayor Frey"
+      "title": "Minneapolis officials stonewalled",
+      "description": "Feds not sharing information about shooting with local authorities"
     },
     {
-      "title": "Federal judge",
-      "description": "orders ICE/DHS to preserve evidence"
+      "title": "National Guard on standby",
+      "description": "Activated and ready to deploy"
     },
     {
-      "title": "ICE officer injured",
-      "description": "- will \"lose finger\" after being bitten by protester"
+      "title": "2-year-old transferred to Texas",
+      "description": "Despite court order, child moved from Minneapolis"
     },
     {
-      "title": "2-year-old child",
-      "description": "transferred to Texas despite court order"
+      "title": "Hopkins students detained",
+      "description": "Two students taken along with their family"
     },
     {
-      "title": "5-year-old detained",
-      "description": "by ICE, sparking school district protests"
+      "title": "Activists released",
+      "description": "Levy Armstrong, Allen released from jail after church protest"
     },
     {
-      "title": "Multiple federal prosecutors resign",
-      "description": "from MN US Attorney's office"
+      "title": "Vance defends ICE",
+      "description": "Vice President makes public statement supporting operations"
     },
     {
-      "title": "Church invasion",
-      "description": "- activists arrested for storming St. Paul service"
+      "title": "DOJ subpoenas issued",
+      "description": "Targeting Walz, Ellison, Frey offices"
     },
     {
-      "title": "Tens of thousands march",
-      "description": "in \"ICE Out\" protests despite subzero temps"
+      "title": "Tear gas used on infant",
+      "description": "Reports of infant losing consciousness after exposure"
     }
   ],
   "news": {
-    "total_articles": 220,
+    "total_articles": 219,
     "total_sources": 18,
     "minnesota_local": {
       "left_leaning": [
@@ -93,7 +93,7 @@
       "centrist": [
         {
           "name": "Pioneer Press",
-          "count": 25,
+          "count": 24,
           "articles": [
             {
               "headline": "Federal judge orders ICE, DHS not to destroy or alter evidence in Minneapolis shooting",
@@ -111,12 +111,8 @@
         },
         {
           "name": "MPR News",
-          "count": 2,
+          "count": 1,
           "articles": [
-            {
-              "headline": "Set for Minneapolis duty",
-              "url": "https://www.mprnews.org/story/2026/01/24/minneapolis-looking-into-possible-shooting-by-ice-agent"
-            },
             {
               "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
               "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"
@@ -185,7 +181,7 @@
       "left_leaning": [
         {
           "name": "CNN",
-          "count": 25,
+          "count": 24,
           "articles": [
             {
               "headline": "Live UpdatesAnti-ICE protests",
@@ -243,7 +239,7 @@
       "right_leaning": [
         {
           "name": "Fox News",
-          "count": 30,
+          "count": 33,
           "articles": [
             {
               "headline": "ON THE LOOSE",
@@ -261,18 +257,18 @@
         },
         {
           "name": "New York Post",
-          "count": 33,
+          "count": 32,
           "articles": [
             {
               "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
               "url": "https://email.nypost.com/post-wanted/"
             },
             {
-              "headline": "LA\u2019s top fed prosecutor Bill Essayli warns against armed anti-ICE protesters after Alex Pretti shoot",
+              "headline": "LA\u2019s top fed prosecutor throws full support behind ICE in Minneapolis shooting",
               "url": "https://nypost.com/2026/01/25/us-news/las-bill-essayli-throws-full-support-behind-ice-in-alex-pretti-shooting/"
             },
             {
-              "headline": "Tim Walz compares Trump\u2019s ICE crackdown in Minnesota to Nazi occupation told by Anne Frank",
+              "headline": "Tim Walz compares Trump\u2019s ICE crackdown to Nazi occupation told by Anne Frank",
               "url": "https://nypost.com/2026/01/25/us-news/tim-walz-compares-trumps-ice-crackdown-to-nazi-occupation/"
             }
           ]
@@ -291,7 +287,7 @@
           "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."
         },
         "center": {
-          "rating": 7,
+          "rating": 8,
           "role": "Moderate Independent State Senator",
           "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."
         },
@@ -356,9 +352,9 @@
     "matrix": {
       "politician": {
         "left": 9,
-        "center": 7,
+        "center": 8,
         "right": 6,
-        "avg": 7.3
+        "avg": 7.7
       },
       "news_analyst": {
         "left": 9,
@@ -380,9 +376,9 @@
       },
       "averages": {
         "left": 8.75,
-        "center": 6.75,
+        "center": 7.0,
         "right": 4.75,
-        "overall": 6.75
+        "overall": 6.83
       }
     }
   },
