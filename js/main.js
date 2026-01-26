@@ -99,8 +99,14 @@ function loadDateData(date) {
 
 // Render all data to page
 function renderData(data) {
-    // Update clock
-    updateClock(data.clock.rating, data.clock.status, data.clock.trend);
+    // Get precise rating from analysis matrix averages
+    let preciseRating = data.clock.rating;
+    if (data.analysis && data.analysis.matrix && data.analysis.matrix.averages) {
+        preciseRating = data.analysis.matrix.averages.overall;
+    }
+
+    // Update clock with precise rating
+    updateClock(preciseRating, data.clock.status, data.clock.trend);
 
     // Update date display
     const analysisDate = document.getElementById('analysis-date');
@@ -321,71 +327,62 @@ function updateClock(rating, status, trend) {
     const clockStatus = document.getElementById('clock-status');
     const clockTrend = document.getElementById('clock-trend');
 
-    if (clockValue) clockValue.textContent = rating;
     if (clockStatus) clockStatus.textContent = status;
     if (clockTrend) clockTrend.textContent = trend;
 
-    // Set hour hand based on rating (rating is the "hour")
-    setClockHandsForRating(rating);
-}
-
-// Set clock hands based on rating
-function setClockHandsForRating(rating) {
-    const hourHand = document.getElementById('clock-hand-hour');
-    const minuteHand = document.getElementById('clock-hand-minute');
-    const secondHand = document.getElementById('clock-hand-second');
-
-    if (!hourHand || !minuteHand || !secondHand) return;
-
-    // Hour hand points to the rating (0-12 scale)
-    // Rating 12 = 0° (top), Rating 6 = 180° (bottom)
-    const hourRotation = (rating / 12) * 360;
-
-    // Minute and second hands show real time for dynamic effect
-    const now = new Date();
-    const seconds = now.getSeconds();
-    const minutes = now.getMinutes();
-
-    const secondRotation = (seconds / 60) * 360;
-    const minuteRotation = ((minutes + seconds / 60) / 60) * 360;
-
-    hourHand.style.transition = 'transform 1.5s ease-out';
-    hourHand.style.transform = `translateX(-50%) rotate(${hourRotation}deg)`;
-
-    minuteHand.style.transform = `translateX(-50%) rotate(${minuteRotation}deg)`;
-    secondHand.style.transform = `translateX(-50%) rotate(${secondRotation}deg)`;
-}
-
-// Start real-time clock animation
-function startRealtimeClock() {
-    function tick() {
-        const minuteHand = document.getElementById('clock-hand-minute');
-        const secondHand = document.getElementById('clock-hand-second');
-
-        if (!minuteHand || !secondHand) return;
-
-        const now = new Date();
-        const seconds = now.getSeconds();
-        const minutes = now.getMinutes();
-
-        const secondRotation = (seconds / 60) * 360;
-        const minuteRotation = ((minutes + seconds / 60) / 60) * 360;
-
-        secondHand.style.transition = 'transform 0.1s linear';
-        secondHand.style.transform = `translateX(-50%) rotate(${secondRotation}deg)`;
-
-        minuteHand.style.transition = 'transform 0.5s linear';
-        minuteHand.style.transform = `translateX(-50%) rotate(${minuteRotation}deg)`;
+    // Use the precise average from analysis matrix
+    let preciseRating = rating;
+    if (currentData && currentData.analysis && currentData.analysis.matrix) {
+        preciseRating = currentData.analysis.matrix.averages.overall;
     }
 
-    tick();
-    setInterval(tick, 1000);
+    if (clockValue) clockValue.textContent = preciseRating.toFixed(2);
+
+    // Update digital timer display
+    updateDigitalTimer(preciseRating);
 }
 
-// Initialize real-time clock on page load
-document.addEventListener('DOMContentLoaded', function() {
-    startRealtimeClock();
-});
+// Convert decimal rating to hours, minutes, seconds
+function ratingToTime(rating) {
+    // Rating is on 0-12 scale (like hours on a clock)
+    const totalHours = rating;
+    const hours = Math.floor(totalHours);
+    const remainingMinutes = (totalHours - hours) * 60;
+    const minutes = Math.floor(remainingMinutes);
+    const seconds = Math.floor((remainingMinutes - minutes) * 60);
+
+    return { hours, minutes, seconds };
+}
+
+// Update digital timer display
+function updateDigitalTimer(rating) {
+    const hoursEl = document.getElementById('timer-hours');
+    const minutesEl = document.getElementById('timer-minutes');
+    const secondsEl = document.getElementById('timer-seconds');
+
+    if (!hoursEl || !minutesEl || !secondsEl) return;
+
+    const time = ratingToTime(rating);
+
+    hoursEl.textContent = String(time.hours).padStart(2, '0');
+    minutesEl.textContent = String(time.minutes).padStart(2, '0');
+    secondsEl.textContent = String(time.seconds).padStart(2, '0');
+
+    // Color based on severity
+    const color = getTimerColor(rating);
+    hoursEl.style.color = color;
+    minutesEl.style.color = color;
+    secondsEl.style.color = color;
+}
+
+// Get color based on rating severity
+function getTimerColor(rating) {
+    if (rating >= 10) return '#922b21'; // Dark red - midnight approaching
+    if (rating >= 8) return '#c0392b';  // Red - critical
+    if (rating >= 6) return '#e67e22';  // Orange - severe/high
+    if (rating >= 4) return '#f1c40f';  // Yellow - elevated
+    return '#27ae60';                    // Green - peaceful
+}
 
 // Update scale active state
 function updateScaleActive(rating) {
