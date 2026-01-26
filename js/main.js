@@ -329,17 +329,10 @@ function updateClock(rating, status, trend) {
 
     if (clockStatus) clockStatus.textContent = status;
     if (clockTrend) clockTrend.textContent = trend;
-
-    // Use the precise average from analysis matrix
-    let preciseRating = rating;
-    if (currentData && currentData.analysis && currentData.analysis.matrix) {
-        preciseRating = currentData.analysis.matrix.averages.overall;
-    }
-
-    if (clockValue) clockValue.textContent = preciseRating.toFixed(2);
+    if (clockValue) clockValue.textContent = rating.toFixed(2);
 
     // Update digital timer display
-    updateDigitalTimer(preciseRating);
+    updateDigitalTimer(rating);
 }
 
 // Convert decimal rating to hours, minutes, seconds
@@ -431,8 +424,8 @@ function renderTrendChart() {
     if (!pointsContainer || !trendLine || availableDates.length === 0) return;
 
     // Chart dimensions
-    const chartLeft = 35;
-    const chartRight = 190;
+    const chartLeft = 45;
+    const chartRight = 200;
     const chartTop = 10;
     const chartBottom = 210;
     const chartWidth = chartRight - chartLeft;
@@ -446,7 +439,11 @@ function renderTrendChart() {
         const data = allDatesData[date];
         if (!data) return;
 
-        const rating = data.clock.rating;
+        // Use precise rating from analysis matrix
+        let rating = data.clock.rating;
+        if (data.analysis && data.analysis.matrix && data.analysis.matrix.averages) {
+            rating = data.analysis.matrix.averages.overall;
+        }
 
         // X position: spread points evenly
         let x;
@@ -493,8 +490,8 @@ function renderTrendChart() {
         // Hover handlers
         circle.addEventListener('mouseenter', function(e) {
             const date = this.getAttribute('data-date');
-            const rating = this.getAttribute('data-rating');
-            tooltip.textContent = `${formatDateShort(date)}: ${rating}/12`;
+            const rating = parseFloat(this.getAttribute('data-rating'));
+            tooltip.textContent = `${formatDateShort(date)}: ${rating.toFixed(2)}/12`;
             tooltip.classList.add('visible');
 
             // Position tooltip

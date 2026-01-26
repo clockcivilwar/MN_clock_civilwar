@@ -184,7 +184,7 @@ h4 {
 
 /* Trend Chart */
 .trend-chart-container {
-    width: 200px;
+    width: 220px;
     position: relative;
 }
 
@@ -214,7 +214,11 @@ h4 {
 #trend-chart .grid-line {
     stroke: var(--color-border);
     stroke-width: 1;
-    stroke-dasharray: 2, 2;
+}
+
+#trend-chart .grid-line.dashed {
+    stroke-dasharray: 2, 4;
+    opacity: 0.5;
 }
 
 #trend-chart .axis-line {
