@@ -177,6 +177,7 @@ Include the prompt for transparency:
 - `news_extractor.py` fetches directly from web - no HTML files needed
 - Virtual environment: `clockcivilwar/bin/activate`
 - Web UI automatically shows all dates from `data/dates.json`
+- **Temporal Integrity:** When generating opinions, analyze only based on information available on that date. Do not reference future events or use hindsight. Process dates chronologically (earliest first) to maintain this perspective.
 
 ## Fixing/Updating Existing Dates
 
