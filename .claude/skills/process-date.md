@@ -14,17 +14,15 @@ Unified Web UI (index.html + js/main.js)
 data/
 ├── dates.json          # Index of all available dates
 ├── 2026-01-23.json     # Web-ready data for each date
-├── 2026-01-24.json
 └── ...
 
 Individual Date Folders (source data)
 ├── 2026-01-23/
 │   ├── news_results.json
-│   ├── opinions.json (or civil_war_clock_analysis.md)
+│   ├── opinions.json
 │   ├── news_summary.md
 │   └── analysis_prompts.json
-└── 2026-01-24/
-    └── ...
+└── ...
 ```
 
 ## Arguments
@@ -33,15 +31,14 @@ Individual Date Folders (source data)
 
 ## Workflow Steps
 
-### 1. Fetch & Extract News
+### 1. Extract News
 
 ```bash
 source /Users/convez/claude/clockcivilwar/clockcivilwar/bin/activate
-./fetch_news.sh DATE
 python3 news_extractor.py DATE
 ```
 
-Creates `DATE/news_results.json` and `DATE/analysis_prompts.json`.
+Fetches from 18 news sources and creates `DATE/news_results.json` and `DATE/analysis_prompts.json`.
 
 ### 2. Generate News Summary
 
@@ -53,29 +50,26 @@ Creates `DATE/news_summary.md`.
 
 ### 3. Generate 12 AI Opinions
 
-**Option A: Interactive (in Claude Code chat)**
-- Read `DATE/news_results.json` and `DATE/analysis_prompts.json`
+**Interactive (in Claude Code chat):**
+- Read `DATE/news_results.json`
 - Generate 12 opinions (4 perspectives × 3 political leanings)
 - Save to `DATE/opinions.json`
 
-**Option B: API script (requires ANTHROPIC_API_KEY)**
-```bash
-python3 generate_opinions.py DATE
-```
-
-### 4. Clean Up Temp Files
-
-```bash
-rm -f DATE/*.html
-```
-
-### 5. Generate Web Data
+### 4. Generate Web Data
 
 ```bash
 python3 generate_web_data.py
 ```
 
 Reads all date folders → Creates `data/DATE.json` → Updates `data/dates.json`
+
+## One-Liner
+
+```bash
+source clockcivilwar/bin/activate && python3 news_extractor.py DATE && python3 analyze_results.py DATE
+```
+
+Then generate opinions interactively, then run `python3 generate_web_data.py`.
 
 ## Date Folder Structure
 
@@ -84,9 +78,7 @@ DATE/
 ├── news_results.json       # Extracted articles from 18 sources
 ├── analysis_prompts.json   # 12 perspective prompts
 ├── news_summary.md         # Formatted news summary
-└── opinions.json           # AI-generated 12 opinions (preferred)
-    OR
-└── civil_war_clock_analysis.md  # Manual analysis (legacy)
+└── opinions.json           # AI-generated 12 opinions
 ```
 
 ## The 12 Perspectives
@@ -154,7 +146,6 @@ DATE/
 
 ## Notes
 
-- HTML files are temporary - delete after extraction
-- `generate_web_data.py` prefers `opinions.json` over `civil_war_clock_analysis.md`
-- Virtual environment: `/Users/convez/claude/clockcivilwar/clockcivilwar/bin/activate`
+- `news_extractor.py` fetches directly from web - no HTML files needed
+- Virtual environment: `clockcivilwar/bin/activate`
 - Web UI automatically shows all dates from `data/dates.json`

@@ -14,8 +14,7 @@ data/
 Source Data (per date folder)
 {date}/
 ├── news_results.json      # Extracted articles
-├── opinions.json          # AI-generated 12 opinions (new)
-│   OR civil_war_clock_analysis.md (legacy)
+├── opinions.json          # AI-generated 12 opinions
 ├── news_summary.md
 └── analysis_prompts.json
 ```
@@ -28,18 +27,14 @@ See detailed docs: `.claude/skills/process-date.md`
 # 1. Activate venv
 source clockcivilwar/bin/activate
 
-# 2. Fetch & extract news
-./fetch_news.sh DATE
+# 2. Extract news & generate summary
 python3 news_extractor.py DATE
 python3 analyze_results.py DATE
 
-# 3. Generate 12 AI opinions (interactive in chat, or via API)
-# Creates DATE/opinions.json
+# 3. Generate 12 AI opinions (interactive in chat)
+# Save to DATE/opinions.json
 
-# 4. Clean up temp files
-rm -f DATE/*.html
-
-# 5. Generate web data
+# 4. Generate web data
 python3 generate_web_data.py
 ```
 
@@ -47,10 +42,8 @@ python3 generate_web_data.py
 
 | Script | Output |
 |--------|--------|
-| `fetch_news.sh DATE` | Temp HTML files |
 | `news_extractor.py DATE` | `news_results.json`, `analysis_prompts.json` |
 | `analyze_results.py DATE` | `news_summary.md` |
-| `generate_opinions.py DATE` | `opinions.json` (requires API key) |
 | `generate_web_data.py` | `data/*.json` |
 
 ## 12 Perspectives (4 roles × 3 leanings)
