@@ -110,6 +110,7 @@ Include the prompt for transparency:
 ```json
 {
   "date": "2026-01-23",
+  "generated_at": "2026-01-23T12:00:00.000000",
   "perspectives": {
     "politician": {
       "left": {
@@ -117,9 +118,9 @@ Include the prompt for transparency:
         "prompt": "You are a progressive state legislator. Analyze...",
         "rating": 10,
         "confidence": 95,
-        "key_factors": ["..."],
-        "reasoning": "...",
-        "recommendations": ["..."],
+        "key_factors": ["Factor 1", "Factor 2", "Factor 3"],
+        "reasoning": "Detailed reasoning...",
+        "recommendations": ["Action 1", "Action 2"],
         "summary": "One-line summary"
       },
       "center": {...},
@@ -132,7 +133,18 @@ Include the prompt for transparency:
   "summary": {
     "overall_rating": 7.42,
     "polarization_index": 2.67,
-    "matrix": {...}
+    "matrix": {
+      "politician": {"left": 10, "center": 8, "right": 5, "avg": 7.7},
+      "news_analyst": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "legal_expert": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "finance_analyst": {"left": 8, "center": 6, "right": 4, "avg": 6.0},
+      "averages": {"left": 9.0, "center": 7.0, "right": 4.5, "overall": 6.83}
+    },
+    "key_events": [
+      "Major event 1",
+      "Major event 2",
+      "Major event 3"
+    ]
   }
 }
 ```
@@ -165,3 +177,12 @@ Include the prompt for transparency:
 - `news_extractor.py` fetches directly from web - no HTML files needed
 - Virtual environment: `clockcivilwar/bin/activate`
 - Web UI automatically shows all dates from `data/dates.json`
+
+## Fixing/Updating Existing Dates
+
+To fix an existing date's opinions.json (e.g., wrong format, missing fields):
+
+1. Read the existing `DATE/opinions.json` or a neighboring date's file as reference
+2. Read `DATE/news_results.json` for news context
+3. Regenerate opinions with correct format and save to `DATE/opinions.json`
+4. Run steps 4-5 (generate_web_data.py, git commit & push)
