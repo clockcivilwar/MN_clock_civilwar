@@ -299,15 +299,32 @@ h4 {
 
 .clock-hand {
     position: absolute;
-    width: 4px;
-    height: 90px;
-    background: var(--color-accent);
-    bottom: 50%;
     left: 50%;
+    bottom: 50%;
     transform-origin: bottom center;
     transform: translateX(-50%) rotate(0deg);
     border-radius: 2px;
+}
+
+.clock-hand-hour {
+    width: 6px;
+    height: 60px;
+    background: var(--color-accent);
     z-index: 5;
+}
+
+.clock-hand-minute {
+    width: 4px;
+    height: 80px;
+    background: var(--color-warning);
+    z-index: 6;
+}
+
+.clock-hand-second {
+    width: 2px;
+    height: 90px;
+    background: var(--color-text);
+    z-index: 7;
 }
 
 .clock-markers {

@@ -325,18 +325,67 @@ function updateClock(rating, status, trend) {
     if (clockStatus) clockStatus.textContent = status;
     if (clockTrend) clockTrend.textContent = trend;
 
-    animateClockHand(rating);
+    // Set hour hand based on rating (rating is the "hour")
+    setClockHandsForRating(rating);
 }
 
-// Animate clock hand to position
-function animateClockHand(rating) {
-    const clockHand = document.getElementById('clock-hand');
-    if (!clockHand) return;
+// Set clock hands based on rating
+function setClockHandsForRating(rating) {
+    const hourHand = document.getElementById('clock-hand-hour');
+    const minuteHand = document.getElementById('clock-hand-minute');
+    const secondHand = document.getElementById('clock-hand-second');
 
-    const rotation = (rating / 12) * 360;
-    clockHand.style.transition = 'transform 1.5s ease-out';
-    clockHand.style.transform = `translateX(-50%) rotate(${rotation}deg)`;
+    if (!hourHand || !minuteHand || !secondHand) return;
+
+    // Hour hand points to the rating (0-12 scale)
+    // Rating 12 = 0° (top), Rating 6 = 180° (bottom)
+    const hourRotation = (rating / 12) * 360;
+
+    // Minute and second hands show real time for dynamic effect
+    const now = new Date();
+    const seconds = now.getSeconds();
+    const minutes = now.getMinutes();
+
+    const secondRotation = (seconds / 60) * 360;
+    const minuteRotation = ((minutes + seconds / 60) / 60) * 360;
+
+    hourHand.style.transition = 'transform 1.5s ease-out';
+    hourHand.style.transform = `translateX(-50%) rotate(${hourRotation}deg)`;
+
+    minuteHand.style.transform = `translateX(-50%) rotate(${minuteRotation}deg)`;
+    secondHand.style.transform = `translateX(-50%) rotate(${secondRotation}deg)`;
 }
+
+// Start real-time clock animation
+function startRealtimeClock() {
+    function tick() {
+        const minuteHand = document.getElementById('clock-hand-minute');
+        const secondHand = document.getElementById('clock-hand-second');
+
+        if (!minuteHand || !secondHand) return;
+
+        const now = new Date();
+        const seconds = now.getSeconds();
+        const minutes = now.getMinutes();
+
+        const secondRotation = (seconds / 60) * 360;
+        const minuteRotation = ((minutes + seconds / 60) / 60) * 360;
+
+        secondHand.style.transition = 'transform 0.1s linear';
+        secondHand.style.transform = `translateX(-50%) rotate(${secondRotation}deg)`;
+
+        minuteHand.style.transition = 'transform 0.5s linear';
+        minuteHand.style.transform = `translateX(-50%) rotate(${minuteRotation}deg)`;
+    }
+
+    tick();
+    setInterval(tick, 1000);
+}
+
+// Initialize real-time clock on page load
+document.addEventListener('DOMContentLoaded', function() {
+    startRealtimeClock();
+});
 
 // Update scale active state
 function updateScaleActive(rating) {
