@@ -1,0 +1,365 @@
+{
+  "date": "2026-01-01",
+  "clock": {
+    "rating": 2,
+    "status": "PEACEFUL",
+    "trend": "Stable",
+    "description": "Normal political discourse"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 179,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "Minnesota Reformer",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "Chris Madel drops out of race for GOP nomination for governor, blasts immigration crackdown",
+              "url": "https://minnesotareformer.com/2026/01/26/chris-madel-drops-out-of-race-for-gop-nomination-for-governor-blasts-immigration-crackdown/"
+            },
+            {
+              "headline": "The massive deployment of federal immigration agents here would appall the Founders",
+              "url": "https://minnesotareformer.com/2026/01/26/the-massive-deployment-of-federal-immigration-agents-here-would-appall-the-founders/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 28,
+          "articles": [
+            {
+              "headline": "How to avoid ICE entanglements when seeking health care: Doctors offer tips",
+              "url": "https://sahanjournal.com/health/avoiding-ice-when-seeking-health-care/"
+            },
+            {
+              "headline": "\u2018Sickening\u2019: Federal agents shoot, kill VA nurse on Minneapolis\u2019 Nicollet Ave.",
+              "url": "https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/"
+            },
+            {
+              "headline": "Minneapolis officials say feds haven\u2019t shared information with them about Nicollet Avenue shooting",
+              "url": "https://sahanjournal.com/public-safety/minneapolis-ice-shooting-nicollet-avenue-brian-ohara-jacob-frey/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 21,
+          "articles": [
+            {
+              "headline": "A federal judge hears arguments on Minnesota\u2019s immigration crackdown after fatal shootings",
+              "url": "https://www.twincities.com/2026/01/25/a-federal-judge-hears-arguments-on-minnesotas-immigration-crackdown-after-fatal-shootings/"
+            },
+            {
+              "headline": "Federal judge orders ICE, DHS not to destroy or alter evidence in Minneapolis shooting",
+              "url": "https://www.twincities.com/2026/01/25/federal-judge-orders-ice-dhs-not-to-destroy-or-alter-evidence-in-minneapolis-shooting/"
+            },
+            {
+              "headline": "Trump administration ties demands for MN voter, welfare data to ICE surge",
+              "url": "https://www.twincities.com/2026/01/25/mn-voter-welfare-data-ice-surge/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "Trump strikes positive tone following 'very good call' with Walz over Twin Cities ICE surge",
+              "url": "https://www.mprnews.org/live-updates"
+            },
+            {
+              "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 12,
+          "articles": [
+            {
+              "headline": "\u2018Where is the local PD?\u2019: Anti-ICE rioters violently attack Minneapolis hotel",
+              "url": "https://alphanews.org/where-is-the-local-pd-anti-ice-rioters-violently-attack-minneapolis-hotel/"
+            },
+            {
+              "headline": "Antifa influencer declares \u2018guerrilla war\u2019 against ICE after Minnesota shooting",
+              "url": "https://alphanews.org/antifa-influencer-declares-guerrilla-war-against-ice-after-minnesota-shooting/"
+            },
+            {
+              "headline": "\u2018Utterly despicable\u2019: Anti-ICE mob storms St. Paul church, shuts down service",
+              "url": "https://alphanews.org/utterly-despicable-anti-ice-mob-storms-st-paul-church-shuts-down-service/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Public SafetyLawfare rages, 24/7January 25, 2026 by Bill GlahnFederal court in Minnesota is working ",
+              "url": "https://www.americanexperiment.org/lawfare-rages-24-7/"
+            },
+            {
+              "headline": "Public SafetyBorder Patrol agent reportedly shot man armed with a handgun in MinneapolisJanuary 24, ",
+              "url": "https://www.americanexperiment.org/ice-agent-reportedly-shot-man-armed-with-a-handgun-in-minneapolis/"
+            },
+            {
+              "headline": "Public SafetyDHS/ICE mission success \u2014 no room for errorJanuary 23, 2026 by David ZimmerOur support ",
+              "url": "https://www.americanexperiment.org/dhs-ice-mission-success-no-room-for-error/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Axis of Anarchy: Minnesota Anti-ICE \u2018Shutdown\u2019 Backed by DSA, Communists, Unions, China-Tied Network",
+              "url": "https://thestarnewsnetwork.com/2026/01/23/axis-of-anarchy-minnesota-anti-ice-shutdown-backed-by-dsa-communists-unions-china-tied-network/"
+            },
+            {
+              "headline": "Kilmar Abrego Garcia Declines to Appeal Amended Final Deportation Order",
+              "url": "https://thestarnewsnetwork.com/2026/01/24/kilmar-abrego-garcia-declines-to-appeal-amended-final-deportation-order/"
+            },
+            {
+              "headline": "Conservatives Decry Police Visit to Activist for Criticizing Mayor, Compare to European Censorship",
+              "url": "https://thestarnewsnetwork.com/2026/01/24/conservatives-decry-police-visit-to-activist-for-criticizing-mayor-compare-to-european-censorship/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 17,
+          "articles": [
+            {
+              "headline": "Live UpdatesImmigration crackdown",
+              "url": "https://www.cnn.com/us/live-news/minneapolis-shooting-ice-protests-01-26-26"
+            },
+            {
+              "headline": "Winter storm",
+              "url": "https://www.cnn.com/weather/live-news/winter-storm-forecast-snow-ice-01-25-26-climate"
+            },
+            {
+              "headline": "How to stay safe in cold weather, according to a doctor",
+              "url": "https://www.cnn.com/2026/01/26/health/cold-weather-safety-doctor-advice-wellness"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 18,
+          "articles": [
+            {
+              "headline": "Live updates: Judge considers legality of Trump\u2019s immigration crackdown in Minneapolis",
+              "url": "https://apnews.com/live/minneapolis-shooting-immigration-updates-1-26-2026"
+            },
+            {
+              "headline": "Businesses face pressure to respond to immigration enforcement while also becoming a target of it",
+              "url": "https://apnews.com/article/immigration-businesses-enforcement-ice-ddd91c3c7e7feb7e27e0e2b02b412e90"
+            },
+            {
+              "headline": "In shooting\u2019s aftermath, Trump says he\u2019s sending his border czar, Tom Homan, to Minnesota",
+              "url": "https://apnews.com/live/minneapolis-shooting-immigration-updates-1-26-2026#0000019b-fa7f-d077-a3df-feffd9200000"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 7,
+          "articles": [
+            {
+              "headline": "Judge will hear arguments on Trump's immigration crackdown in Minnesota after fatal shootings",
+              "url": "https://www.pbs.org/newshour/politics/judge-will-hear-arguments-on-trumps-immigration-crackdown-in-minnesota-after-fatal-shootings"
+            },
+            {
+              "headline": "Man shot and killed by federal officers in Minnesota was an ICU nurse, his parents say",
+              "url": "https://www.pbs.org/newshour/nation/man-shot-and-killed-by-federal-officers-in-minnesota-was-an-icu-nurse-his-parents-say"
+            },
+            {
+              "headline": "Thousands brave frigid cold in Twin Cities 'ICE Out' protest",
+              "url": "https://www.pbs.org/newshour/show/thousands-brave-frigid-cold-in-twin-cities-ice-out-protest"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 30,
+          "articles": [
+            {
+              "headline": "Trump deploys border enforcer to Minnesota after agitators allegedly maim federal agent",
+              "url": "https://www.foxnews.com/politics/trump-deploys-border-czar-tom-homan-minnesota-ice-operations-face-violent-chaos"
+            },
+            {
+              "headline": "'IRRESPONSIBLE'",
+              "url": "https://www.foxnews.com/media/new-york-county-exec-blasts-hochul-rejecting-federal-storm-aid-over-ice-enforcement-concerns"
+            },
+            {
+              "headline": "DEEP FREEZE",
+              "url": "https://www.foxweather.com/live-news/live-updates-arctic-air-blasts-the-south-after-catastrophic-ice-storm-cuts-power-to-thousands"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 26,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Trump snubs Kristi Noem, sends border czar Tom Homan to Minneapolis after ICE shooting",
+              "url": "https://nypost.com/2026/01/26/us-news/trump-sending-border-czar-tom-homan-to-minnesota-amid-unrest/"
+            },
+            {
+              "headline": "Powerful House Republican suggests Trump should consider pulling ICE out of Minneapolis after Alex P",
+              "url": "https://nypost.com/2026/01/26/us-news/powerful-house-republican-suggests-trump-consider-pulling-ice-out-of-minneapolis-after-alex-pretti-shooting/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 1.17,
+    "confidence_weighted_avg": 1.9,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive State Legislator",
+          "summary": "New Year's Day - anticipatory anxiety but 19 days to prepare before inauguration."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Moderate State Senator",
+          "summary": "Transition period - current calm provides window for proactive dialogue."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Conservative State Representative",
+          "summary": "Complete peace currently - new administration will bring orderly enforcement."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive Journalist",
+          "summary": "Early anxiety narratives - families discussing contingencies, churches exploring options."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Senior News Editor",
+          "summary": "Speculative period - need baseline reporting not anticipatory crisis narratives."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Conservative Commentator",
+          "summary": "Perfect calm - media pre-positioning crisis narrative without factual basis."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 3,
+          "role": "Civil Rights Attorney",
+          "summary": "Preparation window - building legal infrastructure before enforcement begins."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Constitutional Law Professor",
+          "summary": "Legal framework stable - constitutional analysis awaits specific policy choices."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Former Federal Prosecutor",
+          "summary": "Complete peace - federal authority clear, compliance will prevent conflict."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 2,
+          "role": "Progressive Economist",
+          "summary": "Economy normal - early uncertainty signals in immigrant-heavy sectors."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Regional Economist",
+          "summary": "All indicators normal - establish baselines for future comparison."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Free-Market Economist",
+          "summary": "Strong economic start to 2026 - enforcement will bring further benefits."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "avg": 2.0
+      },
+      "news_analyst": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "avg": 2.0
+      },
+      "legal_expert": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "avg": 2.0
+      },
+      "finance_analyst": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "avg": 1.7
+      },
+      "averages": {
+        "left": 2.75,
+        "center": 2.0,
+        "right": 1.0,
+        "overall": 1.92
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
