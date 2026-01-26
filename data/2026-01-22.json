@@ -241,75 +241,75 @@
     }
   },
   "analysis": {
-    "polarization_index": 2.58,
-    "confidence_weighted_avg": 6.7,
+    "polarization_index": 2.75,
+    "confidence_weighted_avg": 6.6,
     "perspectives": {
       "politician": {
         "left": {
           "rating": 9,
-          "role": "Progressive Democratic State Legislator from Minneapolis",
-          "summary": "Federal occupation escalating - two shootings, children detained, officials subpoenaed."
+          "role": "Progressive State Legislator",
+          "summary": "Rapid escalation - second shooting, children detained, officials subpoenaed."
         },
         "center": {
           "rating": 8,
-          "role": "Moderate Independent State Senator from suburban Twin Cities",
-          "summary": "Unprecedented crisis - National Guard on standby, officials subpoenaed, no path to de-escalation visible."
+          "role": "Moderate State Senator",
+          "summary": "Unprecedented crisis - no clear path to de-escalation visible."
         },
         "right": {
           "rating": 5,
-          "role": "Conservative Republican Representative from rural Minnesota",
-          "summary": "Lawful federal enforcement meeting organized leftist resistance - officials inciting insurrection."
+          "role": "Conservative State Representative",
+          "summary": "Organized leftist violence against lawful enforcement - state must cooperate."
         }
       },
       "news_analyst": {
         "left": {
           "rating": 9,
-          "role": "Progressive Journalist from MinnPost",
-          "summary": "Systematic federal assault on communities - healthcare crisis, children detained, officials resisting."
+          "role": "Progressive Journalist",
+          "summary": "Humanitarian catastrophe - deaths, tear-gassed infant, health crisis."
         },
         "center": {
           "rating": 7,
-          "role": "Senior Editor at Star Tribune",
-          "summary": "Two fatal shootings demand investigation - both sides escalating rhetoric, media polarization deepening."
+          "role": "Senior News Editor",
+          "summary": "Two deaths confirmed, prosecutors resigning - polarized coverage obscures facts."
         },
         "right": {
-          "rating": 5,
-          "role": "Conservative Commentator at Alpha News",
-          "summary": "Media covering for organized leftist insurrection - DSA and communist groups leading resistance."
+          "rating": 4,
+          "role": "Conservative Commentator",
+          "summary": "Media running activist narrative - ignoring criminality and radical coordination."
         }
       },
       "legal_expert": {
         "left": {
           "rating": 9,
-          "role": "ACLU Immigration Rights Attorney",
-          "summary": "Systematic constitutional violations - Fourth Amendment, due process, First Amendment retaliation."
+          "role": "Civil Rights Attorney",
+          "summary": "Constitutional crisis - killings uninvestigated, courts defied, speech punished."
         },
         "center": {
           "rating": 7,
-          "role": "Constitutional Law Professor at University of Minnesota",
-          "summary": "Federal authority clear but methods questionable - both sides testing constitutional limits."
+          "role": "Constitutional Law Professor",
+          "summary": "Federal authority exists but methods strain constitutional limits severely."
         },
         "right": {
           "rating": 4,
-          "role": "Former Federal Prosecutor and Immigration Law Advocate",
-          "summary": "Federal authority absolute - state obstruction potentially criminal, prosecutions warranted."
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal authority absolute - state obstruction creating the conflict."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 8,
-          "role": "Progressive Economist focusing on Labor and Immigration",
-          "summary": "Severe economic damage - workforce disappearing, businesses struggling, reputation harm."
+          "role": "Progressive Economist",
+          "summary": "Accelerating economic damage - workforce devastation, closures, reputation harm."
         },
         "center": {
           "rating": 6,
-          "role": "Chief Economist at Federal Reserve Bank of Minneapolis",
-          "summary": "Moderate economic disruption - duration will determine severity of long-term impacts."
+          "role": "Regional Economist",
+          "summary": "Measurable economic disruption - duration determines ultimate severity."
         },
         "right": {
           "rating": 3,
-          "role": "Free-Market Economist at Center of the American Experiment",
-          "summary": "Short-term protest disruption - long-term benefits from rule of law for legal workers."
+          "role": "Free-Market Economist",
+          "summary": "Protest disruption temporary - enforcement benefits legal workers long-term."
         }
       }
     },
@@ -323,8 +323,8 @@
       "news_analyst": {
         "left": 9,
         "center": 7,
-        "right": 5,
-        "avg": 7.0
+        "right": 4,
+        "avg": 6.7
       },
       "legal_expert": {
         "left": 9,
@@ -341,8 +341,8 @@
       "averages": {
         "left": 8.75,
         "center": 7.0,
-        "right": 4.25,
-        "overall": 6.67
+        "right": 4.0,
+        "overall": 6.58
       }
     }
   },

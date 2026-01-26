@@ -1,0 +1,242 @@
+{
+  "date": "2026-01-25",
+  "generated_at": "2026-01-26T03:50:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 10,
+        "confidence": 95,
+        "key_factors": [
+          "Federal judge orders evidence preservation - implies destruction concern",
+          "Alex Pretti family demands justice",
+          "Mass protests continuing despite danger"
+        ],
+        "reasoning": "A federal judge had to order DHS not to destroy evidence - that order wouldn't be necessary unless destruction was a real concern. The Alex Pretti family is demanding justice. Thousands continue protesting despite the danger. Federal agents have killed three people and the government is trying to cover it up. We are past the breaking point - we are in crisis.",
+        "recommendations": [
+          "Demand federal withdrawal from Minneapolis",
+          "State should formally refuse all cooperation"
+        ],
+        "summary": "Judge orders evidence preservation - cover-up confirmed, crisis deepening."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Judge ordered evidence preservation - extraordinary step",
+          "Three deaths with disputed federal accounts",
+          "Complete breakdown of state-federal relations"
+        ],
+        "reasoning": "When a federal judge orders DHS not to destroy evidence, something has gone very wrong. Three people dead. Video contradicting official accounts. State-federal relations have completely broken down. I don't see any path to resolution. Both sides are dug in. This is the worst state-federal conflict I've witnessed.",
+        "recommendations": [
+          "Request federal mediation from neutral party",
+          "Support independent investigation with full transparency"
+        ],
+        "summary": "Evidence preservation order extraordinary - complete breakdown, no resolution path."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 6,
+        "confidence": 70,
+        "key_factors": [
+          "Evidence preservation order is routine in litigation",
+          "Investigation ongoing into shooting",
+          "Resistance continues to create dangerous situations"
+        ],
+        "reasoning": "The evidence preservation order is routine in any litigation - it doesn't imply wrongdoing. The investigation is ongoing. What continues to be clear is that organized resistance creates dangerous confrontation situations. If state officials encouraged cooperation rather than resistance, these tragedies would be less likely.",
+        "recommendations": [
+          "Support fair investigation process",
+          "State must stop encouraging dangerous resistance"
+        ],
+        "summary": "Routine legal process ongoing - resistance continues creating danger."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 10,
+        "confidence": 90,
+        "key_factors": [
+          "Evidence preservation order suggests cover-up attempt",
+          "Alex Pretti's family speaking out",
+          "Community grief and rage building"
+        ],
+        "reasoning": "The evidence preservation order tells us the court has concerns about federal conduct. Alex Pretti's family is sharing who he was - a man who cared for veterans. The community is grieving and angry. Three people dead, federal lies exposed, and still no accountability. This is a defining moment for civil rights in America.",
+        "recommendations": [
+          "Continue investigating federal deception",
+          "Tell Alex Pretti's full story"
+        ],
+        "summary": "Court signals cover-up concern - community grief, no accountability, defining moment."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Evidence preservation order is significant",
+          "Three deaths now confirmed",
+          "Federal credibility severely damaged"
+        ],
+        "reasoning": "The evidence preservation order is judicially significant - courts don't issue these casually. Three confirmed deaths. Video contradicting official accounts. Federal credibility is severely damaged. Whatever the ultimate truth, DHS faces a serious accountability problem. The facts we can verify paint a troubling picture.",
+        "recommendations": [
+          "Track court proceedings closely",
+          "Investigate what prompted preservation order"
+        ],
+        "summary": "Evidence order significant - three deaths, federal credibility severely damaged."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 5,
+        "confidence": 68,
+        "key_factors": [
+          "Media spinning routine legal process as scandal",
+          "Investigation not yet complete",
+          "Narrative warfare against federal agents"
+        ],
+        "reasoning": "The media is spinning a routine evidence preservation order into proof of wrongdoing. The investigation isn't complete. The narrative warfare against federal agents continues. The coverage assumes guilt before facts are established. Meanwhile, the resistance that creates these dangerous situations goes uncriticized.",
+        "recommendations": [
+          "Wait for investigation conclusions",
+          "Report on resistance role in creating danger"
+        ],
+        "summary": "Media spinning legal process as scandal - investigation incomplete."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 10,
+        "confidence": 95,
+        "key_factors": [
+          "Court concerned enough to order evidence preservation",
+          "Pattern of unconstitutional conduct now documented",
+          "Federal agencies acting above the law"
+        ],
+        "reasoning": "The evidence preservation order confirms judicial concern about federal conduct. We have documented pattern of excessive force, false statements, and disregard for constitutional limits. Federal agencies are acting as though above the law. Emergency injunctive relief, civil rights litigation, and criminal referrals must proceed immediately.",
+        "recommendations": [
+          "File emergency injunction motion immediately",
+          "Pursue criminal referrals through state attorney general"
+        ],
+        "summary": "Court confirms concern - documented unconstitutional pattern, agencies above law."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Evidence preservation order indicates judicial concern",
+          "Three deaths require serious legal scrutiny",
+          "Constitutional limits being tested severely"
+        ],
+        "reasoning": "The evidence preservation order indicates the court takes concerns seriously. Three deaths in federal operations demand legal scrutiny. Constitutional limits on use of force are being severely tested. The judiciary must now actively supervise federal conduct. This is exactly the situation that demands judicial intervention.",
+        "recommendations": [
+          "Courts must appoint special master or monitor",
+          "Congressional investigation with subpoena power"
+        ],
+        "summary": "Judicial concern evident - three deaths demand active court supervision."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 72,
+        "key_factors": [
+          "Evidence preservation orders are routine in litigation",
+          "Investigation proceeding appropriately",
+          "Federal authority remains intact"
+        ],
+        "reasoning": "Evidence preservation orders are standard in any litigation involving potential evidence - they don't indicate wrongdoing. The investigation is proceeding. Federal authority over immigration remains constitutionally established. The legal framework supports enforcement. Political pressure shouldn't influence ongoing investigations.",
+        "recommendations": [
+          "Allow investigation to proceed without interference",
+          "Continue lawful enforcement operations"
+        ],
+        "summary": "Routine legal process - federal authority intact, investigation proceeding."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 9,
+        "confidence": 85,
+        "key_factors": [
+          "Economic damage now severe and accelerating",
+          "No end in sight prolongs harm",
+          "Long-term reputation damage materializing"
+        ],
+        "reasoning": "The economic damage is severe and accelerating with no end in sight. Workers staying home. Businesses closed. Investment fleeing. Minnesota's reputation being destroyed. The longer this continues, the more permanent the damage. We're looking at years of recovery.",
+        "recommendations": [
+          "Emergency economic support for affected businesses",
+          "Business community must demand de-escalation"
+        ],
+        "summary": "Severe economic damage accelerating - no end in sight, years of recovery needed."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Economic indicators showing clear negative trends",
+          "Extended duration now likely",
+          "Recovery timeline extending"
+        ],
+        "reasoning": "Economic indicators show clear negative trends. The extended duration now seems likely given no resolution path. Labor force participation down, consumer spending down, investment frozen. The recovery timeline is extending with each passing day of crisis.",
+        "recommendations": [
+          "Update projections for extended crisis scenario",
+          "Prepare economic recovery planning"
+        ],
+        "summary": "Clear negative trends - extended duration likely, recovery timeline extending."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 4,
+        "confidence": 65,
+        "key_factors": [
+          "Short-term disruption continues from protests",
+          "Long-term policy benefits unchanged",
+          "Markets will stabilize with resolution"
+        ],
+        "reasoning": "The short-term disruption continues, driven primarily by protests and media coverage rather than enforcement itself. The long-term economic benefits of proper immigration enforcement remain. Markets will stabilize once the situation resolves. The fundamental economics favor rule of law.",
+        "recommendations": [
+          "Maintain focus on long-term benefits",
+          "Support resolution through cooperation"
+        ],
+        "summary": "Short-term disruption continues - long-term benefits from enforcement unchanged."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 7.58,
+    "polarization_index": 2.75,
+    "matrix": {
+      "politician": {"left": 10, "center": 9, "right": 6, "avg": 8.3},
+      "news_analyst": {"left": 10, "center": 8, "right": 5, "avg": 7.7},
+      "legal_expert": {"left": 10, "center": 8, "right": 5, "avg": 7.7},
+      "finance_analyst": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "averages": {
+        "left": 9.75,
+        "center": 8.0,
+        "right": 5.0,
+        "overall": 7.58
+      }
+    },
+    "key_events": [
+      "Federal judge orders ICE/DHS not to destroy evidence",
+      "Alex Pretti family demands justice",
+      "Three deaths now confirmed in federal operations",
+      "Mass protests continue",
+      "No de-escalation path visible",
+      "Economic damage accelerating"
+    ]
+  }
+}

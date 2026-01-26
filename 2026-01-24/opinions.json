@@ -1,0 +1,242 @@
+{
+  "date": "2026-01-24",
+  "generated_at": "2026-01-26T03:45:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 10,
+        "confidence": 95,
+        "key_factors": [
+          "Border Patrol agent killed Alex Pretti, an ICU nurse",
+          "Third fatal shooting by federal agents",
+          "Video evidence contradicts federal statements"
+        ],
+        "reasoning": "Another person is dead. Alex Pretti was an ICU nurse who spent his career saving lives at the VA. Border Patrol killed him on Nicollet Avenue. This is the third fatal shooting. Video evidence contradicts the federal government's account. They're lying about killing our residents. Children continue to be detained. The Justice Department continues targeting officials who speak out. We are at the breaking point.",
+        "recommendations": [
+          "Demand immediate federal withdrawal pending investigation",
+          "Emergency session to declare state of emergency"
+        ],
+        "summary": "Third killing - ICU nurse dead, federal lies exposed by video, breaking point reached."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Third fatal shooting in days",
+          "Video contradicting official federal account",
+          "Complete breakdown of trust between all parties"
+        ],
+        "reasoning": "A third person is dead. An ICU nurse. Video evidence appears to contradict the federal account. Trust has completely broken down - between federal and state, between government and communities, between all sides. I've never seen anything like this. There is no dialogue happening. Only escalation. I don't know how we pull back from this.",
+        "recommendations": [
+          "Emergency federal-state crisis summit",
+          "Independent investigation with full transparency"
+        ],
+        "summary": "Third death, trust completely broken, no path to de-escalation visible."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 6,
+        "confidence": 72,
+        "key_factors": [
+          "Another shooting during enforcement operation",
+          "Circumstances still being investigated",
+          "Organized resistance creating dangerous situations"
+        ],
+        "reasoning": "Another tragic shooting occurred during an enforcement operation. The circumstances are still being investigated - we should wait for facts before judgment. What's clear is that organized resistance is creating dangerous situations. When people interfere with federal operations, tragic outcomes become more likely. The solution is cooperation, not resistance.",
+        "recommendations": [
+          "Allow investigation to proceed before judgment",
+          "State must stop encouraging resistance that creates danger"
+        ],
+        "summary": "Tragic shooting during enforcement - resistance creating dangerous situations."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 10,
+        "confidence": 92,
+        "key_factors": [
+          "Alex Pretti was healthcare worker caring for veterans",
+          "Video contradicts federal 'armed criminal' narrative",
+          "Pattern of federal deception emerging"
+        ],
+        "reasoning": "Alex Pretti spent his career caring for veterans at the VA. The federal government initially claimed they shot an armed criminal - video contradicts this. A pattern of federal deception is emerging. Three people dead. An infant tear-gassed. Children detained. This is state violence against a community. The story of Alex Pretti's life and death must be told.",
+        "recommendations": [
+          "Investigate discrepancies between federal claims and video",
+          "Tell the human story of Alex Pretti"
+        ],
+        "summary": "Third killing - federal lies exposed, healthcare hero dead, state violence pattern."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Video evidence contradicts official federal statements",
+          "Three fatal shootings now confirmed",
+          "Credibility crisis for federal agencies"
+        ],
+        "reasoning": "This is a credibility crisis. Video evidence appears to contradict federal statements about the Pretti shooting. Three people are now dead. When official statements are contradicted by video, trust collapses entirely. The prosecutor resignations suggested internal concerns - this confirms them. Whatever the full truth, federal agencies face a serious credibility problem.",
+        "recommendations": [
+          "Verify video evidence independently",
+          "Press federal agencies on discrepancies"
+        ],
+        "summary": "Video contradicts feds - three deaths, major credibility crisis for DHS."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 5,
+        "confidence": 70,
+        "key_factors": [
+          "Media rushing to judgment before investigation",
+          "Edited videos can be misleading",
+          "Pattern of resistance creating dangerous confrontations"
+        ],
+        "reasoning": "The media is rushing to condemn federal agents before the investigation is complete. Videos can be edited or lack context. What we know is that enforcement operations keep encountering resistance, creating dangerous situations. If the resistance stopped, these confrontations wouldn't happen. The media narrative ignores this fundamental point.",
+        "recommendations": [
+          "Wait for full investigation before judgment",
+          "Report on how resistance creates danger"
+        ],
+        "summary": "Media rushing judgment - resistance creating dangerous confrontations."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 10,
+        "confidence": 95,
+        "key_factors": [
+          "Third killing with video contradicting federal account",
+          "Pattern of excessive force now undeniable",
+          "Federal agencies making false statements"
+        ],
+        "reasoning": "Three people killed. Video contradicting federal statements. This is not just excessive force - it's a pattern of state violence with cover-up. Federal agencies are making demonstrably false statements. The constitutional violations are egregious and documented. Emergency injunctive relief is essential. Criminal referrals for the agents involved must be pursued.",
+        "recommendations": [
+          "Emergency motion for injunction against all enforcement",
+          "Criminal referrals for agents involved in shootings"
+        ],
+        "summary": "Pattern of killing with cover-up - emergency injunction and criminal referrals needed."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Video contradicting official accounts raises serious questions",
+          "Three deaths in federal operations unprecedented",
+          "Courts must now actively intervene"
+        ],
+        "reasoning": "When video evidence contradicts official government accounts of lethal force, we have a constitutional crisis. Three people dead in federal operations in days. The use-of-force standards appear to have been violated. Courts must actively intervene - this cannot be left to executive self-policing. The legal situation demands judicial oversight.",
+        "recommendations": [
+          "Courts must appoint independent monitors",
+          "Congressional investigation essential"
+        ],
+        "summary": "Video contradicting feds demands judicial intervention - three deaths unprecedented."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "Shooting circumstances under investigation",
+          "Federal agents have authority to use force when threatened",
+          "Video context may be incomplete"
+        ],
+        "reasoning": "The shooting is under investigation and conclusions should wait. Federal agents have legal authority to use force when they reasonably perceive threats. Short video clips often lack full context. What's clear is that enforcement operations face organized interference, creating dangerous situations. The legal framework supports federal enforcement.",
+        "recommendations": [
+          "Allow investigation to proceed",
+          "Prosecute those who interfere with enforcement"
+        ],
+        "summary": "Investigation ongoing - federal force authority exists when agents threatened."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Healthcare worker killed - sector already in crisis",
+          "Economic shutdown expanding",
+          "Long-term damage to Minnesota's economy accelerating"
+        ],
+        "reasoning": "They killed a healthcare worker - a sector already in workforce crisis. The economic shutdown is expanding. Businesses are closing. Workers are staying home. Investment is fleeing. Minnesota's reputation as a place to do business is being destroyed in real time. The economic damage will take years to repair.",
+        "recommendations": [
+          "Emergency economic impact assessment",
+          "Business leaders must speak out now"
+        ],
+        "summary": "Healthcare worker killed, economic shutdown expanding, long-term damage severe."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Third shooting escalates uncertainty",
+          "Economic activity measurably declining",
+          "Duration now likely extended"
+        ],
+        "reasoning": "Each shooting extends the crisis duration and deepens economic damage. Measurable declines in economic activity are now evident. Business investment is frozen. Consumer spending is down. The third shooting makes quick resolution unlikely, meaning economic impacts will be more severe than initially projected.",
+        "recommendations": [
+          "Revise economic projections for extended crisis",
+          "Prepare support measures for affected businesses"
+        ],
+        "summary": "Third shooting extends crisis - economic decline now measurable and worsening."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 4,
+        "confidence": 68,
+        "key_factors": [
+          "Economic disruption from protests and media hysteria",
+          "Underlying enforcement policy sound",
+          "Markets will stabilize once resistance ends"
+        ],
+        "reasoning": "The economic disruption stems from protests and media-driven hysteria, not enforcement itself. The underlying policy of immigration enforcement is economically sound. Once the resistance ends and enforcement normalizes, markets will stabilize. Short-term pain for long-term gain.",
+        "recommendations": [
+          "Stay the course on enforcement",
+          "Markets will adjust once situation normalizes"
+        ],
+        "summary": "Disruption from protests not enforcement - markets will stabilize."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 7.58,
+    "polarization_index": 2.92,
+    "matrix": {
+      "politician": {"left": 10, "center": 9, "right": 6, "avg": 8.3},
+      "news_analyst": {"left": 10, "center": 8, "right": 5, "avg": 7.7},
+      "legal_expert": {"left": 10, "center": 8, "right": 5, "avg": 7.7},
+      "finance_analyst": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "averages": {
+        "left": 9.75,
+        "center": 8.0,
+        "right": 5.0,
+        "overall": 7.58
+      }
+    },
+    "key_events": [
+      "Border Patrol kills Alex Pretti, ICU nurse on Nicollet Ave",
+      "Video evidence contradicts federal account of shooting",
+      "Third fatal shooting by federal agents in days",
+      "Federal credibility crisis deepens",
+      "Economic shutdown expanding",
+      "No de-escalation path visible"
+    ]
+  }
+}

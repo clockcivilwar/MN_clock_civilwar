@@ -1,7 +1,7 @@
 {
   "date": "2026-01-25",
   "clock": {
-    "rating": 7,
+    "rating": 8,
     "status": "SEVERE",
     "trend": "Rising",
     "description": "Civil disobedience, enforcement conflicts"
@@ -281,108 +281,108 @@
     }
   },
   "analysis": {
-    "polarization_index": 4.0,
-    "confidence_weighted_avg": 6.8,
+    "polarization_index": 2.75,
+    "confidence_weighted_avg": 7.6,
     "perspectives": {
       "politician": {
         "left": {
-          "rating": 9,
-          "role": "Progressive Democratic State Legislator from Minneapolis",
-          "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."
+          "rating": 10,
+          "role": "Progressive State Legislator",
+          "summary": "Judge orders evidence preservation - cover-up confirmed, crisis deepening."
         },
         "center": {
-          "rating": 7,
-          "role": "Moderate Independent State Senator",
-          "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."
+          "rating": 9,
+          "role": "Moderate State Senator",
+          "summary": "Evidence preservation order extraordinary - complete breakdown, no resolution path."
         },
         "right": {
           "rating": 6,
-          "role": "Conservative Republican Representative",
-          "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."
+          "role": "Conservative State Representative",
+          "summary": "Routine legal process ongoing - resistance continues creating danger."
         }
       },
       "news_analyst": {
         "left": {
-          "rating": 9,
+          "rating": 10,
           "role": "Progressive Journalist",
-          "summary": "Defining story of the era. Federal government occupation of Minneapolis."
+          "summary": "Court signals cover-up concern - community grief, no accountability, defining moment."
         },
         "center": {
-          "rating": 7,
-          "role": "Senior Editor",
-          "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."
+          "rating": 8,
+          "role": "Senior News Editor",
+          "summary": "Evidence order significant - three deaths, federal credibility severely damaged."
         },
         "right": {
           "rating": 5,
           "role": "Conservative Commentator",
-          "summary": "Mainstream media disinformation campaign against federal law enforcement."
+          "summary": "Media spinning legal process as scandal - investigation incomplete."
         }
       },
       "legal_expert": {
         "left": {
-          "rating": 9,
-          "role": "ACLU Immigration Rights Attorney",
-          "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."
+          "rating": 10,
+          "role": "Civil Rights Attorney",
+          "summary": "Court confirms concern - documented unconstitutional pattern, agencies above law."
         },
         "center": {
-          "rating": 7,
+          "rating": 8,
           "role": "Constitutional Law Professor",
-          "summary": "Genuinely novel territory. Federal government likely prevails legally."
+          "summary": "Judicial concern evident - three deaths demand active court supervision."
         },
         "right": {
-          "rating": 4,
+          "rating": 5,
           "role": "Former Federal Prosecutor",
-          "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."
+          "summary": "Routine legal process - federal authority intact, investigation proceeding."
         }
       },
       "finance_analyst": {
         "left": {
-          "rating": 8,
+          "rating": 9,
           "role": "Progressive Economist",
-          "summary": "Economic damage severe. Could set Minnesota back a decade."
+          "summary": "Severe economic damage accelerating - no end in sight, years of recovery needed."
         },
         "center": {
-          "rating": 6,
-          "role": "Federal Reserve Economist",
-          "summary": "Meaningful but not severe impacts yet. Duration is key variable."
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Clear negative trends - extended duration likely, recovery timeline extending."
         },
         "right": {
           "rating": 4,
           "role": "Free-Market Economist",
-          "summary": "Market correction, not crisis. Enforcement creates level playing field."
+          "summary": "Short-term disruption continues - long-term benefits from enforcement unchanged."
         }
       }
     },
     "matrix": {
       "politician": {
-        "left": 9,
-        "center": 7,
+        "left": 10,
+        "center": 9,
         "right": 6,
-        "avg": 7.3
+        "avg": 8.3
       },
       "news_analyst": {
-        "left": 9,
-        "center": 7,
+        "left": 10,
+        "center": 8,
         "right": 5,
-        "avg": 7.0
+        "avg": 7.7
       },
       "legal_expert": {
+        "left": 10,
+        "center": 8,
+        "right": 5,
+        "avg": 7.7
+      },
+      "finance_analyst": {
         "left": 9,
         "center": 7,
         "right": 4,
         "avg": 6.7
       },
-      "finance_analyst": {
-        "left": 8,
-        "center": 6,
-        "right": 4,
-        "avg": 6.0
-      },
       "averages": {
-        "left": 8.75,
-        "center": 6.75,
-        "right": 4.75,
-        "overall": 6.75
+        "left": 9.75,
+        "center": 8.0,
+        "right": 5.0,
+        "overall": 7.58
       }
     }
   },
