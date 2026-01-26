@@ -207,6 +207,15 @@ def extract_analysis_matrix(analysis_md):
     return matrix
 
 
+def load_opinions(date_folder):
+    """Load AI-generated opinions if available."""
+    opinions_file = os.path.join(date_folder, "opinions.json")
+    if os.path.exists(opinions_file):
+        with open(opinions_file, "r") as f:
+            return json.load(f)
+    return None
+
+
 def generate_date_data(date_folder):
     """Generate web data for a specific date."""
     print(f"Processing {date_folder}...")
@@ -214,6 +223,7 @@ def generate_date_data(date_folder):
     # Load source files
     news_file = os.path.join(date_folder, "news_results.json")
     analysis_file = os.path.join(date_folder, "civil_war_clock_analysis.md")
+    opinions = load_opinions(date_folder)
 
     with open(news_file, "r") as f:
         news_results = json.load(f)
@@ -227,31 +237,93 @@ def generate_date_data(date_folder):
     clock = extract_clock_data(analysis_md)
     events = extract_events(analysis_md)
     news = extract_news_for_web(news_results)
-    matrix = extract_analysis_matrix(analysis_md)
 
-    # Build perspectives (simplified for web)
-    perspectives = {
-        "politician": {
-            "left": {"rating": matrix["politician"]["left"], "role": "Progressive Democratic State Legislator from Minneapolis", "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."},
-            "center": {"rating": matrix["politician"]["center"], "role": "Moderate Independent State Senator", "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."},
-            "right": {"rating": matrix["politician"]["right"], "role": "Conservative Republican Representative", "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."}
-        },
-        "news_analyst": {
-            "left": {"rating": matrix["news_analyst"]["left"], "role": "Progressive Journalist", "summary": "Defining story of the era. Federal government occupation of Minneapolis."},
-            "center": {"rating": matrix["news_analyst"]["center"], "role": "Senior Editor", "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."},
-            "right": {"rating": matrix["news_analyst"]["right"], "role": "Conservative Commentator", "summary": "Mainstream media disinformation campaign against federal law enforcement."}
-        },
-        "legal_expert": {
-            "left": {"rating": matrix["legal_expert"]["left"], "role": "ACLU Immigration Rights Attorney", "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."},
-            "center": {"rating": matrix["legal_expert"]["center"], "role": "Constitutional Law Professor", "summary": "Genuinely novel territory. Federal government likely prevails legally."},
-            "right": {"rating": matrix["legal_expert"]["right"], "role": "Former Federal Prosecutor", "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."}
-        },
-        "finance_analyst": {
-            "left": {"rating": matrix["finance_analyst"]["left"], "role": "Progressive Economist", "summary": "Economic damage severe. Could set Minnesota back a decade."},
-            "center": {"rating": matrix["finance_analyst"]["center"], "role": "Federal Reserve Economist", "summary": "Meaningful but not severe impacts yet. Duration is key variable."},
-            "right": {"rating": matrix["finance_analyst"]["right"], "role": "Free-Market Economist", "summary": "Market correction, not crisis. Enforcement creates level playing field."}
+    # Use opinions.json if available, otherwise fall back to markdown parsing
+    if opinions and "perspectives" in opinions:
+        print(f"  Using AI-generated opinions from opinions.json")
+        perspectives = {}
+        matrix = {}
+
+        for persp_name, leanings in opinions["perspectives"].items():
+            perspectives[persp_name] = {}
+            matrix[persp_name] = {}
+
+            for leaning, data in leanings.items():
+                perspectives[persp_name][leaning] = {
+                    "rating": data.get("rating", 0),
+                    "role": data.get("role", ""),
+                    "summary": data.get("summary", "")
+                }
+                matrix[persp_name][leaning] = data.get("rating", 0)
+
+            # Calculate average for this perspective
+            ratings = [d.get("rating", 0) for d in leanings.values()]
+            matrix[persp_name]["avg"] = round(sum(ratings) / len(ratings), 1) if ratings else 0
+
+        # Calculate overall averages
+        left_ratings = [opinions["perspectives"][p].get("left", {}).get("rating", 0)
+                        for p in opinions["perspectives"]]
+        center_ratings = [opinions["perspectives"][p].get("center", {}).get("rating", 0)
+                          for p in opinions["perspectives"]]
+        right_ratings = [opinions["perspectives"][p].get("right", {}).get("rating", 0)
+                         for p in opinions["perspectives"]]
+
+        matrix["averages"] = {
+            "left": round(sum(left_ratings) / len(left_ratings), 2) if left_ratings else 0,
+            "center": round(sum(center_ratings) / len(center_ratings), 2) if center_ratings else 0,
+            "right": round(sum(right_ratings) / len(right_ratings), 2) if right_ratings else 0,
+            "overall": opinions.get("summary", {}).get("overall_rating", 0)
         }
-    }
+
+        # Update clock rating from opinions
+        clock["rating"] = round(matrix["averages"]["overall"])
+        if clock["rating"] <= 2:
+            clock["status"] = "PEACEFUL"
+            clock["description"] = "Normal political discourse"
+        elif clock["rating"] <= 4:
+            clock["status"] = "ELEVATED"
+            clock["description"] = "Increased tensions, protests"
+        elif clock["rating"] <= 6:
+            clock["status"] = "HIGH"
+            clock["description"] = "Significant confrontations, legal battles"
+        elif clock["rating"] <= 8:
+            clock["status"] = "SEVERE"
+            clock["description"] = "Civil disobedience, enforcement conflicts"
+        elif clock["rating"] <= 10:
+            clock["status"] = "CRITICAL"
+            clock["description"] = "Widespread unrest, potential violence"
+        else:
+            clock["status"] = "MIDNIGHT"
+            clock["description"] = "Active civil conflict"
+
+        polarization = opinions.get("summary", {}).get("polarization_index", 0)
+    else:
+        matrix = extract_analysis_matrix(analysis_md)
+
+        # Build perspectives (simplified for web) - default values
+        perspectives = {
+            "politician": {
+                "left": {"rating": matrix["politician"]["left"], "role": "Progressive Democratic State Legislator from Minneapolis", "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."},
+                "center": {"rating": matrix["politician"]["center"], "role": "Moderate Independent State Senator", "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."},
+                "right": {"rating": matrix["politician"]["right"], "role": "Conservative Republican Representative", "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."}
+            },
+            "news_analyst": {
+                "left": {"rating": matrix["news_analyst"]["left"], "role": "Progressive Journalist", "summary": "Defining story of the era. Federal government occupation of Minneapolis."},
+                "center": {"rating": matrix["news_analyst"]["center"], "role": "Senior Editor", "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."},
+                "right": {"rating": matrix["news_analyst"]["right"], "role": "Conservative Commentator", "summary": "Mainstream media disinformation campaign against federal law enforcement."}
+            },
+            "legal_expert": {
+                "left": {"rating": matrix["legal_expert"]["left"], "role": "ACLU Immigration Rights Attorney", "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."},
+                "center": {"rating": matrix["legal_expert"]["center"], "role": "Constitutional Law Professor", "summary": "Genuinely novel territory. Federal government likely prevails legally."},
+                "right": {"rating": matrix["legal_expert"]["right"], "role": "Former Federal Prosecutor", "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."}
+            },
+            "finance_analyst": {
+                "left": {"rating": matrix["finance_analyst"]["left"], "role": "Progressive Economist", "summary": "Economic damage severe. Could set Minnesota back a decade."},
+                "center": {"rating": matrix["finance_analyst"]["center"], "role": "Federal Reserve Economist", "summary": "Meaningful but not severe impacts yet. Duration is key variable."},
+                "right": {"rating": matrix["finance_analyst"]["right"], "role": "Free-Market Economist", "summary": "Market correction, not crisis. Enforcement creates level playing field."}
+            }
+        }
+        polarization = round(matrix["averages"]["left"] - matrix["averages"]["right"], 1)
 
     # Build full data object
     data = {
@@ -262,7 +334,7 @@ def generate_date_data(date_folder):
         ],
         "news": news,
         "analysis": {
-            "polarization_index": round(matrix["averages"]["left"] - matrix["averages"]["right"], 1),
+            "polarization_index": polarization,
             "confidence_weighted_avg": round(matrix["averages"]["overall"], 1),
             "perspectives": perspectives,
             "matrix": matrix
