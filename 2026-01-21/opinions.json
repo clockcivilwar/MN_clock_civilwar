@@ -1,0 +1,243 @@
+{
+  "date": "2026-01-21",
+  "generated_at": "2026-01-26T03:15:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Fatal shooting of Renee Good by ICE agent still unresolved",
+          "Children as young as 5 years old being detained",
+          "Justice Department subpoenaing state officials for criticizing enforcement"
+        ],
+        "reasoning": "The federal government has killed a Minnesota resident and faces no accountability. Young children are being separated from families and detained. The Justice Department is now targeting elected officials who speak out - this is authoritarian intimidation. Thousands are protesting in subzero temperatures, showing the depth of community anger. The National Guard is on standby. We are one incident away from catastrophic escalation.",
+        "recommendations": [
+          "Pass emergency state legislation limiting cooperation with ICE",
+          "Demand federal pause on enforcement pending investigation of Good shooting"
+        ],
+        "summary": "Federal occupation with deadly force and child detention - approaching crisis point."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "One fatal shooting already occurred with no accountability",
+          "National Guard activated and on standby",
+          "Businesses shuttering, economic disruption mounting"
+        ],
+        "reasoning": "We have a dead civilian, children in detention, and daily protests in dangerous cold. The National Guard is mobilized. Federal and state officials are in open conflict, with DOJ subpoenaing the governor. Neither side is backing down. The situation is deeply unstable. While not yet at active conflict, we are in dangerous territory where any spark could ignite wider violence.",
+        "recommendations": [
+          "Convene emergency bipartisan dialogue between state and federal officials",
+          "Establish clear protocols for enforcement to prevent further incidents"
+        ],
+        "summary": "Dangerous instability - one fatal incident occurred, another could trigger wider conflict."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 5,
+        "confidence": 80,
+        "key_factors": [
+          "Organized leftist groups coordinating resistance to lawful enforcement",
+          "State officials actively obstructing federal law enforcement",
+          "Media amplifying anti-ICE narratives while ignoring criminal aliens"
+        ],
+        "reasoning": "Federal agents are doing their lawful duty enforcing immigration law. The chaos is being manufactured by radical activists and enabled by Democrat officials who refuse to cooperate. The Renee Good shooting involved a confrontation, not random violence. The protests are organized by DSA and other far-left groups. If state officials would simply allow federal law to be enforced, tensions would subside quickly.",
+        "recommendations": [
+          "State must cease obstruction and cooperate with federal enforcement",
+          "Prosecute organizers who incite violence against federal officers"
+        ],
+        "summary": "Manufactured crisis by left-wing activists - federal enforcement is lawful and necessary."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "5-year-old detained, 2-year-old sent to Texas despite court order",
+          "ICE tear gas affecting infants - one lost consciousness",
+          "Immigrant workers staying home, creating public health crisis"
+        ],
+        "reasoning": "The human toll is devastating. Children are being traumatized. An infant lost consciousness from tear gas. Medical residents report a public health crisis from community fear. Families are hiding, afraid to seek medical care. This is not normal law enforcement - it's a campaign of terror against vulnerable communities. The historical parallels to darker chapters of American history are unavoidable.",
+        "recommendations": [
+          "Document every enforcement action and its human impact",
+          "Amplify stories of affected families and children"
+        ],
+        "summary": "Humanitarian crisis unfolding - children detained, communities terrorized, health impacts mounting."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "One confirmed fatal shooting with disputed circumstances",
+          "Rhetoric from both sides increasingly inflammatory",
+          "Local police expressing concerns about federal tactics"
+        ],
+        "reasoning": "The facts we can verify: one person killed by federal agents, children detained including very young ones, thousands protesting, National Guard activated. Both sides are using maximalist rhetoric. Notably, Minnesota police leaders are publicly criticizing federal agents for racial profiling - that's significant coming from law enforcement. Coverage is heavily polarized by outlet. The situation is serious but not yet at breakdown.",
+        "recommendations": [
+          "Focus on verified facts over competing narratives",
+          "Investigate the police concerns about federal profiling"
+        ],
+        "summary": "Serious situation with one death - polarized coverage making assessment difficult."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 4,
+        "confidence": 75,
+        "key_factors": [
+          "Media portraying lawful enforcement as 'occupation'",
+          "Ignoring criminal records of those being deported",
+          "Activist networks coordinating disruption campaigns"
+        ],
+        "reasoning": "The mainstream media has adopted activist framing wholesale. They call it 'occupation' when it's law enforcement. They highlight the 5-year-old photo but don't mention the family was with criminal aliens. The 'protests' are organized by radical groups. Most Minnesotans support border security and immigration enforcement - they're just not out marching in subzero weather. The crisis narrative is manufactured.",
+        "recommendations": [
+          "Report on criminal backgrounds of those being deported",
+          "Expose the radical groups organizing resistance"
+        ],
+        "summary": "Media-manufactured crisis - most Americans support lawful immigration enforcement."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 92,
+        "key_factors": [
+          "Fatal shooting with no independent investigation",
+          "Court orders being defied regarding detained children",
+          "DOJ subpoenaing officials for First Amendment protected speech"
+        ],
+        "reasoning": "We are in a constitutional crisis. Federal agents killed a civilian and there's no independent investigation. A 2-year-old was transferred to Texas in defiance of a court order - that's contempt. The Justice Department is subpoenaing elected officials for criticizing policy - a clear First Amendment violation. Pattern-and-practice Fourth Amendment violations are occurring daily. The legal system is being weaponized.",
+        "recommendations": [
+          "Seek emergency injunctions in federal court",
+          "File contempt motions for defiance of court orders"
+        ],
+        "summary": "Constitutional crisis - courts defied, officials targeted for speech, no accountability for killing."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 7,
+        "confidence": 85,
+        "key_factors": [
+          "Clear federal authority on immigration under Supremacy Clause",
+          "But enforcement methods raising serious constitutional questions",
+          "State-federal conflict intensity not seen since civil rights era"
+        ],
+        "reasoning": "The constitutional framework gives federal government authority over immigration. However, the manner of enforcement - near schools, using tear gas affecting infants, defying court orders - strains legal limits. The DOJ subpoenas of state officials for political speech are constitutionally dubious. We're seeing levels of state-federal conflict not witnessed since desegregation. Courts will likely be the ultimate arbiter.",
+        "recommendations": [
+          "Federal courts must actively supervise enforcement operations",
+          "Congressional oversight hearings needed urgently"
+        ],
+        "summary": "Federal authority exists but enforcement methods strain constitutional limits."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 4,
+        "confidence": 85,
+        "key_factors": [
+          "Immigration enforcement is exclusively federal jurisdiction",
+          "State officials potentially violating federal obstruction statutes",
+          "Renee Good shooting involved confrontation with federal officers"
+        ],
+        "reasoning": "The law is clear: immigration is federal authority under Article I. States cannot obstruct. Governor Walz and other officials may be violating 8 USC 1324 and obstruction statutes. The Good shooting involved a confrontation - federal agents have authority to defend themselves. The 'crisis' framing ignores that these are lawful operations against illegal aliens, many with criminal records. State officials creating the conflict, not federal agents.",
+        "recommendations": [
+          "DOJ should investigate state officials for obstruction",
+          "Prosecute those who physically interfere with federal operations"
+        ],
+        "summary": "Federal authority is absolute on immigration - state obstruction is the real problem."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Immigrant workers staying home devastating service sector",
+          "Healthcare workforce disrupted during ongoing needs",
+          "Businesses shuttering during protests and enforcement"
+        ],
+        "reasoning": "The economic damage is accelerating. Immigrant workers are staying home out of fear, devastating restaurants, healthcare, and construction. Businesses are closing during protests and enforcement actions. Minnesota has built an economy that relies on immigrant labor - this is causing acute workforce shortages. The long-term damage to Minnesota's reputation as a welcoming business environment could last years.",
+        "recommendations": [
+          "Document economic losses to build case for policy change",
+          "Business community must publicly oppose these methods"
+        ],
+        "summary": "Significant economic damage - workforce shortages, business closures, reputation harm."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "Labor force participation declining in immigrant-heavy sectors",
+          "Consumer spending down in affected areas",
+          "Business investment decisions being delayed"
+        ],
+        "reasoning": "Economic indicators show measurable but contained impacts. Service sector businesses report higher absenteeism. Consumer spending in Minneapolis is down. Major investment decisions are being delayed pending resolution. The fundamental Minnesota economy is strong, but duration matters - if this continues for months, we could see meaningful damage. Uncertainty itself is costly.",
+        "recommendations": [
+          "Monitor labor force participation and business investment closely",
+          "Prepare contingency analysis for extended disruption"
+        ],
+        "summary": "Measurable economic disruption - duration will determine ultimate severity."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 3,
+        "confidence": 70,
+        "key_factors": [
+          "Short-term disruption mostly from protests, not enforcement",
+          "Illegal immigration has depressed wages for working-class",
+          "Rule of law benefits long-term business environment"
+        ],
+        "reasoning": "The economic disruption narrative is overblown. Most business closures are from protests, not enforcement. The longer-term impact of enforcing immigration law is positive - it creates a level playing field for employers who follow the law and raises wages for legal workers. The assumption that Minnesota's economy depends on illegal labor is itself problematic. Markets adjust.",
+        "recommendations": [
+          "Focus on long-term wage benefits for legal workers",
+          "Hold protest organizers accountable for economic disruption"
+        ],
+        "summary": "Short-term protest disruption, but enforcement benefits legal workers long-term."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 6.58,
+    "polarization_index": 2.75,
+    "matrix": {
+      "politician": {"left": 9, "center": 8, "right": 5, "avg": 7.3},
+      "news_analyst": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "legal_expert": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "finance_analyst": {"left": 8, "center": 6, "right": 3, "avg": 5.7},
+      "averages": {
+        "left": 8.75,
+        "center": 7.0,
+        "right": 4.0,
+        "overall": 6.58
+      }
+    },
+    "key_events": [
+      "Renee Good fatal shooting by ICE agent (earlier, unresolved)",
+      "5-year-old and 2-year-old children detained",
+      "Justice Department subpoenas Governor Walz and state officials",
+      "National Guard activated and on standby",
+      "Thousands protest in subzero temperatures",
+      "Businesses shuttering due to enforcement and protests",
+      "Minnesota police leaders criticize federal racial profiling"
+    ]
+  }
+}
