@@ -302,10 +302,10 @@ h4 {
     width: 4px;
     height: 90px;
     background: var(--color-accent);
-    top: 50%;
+    bottom: 50%;
     left: 50%;
     transform-origin: bottom center;
-    transform: translateX(-50%) rotate(210deg); /* 7/12 position */
+    transform: translateX(-50%) rotate(0deg);
     border-radius: 2px;
     z-index: 5;
 }
