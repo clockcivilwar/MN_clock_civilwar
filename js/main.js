@@ -1,16 +1,12 @@
 // Minnesota Civil War Clock - Main JavaScript
 
 let currentData = null;
+let allDatesData = {};
+let availableDates = [];
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize date selector
+    // Initialize date selector and load all data
     initDateSelector();
-
-    // Load initial data
-    const dateSelect = document.getElementById('date-select');
-    if (dateSelect && dateSelect.value) {
-        loadDateData(dateSelect.value);
-    }
 
     // Tab functionality for news section
     initNewsTabs();
@@ -25,11 +21,12 @@ function initDateSelector() {
     fetch('data/dates.json')
         .then(response => response.json())
         .then(data => {
+            availableDates = data.available_dates.sort();
             const select = document.getElementById('date-select');
             if (!select) return;
 
             select.innerHTML = '';
-            data.available_dates.sort().reverse().forEach(date => {
+            [...availableDates].reverse().forEach(date => {
                 const option = document.createElement('option');
                 option.value = date;
                 option.textContent = formatDateLong(date);
@@ -42,11 +39,42 @@ function initDateSelector() {
             // Add change listener
             select.addEventListener('change', function() {
                 loadDateData(this.value);
+                updateTrendChart(this.value);
             });
+
+            // Load all dates data for the chart
+            loadAllDatesData(data.latest);
         })
         .catch(err => {
             console.log('Using static date selector');
+            // Fallback: load initial data
+            const dateSelect = document.getElementById('date-select');
+            if (dateSelect && dateSelect.value) {
+                loadDateData(dateSelect.value);
+            }
         });
+}
+
+// Load all dates data for trend chart
+function loadAllDatesData(initialDate) {
+    const promises = availableDates.map(date =>
+        fetch(`data/${date}.json`)
+            .then(response => response.json())
+            .then(data => {
+                allDatesData[date] = data;
+                return data;
+            })
+            .catch(err => {
+                console.error(`Error loading ${date}:`, err);
+                return null;
+            })
+    );
+
+    Promise.all(promises).then(() => {
+        renderTrendChart();
+        updateTrendChart(initialDate);
+        loadDateData(initialDate);
+    });
 }
 
 // Load data for a specific date
@@ -346,4 +374,120 @@ function showLoading(show) {
     if (overlay) {
         overlay.classList.toggle('active', show);
     }
+}
+
+// Render trend chart
+function renderTrendChart() {
+    const pointsContainer = document.getElementById('trend-points');
+    const trendLine = document.getElementById('trend-line');
+    const tooltip = document.getElementById('chart-tooltip');
+
+    if (!pointsContainer || !trendLine || availableDates.length === 0) return;
+
+    // Chart dimensions
+    const chartLeft = 35;
+    const chartRight = 190;
+    const chartTop = 10;
+    const chartBottom = 210;
+    const chartWidth = chartRight - chartLeft;
+    const chartHeight = chartBottom - chartTop;
+
+    // Calculate positions
+    const points = [];
+    const sortedDates = [...availableDates].sort();
+
+    sortedDates.forEach((date, index) => {
+        const data = allDatesData[date];
+        if (!data) return;
+
+        const rating = data.clock.rating;
+
+        // X position: spread points evenly
+        let x;
+        if (sortedDates.length === 1) {
+            x = chartLeft + chartWidth / 2;
+        } else {
+            x = chartLeft + (index / (sortedDates.length - 1)) * chartWidth;
+        }
+
+        // Y position: 12 at top (chartTop), 0 at bottom (chartBottom)
+        const y = chartBottom - (rating / 12) * chartHeight;
+
+        points.push({ date, rating, x, y });
+    });
+
+    // Draw trend line
+    const linePoints = points.map(p => `${p.x},${p.y}`).join(' ');
+    trendLine.setAttribute('points', linePoints);
+
+    // Draw data points
+    pointsContainer.innerHTML = '';
+
+    points.forEach(point => {
+        // Create circle
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', point.x);
+        circle.setAttribute('cy', point.y);
+        circle.setAttribute('r', 6);
+        circle.setAttribute('class', 'data-point');
+        circle.setAttribute('data-date', point.date);
+        circle.setAttribute('data-rating', point.rating);
+
+        // Click handler
+        circle.addEventListener('click', function() {
+            const date = this.getAttribute('data-date');
+            const select = document.getElementById('date-select');
+            if (select) {
+                select.value = date;
+            }
+            loadDateData(date);
+            updateTrendChart(date);
+        });
+
+        // Hover handlers
+        circle.addEventListener('mouseenter', function(e) {
+            const date = this.getAttribute('data-date');
+            const rating = this.getAttribute('data-rating');
+            tooltip.textContent = `${formatDateShort(date)}: ${rating}/12`;
+            tooltip.classList.add('visible');
+
+            // Position tooltip
+            const rect = document.getElementById('trend-chart').getBoundingClientRect();
+            const containerRect = document.querySelector('.trend-chart-container').getBoundingClientRect();
+            tooltip.style.left = (point.x - 30) + 'px';
+            tooltip.style.top = (point.y - 35) + 'px';
+        });
+
+        circle.addEventListener('mouseleave', function() {
+            tooltip.classList.remove('visible');
+        });
+
+        pointsContainer.appendChild(circle);
+
+        // Add date label below point
+        const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        label.setAttribute('x', point.x);
+        label.setAttribute('y', chartBottom + 15);
+        label.setAttribute('class', 'point-label');
+        label.textContent = formatDateShort(point.date);
+        pointsContainer.appendChild(label);
+    });
+}
+
+// Update trend chart active state
+function updateTrendChart(activeDate) {
+    const points = document.querySelectorAll('#trend-points .data-point');
+    points.forEach(point => {
+        if (point.getAttribute('data-date') === activeDate) {
+            point.classList.add('active');
+        } else {
+            point.classList.remove('active');
+        }
+    });
+}
+
+// Format date for chart labels
+function formatDateShort(dateString) {
+    const date = new Date(dateString + 'T12:00:00');
+    return `${date.getMonth() + 1}/${date.getDate()}`;
 }
