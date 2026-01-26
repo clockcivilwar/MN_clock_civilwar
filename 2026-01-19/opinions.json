@@ -1,0 +1,242 @@
+{
+  "date": "2026-01-19",
+  "generated_at": "2026-01-26T03:25:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 7,
+        "confidence": 85,
+        "key_factors": [
+          "Eve of inauguration - enforcement surge expected tomorrow",
+          "Renee Good shooting demonstrated federal willingness to use lethal force",
+          "Community organizing rapid response networks"
+        ],
+        "reasoning": "Tomorrow the new administration takes office with promises of aggressive enforcement. The Renee Good shooting showed they will use lethal force. Communities are preparing - organizing rapid response networks, know-your-rights trainings, sanctuary preparations. We are on the eve of what could be a sustained confrontation. The state must be ready to protect our residents.",
+        "recommendations": [
+          "Finalize state protection measures before inauguration",
+          "Ensure rapid response networks are operational"
+        ],
+        "summary": "Eve of inauguration - communities preparing for expected enforcement surge."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 6,
+        "confidence": 78,
+        "key_factors": [
+          "Transition period creates maximum uncertainty",
+          "One fatal shooting has already occurred",
+          "Both sides preparing for confrontation rather than dialogue"
+        ],
+        "reasoning": "We're in the final hours before the new administration. The Renee Good shooting showed the potential for violence. Both sides are preparing for confrontation - not a good sign. There's still time to establish communication channels and prevent escalation, but the window is closing. Tomorrow will set the tone for what follows.",
+        "recommendations": [
+          "Reach out to incoming federal officials for dialogue",
+          "Prepare de-escalation protocols for likely flashpoints"
+        ],
+        "summary": "Final hours before transition - window for dialogue closing rapidly."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 4,
+        "confidence": 78,
+        "key_factors": [
+          "New administration will bring order to immigration chaos",
+          "Current tensions are due to years of non-enforcement",
+          "Activist groups stirring up fear unnecessarily"
+        ],
+        "reasoning": "Tomorrow brings a new beginning. The previous administration's failure to enforce immigration law created the current situation. The new administration will restore order through lawful enforcement. The fear being spread by activist groups is overblown - if people comply with the law, there's nothing to fear. State officials should prepare to cooperate.",
+        "recommendations": [
+          "Prepare to cooperate with incoming federal enforcement",
+          "Discourage activist groups from inflammatory rhetoric"
+        ],
+        "summary": "Eve of new beginning - state should prepare for cooperation, not confrontation."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 7,
+        "confidence": 83,
+        "key_factors": [
+          "Families making emergency plans before inauguration",
+          "Churches preparing sanctuary spaces",
+          "Fear spreading through immigrant communities"
+        ],
+        "reasoning": "The human stories on the eve of inauguration are heart-wrenching. Families are making emergency plans - who will care for children if parents are detained. Churches are preparing sanctuary. Workers are wondering if tomorrow is their last day. The fear is palpable in immigrant communities. These stories need to be told before the storm hits.",
+        "recommendations": [
+          "Document family preparation stories tonight",
+          "Cover community organizing and mutual aid networks"
+        ],
+        "summary": "Families making emergency plans - fear spreading before inauguration."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 5,
+        "confidence": 72,
+        "key_factors": [
+          "Pre-inauguration period creates speculation",
+          "Actual new policies not yet announced",
+          "One fatal incident provides concerning precedent"
+        ],
+        "reasoning": "We're in a period of maximum speculation. The new administration hasn't announced specific policies yet. We have one fatal shooting as a concerning data point. Both advocacy and enforcement-supporting outlets are projecting their expectations. Responsible coverage should focus on what we actually know while preparing for multiple scenarios.",
+        "recommendations": [
+          "Avoid speculation about unannounced policies",
+          "Prepare coverage plans for multiple scenarios"
+        ],
+        "summary": "Pre-inauguration speculation period - focus on facts, prepare for scenarios."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 3,
+        "confidence": 75,
+        "key_factors": [
+          "Media stoking fear before anything has happened",
+          "New administration hasn't even taken office yet",
+          "Activist pre-positioning for resistance"
+        ],
+        "reasoning": "The media fear-mongering is reaching peak intensity on the eve of inauguration. The new administration hasn't taken a single action yet, but coverage implies imminent catastrophe. Meanwhile, the activist groups organizing 'resistance' are being portrayed sympathetically. This is coordinated narrative preparation, not journalism.",
+        "recommendations": [
+          "Wait for actual policies before crisis coverage",
+          "Report on activist coordination being treated as grassroots"
+        ],
+        "summary": "Media fear-mongering at peak before new administration even begins."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 7,
+        "confidence": 88,
+        "key_factors": [
+          "Legal infrastructure must be ready before enforcement surge",
+          "Renee Good case shows need for rapid response litigation",
+          "Anticipated policies will face immediate legal challenge"
+        ],
+        "reasoning": "We have hours to finalize legal preparations. The Renee Good shooting showed federal agents using lethal force - we need wrongful death litigation ready. Expected enforcement policies will face immediate constitutional challenges. Injunction requests must be prepared. The legal battle begins tomorrow.",
+        "recommendations": [
+          "Finalize injunction templates for anticipated tactics",
+          "Ensure 24/7 legal hotline is operational"
+        ],
+        "summary": "Final legal preparations underway - constitutional battles begin tomorrow."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "Constitutional framework doesn't change with administration",
+          "Implementation details will determine legal conflicts",
+          "Courts remain the ultimate arbiter"
+        ],
+        "reasoning": "The constitution doesn't change tomorrow. Federal authority over immigration remains. What matters is how policies are implemented. If enforcement respects constitutional limits, legal conflict will be minimal. If it pushes boundaries, courts will intervene. We're in a wait-and-see period legally.",
+        "recommendations": [
+          "Monitor early enforcement actions for constitutional issues",
+          "Prepare scholarly analysis of likely legal questions"
+        ],
+        "summary": "Constitutional framework unchanged - implementation will determine legal trajectory."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 3,
+        "confidence": 82,
+        "key_factors": [
+          "New administration will have full legal authority",
+          "Sanctuary policies may face legal consequences",
+          "State obstruction is the only potential source of conflict"
+        ],
+        "reasoning": "Tomorrow the new administration takes office with complete legal authority to enforce immigration law. There is no legal ambiguity. Any conflict will come from state officials choosing to obstruct lawful federal operations. The legal situation is clear - political choices will determine whether there is conflict.",
+        "recommendations": [
+          "New DOJ should clearly communicate legal expectations",
+          "Prepare prosecution strategies for obstruction if needed"
+        ],
+        "summary": "Legal authority is clear - only state obstruction would create conflict."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 6,
+        "confidence": 80,
+        "key_factors": [
+          "Businesses preparing contingency plans",
+          "Workers already reducing visibility",
+          "Healthcare and agriculture sectors most concerned"
+        ],
+        "reasoning": "The economic impacts are beginning even before the inauguration. Businesses are preparing contingency plans for workforce disruptions. Some immigrant workers are already reducing their visibility, calling in sick, avoiding certain areas. Healthcare and agriculture employers are most concerned about potential labor shortages.",
+        "recommendations": [
+          "Document pre-inauguration economic baseline",
+          "Engage business leaders on workforce concerns"
+        ],
+        "summary": "Economic uncertainty building - businesses preparing contingency plans."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 4,
+        "confidence": 68,
+        "key_factors": [
+          "Uncertainty elevated but no measurable impacts yet",
+          "Business sentiment cautious",
+          "Actual impacts depend on policy implementation"
+        ],
+        "reasoning": "Economic uncertainty is elevated but actual measurable impacts are minimal. Business sentiment surveys show caution but not alarm. Labor markets remain stable. The key question is what policies are actually implemented starting tomorrow. This is the calm before we know what kind of storm, if any, is coming.",
+        "recommendations": [
+          "Establish baseline economic metrics today",
+          "Monitor leading indicators closely starting tomorrow"
+        ],
+        "summary": "Elevated uncertainty but no measurable impacts yet - monitoring begins tomorrow."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 2,
+        "confidence": 75,
+        "key_factors": [
+          "New administration will restore economic order",
+          "Rule of law benefits long-term investment climate",
+          "Fear-based economic projections are overblown"
+        ],
+        "reasoning": "Tomorrow begins a restoration of economic order. Immigration enforcement will create a level playing field for businesses that follow the law. Wages for legal workers will have room to rise. The fear-based economic projections from the left assume enforcement will be chaotic - it won't be. Orderly enforcement benefits the economy.",
+        "recommendations": [
+          "Support orderly enforcement transition",
+          "Document fiscal savings from proper enforcement"
+        ],
+        "summary": "Economic optimism warranted - orderly enforcement benefits long-term growth."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 4.92,
+    "polarization_index": 2.42,
+    "matrix": {
+      "politician": {"left": 7, "center": 6, "right": 4, "avg": 5.7},
+      "news_analyst": {"left": 7, "center": 5, "right": 3, "avg": 5.0},
+      "legal_expert": {"left": 7, "center": 5, "right": 3, "avg": 5.0},
+      "finance_analyst": {"left": 6, "center": 4, "right": 2, "avg": 4.0},
+      "averages": {
+        "left": 6.75,
+        "center": 5.0,
+        "right": 3.0,
+        "overall": 4.92
+      }
+    },
+    "key_events": [
+      "Eve of Trump inauguration",
+      "Communities organizing rapid response networks",
+      "Families making emergency contingency plans",
+      "Churches preparing sanctuary spaces",
+      "Legal teams finalizing challenge preparations",
+      "Businesses preparing workforce contingency plans"
+    ]
+  }
+}
