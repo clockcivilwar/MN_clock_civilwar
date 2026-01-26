@@ -36,6 +36,11 @@ python3 analyze_results.py DATE
 
 # 4. Generate web data
 python3 generate_web_data.py
+
+# 5. Git commit & push
+git add DATE/ data/
+git commit -m "Add DATE data"
+git push
 ```
 
 ## Pipeline Scripts

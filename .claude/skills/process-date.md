@@ -63,13 +63,24 @@ python3 generate_web_data.py
 
 Reads all date folders → Creates `data/DATE.json` → Updates `data/dates.json`
 
+### 5. Git Commit & Push
+
+```bash
+git add DATE/ data/
+git commit -m "Add DATE data with AI-generated opinions"
+git push
+```
+
 ## One-Liner
 
 ```bash
 source clockcivilwar/bin/activate && python3 news_extractor.py DATE && python3 analyze_results.py DATE
 ```
 
-Then generate opinions interactively, then run `python3 generate_web_data.py`.
+Then generate opinions interactively, then:
+```bash
+python3 generate_web_data.py && git add DATE/ data/ && git commit -m "Add DATE data" && git push
+```
 
 ## Date Folder Structure
 
