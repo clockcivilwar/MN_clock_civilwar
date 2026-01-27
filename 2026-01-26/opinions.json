@@ -1,0 +1,245 @@
+{
+  "date": "2026-01-26",
+  "generated_at": "2026-01-27T00:45:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Federal retreat signals - Bovino leaving, Trump softening tone",
+          "But DOJ subpoenas against state officials escalate conflict",
+          "Mass protests continue despite signs of de-escalation"
+        ],
+        "reasoning": "There are finally signs the administration is backing down - Bovino is leaving, Trump called Walz and promised changes. But I remain deeply skeptical. The DOJ subpoenas against Governor Walz and other officials show they're escalating the political war even as they pull back operationally. The Pretti killing has changed everything - even Second Amendment advocates are turning against ICE. We may be past the peak of physical confrontation, but the constitutional crisis continues.",
+        "recommendations": [
+          "Accept de-escalation but maintain vigilance",
+          "Continue legal challenge through courts"
+        ],
+        "summary": "Signs of federal retreat but DOJ subpoenas show political escalation continues."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 8,
+        "confidence": 80,
+        "key_factors": [
+          "Administration showing first signs of retreat",
+          "Trump-Walz call suggests dialogue possible",
+          "But no court ruling yet, situation still volatile"
+        ],
+        "reasoning": "For the first time, there are real signs of de-escalation. Bovino is leaving, Trump called Walz and apparently committed to changes, Tom Homan is being sent in which could mean more professionalism. The court hearing happened but no ruling. The situation remains extremely volatile but the trajectory may finally be shifting. The DOJ subpoenas complicate things, but if the operational tempo decreases, we may finally have space for negotiation.",
+        "recommendations": [
+          "Support dialogue between Walz and administration",
+          "Push for formal ceasefire agreement"
+        ],
+        "summary": "First signs of de-escalation - Bovino leaving, Trump-Walz dialogue begins."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 5,
+        "confidence": 72,
+        "key_factors": [
+          "Administration adjusting approach appropriately",
+          "DOJ investigating state obstruction",
+          "Resistance created dangerous situations that led to tragedies"
+        ],
+        "reasoning": "The administration is wisely adjusting its approach after the Minneapolis situation became untenable. Sending Homan shows they're taking it seriously. The DOJ is appropriately investigating state officials who may have obstructed federal law enforcement. The tragedies that occurred were made more likely by organized resistance and non-cooperation. With a more measured approach, enforcement can continue effectively.",
+        "recommendations": [
+          "Support administration's recalibrated approach",
+          "State should begin cooperating with federal authorities"
+        ],
+        "summary": "Administration appropriately adjusting approach - DOJ investigating obstruction."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 9,
+        "confidence": 85,
+        "key_factors": [
+          "Alex Pretti humanized - ICU nurse who cared for veterans",
+          "Federal retreat unprecedented but not complete",
+          "Second Amendment coalition against ICE remarkable shift"
+        ],
+        "reasoning": "Alex Pretti's story is breaking through - an ICU nurse, a veteran caregiver, a neighbor. His family is speaking out. The federal retreat is unprecedented but we shouldn't celebrate yet. The DOJ subpoenas against state officials show they're shifting to political warfare. Remarkably, Second Amendment advocates are turning against ICE - the Pretti killing crossed a line even for gun rights supporters. This coalition is historically significant.",
+        "recommendations": [
+          "Continue humanizing victims",
+          "Cover the unlikely anti-ICE coalition forming"
+        ],
+        "summary": "Pretti's story breaking through - unprecedented federal retreat, new coalitions forming."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Administration appears to be de-escalating",
+          "Court hearing concluded without ruling",
+          "New information about Pretti shooting - possible accidental discharge"
+        ],
+        "reasoning": "The facts suggest the administration is pulling back - Bovino leaving, Trump softening tone. The DHS investigation into whether the Pretti shooting was an accidental discharge is significant new information that deserves careful coverage. The court hearing on Minnesota's lawsuit concluded without a ruling. Coverage should focus on verifiable facts about what changes are actually being implemented versus rhetoric.",
+        "recommendations": [
+          "Track actual operational changes, not just statements",
+          "Investigate accidental discharge claim thoroughly"
+        ],
+        "summary": "Signs of de-escalation - Bovino leaving, possible accidental discharge under investigation."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 4,
+        "confidence": 70,
+        "key_factors": [
+          "Administration showing flexibility while maintaining mission",
+          "DOJ appropriately investigating obstruction",
+          "Pretti shooting may have been accidental - changes narrative"
+        ],
+        "reasoning": "The administration is showing appropriate flexibility while maintaining the enforcement mission. The DOJ subpoenas show they're holding obstructionists accountable. Critically, the investigation suggests the Pretti shooting may have been an accidental discharge - not the execution the media portrayed. The National Guard handing coffee to protesters shows remarkable restraint. The media continues to ignore how organized resistance creates these dangerous situations.",
+        "recommendations": [
+          "Cover the accidental discharge investigation fairly",
+          "Report on organized agitator networks"
+        ],
+        "summary": "Administration showing flexibility - accidental discharge investigation changes narrative."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Court hearing showed strong arguments for Minnesota",
+          "DOJ subpoenas represent constitutional overreach",
+          "Accidental discharge claim raises serious concerns"
+        ],
+        "reasoning": "The court hearing pressed DOJ lawyers hard on Minnesota's arguments. The DOJ subpoenas against state officials for exercising their constitutional authority to criticize federal policy is outrageous overreach - criminalizing political speech. If the Pretti shooting was truly accidental, it raises even more serious questions about training, supervision, and rules of engagement. The legal case against this operation grows stronger daily.",
+        "recommendations": [
+          "Challenge DOJ subpoenas as First Amendment violations",
+          "Pursue emergency relief pending court ruling"
+        ],
+        "summary": "Strong court hearing for Minnesota - DOJ subpoenas unconstitutional overreach."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 7,
+        "confidence": 82,
+        "key_factors": [
+          "Court hearing concluded - ruling could reshape situation",
+          "DOJ subpoenas raise serious First Amendment questions",
+          "Operational de-escalation may moot some legal issues"
+        ],
+        "reasoning": "The federal court hearing is significant - the judge's ruling could fundamentally reshape the legal landscape. The DOJ subpoenas targeting state officials for their public statements raise serious First Amendment concerns. However, if the administration genuinely de-escalates, some legal issues may become moot. The constitutional tension between federal supremacy and state sovereignty remains unresolved but may be channeled through courts rather than streets.",
+        "recommendations": [
+          "Monitor court ruling closely",
+          "Analyze First Amendment implications of DOJ subpoenas"
+        ],
+        "summary": "Court ruling pending - DOJ subpoenas raise First Amendment concerns."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "DOJ appropriately investigating potential obstruction",
+          "State lawsuit faces strong federal supremacy arguments",
+          "Operational adjustments don't change legal authority"
+        ],
+        "reasoning": "The DOJ subpoenas are appropriate investigative tools if there's evidence of obstruction. The state's lawsuit faces strong federal supremacy precedents. Operational adjustments don't diminish federal legal authority over immigration. The administration is wisely recalibrating tactics while maintaining the legal position that federal immigration enforcement must proceed.",
+        "recommendations": [
+          "Continue obstruction investigation",
+          "Defend federal authority in court"
+        ],
+        "summary": "DOJ investigation appropriate - federal authority unchanged despite tactical adjustments."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Signs of federal retreat could ease economic damage",
+          "But damage already done may take years to repair",
+          "Businesses still shuttered, workers still afraid"
+        ],
+        "reasoning": "If the federal retreat is real, we may finally see economic stabilization begin. But the damage is severe - businesses closed, workers staying home, supply chains disrupted. Even if operations wind down tomorrow, the fear and trauma will persist. Minnesota's economy has taken a hit that will take years to fully recover from. The uncertainty about whether this is real de-escalation or just a pause adds to business hesitancy.",
+        "recommendations": [
+          "Monitor for genuine de-escalation before projecting recovery",
+          "Prepare economic recovery planning"
+        ],
+        "summary": "Potential economic stabilization if retreat is real - but recovery will take years."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "De-escalation signs could stabilize markets",
+          "Economic indicators still negative but may plateau",
+          "Investment decisions on hold pending clarity"
+        ],
+        "reasoning": "If the federal retreat materializes, economic indicators could stabilize. Markets are watching closely. Investment decisions that were frozen may resume if there's clarity on de-escalation. Consumer confidence could begin recovering. However, the underlying damage from the past weeks is real and will take time to heal. The key variable is whether this is genuine policy shift or temporary tactical pause.",
+        "recommendations": [
+          "Track operational changes for economic impact assessment",
+          "Prepare contingency scenarios for both outcomes"
+        ],
+        "summary": "De-escalation could stabilize economy - key question is whether retreat is genuine."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 4,
+        "confidence": 68,
+        "key_factors": [
+          "Administration recalibrating approach sensibly",
+          "Short-term disruption may ease",
+          "Long-term enforcement benefits remain"
+        ],
+        "reasoning": "The administration is sensibly recalibrating its approach to reduce disruption while maintaining enforcement authority. Short-term economic disruption, largely caused by protests and media coverage rather than enforcement itself, may ease. The long-term benefits of proper immigration enforcement for wages, fiscal costs, and rule of law remain. Markets will respond positively to reduced uncertainty.",
+        "recommendations": [
+          "Support measured enforcement approach",
+          "Focus on long-term economic benefits"
+        ],
+        "summary": "Sensible recalibration - short-term disruption easing, long-term benefits unchanged."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 6.75,
+    "polarization_index": 2.42,
+    "matrix": {
+      "politician": {"left": 9, "center": 8, "right": 5, "avg": 7.3},
+      "news_analyst": {"left": 9, "center": 7, "right": 4, "avg": 6.7},
+      "legal_expert": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "finance_analyst": {"left": 8, "center": 6, "right": 4, "avg": 6.0},
+      "averages": {
+        "left": 8.75,
+        "center": 7.0,
+        "right": 4.5,
+        "overall": 6.75
+      }
+    },
+    "key_events": [
+      "Border Patrol commander Bovino expected to leave Minneapolis",
+      "Trump softens tone after call with Walz, pledges changes",
+      "Federal court hears Minnesota lawsuit - no ruling yet",
+      "DOJ subpoenas Walz, Ellison, Frey in obstruction investigation",
+      "DHS investigating whether Pretti shooting was accidental discharge",
+      "Tom Homan dispatched to Minneapolis",
+      "Anti-ICE protesters clash with agents at hotel",
+      "Second Amendment advocates turn against ICE over Pretti killing",
+      "MN GOP candidate Chris Madel drops out, faults Trump"
+    ]
+  }
+}

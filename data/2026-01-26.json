@@ -1,0 +1,383 @@
+{
+  "date": "2026-01-26",
+  "clock": {
+    "rating": 7,
+    "status": "SEVERE",
+    "trend": "Stable",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 216,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 16,
+          "articles": [
+            {
+              "headline": "The man killed by a US Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "https://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/"
+            },
+            {
+              "headline": "Medical residents: ICE presence causing public health crisis, \u2018constant anxiety\u2019 that could become c",
+              "url": "https://www.minnpost.com/race-health-equity/2026/01/medical-residents-ice-presence-causing-public-health-crisis-constant-anxiety-that-could-become-chronic/"
+            },
+            {
+              "headline": "St. Paul\u2019s Women with Walkers protest \u2018the best way we can\u2019",
+              "url": "https://www.minnpost.com/metro/2026/01/st-pauls-women-with-walkers-protest-ice-the-best-way-we-can/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Hearing on Minnesota\u2019s lawsuit to halt federal immigration surge ends with no ruling",
+              "url": "https://minnesotareformer.com/2026/01/26/hearing-on-minnesotas-lawsuit-to-halt-federal-immigration-surge-ends-with-no-ruling/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 28,
+          "articles": [
+            {
+              "headline": "Judge weighs Minnesota effort to end Operation Metro Surge, presses DOJ lawyers representing ICE",
+              "url": "https://sahanjournal.com/immigration/judge-considers-minnesota-request-stop-operation-metro-surge/"
+            },
+            {
+              "headline": "State, feds clash in court over preserving evidence in Alex Pretti killing",
+              "url": "https://sahanjournal.com/public-safety/alex-pretti-shooting-immigration-lawsuit-destroying-evidence/"
+            },
+            {
+              "headline": "Minneapolis mourns ICU nurse killed by a Border Patrol agent as a warmhearted neighbor and caregiver",
+              "url": "https://sahanjournal.com/news-partners/immigration-enforcement-minnesota-protester-1st-ld-writethru/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 23,
+          "articles": [
+            {
+              "headline": "Trump softens tone on Minnesota immigration crackdown as some federal agents prepare to leave",
+              "url": "https://www.twincities.com/2026/01/25/trump-softens-tone-on-minnesota-immigration-crackdown-as-some-federal-agents-prepare-to-leave/"
+            },
+            {
+              "headline": "Trump administration ties demands for MN voter, welfare data to ICE surge",
+              "url": "https://www.twincities.com/2026/01/25/mn-voter-welfare-data-ice-surge/"
+            },
+            {
+              "headline": "Anti-ICE protesters clash with federal agents at Minneapolis hotel",
+              "url": "https://www.twincities.com/2026/01/26/anti-ice-protesters-minneapolis-hotel/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 3,
+          "articles": [
+            {
+              "headline": "Walz says Trump pledged to \u2018do things differently\u2019 on ICE surge",
+              "url": "https://www.mprnews.org/story/2026/01/26/gov-tim-walzs-first-sit-down-interview-since-dropping-out-of-2026-race"
+            },
+            {
+              "headline": "Immigration enforcement in Minnesota",
+              "url": "https://www.mprnews.org/ice-in-minnesota"
+            },
+            {
+              "headline": "The latest on ICE in Minnesota",
+              "url": "https://www.mprnews.org/live-updates"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 10,
+          "articles": [
+            {
+              "headline": "\u2018Where is the local PD?\u2019: Anti-ICE rioters violently attack Minneapolis hotel",
+              "url": "https://alphanews.org/where-is-the-local-pd-anti-ice-rioters-violently-attack-minneapolis-hotel/"
+            },
+            {
+              "headline": "DOJ subpoenas Tim Walz and other Minnesota Democrats in ICE obstruction investigation",
+              "url": "https://alphanews.org/doj-subpoenas-tim-walz-and-other-minnesota-democrats-in-ice-obstruction-investigation/"
+            },
+            {
+              "headline": "\u2018Incredibly disturbing\u2019: Soros-funded county attorney staffer praises anti-ICE agitators invading ch",
+              "url": "https://alphanews.org/incredibly-disturbing-soros-funded-county-attorney-staffer-praises-anti-ice-agitators-invading-church/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 7,
+          "articles": [
+            {
+              "headline": "Public SafetyLawfare rages, 24/7January 25, 2026 by Bill GlahnFederal court in Minnesota is working ",
+              "url": "https://www.americanexperiment.org/lawfare-rages-24-7/"
+            },
+            {
+              "headline": "Public SafetyBorder Patrol agent reportedly shot man armed with a handgun in MinneapolisJanuary 24, ",
+              "url": "https://www.americanexperiment.org/ice-agent-reportedly-shot-man-armed-with-a-handgun-in-minneapolis/"
+            },
+            {
+              "headline": "Public SafetyDHS/ICE mission success \u2014 no room for errorJanuary 23, 2026 by David ZimmerOur support ",
+              "url": "https://www.americanexperiment.org/dhs-ice-mission-success-no-room-for-error/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 11,
+          "articles": [
+            {
+              "headline": "Axis of Anarchy: Minnesota Anti-ICE \u2018Shutdown\u2019 Backed by DSA, Communists, Unions, China-Tied Network",
+              "url": "https://thestarnewsnetwork.com/2026/01/23/axis-of-anarchy-minnesota-anti-ice-shutdown-backed-by-dsa-communists-unions-china-tied-network/"
+            },
+            {
+              "headline": "Bill Would Require Tennessee Cities, Police to Report Immigration-Related Arrests, Benefits Use to N",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/bill-would-require-tennessee-cities-police-to-report-immigration-related-arrests-benefits-use-to-new-state-department/"
+            },
+            {
+              "headline": "Commentary: The Campaign Against ICE Is All About Open Borders",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/commentary-the-campaign-against-ice-is-all-about-open-borders/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 22,
+          "articles": [
+            {
+              "headline": "Live UpdatesImmigration crackdown",
+              "url": "https://www.cnn.com/us/live-news/minneapolis-shooting-ice-protests-01-26-26"
+            },
+            {
+              "headline": "Winter storm",
+              "url": "https://www.cnn.com/weather/live-news/winter-storm-forecast-snow-ice-01-25-26-climate"
+            },
+            {
+              "headline": "How to stay safe in cold weather, according to a doctor",
+              "url": "https://www.cnn.com/2026/01/26/health/cold-weather-safety-doctor-advice-wellness"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 23,
+          "articles": [
+            {
+              "headline": "Minnesota killing produces backlash against Trump administration from Second Amendment advocates",
+              "url": "https://apnews.com/article/trump-pretti-minnesota-second-amendment-ice-ffef56cab9930e52273f8227251452f4"
+            },
+            {
+              "headline": "Trump administration\u2019s trust and credibility tested in wake of Pretti\u2019s death in Minneapolis",
+              "url": "https://apnews.com/article/trump-minneapolis-ice-alex-pretti-credibility-222c52f226f6ab75ae3e151fe69144f4"
+            },
+            {
+              "headline": "Bovino to leave Minneapolis as Trump reshuffles the leadership of his immigration crackdown",
+              "url": "https://apnews.com/article/shooting-minneapolis-protests-ice-immigration-lawsuit-5bd12d70d3c76bfe5eacd802ce7480a7"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 3,
+          "articles": [
+            {
+              "headline": "Federal judge hears Minnesota's arguments for ending ICE surge",
+              "url": "https://www.pbs.org/newshour/show/federal-judge-hears-minnesotas-arguments-for-ending-ice-surge"
+            },
+            {
+              "headline": "Tamara Keith and Amy Walter on Trump losing support over his immigration crackdown",
+              "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-trump-losing-support-over-his-immigration-crackdown"
+            },
+            {
+              "headline": "In Ohio, a bipartisan community group seeks common ground on immigration reform",
+              "url": "https://www.pbs.org/newshour/show/in-ohio-a-bipartisan-community-group-seeks-common-ground-on-immigration-reform"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 35,
+          "articles": [
+            {
+              "headline": "GLOVES OFF ICE",
+              "url": "https://www.foxnews.com/politics/trump-admin-wins-court-victory-freeing-ice-agents-minnesota-protest-restrictions"
+            },
+            {
+              "headline": "Agent's accidental weapon discharge may have led to fatal Minneapolis shooting",
+              "url": "https://www.foxnews.com/us/dhs-probes-whether-agents-killed-va-nurse-accidental-discharge-minneapolis-ice-raid"
+            },
+            {
+              "headline": "Trump speaks with Minneapolis mayor as federal immigration tensions rise",
+              "url": "https://www.foxnews.com/politics/trump-has-very-good-call-minneapolis-mayor-frey-announces-border-czar-homan-meeting"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 34,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "ICE tensions could be thawing in Minn. after Trump sends in border czar Homan, sidelines Noem, Borde",
+              "url": "https://nypost.com/2026/01/26/us-news/ice-tensions-could-be-thawing-in-minn-after-trump-sends-in-border-czar-tom-homan-sidelines-kristi-noem-and-border-patrol-chief/"
+            },
+            {
+              "headline": "America\u2019s CEOs should avoid Minneapolis, ICE mayhem and stick to running their companies",
+              "url": "https://nypost.com/2026/01/26/opinion/americas-ceos-should-avoid-minneapolis-ice-mayhem-and-stick-to-running-their-companies/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.42,
+    "confidence_weighted_avg": 6.8,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 9,
+          "role": "Progressive State Legislator",
+          "summary": "Signs of federal retreat but DOJ subpoenas show political escalation continues."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Moderate State Senator",
+          "summary": "First signs of de-escalation - Bovino leaving, Trump-Walz dialogue begins."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Conservative State Representative",
+          "summary": "Administration appropriately adjusting approach - DOJ investigating obstruction."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 9,
+          "role": "Progressive Journalist",
+          "summary": "Pretti's story breaking through - unprecedented federal retreat, new coalitions forming."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Senior News Editor",
+          "summary": "Signs of de-escalation - Bovino leaving, possible accidental discharge under investigation."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Conservative Commentator",
+          "summary": "Administration showing flexibility - accidental discharge investigation changes narrative."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 9,
+          "role": "Civil Rights Attorney",
+          "summary": "Strong court hearing for Minnesota - DOJ subpoenas unconstitutional overreach."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Court ruling pending - DOJ subpoenas raise First Amendment concerns."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Former Federal Prosecutor",
+          "summary": "DOJ investigation appropriate - federal authority unchanged despite tactical adjustments."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 8,
+          "role": "Progressive Economist",
+          "summary": "Potential economic stabilization if retreat is real - but recovery will take years."
+        },
+        "center": {
+          "rating": 6,
+          "role": "Regional Economist",
+          "summary": "De-escalation could stabilize economy - key question is whether retreat is genuine."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Free-Market Economist",
+          "summary": "Sensible recalibration - short-term disruption easing, long-term benefits unchanged."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 9,
+        "center": 8,
+        "right": 5,
+        "avg": 7.3
+      },
+      "news_analyst": {
+        "left": 9,
+        "center": 7,
+        "right": 4,
+        "avg": 6.7
+      },
+      "legal_expert": {
+        "left": 9,
+        "center": 7,
+        "right": 5,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 8,
+        "center": 6,
+        "right": 4,
+        "avg": 6.0
+      },
+      "averages": {
+        "left": 8.75,
+        "center": 7.0,
+        "right": 4.5,
+        "overall": 6.75
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
