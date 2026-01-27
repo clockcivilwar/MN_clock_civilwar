@@ -1,0 +1,1165 @@
+{
+  "extraction_date": "2026-01-27T12:08:33.997493",
+  "target_date": "2026-01-05",
+  "keywords": [
+    "ICE",
+    "Immigration and Customs Enforcement",
+    "National Guard",
+    "immigration",
+    "deportation"
+  ],
+  "state_keywords": [
+    "Minnesota",
+    "MN",
+    "Minneapolis",
+    "St. Paul"
+  ],
+  "minnesota_local": {
+    "left_leaning": [
+      {
+        "name": "MinnPost",
+        "url": "https://www.minnpost.com",
+        "articles": [
+          {
+            "headline": "Minnesota churches respond to ICE presence with prayer, solidarity",
+            "url": "https://www.minnpost.com/greater-minnesota/2026/01/minnesota-churches-respond-to-ice-presence-with-prayer-solidarity/",
+            "relevance": "high"
+          },
+          {
+            "headline": "The man killed by a US Border Patrol officer in Minneapolis was an ICU nurse, family says",
+            "url": "https://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Medical residents: ICE presence causing public health crisis, \u2018constant anxiety\u2019 that could become chronic",
+            "url": "https://www.minnpost.com/race-health-equity/2026/01/medical-residents-ice-presence-causing-public-health-crisis-constant-anxiety-that-could-become-chronic/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "St. Paul\u2019s Women with Walkers protest \u2018the best way we can\u2019",
+            "url": "https://www.minnpost.com/metro/2026/01/st-pauls-women-with-walkers-protest-ice-the-best-way-we-can/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Twin Cities elected officials push the limits of their power against ICE, on the job and off",
+            "url": "https://www.minnpost.com/metro/2026/01/minneapolis-city-council-members-twin-cities-elected-officials-push-the-limits-of-their-power-against-ice-on-the-job-and-off/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Rules of the road are at the center of the ICE occupation and resistance",
+            "url": "https://www.minnpost.com/cityscape/2026/01/rules-of-the-road-are-at-the-center-of-the-ice-occupation-and-resistance/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "The ICE occupation, unlike the aftermath of George Floyd\u2019s murder, is an intentional disruption",
+            "url": "https://www.minnpost.com/cityscape/2026/01/the-ice-occupation-unlike-the-aftermath-of-george-floyds-murder-is-an-intentional-disruption/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Justice Department subpoenas offices of Walz, Ellison, Frey and other Democratic officials who criticized immigration crackdown",
+            "url": "https://www.minnpost.com/national/washington/2026/01/justice-department-subpoenas-walz-and-others-in-immigration-enforcement-obstruction-investigation-frey-ellison-her-operation-metro-surge/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Community Voices",
+            "url": "https://www.minnpost.com/category/community-voices/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Why requiring ICE agents to wear body cameras is pointless",
+            "url": "https://www.minnpost.com/community-voices/2026/01/why-requiring-ice-agents-to-wear-body-cameras-is-pointless/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Seek balance in immigration enforcement as a \u2018nation of nations\u2019",
+            "url": "https://www.minnpost.com/community-voices/2026/01/seek-balance-in-immigration-enforcement-as-a-nation-of-nations/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Occupy Minneapolis to create real and lasting change",
+            "url": "https://www.minnpost.com/community-voices/2026/01/occupy-minneapolis-to-create-real-and-lasting-change/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Spurred by Minneapolis events, Democrats in other states hope to change state laws to limit ICE",
+            "url": "https://www.minnpost.com/national/2026/01/spurred-by-minneapolis-events-democrats-in-other-states-hope-to-change-state-laws-to-limit-ice/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Discovering a Better Commute: How Minnesotans Are Reimagining the Daily Drive",
+            "url": "https://www.minnpost.com/commuter-services/2025/10/discovering-a-better-commute-how-minnesotans-are-reimagining-the-daily-drive/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Commuter Services",
+            "url": "https://commuter.org/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Our visual coverage of federal immigration enforcement and community response",
+            "url": "https://www.minnpost.com/metro/2026/01/our-visual-coverage-of-federal-immigration-enforcement-and-community-response/",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://www.minnpost.com/?s=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "Minnesota Reformer",
+        "url": "https://minnesotareformer.com",
+        "articles": [
+          {
+            "headline": "With the immigration crackdown, America risks violating its treaty obligations",
+            "url": "https://minnesotareformer.com/2026/01/27/with-the-immigration-crackdown-america-risks-violating-its-treaty-obligations/",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://minnesotareformer.com/?s=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "Sahan Journal",
+        "url": "https://sahanjournal.com",
+        "articles": [
+          {
+            "headline": "Judge weighs Minnesota effort to end Operation Metro Surge, presses DOJ lawyers representing ICE",
+            "url": "https://sahanjournal.com/immigration/judge-considers-minnesota-request-stop-operation-metro-surge/",
+            "relevance": "high"
+          },
+          {
+            "headline": "State, feds clash in court over preserving evidence in Alex Pretti killing",
+            "url": "https://sahanjournal.com/public-safety/alex-pretti-shooting-immigration-lawsuit-destroying-evidence/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Minneapolis mourns ICU nurse killed by a Border Patrol agent as a warmhearted neighbor and caregiver",
+            "url": "https://sahanjournal.com/news-partners/immigration-enforcement-minnesota-protester-1st-ld-writethru/",
+            "relevance": "high"
+          },
+          {
+            "headline": "How to avoid ICE entanglements when seeking health care: Doctors offer tips",
+            "url": "https://sahanjournal.com/health/avoiding-ice-when-seeking-health-care/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "\u2018Sickening\u2019: Federal agents shoot, kill VA nurse on Minneapolis\u2019 Nicollet Ave.",
+            "url": "https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Minneapolis officials say feds haven\u2019t shared information with them about Nicollet Avenue shooting",
+            "url": "https://sahanjournal.com/public-safety/minneapolis-ice-shooting-nicollet-avenue-brian-ohara-jacob-frey/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Activists Levy Armstrong, Allen released in St. Paul church protest case",
+            "url": "https://sahanjournal.com/immigration/nekima-levy-armstrong-chauntyll-allen-released-st-paul-church-protest/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Have you experienced or witnessed an ICE arrest, or other immigration enforcement? Let us know.",
+            "url": "https://sahanjournal.com/inside-sahan-journal/immigration-story-ideas-tips/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "IMMIGRATION",
+            "url": "https://sahanjournal.com/topics/immigration/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "ICE sends detained 2-year-old from Minneapolis to Texas, despite court order",
+            "url": "https://sahanjournal.com/immigration/ice-minneapolis-2-year-old-detained-texas-transfer/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Thousands march through Minneapolis, businesses shutter to protest federal immigration operations",
+            "url": "https://sahanjournal.com/immigration/minnesota-ice-out-economic-shutdown-protest-target-center/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Arrests of Nekima Levy Armstrong, Chauntyll Allen are acts of intimidation, activists say",
+            "url": "https://sahanjournal.com/immigration/nekima-levy-armstrong-chauntyll-allen-arrested-cities-church-protest/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "ICE detains two Hopkins students along with their family, school district says",
+            "url": "https://sahanjournal.com/education/ice-detains-hopkins-students/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "\u2018Why detain a 5-year-old?\u2019 Columbia Heights school leaders speak out over students taken by ICE",
+            "url": "https://sahanjournal.com/education/ice-minnesota-columbia-heights-students-detained/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Top 5 climate stories of 2025: Mining projects\u2019 impact on Native nations, solutions in environmental justice neighborhoods",
+            "url": "https://sahanjournal.com/climate-environment/top-five-climate-news-stories-2025/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Minnesota police leaders: Federal agents are racially profiling off-duty officers, eroding trust with the public",
+            "url": "https://sahanjournal.com/public-safety/minnesota-police-concerns-federal-immigration-agents/",
+            "relevance": "high"
+          },
+          {
+            "headline": "After second ICE shooting in a week, Minneapolis residents raise alarm on community safety",
+            "url": "https://sahanjournal.com/public-safety/ice-shooting-north-minneapolis-community-response/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Man hospitalized at HCMC after ICE arrest must be released from custody, judge rules",
+            "url": "https://sahanjournal.com/health/ice-minnesota-hcmc-hospital-detainee-release-order/",
+            "relevance": "high"
+          },
+          {
+            "headline": "ICE tear gas has significant health impacts; one infant lost consciousness after exposure",
+            "url": "https://sahanjournal.com/health/ice-minneapolis-tear-gas-dangerous-health-effects/",
+            "relevance": "high"
+          },
+          {
+            "headline": "A guide to mental health care as ICE activity continues in Minnesota",
+            "url": "https://sahanjournal.com/health/mental-health-advice-resources-immigration-crackdown-effects/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Multiple federal prosecutors resign from Minnesota U.S. Attorney\u2019s Office week after ICE fatal shooting",
+            "url": "https://sahanjournal.com/democracy-politics/minnesota-us-attorney-office-resignations-ice-fatal-shooting/",
+            "relevance": "high"
+          },
+          {
+            "headline": "St. Paul Mayor Kaohly Vang Her pledges to limit immigration agents\u2019 access to city property",
+            "url": "https://sahanjournal.com/democracy-politics/kaohly-vang-her-inauguration-st-paul-first-hmong-woman-mayor/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Minnesota ICE raids leave immigrant workers home, businesses struggling",
+            "url": "https://sahanjournal.com/business-work/ice-surge-impacts-minnesota-businesses-restaurants/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Barriers for minority-owned cannabis businesses illustrate challenges in Minnesota\u2019s equity program",
+            "url": "https://sahanjournal.com/business-work/minnesota-cannabis-license-social-equity/",
+            "relevance": "high"
+          },
+          {
+            "headline": "What you need to know about the deportation of Southeast Asian people in Minnesota",
+            "url": "https://sahanjournal.com/immigration/deportations-minnesota-mn8-hmong-laos-cambodia-vietnam/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Minneapolis ICE shootings",
+            "url": "https://sahanjournal.com/ice-shootings-minneapolis-minnesota/",
+            "relevance": "high"
+          },
+          {
+            "headline": "How to help MN",
+            "url": "https://sahanjournal.com/immigration/ways-to-support-minnesota-neighbors-affected-by-ice/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Victor Manuel Diaz",
+            "url": "https://sahanjournal.com/immigration/nicaraguan-family-minnesota-ice-custody-death-texas-detainee/",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://sahanjournal.com/?s=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      }
+    ],
+    "centrist": [
+      {
+        "name": "Star Tribune",
+        "url": "https://www.startribune.com",
+        "articles": [],
+        "search_url": "https://www.startribune.com/search/?query=Minnesota%20ICE%20National%20Guard",
+        "status": "no_results",
+        "error": null
+      },
+      {
+        "name": "Pioneer Press",
+        "url": "https://www.twincities.com",
+        "articles": [
+          {
+            "headline": "Judge orders ICE chief to appear in court or risk contempt over denial of due process",
+            "url": "https://www.twincities.com/2026/01/27/judge-orders-ice-chief-to-appear-in-court-to-explain-why-detainees-have-been-denied-due-process/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Bovino to leave Minneapolis as Trump reshuffles the leadership of his immigration crackdown",
+            "url": "https://www.twincities.com/2026/01/25/bovino-to-leave-minneapolis-as-trump-reshuffles-the-leadership-of-his-immigration-crackdown/",
+            "relevance": "high"
+          },
+          {
+            "headline": "In Minneapolis, memorial continues to grow for Alex Pretti, nurse killed by federal officers",
+            "url": "https://www.twincities.com/2026/01/27/in-minneapolis-memorial-continues-to-grow-for-alex-pretti-nurse-killed-by-federal-officers/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Federal judge hears arguments over lawsuit to end immigration action",
+            "url": "https://www.twincities.com/2026/01/26/federal-judge-hears-arguments-over-lawsuit-to-end-immigration-action/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Anti-ICE protesters clash with federal agents at Minneapolis hotel",
+            "url": "https://www.twincities.com/2026/01/26/anti-ice-protesters-minneapolis-hotel/",
+            "relevance": "high"
+          },
+          {
+            "headline": "For some refugees, immigration actions in Twin Cities are familiar",
+            "url": "https://www.twincities.com/2026/01/25/refugees-immigration-actions/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "How is Operation Metro Surge impacting pets? Here\u2019s what rescues tell us",
+            "url": "https://www.twincities.com/2026/01/25/pets-impacted-by-ice-operation-metro-surge-minnesota/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Food producers, vendors invited to St. Paul lunch-and-learn event amid ICE impacts",
+            "url": "https://www.twincities.com/2026/01/21/food-producers-vendors-lunch-and-learn-ice/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Tens of thousands march in Minneapolis to protest ICE surge in Minnesota",
+            "url": "https://www.twincities.com/2026/01/23/ice-protest-st-paul-minneapolis-minnesota/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Watch St. Paul native Tommy Brennan\u2019s take on ICE in \u2018SNL\u2019 bit that didn\u2019t make the show",
+            "url": "https://www.twincities.com/2026/01/21/tommy-brennan-ice-snl/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Conservative influencer Jake Lang faces counter-protest, punches at pro-ICE rally in Minneapolis",
+            "url": "https://www.twincities.com/2026/01/17/jake-lang-rally-minneapolis-city-hall-met-with-counter-protesters/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Photos: Ice Castles returns to State Fairgrounds",
+            "url": "https://www.twincities.com/2026/01/01/photos-ice-castles-returns-to-state-fairgrounds/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "MN prisons say many fed \u2018arrests\u2019 are routine transfers to ICE",
+            "url": "https://www.twincities.com/2026/01/26/mn-prisons-say-feds-highlighting-routine-transfers-to-ice-as-arrests/",
+            "relevance": "high"
+          },
+          {
+            "headline": "St. Paul police temporarily using only marked squads for traffic stops",
+            "url": "https://www.twincities.com/2026/01/23/st-paul-police-using-marked-squads-routine-traffic-stops/",
+            "relevance": "high"
+          },
+          {
+            "headline": "FBI agent who tried to investigate Renee Good shooting resigns",
+            "url": "https://www.twincities.com/2026/01/25/fbi-agent-who-tried-to-investigate-ice-officer-in-shooting-resigns/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Gov. Tim Walz talks with President Donald Trump about immigration enforcement",
+            "url": "https://www.twincities.com/2026/01/26/gov-tim-walz-talks-with-president-donald-trump-about-immigration-enforcement/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Feds say they were after criminal immigrant at time of Minneapolis shooting. State says he was in federal custody in \u201918.",
+            "url": "https://www.twincities.com/2026/01/25/minneapolis-ice-shooting-immigrant-sought/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Joe Soucheray: We need our borders, but you need a better plan, ICE",
+            "url": "https://www.twincities.com/2026/01/24/joe-soucheray-we-need-our-borders-but-you-need-a-better-plan-ice/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "MN National Guard mobilized, ready to assist local law enforcement",
+            "url": "https://www.twincities.com/2026/01/17/mn-national-guard-mobilized-ready-to-assist-local-law-enforcement/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Gov. Tim Walz puts National Guard on notice in event of unrest",
+            "url": "https://www.twincities.com/2026/01/07/gov-tim-walz-puts-national-guard-on-notice-in-event-of-unrest/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Another immigrant died in a sprawling Texas detention facility. ICE says Minnesotan died by suicide",
+            "url": "https://www.twincities.com/2026/01/19/ice-detention-death/",
+            "relevance": "high"
+          },
+          {
+            "headline": "New ICE operation is said to target Somali migrants in Twin Cities",
+            "url": "https://www.twincities.com/2025/12/02/new-ice-operation-is-said-to-target-somali-migrants-in-twin-cities/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "The New York Times News Service Syndicate",
+            "url": "https://www.twincities.com/author/the-new-york-times-news-service-syndicate/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Minneapolis on edge after fatal shooting of woman by ICE officer",
+            "url": "https://www.twincities.com/2026/01/08/minnesota-investigators-barred-from-taking-part-in-probe-into-womans-killing-by-an-ice-officer/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Shouts of \u2018Go arrest ICE\u2019 as crowd gathers near fatal shooting scene",
+            "url": "https://www.twincities.com/2026/01/07/minneapolis-ice-shooting-scene-protest/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Man fatally shot by federal officers in Minneapolis identified",
+            "url": "https://www.twincities.com/2026/01/24/another-shooting-by-federal-officers-in-minneapolis-reported/",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://www.twincities.com/search/Minnesota%20ICE%20National%20Guard/",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "MPR News",
+        "url": "https://www.mprnews.org",
+        "articles": [
+          {
+            "headline": "Gov. Walz meets with Tom Homan 'border czar.' Judge orders acting ICE director to appear in federal court",
+            "url": "https://www.mprnews.org/live-updates",
+            "relevance": "medium"
+          },
+          {
+            "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
+            "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://www.mprnews.org/search?query=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      }
+    ],
+    "right_leaning": [
+      {
+        "name": "Alpha News",
+        "url": "https://alphanews.org",
+        "articles": [
+          {
+            "headline": "\u2018Where is the local PD?\u2019: Anti-ICE rioters violently attack Minneapolis hotel",
+            "url": "https://alphanews.org/where-is-the-local-pd-anti-ice-rioters-violently-attack-minneapolis-hotel/",
+            "relevance": "high"
+          },
+          {
+            "headline": "DOJ subpoenas Tim Walz and other Minnesota Democrats in ICE obstruction investigation",
+            "url": "https://alphanews.org/doj-subpoenas-tim-walz-and-other-minnesota-democrats-in-ice-obstruction-investigation/",
+            "relevance": "high"
+          },
+          {
+            "headline": "\u2018Incredibly disturbing\u2019: Soros-funded county attorney staffer praises anti-ICE agitators invading church",
+            "url": "https://alphanews.org/incredibly-disturbing-soros-funded-county-attorney-staffer-praises-anti-ice-agitators-invading-church/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Tim Walz compares ICE\u2019s presence in Minnesota to Anne Frank facing Nazi occupation",
+            "url": "https://alphanews.org/tim-walz-compares-ices-presence-in-minnesota-to-anne-frank-facing-nazi-occupation/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Antifa influencer declares \u2018guerrilla war\u2019 against ICE after Minnesota shooting",
+            "url": "https://alphanews.org/antifa-influencer-declares-guerrilla-war-against-ice-after-minnesota-shooting/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Axis of anarchy: Minnesota anti-ICE \u2018shutdown\u2019 backed by DSA, communists, unions, CCP-tied network",
+            "url": "https://alphanews.org/axis-of-anarchy-minnesota-anti-ice-shutdown-backed-by-dsa-communists-unions-ccp-tied-network/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Vance visits Minneapolis, defends ICE operations and calls for cooperation from local officials",
+            "url": "https://alphanews.org/vance-visits-minneapolis-defends-ice-operations-and-calls-for-cooperation-from-local-officials/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Left-wingers are trying to push an anti-ICE narrative. Here are the facts they don\u2019t want you to know.",
+            "url": "https://alphanews.org/left-wingers-are-trying-to-push-an-anti-ice-narrative-here-are-the-facts-they-dont-want-you-to-know/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "LIVE: Minneapolis mayor and police chief hold press conference on shooting involving federal agents",
+            "url": "https://alphanews.org/video/live-minneapolis-mayor-and-police-chief-hold-press-conference-on-shooting-involving-federal-agents/",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://alphanews.org/?s=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "Center of the American Experiment",
+        "url": "https://www.americanexperiment.org",
+        "articles": [
+          {
+            "headline": "Public SafetyLawfare and habeas corpusJanuary 27, 2026 by Bill GlahnPerhaps the most successful front of the resistance against ICE in Minnesota has been inside federal courthouses in the state. As qu",
+            "url": "https://www.americanexperiment.org/lawfare-and-habeas-corpus/",
+            "relevance": "high"
+          },
+          {
+            "headline": "EconomyThe war on high housing prices is targeting the wrong villainJanuary 27, 2026 by Martha NjolomoleThe Trump Administration wants to make housing affordable. This is commendable. Unfortunately, a",
+            "url": "https://www.americanexperiment.org/the-war-on-high-housing-prices-is-targeting-the-wrong-villain/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Public SafetyLawfare rages, 24/7January 25, 2026 by Bill GlahnFederal court in Minnesota is working overtime to prevent the enforcement of immigration laws. So far this Sunday (January 25), twelve (12",
+            "url": "https://www.americanexperiment.org/lawfare-rages-24-7/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Public SafetyBorder Patrol agent reportedly shot man armed with a handgun in MinneapolisJanuary 24, 2026 by David ZimmerThis morning at approximately 9:00 a.m., near 26th St. and Nicollet Ave South in",
+            "url": "https://www.americanexperiment.org/ice-agent-reportedly-shot-man-armed-with-a-handgun-in-minneapolis/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Public SafetyDHS/ICE mission success \u2014 no room for errorJanuary 23, 2026 by David ZimmerOur support Center of the American Experiment remains unapologetically supportive of Operation Metro Surge. The ",
+            "url": "https://www.americanexperiment.org/dhs-ice-mission-success-no-room-for-error/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "TIFs may also potentially capture some natural growth in property values and take credit for them,  essentially diverting property tax revenues from other public services.",
+            "url": "https://nhc.org/policy-guide/tax-increment-financing-the-basics/#:~:text=TIFs%20are%20used%20to%20finance,the%20status%20quo%20before%20improvements.",
+            "relevance": "medium"
+          },
+          {
+            "headline": "EconomyRent control will disproportionately harm poor renters in the Twin CitiesOctober 27, 2021 by Martha NjolomoleGenerally, economic theory and evidence have no support for any kind of price contro",
+            "url": "https://www.americanexperiment.org/rent-control-will-disproportionately-harm-poor-renters-in-the-twin-cities/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Spending & TaxesWalz administration pivots from fraud to misconduct in latest auditJanuary 6, 2026 by Bill WalshThe Office of the Legislative Auditor released a scathing audit of the grant making proc",
+            "url": "https://www.americanexperiment.org/walz-administration-pivots-from-fraud-to-mismanagement-in-latest-audit/",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://www.americanexperiment.org/?s=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "Minnesota Sun",
+        "url": "https://theminnesotasun.com",
+        "articles": [
+          {
+            "headline": "Axis of Anarchy: Minnesota Anti-ICE \u2018Shutdown\u2019 Backed by DSA, Communists, Unions, China-Tied Network",
+            "url": "https://thestarnewsnetwork.com/2026/01/23/axis-of-anarchy-minnesota-anti-ice-shutdown-backed-by-dsa-communists-unions-china-tied-network/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Bill Would Require Tennessee Cities, Police to Report Immigration-Related Arrests, Benefits Use to New State Department",
+            "url": "https://thestarnewsnetwork.com/2026/01/27/bill-would-require-tennessee-cities-police-to-report-immigration-related-arrests-benefits-use-to-new-state-department/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Commentary: The Campaign Against ICE Is All About Open Borders",
+            "url": "https://thestarnewsnetwork.com/2026/01/27/commentary-the-campaign-against-ice-is-all-about-open-borders/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Kilmar Abrego Garcia Declines to Appeal Amended Final Deportation Order",
+            "url": "https://thestarnewsnetwork.com/2026/01/24/kilmar-abrego-garcia-declines-to-appeal-amended-final-deportation-order/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Conservatives Decry Police Visit to Activist for Criticizing Mayor, Compare to European Censorship",
+            "url": "https://thestarnewsnetwork.com/2026/01/24/conservatives-decry-police-visit-to-activist-for-criticizing-mayor-compare-to-european-censorship/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Authorities Put CCP-Tied Trailer Park Next to Top Secret US Bomber Base on Notice",
+            "url": "https://thestarnewsnetwork.com/2026/01/23/authorities-put-ccp-tied-trailer-park-next-to-top-secret-us-bomber-base-on-notice/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Paul Calls on Leaders of ICE, Border Protection and Immigration Services to Testify Before Senate",
+            "url": "https://thestarnewsnetwork.com/2026/01/26/paul-calls-on-leaders-of-ice-border-protection-and-immigration-services-to-testify-before-senate/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Nearly One-Third of Tennessee Construction Firms Say Immigration Enforcement Fears Made Workers, Subcontractors Stay Home in 2025",
+            "url": "https://thestarnewsnetwork.com/2026/01/21/nearly-one-third-of-tennessee-construction-firms-say-immigration-enforcement-fears-made-workers-subcontractors-stay-home-in-2025/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Just the News",
+            "url": "https://justthenews.com/government/federal-agencies/search-warrant-boltons-office-shows-secret-confidential-documents-found",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Cancel reply",
+            "url": "https://theminnesotasun.com/2025/09/24/search-warrant-for-boltons-office-shows-secret-confidential-documents-found/?q=Minnesota+ICE+National+Guard#respond",
+            "relevance": "high"
+          }
+        ],
+        "search_url": "https://theminnesotasun.com/search?q=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      }
+    ]
+  },
+  "us_national": {
+    "left_leaning": [
+      {
+        "name": "MSNBC",
+        "url": "https://www.msnbc.com",
+        "articles": [],
+        "search_url": "https://www.msnbc.com/search/?q=Minnesota%20ICE%20National%20Guard",
+        "status": "no_results",
+        "error": null
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com",
+        "articles": [
+          {
+            "headline": "Live UpdatesMinnesota ICE crackdown",
+            "url": "https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-trump-01-27-26",
+            "relevance": "high"
+          },
+          {
+            "headline": "US-led TikTok issues",
+            "url": "https://www.cnn.com/2026/01/27/media/tiktok-trump-ice-epstein-censorship-tech-issues",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Maja Hitij/Getty Images",
+            "url": "https://www.cnn.com/2026/01/27/europe/italy-ice-agents-security-olympics-intl",
+            "relevance": "medium"
+          },
+          {
+            "headline": "After two-hour meeting with Noem on Minnesota strategy, Trump says she\u2019s \u2018doing a very good job\u2019",
+            "url": "https://www.cnn.com/2026/01/27/politics/noem-trump-oval-office-meeting",
+            "relevance": "high"
+          },
+          {
+            "headline": "\u2022Video0:37AP",
+            "url": "https://www.cnn.com/2026/01/27/us/video/dozens-arrested-at-anti-ice-protest-digvid",
+            "relevance": "medium"
+          },
+          {
+            "headline": "\u2022Video2:21CNN",
+            "url": "https://www.cnn.com/2026/01/27/us/video/minneapolis-police-chief-federal-agents-bovino-digvid",
+            "relevance": "high"
+          },
+          {
+            "headline": "These are the most comfortable mice I\u2019ve ever used",
+            "url": "https://www.cnn.com/cnn-underscored/reviews/best-ergonomic-mice",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Charly Triballeau/AFP/Getty Images",
+            "url": "https://www.cnn.com/2026/01/26/politics/republican-concerns-trump-immigration-minnesota",
+            "relevance": "high"
+          },
+          {
+            "headline": "\u2022AnalysisAnalysisRoberto Schmidt/AFP/Getty Images",
+            "url": "https://www.cnn.com/2026/01/26/politics/donald-trump-alex-pretti-minneapolis-shooting-noem-ice-analysis",
+            "relevance": "high"
+          },
+          {
+            "headline": "\u2022Video1:50Ryan McGuire",
+            "url": "https://www.cnn.com/2026/01/27/us/video/mn-group-singing-resistance-ice-vrt-digvid",
+            "relevance": "high"
+          },
+          {
+            "headline": "\u2022Video0:37AP",
+            "url": "https://www.cnn.com/2026/01/27/us/video/dozens-arrested-at-anti-ice-protest-vrtc",
+            "relevance": "medium"
+          },
+          {
+            "headline": "\u2022Video1:33Getty Images",
+            "url": "https://www.cnn.com/2026/01/26/politics/video/trump-walz-call-minnesota-ice-vrtc",
+            "relevance": "high"
+          },
+          {
+            "headline": "Patrice Latron/The Image Bank Unreleased/Getty Images",
+            "url": "https://www.cnn.com/2026/01/26/travel/what-its-like-to-drive-high-speed-train",
+            "relevance": "medium"
+          },
+          {
+            "headline": "TikTok users say they can\u2019t upload anti-ICE videos. The company blames tech issues",
+            "url": "https://www.cnn.com/2026/01/26/tech/tiktok-ice-censorship-glitch-cec",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://www.cnn.com/search?q=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com",
+        "articles": [],
+        "search_url": "https://www.nytimes.com/search?query=Minnesota%20ICE%20National%20Guard",
+        "status": "no_results",
+        "error": null
+      }
+    ],
+    "centrist": [
+      {
+        "name": "Associated Press",
+        "url": "https://apnews.com",
+        "articles": [
+          {
+            "headline": "Live updates: Trump says he wants \u2018honest\u2019 investigation into \u2018very sad\u2019 killing of Minneapolis protester",
+            "url": "https://apnews.com/live/minneapolis-shooting-immigration-updates-1-27-2026",
+            "relevance": "high"
+          },
+          {
+            "headline": "Trump\u2019s about-face in Minnesota after Pretti\u2019s death is latest in pattern of sudden shifts",
+            "url": "https://apnews.com/article/trump-pretti-minnesota-immigration-enforcement-eb9e63a625b624d2ba4ed467cb0f956c",
+            "relevance": "high"
+          },
+          {
+            "headline": "Minneapolis shooting scrambles Second Amendment politics for Trump",
+            "url": "https://apnews.com/article/trump-pretti-minnesota-second-amendment-ice-ffef56cab9930e52273f8227251452f4",
+            "relevance": "high"
+          },
+          {
+            "headline": "Trump\u2019s immigration crackdown led to drop in US growth rate last year as population hit 342 million",
+            "url": "https://apnews.com/article/census-bureau-immigration-trump-us-population-7130f180e3d8c03185932e3e6f9974e8",
+            "relevance": "medium"
+          },
+          {
+            "headline": "US sending ICE unit to Winter Olympics for security, prompting concern and confusion in Italy",
+            "url": "https://apnews.com/article/ice-milan-cortina-olympics-immigration-enforcement-us-110fa4b2066e1fb920dba2a71c3a89e0",
+            "relevance": "medium"
+          },
+          {
+            "headline": "US Border Patrol agent fatally shoots a man in Minneapolis",
+            "url": "https://apnews.com/video/man-shot-during-minneapolis-immigration-crackdown-has-died-hospital-record-shows-9dcbc72cd84744828a8bd59fa66cdeef",
+            "relevance": "high"
+          },
+          {
+            "headline": "Police tell protesters to disperse at demo in wake of fatal shooting of ICU nurse in Minneapolis",
+            "url": "https://apnews.com/video/police-tell-protesters-to-disperse-at-demo-in-wake-of-fatal-shooting-of-icu-nurse-in-minneapolis-3e1c8ed76ace4be6a9ea7f6eb336ffa8",
+            "relevance": "high"
+          },
+          {
+            "headline": "Border Patrol commander Greg Bovino and some agents expected to leave Minneapolis, AP source says",
+            "url": "https://apnews.com/live/minneapolis-shooting-immigration-updates-1-26-2026",
+            "relevance": "high"
+          },
+          {
+            "headline": "Sleep-tracking devices have limits. Experts want users to know what they are",
+            "url": "https://apnews.com/article/sleep-tracking-wearables-accuracy-oura-fitbit-aff24259c88bf48e5ebcd425a329a9da",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Letter writing enjoys a revival as fans seek connection and a break from screen time",
+            "url": "https://apnews.com/article/letter-writing-unplug-communication-devices-hobbies-41bd526e43d02e047eea8d926bca03f5",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Judge orders ICE chief to appear in court or risk contempt over denial of due process",
+            "url": "https://apnews.com/article/immigration-enforcement-minnesota-ice-b0cec9d1c5bae4b62469011775082300",
+            "relevance": "high"
+          },
+          {
+            "headline": "What to know about Gregory Bovino, the commander of Trump\u2019s immigration crackdown",
+            "url": "https://apnews.com/article/gregory-bovino-immigration-minneapolis-d90e0f478f1119d773989196b3db393e",
+            "relevance": "high"
+          },
+          {
+            "headline": "More arctic air is expected for Southern states hit by ice and riddled with power outages",
+            "url": "https://apnews.com/article/frigid-temperatures-arctic-air-us-south-tennessee-9d4beb4d548e29d5ce737fd001d67a64",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Trump administration\u2019s trust and credibility tested in wake of Pretti\u2019s death in Minneapolis",
+            "url": "https://apnews.com/article/trump-minneapolis-ice-alex-pretti-credibility-222c52f226f6ab75ae3e151fe69144f4",
+            "relevance": "high"
+          },
+          {
+            "headline": "Trump\u2019s use of AI images pushes new boundaries, further eroding public trust, experts say",
+            "url": "https://apnews.com/article/ai-videos-trump-ice-artificial-intelligence-08d91fa44f3146ec1f8ee4d213cdad31",
+            "relevance": "medium"
+          },
+          {
+            "headline": "The shootings in Minneapolis are upending the politics of immigration in Congress",
+            "url": "https://apnews.com/article/congress-immigration-budget-shutdown-minneapolis-3d68d9d1aa99c5a9732961d1fa594e91",
+            "relevance": "high"
+          },
+          {
+            "headline": "In surprise move, Spain will grant legal status to thousands of immigrants lacking permission",
+            "url": "https://apnews.com/article/spain-immigration-legal-status-permits-ec1b8c64fb89b348ee4b394b55a94cbe",
+            "relevance": "medium"
+          },
+          {
+            "headline": "EU steps in to make sure Google gives rivals access to AI services and data",
+            "url": "https://apnews.com/article/google-european-union-competition-ai-c39de40513a0f00dc8e71244e115e30a",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://apnews.com/search?q=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "articles": [],
+        "search_url": "https://www.reuters.com/search/news?blob=Minnesota%20ICE%20National%20Guard",
+        "status": "no_results",
+        "error": null
+      },
+      {
+        "name": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour",
+        "articles": [
+          {
+            "headline": "Tamara Keith and Amy Walter on Trump losing support over his immigration crackdown",
+            "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-trump-losing-support-over-his-immigration-crackdown",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Federal judge hears Minnesota's arguments for ending ICE surge",
+            "url": "https://www.pbs.org/newshour/show/federal-judge-hears-minnesotas-arguments-for-ending-ice-surge",
+            "relevance": "high"
+          },
+          {
+            "headline": "What to know about Gregory Bovino and his role in Trump's immigration crackdown",
+            "url": "https://www.pbs.org/newshour/nation/what-to-know-about-gregory-bovino-and-his-role-in-trumps-immigration-crackdown",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Trump's immigration crackdown led to drop in U.S. population growth rate last yearByMike Schneider, Associated Press",
+            "url": "https://www.pbs.org/newshour/nation/trumps-immigration-crackdown-led-to-drop-in-u-s-population-growth-rate-last-year",
+            "relevance": "medium"
+          },
+          {
+            "headline": "In Ohio, a bipartisan community group seeks common ground on immigration reform",
+            "url": "https://www.pbs.org/newshour/show/in-ohio-a-bipartisan-community-group-seeks-common-ground-on-immigration-reform",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://www.pbs.org/newshour/search-results?q=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      }
+    ],
+    "right_leaning": [
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com",
+        "articles": [
+          {
+            "headline": "'HATE BAITER' FLEES",
+            "url": "https://www.foxnews.com/us/minn-antifa-member-claims-hes-on-run-after-calling-armed-men-confront-immigration-officials",
+            "relevance": "medium"
+          },
+          {
+            "headline": "LEGAL SHOWDOWN",
+            "url": "https://www.foxnews.com/politics/judge-threatens-contempt-ice-leader-orders-him-appear-court",
+            "relevance": "medium"
+          },
+          {
+            "headline": "VOICES RISE UP",
+            "url": "https://www.foxnews.com/entertainment/american-idol-judge-carrie-underwood-breaks-down-tears-over-teens-emotional-tribute-audition",
+            "relevance": "medium"
+          },
+          {
+            "headline": "IT'S LISTENING",
+            "url": "https://www.foxbusiness.com/technology/google-settles-lawsuit-68-million-following-allegations-secretly-recording-smart-device-users",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Trump official warns media as Minnesota investigations unfold",
+            "url": "https://www.foxnews.com/media/fbi-director-calls-calm-multiple-ice-investigations-continue-nationwide-amid-protests",
+            "relevance": "high"
+          },
+          {
+            "headline": "Martha Stewart speaks out after granddaughter\u2019s plea as Katy Perry joins ICE protest calls",
+            "url": "https://www.foxnews.com/entertainment/martha-stewart-attacks-ice-enforcement-after-14-year-old-granddaughter-says-silence-not-excusable",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Safest US cities often share cooperation with federal immigration enforcement agencies",
+            "url": "https://www.foxnews.com/politics/many-americas-safest-cities-jurisdictions-cooperate-ice",
+            "relevance": "medium"
+          },
+          {
+            "headline": "IMMIGRATION",
+            "url": "https://www.foxnews.com/category/us/immigration",
+            "relevance": "medium"
+          },
+          {
+            "headline": "'Incredibly dangerous' mistake empowers mob against federal agents, experts warn",
+            "url": "https://www.foxnews.com/us/mob-mentality-endangers-officers-amid-anti-ice-unrest-chaos-minneapolis-retired-cops-warn",
+            "relevance": "high"
+          },
+          {
+            "headline": "POLICE AND LAW ENFORCEMENT",
+            "url": "https://www.foxnews.com/category/us/crime/police-and-law-enforcement",
+            "relevance": "medium"
+          },
+          {
+            "headline": "FBI director warns media not to \u2018cement false narrative\u2019 as agencies probe Minnesota violence",
+            "url": "https://www.foxnews.com//www.foxnews.com/media/fbi-director-calls-calm-multiple-ice-investigations-continue-nationwide-amid-protests",
+            "relevance": "high"
+          },
+          {
+            "headline": "Support slipping for Trump immigration push as majority say crackdown \u2018goes too far\u2019: poll",
+            "url": "https://www.foxnews.com//www.foxnews.com/politics/support-slipping-trump-immigration-push-majority-say-crackdown-goes-too-far-poll",
+            "relevance": "medium"
+          },
+          {
+            "headline": "JONATHAN TURLEY: Democrat politicians are risking lives with reckless anti-ICE rhetoric",
+            "url": "https://www.foxnews.com//www.foxnews.com/opinion/jonathan-turley-democrat-politicians-risking-lives-reckless-anti-ice-rhetoric",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Police investigate VCU nurse who instructed 'sabotage' of ICE agents in viral TikTok videos",
+            "url": "https://www.foxnews.com//www.foxnews.com/us/police-investigate-vcu-nurse-who-instructed-sabotage-ice-agents-viral-tiktok-videos",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Judge threatens contempt for ICE leader, orders him to appear in court",
+            "url": "https://www.foxnews.com//www.foxnews.com/politics/judge-threatens-contempt-ice-leader-orders-him-appear-court",
+            "relevance": "medium"
+          },
+          {
+            "headline": "State launches 'America First' license plate as others unveil patriotic America 250 designs",
+            "url": "https://www.foxnews.com//www.foxnews.com/travel/state-launches-america-first-license-plate-others-unveil-america-250-designs",
+            "relevance": "medium"
+          },
+          {
+            "headline": "National Guard in Minnesota hands out coffee, donuts to anti-ICE protesters",
+            "url": "https://www.foxnews.com//www.foxnews.com/us/national-guard-minnesota-hands-out-coffee-donuts-anti-ice-protesters",
+            "relevance": "high"
+          },
+          {
+            "headline": "Martha Stewart attacks ICE enforcement after 14-year-old granddaughter says silence not excusable",
+            "url": "https://www.foxnews.com//www.foxnews.com/entertainment/martha-stewart-attacks-ice-enforcement-after-14-year-old-granddaughter-says-silence-not-excusable",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Steve Kerr says immigration should be addressed by Congress, claims feds 'taking 5-year-old kindergartners'",
+            "url": "https://www.foxnews.com//www.foxnews.com/sports/steve-kerr-says-immigration-should-addressed-congress-claims-feds-taking-5-year-old-kindergartners",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Knife-wielding nut allegedly asked Christian his religion \u2013 then stabbed him and dog before police shot him",
+            "url": "https://www.foxnews.com//www.foxnews.com/us/knife-wielding-nut-allegedly-asked-christian-his-religion-then-stabbed-him-dog-before-police-shot-him",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Victoria Beckham's former Spice Girls bandmate admits she parents 'differently' as famous family faces turmoil",
+            "url": "https://www.foxnews.com//www.foxnews.com/entertainment/victoria-beckhams-former-spice-girls-bandmate-admits-she-parents-differently-famous-family-faces-turmoil",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Victoria Beckham reunites with Spice Girls as rift with son Brooklyn deepens",
+            "url": "https://www.foxnews.com//www.foxnews.com/entertainment/victoria-beckham-reunites-spice-girls-rift-son-brooklyn-deepens",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Deadly historic winter storm: Ice leaves life-threatening power outages across South, snow buries Northeast",
+            "url": "https://www.foxnews.com//www.foxweather.com/weather-news/deadly-historic-winter-storm-ice-power-outages-south-snow-northeast",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Mississippi paralyzed by large-scale power outages, life-threatening ice as arctic air could slow recovery",
+            "url": "https://www.foxnews.com//www.foxweather.com/extreme-weather/historic-winter-storm-paralyzes-mississippi-ice-massive-power-outages-bitter-cold-could-slow-recovery",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Must-see photos: Crippling ice in Nashville destroys power lines, snaps trees during catastrophic winter storm",
+            "url": "https://www.foxnews.com//www.foxweather.com/extreme-weather/photos-ice-storm-devastating-nashville-music-city-power",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Biden speaks out against immigration crackdown in Minnesota, says it goes against American values",
+            "url": "https://www.foxnews.com//www.foxnews.com/politics/biden-speaks-out-against-immigration-crackdown-minnesota-says-goes-against-american-values",
+            "relevance": "high"
+          },
+          {
+            "headline": "Many of America\u2019s safest cities are in jurisdictions that cooperate with ICE",
+            "url": "https://www.foxnews.com//www.foxnews.com/politics/many-americas-safest-cities-jurisdictions-cooperate-ice",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Border Patrol Commander Greg Bovino Exiled from Minneapolis as Trump Says ICE Will Be Moving On At Some Point After the Killing of Alex Pretti",
+            "url": "https://www.foxnews.com//radio.foxnews.com/2026/01/27/border-patrol-commander-greg-bovino-exiled-from-minneapolis-as-trump-says-ice-will-be-moving-on-at-some-point-after-the-killing-of-alex-pretti/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Immigration",
+            "url": "https://www.foxnews.com//www.foxnews.com/category/us/immigration",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://www.foxnews.com/search-results/search?q=Minnesota%20ICE%20National%20Guard",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "The Daily Wire",
+        "url": "https://www.dailywire.com",
+        "articles": [],
+        "search_url": "https://www.dailywire.com/search?query=Minnesota%20ICE%20National%20Guard",
+        "status": "no_results",
+        "error": null
+      },
+      {
+        "name": "New York Post",
+        "url": "https://nypost.com",
+        "articles": [
+          {
+            "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+            "url": "https://email.nypost.com/post-wanted/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Alex Pretti was \u2018known\u2019 to feds, and had rib broken in anti-ICE protest a week before he was killed by Border Patrol",
+            "url": "https://nypost.com/2026/01/27/us-news/alex-pretti-known-to-feds-had-rib-broken-in-anti-ice-protest-a-week-before-he-was-killed-by-border-patrol/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Alex Pretti\u2019s sister slams \u2018disgusting lies\u2019 about brother after he was killed during Minn. anti-ICE protests: \u2018When does this end?\u2019",
+            "url": "https://nypost.com/2026/01/27/us-news/alex-prettis-sister-slams-disgusting-lies-about-brother/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Noem demanded hours-long meeting with Trump after she\u2019s sidelined amid backlash over ICE shooting",
+            "url": "https://nypost.com/2026/01/27/us-news/noem-demanded-hours-long-meeting-with-trump-after-shes-sidelined-amid-backlash-over-ice-shooting/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "ICE acting director summoned to court, threatened with contempt in Minnesota",
+            "url": "https://nypost.com/2026/01/27/us-news/ice-director-todd-lyons-summoned-to-court-in-minnesota/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Melania Trump calls for \u2018unity\u2019 in Minneapolis, urges anti-ICE demonstrators to \u2018protest in peace\u2019",
+            "url": "https://nypost.com/2026/01/27/us-news/melania-trump-calls-for-unity-in-minneapolis-anti-ice-demonstrators-to-protest-in-peace/",
+            "relevance": "high"
+          },
+          {
+            "headline": "LI town unveils \u2018Big Brother\u2019 command center \u2014 leading some to warn of \u2018Orwellian police state\u2019",
+            "url": "https://nypost.com/2026/01/26/us-news/long-island-town-unveils-big-brother-command-center-leaving-some-residents-musing-about-george-orwells-1984/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "TikTok\u2019s new owners accused of censoring Minneapolis ICE shooting, blocking word \u2018Epstein\u2019",
+            "url": "https://nypost.com/2026/01/27/business/tiktok-accused-of-censoring-minneapolis-ice-shooting-blocking-word-epstein/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Don\u2019t let your front porch be your final resting place \u2014 get ice melt for under $30",
+            "url": "https://nypost.com/2026/01/22/shopping/buy-this-30-ice-melt-before-the-sky-falls-and-takes-you-with-it/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Woke officials in wealthy Bay Area enclave break down in tears, abruptly end meeting over ICE shootings",
+            "url": "https://nypost.com/2026/01/27/us-news/woke-bay-area-officials-break-down-end-meeting-over-ice-shootings/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Street sweepHundreds arrested in ICE operation in Maine as governor seeks to ask Trump to remove agents",
+            "url": "https://nypost.com/2026/01/27/us-news/hundreds-arrested-in-ice-maine-operation-governor-wants-trump-to-remove-agents/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Our thoughts on the 10 best cake and cupcake delivery services \u2014 some great, others \u2018meh\u2019",
+            "url": "https://nypost.com/article/best-cake-and-cupcake-delivery-services/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Kristen Stewart Reveals She Wants To Quit U.S. for Europe Because She \u2018Can\u2019t Work Freely\u2019 While Trump Is in Office",
+            "url": "https://www.realtor.com/news/celebrity-real-estate/kristen-stewart-move-europe-donald-trump-tariffs/?cid=psc_nyp_syndication_celebrity-real-estate_kristen-stewart-move-europe-donald-trump-tariffs",
+            "relevance": "medium"
+          },
+          {
+            "headline": "This elite fitness app wants to set you up with a personal coach \u2014 for this price",
+            "url": "https://nypost.com/2026/01/23/shopping/this-elite-fitness-app-wants-to-set-you-up-with-a-personal-coach/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Chaos erupts outside Minnesota hotel suspected of housing ICE agents, 26 arrested",
+            "url": "https://nypost.com/video/chaos-erupts-outside-minnesota-hotel-suspected-of-housing-ice-agents-26-arrested/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Be the MVP of your Super Bowl party: Score a TCL TV at Black Friday-level prices",
+            "url": "https://nypost.com/2026/01/26/shopping/tcl-tv-deal-get-lowest-prices-ever-before-the-super-bowl/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Texas Monthly\u2019s taco editor says ICE and local cops stopped him multiple times on same day, rattling award-winning food writer",
+            "url": "https://nypost.com/2026/01/26/media/texas-monthlys-taco-editor-says-ice-and-local-cops-stopped-him-multiple-times-on-same-day-rattling-award-winning-food-writer/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Charles Gasparino",
+            "url": "https://nypost.com/2026/01/26/opinion/americas-ceos-should-avoid-minneapolis-ice-mayhem-and-stick-to-running-their-companies/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Trump blasts Minnesota pols for \u2018inciting insurrection\u2019 in wake of shooting: \u2018Where are the local police?\u2019",
+            "url": "https://nypost.com/2026/01/24/us-news/trump-blasts-minnesota-pols-for-inciting-insurrection-in-wake-of-shooting-where-are-the-local-police/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Ex-Vikings captain says Minn. Dems hate ICE because 'we're deporting their voters'",
+            "url": "https://nypost.com/2026/01/25/us-news/ex-vikings-captain-jack-brewer-slams-anti-ice-liberals-thugs/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Armed anti-ICE disruptor fatally shot after confronting fed agents in Minneapolis",
+            "url": "https://nypost.com/2026/01/24/us-news/shots-fired-after-police-in-minneapolis-struggle-to-subdue-man-brandishing-gun-amid-protests-video-shows/",
+            "relevance": "high"
+          },
+          {
+            "headline": "200M people in path of monster storm set to dump more than a foot of snow on NYC",
+            "url": "https://nypost.com/2026/01/22/us-news/us-states-declare-emergencies-as-historic-winter-storm-threatens-snow-ice-and-brutal-cold-temperatures/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "National Guard on 'standby' and reveal planned uniform if called into action to quell anti-ICE unrest in Minnesota",
+            "url": "https://nypost.com/2026/01/17/us-news/minnesota-national-guard-on-standby-and-reveal-planned-uniform-if-called-into-action-to-quell-anti-ice-unrest/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Minneapolis mayor rips ICE's immigration crackdown during blistering CNN interview: \u2018Invaded by our own federal government\u2019",
+            "url": "https://nypost.com/2026/01/18/us-news/minneapolis-mayor-jacob-frey-claims-city-being-invaded-by-our-own-federal-government/",
+            "relevance": "high"
+          },
+          {
+            "headline": "FBI offering $100K reward after ICE vehicles vandalized by destructive Minneapolis mob",
+            "url": "https://nypost.com/2026/01/15/us-news/fbi-offering-100k-reward-after-ice-vehicles-vandalized-by-destructive-minneapolis-mob/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Trump threatens to invoke Insurrection Act if Minnesota won't stop violent ICE rioters",
+            "url": "https://nypost.com/2026/01/15/us-news/trump-threatens-to-invoke-insurrection-act-against-minnesota-rioters/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Hateful anti-ICE agitators vandalize car with horrifying threat: 'Only good agent is a dead one'",
+            "url": "https://nypost.com/2026/01/15/us-news/hateful-anti-ice-agitators-vandalize-car-with-horrifying-threat-only-good-agent-is-a-dead-one/",
+            "relevance": "medium"
+          },
+          {
+            "headline": "Trump issues dire warning to Minnesota Dems after state sues over ICE crackdown",
+            "url": "https://nypost.com/2026/01/13/us-news/trump-tells-minnesotans-day-of-reckoning-and-retribution-is-coming-after-state-sues-over-ice-raids/",
+            "relevance": "high"
+          },
+          {
+            "headline": "Soccer moms are taking up a dangerous new hobby \u2014 becoming ICE saboteurs",
+            "url": "https://nypost.com/2026/01/12/opinion/soccer-moms-are-taking-up-a-dangerous-new-hobby-becoming-ice-saboteurs/",
+            "relevance": "medium"
+          }
+        ],
+        "search_url": "https://nypost.com/search/Minnesota%20ICE%20National%20Guard/",
+        "status": "success",
+        "error": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "date": "2026-01-05",
+  "generated_at": "2026-01-27T13:00:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 4,
+        "confidence": 70,
+        "key_factors": [
+          "December announcement of ICE operation targeting Somali community",
+          "Community anxiety elevated after holiday season",
+          "Immigrant families returning to work with heightened fear"
+        ],
+        "reasoning": "The December announcement of a targeted ICE operation against Minnesota's Somali community has created sustained anxiety through the holidays. Now that the new year has begun, families are returning to work and school with real fear. Our Somali constituents - many of whom have lived here for decades, built businesses, raised American children - feel specifically targeted. Community organizations report increased calls for know-your-rights information. This targeted approach to a specific ethnic community raises serious civil rights concerns.",
+        "recommendations": [
+          "Hold community listening sessions in affected neighborhoods",
+          "Coordinate with legal aid organizations on know-your-rights outreach"
+        ],
+        "summary": "Somali community on edge after December ICE operation announcement - targeted enforcement concerning."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 3,
+        "confidence": 62,
+        "key_factors": [
+          "New ICE operation announced targeting Twin Cities",
+          "Business community concerned about workforce stability",
+          "First full work week of 2026 beginning"
+        ],
+        "reasoning": "The December announcement of an ICE operation targeting Somali migrants in the Twin Cities has created uncertainty heading into 2026. Business leaders in hospitality, food processing, and healthcare are expressing concern about potential workforce disruptions. We need to understand what this operation will actually look like on the ground and ensure it's conducted in a way that doesn't destabilize our economy or erode community trust in institutions.",
+        "recommendations": [
+          "Request briefing from federal authorities on operation scope and methods",
+          "Establish business community task force on workforce contingency planning"
+        ],
+        "summary": "New ICE operation creates workforce uncertainty - seeking clarity on scope and impact."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 1,
+        "confidence": 75,
+        "key_factors": [
+          "Federal law enforcement operating lawfully",
+          "Targeted operation against those with deportation orders",
+          "Peace throughout Minnesota"
+        ],
+        "reasoning": "ICE is doing its job - enforcing immigration law that the previous administration neglected. The December announcement of targeted enforcement in the Twin Cities is exactly what voters wanted when they elected this administration. Those here illegally, particularly those with criminal records or deportation orders, should be removed. Minnesota remains peaceful, and it will stay that way as long as activists don't interfere with lawful federal operations.",
+        "recommendations": [
+          "Issue statement supporting federal immigration enforcement",
+          "Encourage state agencies to cooperate with ICE requests"
+        ],
+        "summary": "Lawful enforcement proceeding - peace maintained through rule of law."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 4,
+        "confidence": 68,
+        "key_factors": [
+          "Somali community specifically named in enforcement announcement",
+          "Families navigating post-holiday return to normal life with fear",
+          "Community defense networks organizing"
+        ],
+        "reasoning": "The explicit targeting of the Somali community in the December ICE announcement is the story. This is one of America's largest Somali populations - refugees who fled civil war, who've built lives and businesses here for 30+ years. Now they're being singled out by name. The human stories of families returning to work and school this week, wondering if today is the day, need to be told. Churches and mosques are quietly preparing response protocols.",
+        "recommendations": [
+          "Profile Somali families navigating daily life under targeted enforcement",
+          "Document community organization and mutual aid networks forming"
+        ],
+        "summary": "Somali community specifically targeted - human stories of fear and resilience emerging."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 3,
+        "confidence": 60,
+        "key_factors": [
+          "December ICE operation announcement requires follow-up reporting",
+          "First work week of 2026 - watching for any enforcement actions",
+          "Need data on Minnesota's immigrant population and economy"
+        ],
+        "reasoning": "The December announcement of an ICE operation targeting Somali migrants warrants serious follow-up. We need to verify the scope and timeline with federal sources, get reaction from affected communities, and provide context on Minnesota's Somali population - demographics, economic contributions, legal status breakdown. Coverage should be factual and avoid both fear-mongering and dismissiveness.",
+        "recommendations": [
+          "Assign reporter to federal sources for operation details",
+          "Commission data piece on Minnesota's Somali community demographics and economics"
+        ],
+        "summary": "Following up on December ICE announcement - need facts on scope, timeline, and context."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 1,
+        "confidence": 74,
+        "key_factors": [
+          "Minnesota at peace despite media fear narratives",
+          "ICE targeting those with deportation orders - lawful enforcement",
+          "Public supports immigration enforcement"
+        ],
+        "reasoning": "Once again, media coverage focuses on fear and victimhood rather than the reality: ICE is targeting people who are here illegally, many with existing deportation orders. The December announcement was straightforward law enforcement, but coverage frames it as persecution. Minnesota is completely peaceful. The 'anxiety' being reported is manufactured by activists and amplified by sympathetic media. Most Minnesotans support immigration enforcement.",
+        "recommendations": [
+          "Document media bias in framing lawful enforcement as targeting",
+          "Report on crimes committed by illegal immigrants in Minnesota"
+        ],
+        "summary": "Media manufacturing fear narrative - Minnesota peaceful, enforcement lawful and supported."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 4,
+        "confidence": 70,
+        "key_factors": [
+          "Ethnic targeting raises equal protection concerns",
+          "Need to monitor for Fourth Amendment violations during enforcement",
+          "Legal observer networks preparing"
+        ],
+        "reasoning": "The explicit naming of the Somali community in the December announcement raises serious equal protection questions. Immigration enforcement must be based on legal status, not ethnicity. We're preparing legal observer teams and know-your-rights trainings. If enforcement involves racial profiling or Fourth Amendment violations, we'll be ready to document and litigate. Pro bono attorney networks are on standby.",
+        "recommendations": [
+          "Deploy legal observers when enforcement actions begin",
+          "Prepare equal protection challenge framework"
+        ],
+        "summary": "Ethnic targeting raises equal protection concerns - legal infrastructure preparing."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 2,
+        "confidence": 58,
+        "key_factors": [
+          "Federal immigration authority is settled law",
+          "Targeted operations are within executive discretion",
+          "Equal protection claims would require evidence of discriminatory enforcement"
+        ],
+        "reasoning": "Federal authority over immigration is clear. The executive has broad discretion in enforcement priorities. Targeting a specific community for enforcement could raise equal protection issues, but such challenges would require evidence of discriminatory application rather than just announcement language. The legal framework hasn't changed - we're watching to see how enforcement is actually conducted.",
+        "recommendations": [
+          "Monitor enforcement for potential equal protection issues",
+          "Prepare case study materials on immigration enforcement discretion"
+        ],
+        "summary": "Federal authority clear - watching enforcement methods for potential equal protection issues."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 1,
+        "confidence": 78,
+        "key_factors": [
+          "Federal immigration enforcement is lawful and proper",
+          "Targeting those with deportation orders is standard practice",
+          "Minnesota peaceful, no legal conflicts"
+        ],
+        "reasoning": "ICE is exercising its lawful authority to enforce immigration law. Targeting populations with high concentrations of immigration violators is standard, efficient enforcement - not discrimination. The Somali population in Minnesota includes many individuals with pending or final deportation orders. Enforcing those orders is the job. Anyone who obstructs federal officers faces prosecution. So far, Minnesota is cooperating and peaceful.",
+        "recommendations": [
+          "Prepare obstruction charges for any who interfere with enforcement",
+          "Brief local law enforcement on cooperation requirements"
+        ],
+        "summary": "Lawful enforcement proceeding - targeting populations with deportation orders is standard practice."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 3,
+        "confidence": 65,
+        "key_factors": [
+          "Somali workers concentrated in food processing, healthcare, logistics",
+          "First work week of 2026 - watching for absenteeism",
+          "December announcement created workforce uncertainty"
+        ],
+        "reasoning": "Minnesota's Somali community is heavily represented in essential industries - food processing, healthcare support, warehousing, and transportation. The December announcement has created uncertainty that could affect workforce stability. Employers in these sectors report some workers asking about contingency plans. The economic contribution of this community - estimated at billions annually - is at risk if enforcement is disruptive.",
+        "recommendations": [
+          "Survey employers in affected sectors on workforce concerns",
+          "Model economic impact of potential workforce disruption"
+        ],
+        "summary": "Essential industries dependent on Somali workforce - watching for economic disruption signals."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 2,
+        "confidence": 55,
+        "key_factors": [
+          "Economic indicators remain normal",
+          "First week of 2026 - establishing baselines",
+          "Some business uncertainty from December announcement"
+        ],
+        "reasoning": "Economic data remains stable entering 2026. The December ICE announcement has created some business uncertainty, but no measurable economic impacts yet. We're establishing baseline metrics for Q1 2026 to track any changes. Labor markets remain tight. Consumer spending through the holidays was strong. We'll monitor for any shifts in employment patterns or business investment decisions.",
+        "recommendations": [
+          "Establish weekly tracking of labor market indicators",
+          "Survey business confidence in affected sectors"
+        ],
+        "summary": "Economy stable - establishing baselines to track potential enforcement impacts."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 1,
+        "confidence": 72,
+        "key_factors": [
+          "Rule of law benefits business environment",
+          "Enforcement reduces unfair labor competition",
+          "Fiscal savings from reduced illegal immigrant services"
+        ],
+        "reasoning": "Immigration enforcement is good economic policy. Removing illegal workers reduces unfair competition for legal workers and American citizens. Minnesota taxpayers bear significant costs for services used by illegal immigrants - healthcare, education, law enforcement. The December announcement signals this administration is serious about enforcement. Markets are responding positively to rule-of-law policies. Short-term workforce adjustments will yield long-term benefits.",
+        "recommendations": [
+          "Quantify fiscal costs of illegal immigration in Minnesota",
+          "Model wage benefits for legal workers from enforcement"
+        ],
+        "summary": "Enforcement benefits economy through rule of law and reduced fiscal burden."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 2.42,
+    "polarization_index": 1.83,
+    "matrix": {
+      "politician": {"left": 4, "center": 3, "right": 1, "avg": 2.67},
+      "news_analyst": {"left": 4, "center": 3, "right": 1, "avg": 2.67},
+      "legal_expert": {"left": 4, "center": 2, "right": 1, "avg": 2.33},
+      "finance_analyst": {"left": 3, "center": 2, "right": 1, "avg": 2.0},
+      "averages": {
+        "left": 3.75,
+        "center": 2.5,
+        "right": 1.0,
+        "overall": 2.42
+      }
+    },
+    "key_events": [
+      "January 5, 2026 (Sunday) - Trump administration in office since January 2025",
+      "December 2, 2025: ICE announced operation targeting Somali migrants in Twin Cities",
+      "First full work week of 2026 beginning",
+      "Somali community on heightened alert after targeted announcement",
+      "No enforcement actions reported yet",
+      "Community and legal organizations preparing response infrastructure"
+    ]
+  }
+}
