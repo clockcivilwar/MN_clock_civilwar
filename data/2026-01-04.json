@@ -1,0 +1,379 @@
+{
+  "date": "2026-01-04",
+  "clock": {
+    "rating": 2,
+    "status": "PEACEFUL",
+    "trend": "Stable",
+    "description": "Normal political discourse"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 194,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 16,
+          "articles": [
+            {
+              "headline": "Minnesota churches respond to ICE presence with prayer, solidarity",
+              "url": "http://www.minnpost.com/greater-minnesota/2026/01/minnesota-churches-respond-to-ice-presence-with-prayer-solidarity/"
+            },
+            {
+              "headline": "The man killed by a US Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "http://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/"
+            },
+            {
+              "headline": "Medical residents: ICE presence causing public health crisis, \u2018constant anxiety\u2019 that could become c",
+              "url": "http://www.minnpost.com/race-health-equity/2026/01/medical-residents-ice-presence-causing-public-health-crisis-constant-anxiety-that-could-become-chronic/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "With the immigration crackdown, America risks violating its treaty obligations",
+              "url": "https://minnesotareformer.com/2026/01/27/with-the-immigration-crackdown-america-risks-violating-its-treaty-obligations/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 28,
+          "articles": [
+            {
+              "headline": "Judge weighs Minnesota effort to end Operation Metro Surge, presses DOJ lawyers representing ICE",
+              "url": "https://sahanjournal.com/immigration/judge-considers-minnesota-request-stop-operation-metro-surge/"
+            },
+            {
+              "headline": "State, feds clash in court over preserving evidence in Alex Pretti killing",
+              "url": "https://sahanjournal.com/public-safety/alex-pretti-shooting-immigration-lawsuit-destroying-evidence/"
+            },
+            {
+              "headline": "Minneapolis mourns ICU nurse killed by a Border Patrol agent as a warmhearted neighbor and caregiver",
+              "url": "https://sahanjournal.com/news-partners/immigration-enforcement-minnesota-protester-1st-ld-writethru/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 26,
+          "articles": [
+            {
+              "headline": "Judge orders ICE chief to appear in court or risk contempt over denial of due process",
+              "url": "https://www.twincities.com/2026/01/27/judge-orders-ice-chief-to-appear-in-court-to-explain-why-detainees-have-been-denied-due-process/"
+            },
+            {
+              "headline": "Bovino to leave Minneapolis as Trump reshuffles the leadership of his immigration crackdown",
+              "url": "https://www.twincities.com/2026/01/25/bovino-to-leave-minneapolis-as-trump-reshuffles-the-leadership-of-his-immigration-crackdown/"
+            },
+            {
+              "headline": "In Minneapolis, memorial continues to grow for Alex Pretti, nurse killed by federal officers",
+              "url": "https://www.twincities.com/2026/01/27/in-minneapolis-memorial-continues-to-grow-for-alex-pretti-nurse-killed-by-federal-officers/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "Gov. Walz meets with Tom Homan 'border czar.' Judge orders acting ICE director to appear in federal ",
+              "url": "https://www.mprnews.org/live-updates"
+            },
+            {
+              "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 9,
+          "articles": [
+            {
+              "headline": "\u2018Where is the local PD?\u2019: Anti-ICE rioters violently attack Minneapolis hotel",
+              "url": "https://alphanews.org/where-is-the-local-pd-anti-ice-rioters-violently-attack-minneapolis-hotel/"
+            },
+            {
+              "headline": "DOJ subpoenas Tim Walz and other Minnesota Democrats in ICE obstruction investigation",
+              "url": "https://alphanews.org/doj-subpoenas-tim-walz-and-other-minnesota-democrats-in-ice-obstruction-investigation/"
+            },
+            {
+              "headline": "\u2018Incredibly disturbing\u2019: Soros-funded county attorney staffer praises anti-ICE agitators invading ch",
+              "url": "https://alphanews.org/incredibly-disturbing-soros-funded-county-attorney-staffer-praises-anti-ice-agitators-invading-church/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Public SafetyLawfare and habeas corpusJanuary 27, 2026 by Bill GlahnPerhaps the most successful fron",
+              "url": "https://www.americanexperiment.org/lawfare-and-habeas-corpus/"
+            },
+            {
+              "headline": "EconomyThe war on high housing prices is targeting the wrong villainJanuary 27, 2026 by Martha Njolo",
+              "url": "https://www.americanexperiment.org/the-war-on-high-housing-prices-is-targeting-the-wrong-villain/"
+            },
+            {
+              "headline": "Public SafetyLawfare rages, 24/7January 25, 2026 by Bill GlahnFederal court in Minnesota is working ",
+              "url": "https://www.americanexperiment.org/lawfare-rages-24-7/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 10,
+          "articles": [
+            {
+              "headline": "Axis of Anarchy: Minnesota Anti-ICE \u2018Shutdown\u2019 Backed by DSA, Communists, Unions, China-Tied Network",
+              "url": "https://thestarnewsnetwork.com/2026/01/23/axis-of-anarchy-minnesota-anti-ice-shutdown-backed-by-dsa-communists-unions-china-tied-network/"
+            },
+            {
+              "headline": "Bill Would Require Tennessee Cities, Police to Report Immigration-Related Arrests, Benefits Use to N",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/bill-would-require-tennessee-cities-police-to-report-immigration-related-arrests-benefits-use-to-new-state-department/"
+            },
+            {
+              "headline": "Commentary: The Campaign Against ICE Is All About Open Borders",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/commentary-the-campaign-against-ice-is-all-about-open-borders/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 13,
+          "articles": [
+            {
+              "headline": "Live UpdatesMinnesota ICE crackdown",
+              "url": "https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-trump-01-27-26"
+            },
+            {
+              "headline": "US-led TikTok issues",
+              "url": "https://www.cnn.com/2026/01/27/media/tiktok-trump-ice-epstein-censorship-tech-issues"
+            },
+            {
+              "headline": "Maja Hitij/Getty Images",
+              "url": "https://www.cnn.com/2026/01/27/europe/italy-ice-agents-security-olympics-intl"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 18,
+          "articles": [
+            {
+              "headline": "Live updates: Trump says he wants \u2018honest\u2019 investigation into \u2018very sad\u2019 killing of Minneapolis prot",
+              "url": "https://apnews.com/live/minneapolis-shooting-immigration-updates-1-27-2026"
+            },
+            {
+              "headline": "Trump\u2019s about-face in Minnesota after Pretti\u2019s death is latest in pattern of sudden shifts",
+              "url": "https://apnews.com/article/trump-pretti-minnesota-immigration-enforcement-eb9e63a625b624d2ba4ed467cb0f956c"
+            },
+            {
+              "headline": "Minneapolis shooting scrambles Second Amendment politics for Trump",
+              "url": "https://apnews.com/article/trump-pretti-minnesota-second-amendment-ice-ffef56cab9930e52273f8227251452f4"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 4,
+          "articles": [
+            {
+              "headline": "Tamara Keith and Amy Walter on Trump losing support over his immigration crackdown",
+              "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-trump-losing-support-over-his-immigration-crackdown"
+            },
+            {
+              "headline": "Federal judge hears Minnesota's arguments for ending ICE surge",
+              "url": "https://www.pbs.org/newshour/show/federal-judge-hears-minnesotas-arguments-for-ending-ice-surge"
+            },
+            {
+              "headline": "What to know about Gregory Bovino and his role in Trump's immigration crackdownByAssociated Press",
+              "url": "https://www.pbs.org/newshour/nation/what-to-know-about-gregory-bovino-and-his-role-in-trumps-immigration-crackdown"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 29,
+          "articles": [
+            {
+              "headline": "'HATE BAITER' FLEES",
+              "url": "https://www.foxnews.com/us/minn-antifa-member-claims-hes-on-run-after-calling-armed-men-confront-immigration-officials"
+            },
+            {
+              "headline": "'EXTRAORDINARY STEP'",
+              "url": "https://www.foxnews.com/politics/judge-threatens-contempt-ice-leader-orders-him-appear-court"
+            },
+            {
+              "headline": "VOICES RISE UP",
+              "url": "https://www.foxnews.com/entertainment/american-idol-judge-carrie-underwood-breaks-down-tears-over-teens-emotional-tribute-audition"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 30,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Alex Pretti was \u2018known\u2019 to feds, and had rib broken in anti-ICE protest a week before he was killed ",
+              "url": "https://nypost.com/2026/01/27/us-news/alex-pretti-known-to-feds-had-rib-broken-in-anti-ice-protest-a-week-before-he-was-killed-by-border-patrol/"
+            },
+            {
+              "headline": "Alex Pretti\u2019s sister slams \u2018disgusting lies\u2019 about brother after he was killed during Minn. anti-ICE",
+              "url": "https://nypost.com/2026/01/27/us-news/alex-prettis-sister-slams-disgusting-lies-about-brother/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 1.58,
+    "confidence_weighted_avg": 2.2,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 4,
+          "role": "Progressive State Legislator",
+          "summary": "Weekend focused on preparation - faith communities coordinating response protocols."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Moderate State Senator",
+          "summary": "Weekend pause - first week ended peacefully, still seeking operation clarity."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Conservative State Representative",
+          "summary": "Peaceful weekend - first week concluded successfully, enforcement on track."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 4,
+          "role": "Progressive Journalist",
+          "summary": "Weekend revealing depth of community preparation - multigenerational planning underway."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Senior News Editor",
+          "summary": "Weekend coverage - documenting community activities while seeking federal clarity."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Conservative Commentator",
+          "summary": "Peaceful weekend - media anxiety narrative doesn't match reality."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 4,
+          "role": "Civil Rights Attorney",
+          "summary": "Legal infrastructure at peak readiness - weekend training completing preparations."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional framework stable - weekend academic preparation continuing."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Former Federal Prosecutor",
+          "summary": "Peaceful weekend - federal authority clear, first week concluded successfully."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive Economist",
+          "summary": "Weekend pause - week one showed early workforce anxiety signals worth monitoring."
+        },
+        "center": {
+          "rating": 2,
+          "role": "Regional Economist",
+          "summary": "Normal weekend economic activity - week one data stable."
+        },
+        "right": {
+          "rating": 1,
+          "role": "Free-Market Economist",
+          "summary": "Healthy economy through week one - enforcement benefits continuing."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 4,
+        "center": 2,
+        "right": 1,
+        "avg": 2.3
+      },
+      "news_analyst": {
+        "left": 4,
+        "center": 2,
+        "right": 1,
+        "avg": 2.3
+      },
+      "legal_expert": {
+        "left": 4,
+        "center": 2,
+        "right": 1,
+        "avg": 2.3
+      },
+      "finance_analyst": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "avg": 2.0
+      },
+      "averages": {
+        "left": 3.75,
+        "center": 2.0,
+        "right": 1.0,
+        "overall": 2.17
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}

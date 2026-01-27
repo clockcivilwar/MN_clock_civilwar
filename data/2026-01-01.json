@@ -248,68 +248,68 @@
         "left": {
           "rating": 3,
           "role": "Progressive State Legislator",
-          "summary": "New Year's Day - anticipatory anxiety but 19 days to prepare before inauguration."
+          "summary": "New Year under shadow of December ICE announcement - community preparing for targeted operation."
         },
         "center": {
           "rating": 2,
           "role": "Moderate State Senator",
-          "summary": "Transition period - current calm provides window for proactive dialogue."
+          "summary": "Holiday pause - awaiting clarity on December ICE announcement implementation."
         },
         "right": {
           "rating": 1,
           "role": "Conservative State Representative",
-          "summary": "Complete peace currently - new administration will bring orderly enforcement."
+          "summary": "Peaceful New Year - federal enforcement continues effectively into 2026."
         }
       },
       "news_analyst": {
         "left": {
           "rating": 3,
           "role": "Progressive Journalist",
-          "summary": "Early anxiety narratives - families discussing contingencies, churches exploring options."
+          "summary": "Somali community enters 2026 under shadow of targeted enforcement announcement."
         },
         "center": {
           "rating": 2,
           "role": "Senior News Editor",
-          "summary": "Speculative period - need baseline reporting not anticipatory crisis narratives."
+          "summary": "Holiday pause - preparing substantive follow-up on December ICE announcement."
         },
         "right": {
           "rating": 1,
           "role": "Conservative Commentator",
-          "summary": "Perfect calm - media pre-positioning crisis narrative without factual basis."
+          "summary": "Peaceful New Year - media continues bias framing of lawful enforcement."
         }
       },
       "legal_expert": {
         "left": {
           "rating": 3,
           "role": "Civil Rights Attorney",
-          "summary": "Preparation window - building legal infrastructure before enforcement begins."
+          "summary": "Legal infrastructure ready - December announcement provides potential equal protection angles."
         },
         "center": {
           "rating": 2,
           "role": "Constitutional Law Professor",
-          "summary": "Legal framework stable - constitutional analysis awaits specific policy choices."
+          "summary": "Constitutional framework stable - enforcement discretion doctrine well-established."
         },
         "right": {
           "rating": 1,
           "role": "Former Federal Prosecutor",
-          "summary": "Complete peace - federal authority clear, compliance will prevent conflict."
+          "summary": "Complete peace - federal enforcement authority clear and exercised professionally."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 2,
           "role": "Progressive Economist",
-          "summary": "Economy normal - early uncertainty signals in immigrant-heavy sectors."
+          "summary": "2025 showed enforcement workforce impacts - December announcement raises 2026 concerns."
         },
         "center": {
           "rating": 2,
           "role": "Regional Economist",
-          "summary": "All indicators normal - establish baselines for future comparison."
+          "summary": "2025 economy performed adequately - monitoring 2026 for announcement impacts."
         },
         "right": {
           "rating": 1,
           "role": "Free-Market Economist",
-          "summary": "Strong economic start to 2026 - enforcement will bring further benefits."
+          "summary": "Strong 2025 enforcement benefited economy - 2026 continues positive trajectory."
         }
       }
     },

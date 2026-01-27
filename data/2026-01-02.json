@@ -266,68 +266,68 @@
         "left": {
           "rating": 3,
           "role": "Progressive State Legislator",
-          "summary": "Eighteen days to inauguration - preparation activities accelerating across communities."
+          "summary": "Post-holiday return - community organizations seeing increased demand for support services."
         },
         "center": {
           "rating": 2,
           "role": "Moderate State Senator",
-          "summary": "Standard transition dynamics - opportunity for proactive engagement continues."
+          "summary": "Offices reopening - seeking clarity from federal authorities on announced operation."
         },
         "right": {
           "rating": 1,
           "role": "Conservative State Representative",
-          "summary": "Complete peace - clear mandate for enforcement in 18 days."
+          "summary": "Peaceful start to 2026 - federal enforcement commitment continues."
         }
       },
       "news_analyst": {
         "left": {
           "rating": 3,
           "role": "Progressive Journalist",
-          "summary": "Quiet anxiety persists - families returning to routine with heightened awareness."
+          "summary": "Families return to routines - navigating normal life under targeted enforcement threat."
         },
         "center": {
           "rating": 2,
           "role": "Senior News Editor",
-          "summary": "Post-holiday news cycle - focus on factual preparation coverage, not speculation."
+          "summary": "News cycle resuming - priority is factual reporting on announced operation."
         },
         "right": {
           "rating": 1,
           "role": "Conservative Commentator",
-          "summary": "Perfect calm continues - media pre-manufacturing crisis narrative."
+          "summary": "Peaceful 2026 start - media bias continues despite successful 2025 enforcement."
         }
       },
       "legal_expert": {
         "left": {
           "rating": 3,
           "role": "Civil Rights Attorney",
-          "summary": "Legal infrastructure building continues - 18 days to complete preparations."
+          "summary": "Legal infrastructure ready - researching equal protection angles from targeting language."
         },
         "center": {
           "rating": 2,
           "role": "Constitutional Law Professor",
-          "summary": "Constitutional framework stable - monitoring confirmation hearings for policy signals."
+          "summary": "Constitutional framework stable - preparing academic materials on enforcement discretion."
         },
         "right": {
           "rating": 1,
           "role": "Former Federal Prosecutor",
-          "summary": "Complete peace - federal authority clear, 18 days to implementation."
+          "summary": "Complete peace - 2025 enforcement success continuing into 2026."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 2,
           "role": "Progressive Economist",
-          "summary": "Economy normal - early workforce anxiety signals in service sectors."
+          "summary": "Business day one - employers assessing workforce amid enforcement uncertainty."
         },
         "center": {
           "rating": 2,
           "role": "Regional Economist",
-          "summary": "All indicators normal - establishing Q4 baselines for future comparison."
+          "summary": "Economy stable - establishing 2026 monitoring as new year begins."
         },
         "right": {
           "rating": 1,
           "role": "Free-Market Economist",
-          "summary": "Economic optimism for 2026 - enforcement will benefit legal workforce."
+          "summary": "2025 enforcement benefited economy - 2026 outlook positive with continued operations."
         }
       }
     },

@@ -266,68 +266,68 @@
         "left": {
           "rating": 3,
           "role": "Progressive State Legislator",
-          "summary": "Seventeen days to inauguration - community preparation networks fully reactivating."
+          "summary": "Community organizations at full capacity - families making concrete preparations."
         },
         "center": {
           "rating": 2,
           "role": "Moderate State Senator",
-          "summary": "Standard transition dynamics - confirmation hearings clarifying policy direction."
+          "summary": "Still awaiting federal clarity - business community seeking planning information."
         },
         "right": {
           "rating": 1,
           "role": "Conservative State Representative",
-          "summary": "Complete peace - professional enforcement team preparing for orderly transition."
+          "summary": "Peaceful Friday - federal enforcement maintaining strong foundation from 2025."
         }
       },
       "news_analyst": {
         "left": {
           "rating": 3,
           "role": "Progressive Journalist",
-          "summary": "Post-holiday return revealing institutional preparation across sectors."
+          "summary": "Work week revealing community adaptation patterns - mutual aid networks organizing."
         },
         "center": {
           "rating": 2,
           "role": "Senior News Editor",
-          "summary": "Focus on factual preparation coverage - confirmation hearings providing policy signals."
+          "summary": "Maintaining reporting discipline - avoiding speculation amid information vacuum."
         },
         "right": {
           "rating": 1,
           "role": "Conservative Commentator",
-          "summary": "Perfect calm - media manufacturing crisis narrative before anything happens."
+          "summary": "Peaceful end to week one - media anxiety narratives not matched by reality."
         }
       },
       "legal_expert": {
         "left": {
           "rating": 3,
           "role": "Civil Rights Attorney",
-          "summary": "Legal infrastructure building continues - 17 days to completion deadline."
+          "summary": "Legal infrastructure advancing - training and protocols nearly complete."
         },
         "center": {
           "rating": 2,
           "role": "Constitutional Law Professor",
-          "summary": "Constitutional framework stable - hearings informing policy implementation expectations."
+          "summary": "Constitutional framework stable - preparing academic materials for spring."
         },
         "right": {
           "rating": 1,
           "role": "Former Federal Prosecutor",
-          "summary": "Complete peace - nominees demonstrating serious professional approach to enforcement."
+          "summary": "Complete peace - federal authority clear, operation planning proceeding lawfully."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 2,
           "role": "Progressive Economist",
-          "summary": "First work week showing early workforce anxiety signals in key sectors."
+          "summary": "Initial work week data emerging - monitoring for workforce disruption signals."
         },
         "center": {
           "rating": 2,
           "role": "Regional Economist",
-          "summary": "Economic indicators normal - completing Q4 baselines for future comparison."
+          "summary": "Economy stable end of week one - monitoring frameworks in place."
         },
         "right": {
           "rating": 1,
           "role": "Free-Market Economist",
-          "summary": "Economic optimism continues - enforcement will strengthen labor market integrity."
+          "summary": "Strong economic start to 2026 - enforcement continuing beneficial trend."
         }
       }
     },
