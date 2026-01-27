@@ -74,6 +74,10 @@
                             <!-- Background circle -->
                             <circle cx="100" cy="100" r="95" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="2"/>
 
+                            <!-- Midnight danger zone (10-12 o'clock area) -->
+                            <path d="M100,100 L34.5,25 A90,90 0 0,1 165.5,25 L100,100 Z"
+                                  fill="#922b21" opacity="0.25" class="midnight-zone"/>
+
                             <!-- Severity ring (outer colored band) -->
                             <circle cx="100" cy="100" r="85" fill="none" stroke="url(#severity-gradient)" stroke-width="16" opacity="0.4"/>
 
@@ -109,19 +113,19 @@
                             </g>
 
                             <!-- Hour numbers -->
-                            <g class="hour-numbers" fill="#888" font-family="'Courier New', monospace" font-size="12" text-anchor="middle">
-                                <text x="100" y="48" fill="#c0392b" font-weight="bold">12</text>
-                                <text x="135" y="56">1</text>
-                                <text x="156" y="77">2</text>
-                                <text x="163" y="104">3</text>
-                                <text x="156" y="131">4</text>
-                                <text x="135" y="152">5</text>
-                                <text x="100" y="161">6</text>
-                                <text x="65" y="152">7</text>
-                                <text x="44" y="131">8</text>
-                                <text x="37" y="104">9</text>
-                                <text x="44" y="77">10</text>
-                                <text x="65" y="56">11</text>
+                            <g class="hour-numbers" fill="#aaa" font-family="'Courier New', monospace" font-size="15" font-weight="bold" text-anchor="middle">
+                                <text x="100" y="48" fill="#ff4444" font-size="16">12</text>
+                                <text x="137" y="57">1</text>
+                                <text x="158" y="78">2</text>
+                                <text x="165" y="105">3</text>
+                                <text x="158" y="132">4</text>
+                                <text x="137" y="153">5</text>
+                                <text x="100" y="162" fill="#e0e0e0">6</text>
+                                <text x="63" y="153">7</text>
+                                <text x="42" y="132">8</text>
+                                <text x="35" y="105">9</text>
+                                <text x="42" y="78">10</text>
+                                <text x="63" y="57">11</text>
                             </g>
 
                             <!-- Current rating indicator arc -->
@@ -140,8 +144,8 @@
                             </g>
 
                             <!-- MIDNIGHT label -->
-                            <text x="100" y="11" fill="#922b21" font-family="'Courier New', monospace" font-size="8"
-                                  text-anchor="middle" font-weight="bold" letter-spacing="0.1em">MIDNIGHT</text>
+                            <text x="100" y="12" fill="#ff4444" font-family="'Courier New', monospace" font-size="9"
+                                  text-anchor="middle" font-weight="bold" letter-spacing="0.15em">MIDNIGHT</text>
                         </svg>
                     </div>
                     <div class="analog-clock-label">Civil War Clock</div>
