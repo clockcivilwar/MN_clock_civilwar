@@ -327,12 +327,46 @@ function updateClock(rating, status, trend) {
     const clockStatus = document.getElementById('clock-status');
     const clockTrend = document.getElementById('clock-trend');
 
-    if (clockStatus) clockStatus.textContent = status;
-    if (clockTrend) clockTrend.textContent = trend;
-    if (clockValue) clockValue.textContent = rating.toFixed(2);
+    if (clockStatus) {
+        clockStatus.textContent = status;
+        // Update status color class
+        const levels = ['peaceful', 'elevated', 'high', 'severe', 'critical', 'midnight'];
+        levels.forEach(level => clockStatus.classList.remove(`level-${level}`));
+        clockStatus.classList.add(`level-${getSeverityLevel(rating)}`);
+    }
+
+    if (clockTrend) {
+        clockTrend.textContent = trend;
+        // Update trend class
+        clockTrend.classList.remove('falling', 'stable');
+        if (trend.toLowerCase().includes('fall') || trend.toLowerCase().includes('down') || trend.toLowerCase().includes('decreas')) {
+            clockTrend.classList.add('falling');
+        } else if (trend.toLowerCase().includes('stable') || trend.toLowerCase().includes('steady')) {
+            clockTrend.classList.add('stable');
+        }
+    }
+
+    if (clockValue) {
+        clockValue.textContent = rating.toFixed(2);
+        // Update value color
+        clockValue.style.color = getTimerColor(rating);
+    }
 
     // Update digital timer display
     updateDigitalTimer(rating);
+
+    // Update analog clock
+    updateAnalogClock(rating);
+}
+
+// Get severity level name from rating
+function getSeverityLevel(rating) {
+    if (rating >= 11) return 'midnight';
+    if (rating >= 9) return 'critical';
+    if (rating >= 7) return 'severe';
+    if (rating >= 5) return 'high';
+    if (rating >= 3) return 'elevated';
+    return 'peaceful';
 }
 
 // Convert decimal rating to hours, minutes, seconds
@@ -375,6 +409,60 @@ function getTimerColor(rating) {
     if (rating >= 6) return '#e67e22';  // Orange - severe/high
     if (rating >= 4) return '#f1c40f';  // Yellow - elevated
     return '#27ae60';                    // Green - peaceful
+}
+
+// Update analog clock display
+function updateAnalogClock(rating) {
+    const analogClock = document.getElementById('analog-clock');
+    const handGroup = document.getElementById('clock-hand-group');
+
+    if (!analogClock || !handGroup) return;
+
+    // Calculate rotation angle
+    // 12 o'clock = 0 degrees (top), increases clockwise
+    // Rating 0 = 12 o'clock position, Rating 12 = back to 12 o'clock
+    // For a clock: each hour = 30 degrees
+    const angle = (rating / 12) * 360;
+    handGroup.style.transform = `rotate(${angle}deg)`;
+
+    // Update severity level class
+    const levels = ['peaceful', 'elevated', 'high', 'severe', 'critical', 'midnight'];
+    levels.forEach(level => analogClock.classList.remove(`level-${level}`));
+
+    let currentLevel;
+    if (rating >= 11) currentLevel = 'midnight';
+    else if (rating >= 9) currentLevel = 'critical';
+    else if (rating >= 7) currentLevel = 'severe';
+    else if (rating >= 5) currentLevel = 'high';
+    else if (rating >= 3) currentLevel = 'elevated';
+    else currentLevel = 'peaceful';
+
+    analogClock.classList.add(`level-${currentLevel}`);
+
+    // Update active zone highlighting
+    updateActiveZone(rating);
+}
+
+// Highlight the active severity zone on the analog clock
+function updateActiveZone(rating) {
+    const zones = document.querySelectorAll('.zone');
+    zones.forEach(zone => zone.classList.remove('active'));
+
+    // Determine which zone is active based on rating
+    // Zones are positioned: 12-2 (peaceful), 2-4 (elevated), 4-6 (high),
+    //                       6-8 (severe), 8-10 (critical), 10-12 (midnight)
+    let activeZoneClass;
+    if (rating >= 10 || rating < 2) {
+        // 10-12 or 0-2 range
+        if (rating >= 10) activeZoneClass = 'zone-midnight';
+        else activeZoneClass = 'zone-peaceful';
+    } else if (rating >= 8) activeZoneClass = 'zone-critical';
+    else if (rating >= 6) activeZoneClass = 'zone-severe';
+    else if (rating >= 4) activeZoneClass = 'zone-high';
+    else if (rating >= 2) activeZoneClass = 'zone-elevated';
+
+    const activeZone = document.querySelector(`.${activeZoneClass}`);
+    if (activeZone) activeZone.classList.add('active');
 }
 
 // Update scale active state
