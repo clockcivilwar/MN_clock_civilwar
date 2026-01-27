@@ -415,6 +415,10 @@ function getTimerColor(rating) {
 function updateAnalogClock(rating) {
     const analogClock = document.getElementById('analog-clock');
     const handGroup = document.getElementById('clock-hand-group');
+    const ratingArc = document.getElementById('rating-arc');
+    const clockHand = document.getElementById('clock-hand');
+    const clockCenter = analogClock ? analogClock.querySelector('.clock-center') : null;
+    const clockCenterDot = analogClock ? analogClock.querySelector('.clock-center-dot') : null;
 
     if (!analogClock || !handGroup) return;
 
@@ -425,44 +429,37 @@ function updateAnalogClock(rating) {
     const angle = (rating / 12) * 360;
     handGroup.style.transform = `rotate(${angle}deg)`;
 
-    // Update severity level class
+    // Get color for current rating
+    const color = getSeverityColor(rating);
+
+    // Update hand and center colors
+    if (clockHand) clockHand.setAttribute('stroke', color);
+    if (clockCenter) clockCenter.setAttribute('stroke', color);
+    if (clockCenterDot) clockCenterDot.setAttribute('fill', color);
+
+    // Update rating arc (shows progress around clock)
+    if (ratingArc) {
+        // Circumference of circle with r=85 is 2*PI*85 = 534.07
+        const circumference = 2 * Math.PI * 85;
+        const arcLength = (rating / 12) * circumference;
+        ratingArc.setAttribute('stroke', color);
+        ratingArc.setAttribute('stroke-dasharray', `${arcLength} ${circumference}`);
+    }
+
+    // Update severity level class for animations
     const levels = ['peaceful', 'elevated', 'high', 'severe', 'critical', 'midnight'];
     levels.forEach(level => analogClock.classList.remove(`level-${level}`));
-
-    let currentLevel;
-    if (rating >= 11) currentLevel = 'midnight';
-    else if (rating >= 9) currentLevel = 'critical';
-    else if (rating >= 7) currentLevel = 'severe';
-    else if (rating >= 5) currentLevel = 'high';
-    else if (rating >= 3) currentLevel = 'elevated';
-    else currentLevel = 'peaceful';
-
-    analogClock.classList.add(`level-${currentLevel}`);
-
-    // Update active zone highlighting
-    updateActiveZone(rating);
+    analogClock.classList.add(`level-${getSeverityLevel(rating)}`);
 }
 
-// Highlight the active severity zone on the analog clock
-function updateActiveZone(rating) {
-    const zones = document.querySelectorAll('.zone');
-    zones.forEach(zone => zone.classList.remove('active'));
-
-    // Determine which zone is active based on rating
-    // Zones are positioned: 12-2 (peaceful), 2-4 (elevated), 4-6 (high),
-    //                       6-8 (severe), 8-10 (critical), 10-12 (midnight)
-    let activeZoneClass;
-    if (rating >= 10 || rating < 2) {
-        // 10-12 or 0-2 range
-        if (rating >= 10) activeZoneClass = 'zone-midnight';
-        else activeZoneClass = 'zone-peaceful';
-    } else if (rating >= 8) activeZoneClass = 'zone-critical';
-    else if (rating >= 6) activeZoneClass = 'zone-severe';
-    else if (rating >= 4) activeZoneClass = 'zone-high';
-    else if (rating >= 2) activeZoneClass = 'zone-elevated';
-
-    const activeZone = document.querySelector(`.${activeZoneClass}`);
-    if (activeZone) activeZone.classList.add('active');
+// Get color based on severity rating
+function getSeverityColor(rating) {
+    if (rating >= 11) return '#922b21'; // Midnight - darkest red
+    if (rating >= 9) return '#c0392b';  // Critical - dark red
+    if (rating >= 7) return '#e74c3c';  // Severe - red
+    if (rating >= 5) return '#e67e22';  // High - orange
+    if (rating >= 3) return '#f1c40f';  // Elevated - yellow
+    return '#27ae60';                    // Peaceful - green
 }
 
 // Update scale active state

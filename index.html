@@ -58,60 +58,91 @@
                 <div class="analog-clock-container">
                     <div class="analog-clock" id="analog-clock">
                         <svg viewBox="0 0 200 200" class="clock-face-svg">
-                            <!-- Outer ring -->
-                            <circle cx="100" cy="100" r="95" class="clock-outer-ring"/>
+                            <defs>
+                                <!-- Gradient for severity ring -->
+                                <linearGradient id="severity-gradient" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="100" y2="200">
+                                    <stop offset="0%" stop-color="#922b21"/>
+                                    <stop offset="16.6%" stop-color="#c0392b"/>
+                                    <stop offset="33.3%" stop-color="#e74c3c"/>
+                                    <stop offset="50%" stop-color="#e67e22"/>
+                                    <stop offset="66.6%" stop-color="#f1c40f"/>
+                                    <stop offset="83.3%" stop-color="#27ae60"/>
+                                    <stop offset="100%" stop-color="#27ae60"/>
+                                </linearGradient>
+                            </defs>
 
-                            <!-- Severity zones (colored arcs) -->
-                            <path class="zone zone-peaceful" d="M100,100 L100,10 A90,90 0 0,1 177.94,55 Z"/>
-                            <path class="zone zone-elevated" d="M100,100 L177.94,55 A90,90 0 0,1 177.94,145 Z"/>
-                            <path class="zone zone-high" d="M100,100 L177.94,145 A90,90 0 0,1 100,190 Z"/>
-                            <path class="zone zone-severe" d="M100,100 L100,190 A90,90 0 0,1 22.06,145 Z"/>
-                            <path class="zone zone-critical" d="M100,100 L22.06,145 A90,90 0 0,1 22.06,55 Z"/>
-                            <path class="zone zone-midnight" d="M100,100 L22.06,55 A90,90 0 0,1 100,10 Z"/>
+                            <!-- Background circle -->
+                            <circle cx="100" cy="100" r="95" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="2"/>
 
-                            <!-- Inner circle (dark center) -->
-                            <circle cx="100" cy="100" r="65" class="clock-inner-circle"/>
+                            <!-- Severity ring (outer colored band) -->
+                            <circle cx="100" cy="100" r="85" fill="none" stroke="url(#severity-gradient)" stroke-width="16" opacity="0.4"/>
+
+                            <!-- Inner dark circle -->
+                            <circle cx="100" cy="100" r="70" fill="#242424" stroke="#3a3a3a" stroke-width="1"/>
 
                             <!-- Hour markers -->
-                            <g class="hour-markers">
-                                <line x1="100" y1="15" x2="100" y2="25" class="marker marker-12"/>
-                                <line x1="145" y1="22.68" x2="140" y2="31.34" class="marker"/>
-                                <line x1="177.32" y1="55" x2="168.66" y2="60" class="marker marker-2"/>
-                                <line x1="185" y1="100" x2="175" y2="100" class="marker"/>
-                                <line x1="177.32" y1="145" x2="168.66" y2="140" class="marker marker-4"/>
-                                <line x1="145" y1="177.32" x2="140" y2="168.66" class="marker"/>
-                                <line x1="100" y1="185" x2="100" y2="175" class="marker marker-6"/>
-                                <line x1="55" y1="177.32" x2="60" y2="168.66" class="marker"/>
-                                <line x1="22.68" y1="145" x2="31.34" y2="140" class="marker marker-8"/>
-                                <line x1="15" y1="100" x2="25" y2="100" class="marker"/>
-                                <line x1="22.68" y1="55" x2="31.34" y2="60" class="marker marker-10"/>
-                                <line x1="55" y1="22.68" x2="60" y2="31.34" class="marker"/>
+                            <g class="hour-markers" stroke="#888" stroke-width="2" stroke-linecap="round">
+                                <!-- 12 -->
+                                <line x1="100" y1="18" x2="100" y2="30" stroke="#e0e0e0" stroke-width="3"/>
+                                <!-- 1 -->
+                                <line x1="140.5" y1="26" x2="136" y2="37"/>
+                                <!-- 2 -->
+                                <line x1="174" y1="59.5" x2="163" y2="64"/>
+                                <!-- 3 -->
+                                <line x1="182" y1="100" x2="170" y2="100"/>
+                                <!-- 4 -->
+                                <line x1="174" y1="140.5" x2="163" y2="136"/>
+                                <!-- 5 -->
+                                <line x1="140.5" y1="174" x2="136" y2="163"/>
+                                <!-- 6 -->
+                                <line x1="100" y1="182" x2="100" y2="170" stroke="#e0e0e0" stroke-width="3"/>
+                                <!-- 7 -->
+                                <line x1="59.5" y1="174" x2="64" y2="163"/>
+                                <!-- 8 -->
+                                <line x1="26" y1="140.5" x2="37" y2="136"/>
+                                <!-- 9 -->
+                                <line x1="18" y1="100" x2="30" y2="100"/>
+                                <!-- 10 -->
+                                <line x1="26" y1="59.5" x2="37" y2="64"/>
+                                <!-- 11 -->
+                                <line x1="59.5" y1="26" x2="64" y2="37"/>
                             </g>
 
                             <!-- Hour numbers -->
-                            <g class="hour-numbers">
-                                <text x="100" y="42" class="hour-num">12</text>
-                                <text x="138" y="52" class="hour-num">1</text>
-                                <text x="162" y="75" class="hour-num">2</text>
-                                <text x="168" y="105" class="hour-num">3</text>
-                                <text x="162" y="135" class="hour-num">4</text>
-                                <text x="138" y="158" class="hour-num">5</text>
-                                <text x="100" y="168" class="hour-num">6</text>
-                                <text x="62" y="158" class="hour-num">7</text>
-                                <text x="38" y="135" class="hour-num">8</text>
-                                <text x="32" y="105" class="hour-num">9</text>
-                                <text x="38" y="75" class="hour-num">10</text>
-                                <text x="62" y="52" class="hour-num">11</text>
+                            <g class="hour-numbers" fill="#888" font-family="'Courier New', monospace" font-size="12" text-anchor="middle">
+                                <text x="100" y="48" fill="#c0392b" font-weight="bold">12</text>
+                                <text x="135" y="56">1</text>
+                                <text x="156" y="77">2</text>
+                                <text x="163" y="104">3</text>
+                                <text x="156" y="131">4</text>
+                                <text x="135" y="152">5</text>
+                                <text x="100" y="161">6</text>
+                                <text x="65" y="152">7</text>
+                                <text x="44" y="131">8</text>
+                                <text x="37" y="104">9</text>
+                                <text x="44" y="77">10</text>
+                                <text x="65" y="56">11</text>
                             </g>
+
+                            <!-- Current rating indicator arc -->
+                            <circle cx="100" cy="100" r="85" fill="none" stroke-width="16"
+                                    class="rating-arc" id="rating-arc"
+                                    stroke="#e67e22"
+                                    stroke-dasharray="0 534"
+                                    stroke-dashoffset="133.5"
+                                    opacity="0.8"/>
 
                             <!-- Clock hand -->
                             <g class="clock-hand-group" id="clock-hand-group">
-                                <line x1="100" y1="100" x2="100" y2="35" class="clock-hand" id="clock-hand"/>
-                                <circle cx="100" cy="100" r="8" class="clock-center"/>
+                                <line x1="100" y1="100" x2="100" y2="38" class="clock-hand" id="clock-hand"
+                                      stroke="#e67e22" stroke-width="4" stroke-linecap="round"/>
+                                <circle cx="100" cy="100" r="10" fill="#242424" stroke="#e67e22" stroke-width="3" class="clock-center"/>
+                                <circle cx="100" cy="100" r="4" fill="#e67e22" class="clock-center-dot"/>
                             </g>
 
-                            <!-- MIDNIGHT label at 12 -->
-                            <text x="100" y="8" class="midnight-label">MIDNIGHT</text>
+                            <!-- MIDNIGHT label -->
+                            <text x="100" y="11" fill="#922b21" font-family="'Courier New', monospace" font-size="8"
+                                  text-anchor="middle" font-weight="bold" letter-spacing="0.1em">MIDNIGHT</text>
                         </svg>
                     </div>
                     <div class="analog-clock-label">Civil War Clock</div>
