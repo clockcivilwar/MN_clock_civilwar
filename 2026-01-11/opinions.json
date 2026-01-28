@@ -1,0 +1,255 @@
+{
+  "date": "2026-01-11",
+  "generated_at": "2026-01-27T17:30:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Sunday protests sustained - 10,000+ despite weekend fatigue",
+          "Memorial service for Renee Good draws overflow crowd",
+          "Federal enforcement operations reportedly continuing"
+        ],
+        "reasoning": "Sunday, and the movement shows no signs of diminishing. Over 10,000 marched again today despite weekend fatigue. The memorial service for Renee Good at a Cedar-Riverside mosque drew an overflow crowd - thousands couldn't get in. And incredibly, reports indicate federal enforcement operations are continuing in other parts of the metro even as Minneapolis mourns. The community sees this as deliberate provocation. We're at a breaking point.",
+        "recommendations": [
+          "Governor must publicly demand federal enforcement halt",
+          "State resources for Renee Good's family",
+          "Prepare for sustained week-long mobilization"
+        ],
+        "summary": "Sustained Sunday protests - memorial overflows - federal enforcement continues as provocation."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Protests sustained through weekend",
+          "Memorial service adds emotional intensity",
+          "Monday brings return to work - critical transition"
+        ],
+        "reasoning": "The protests have sustained through the entire weekend. Tomorrow is Monday - a critical transition point. Will protesters return to work or will this become a sustained general disruption? The memorial service today added emotional intensity. We're entering the most dangerous phase - the community has had a weekend to organize and grieve, and Monday will test whether this becomes a prolonged crisis or begins to stabilize.",
+        "recommendations": [
+          "Emergency outreach to federal officials before Monday",
+          "Coordinate with employers on flexible arrangements",
+          "Prepare for multiple scenarios Monday"
+        ],
+        "summary": "Critical transition point - Monday will determine if crisis stabilizes or escalates."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "Protests continuing but slightly smaller than Saturday",
+          "More property damage overnight",
+          "Monday will test whether normalcy returns"
+        ],
+        "reasoning": "Sunday protests were large but slightly smaller than Saturday - perhaps some fatigue setting in. However, more property damage was reported overnight. Monday is the test - if people return to work and normal activity, this may stabilize. If they don't, we're looking at a prolonged disruption that will require firmer response. The National Guard should be prepared for either scenario.",
+        "recommendations": [
+          "National Guard readiness for Monday",
+          "Clear messaging that normalcy must return",
+          "Arrest those responsible for property damage"
+        ],
+        "summary": "Slightly smaller Sunday protest - Monday is critical test for normalcy."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 9,
+        "confidence": 85,
+        "key_factors": [
+          "Memorial service humanized Renee Good - mother of three",
+          "Movement infrastructure solidifying",
+          "National attention intensifying"
+        ],
+        "reasoning": "Today's memorial service told Renee Good's full story - a mother of three, a healthcare worker, a community pillar. Her children spoke. The humanity of what was lost cut through any political framing. The movement infrastructure is solidifying - organizers are planning for the long term, not just weekend protests. National media coverage is intensifying. This is becoming a defining moment for immigration enforcement nationwide.",
+        "recommendations": [
+          "Full profile of Renee Good's life and family",
+          "Document movement infrastructure development",
+          "Cover national political response"
+        ],
+        "summary": "Memorial humanizes Renee Good - mother of three - movement infrastructure solidifying."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Memorial coverage requires sensitivity and accuracy",
+          "Weekend protest totals need verification",
+          "Monday preview stories critical"
+        ],
+        "reasoning": "Memorial coverage requires both sensitivity and journalistic rigor - telling her story accurately while respecting the family. Weekend protest attendance totals vary widely and need verification for accurate historical record. The critical story now is Monday preview - what happens when the weekend ends? We need reporting on employer responses, school attendance plans, organized action schedules.",
+        "recommendations": [
+          "Respectful, accurate memorial coverage",
+          "Verify weekend attendance figures",
+          "Comprehensive Monday preview reporting"
+        ],
+        "summary": "Memorial requires sensitivity - Monday preview critical - verify attendance figures."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 6,
+        "confidence": 72,
+        "key_factors": [
+          "Media coverage entirely one-sided on memorial",
+          "No investigation of victim's immigration status",
+          "Property damage being systematically underreported"
+        ],
+        "reasoning": "The memorial coverage was hagiography, not journalism. No outlet has investigated the victim's immigration status or the circumstances that led to the confrontation. Property damage continues to be minimized - businesses are being vandalized, but that's buried beneath protest glorification. The question no one asks: was the officer in danger? The investigation isn't complete, but the media has already rendered its verdict.",
+        "recommendations": [
+          "Investigate circumstances of shooting fully",
+          "Document all property damage",
+          "Report on affected business owners"
+        ],
+        "summary": "One-sided memorial coverage - shooting circumstances still uninvestigated."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Emergency injunction hearing scheduled for Monday",
+          "Additional plaintiffs joining class action",
+          "DOJ civil rights division contact initiated"
+        ],
+        "reasoning": "Major legal developments. Our emergency injunction hearing is scheduled for Monday morning - we'll argue the enforcement operation should pause pending investigation. Additional plaintiffs are joining the class action - the pattern of ethnic targeting is becoming clearer with each day's documentation. We've also initiated contact with the DOJ Civil Rights Division, though we don't expect the current administration to act. The legal front is now fully active.",
+        "recommendations": [
+          "Prepare for Monday injunction hearing",
+          "Continue plaintiff recruitment for class action",
+          "Document all enforcement actions for evidence"
+        ],
+        "summary": "Injunction hearing Monday - class action growing - DOJ contact initiated."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 6,
+        "confidence": 72,
+        "key_factors": [
+          "Monday injunction hearing will set legal tone",
+          "Courts traditionally defer to executive on immigration",
+          "First Amendment issues remain manageable"
+        ],
+        "reasoning": "Monday's injunction hearing is constitutionally significant. Courts traditionally give substantial deference to the executive on immigration enforcement, making an injunction difficult to obtain. However, the ethnic targeting allegations, if proven, could provide grounds. The First Amendment situation remains manageable - protests have been allowed to proceed. The legal system is absorbing some of the tension that might otherwise manifest in the streets.",
+        "recommendations": [
+          "Monitor Monday hearing closely",
+          "Analyze any ruling for constitutional implications",
+          "Document for academic record"
+        ],
+        "summary": "Monday hearing critical - courts typically defer to executive but targeting claims novel."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "Injunction motion should be denied on merits",
+          "Continued enforcement legally appropriate",
+          "Property crimes should be prosecuted"
+        ],
+        "reasoning": "The injunction motion lacks legal merit and should be denied. There's no constitutional right to pause lawful federal enforcement during an investigation. The ethnic targeting claims are a stretch - targeting an area with high concentrations of immigration violators is rational enforcement, not discrimination. Meanwhile, property crimes from the protests should be prosecuted. The rule of law must be upheld on all fronts.",
+        "recommendations": [
+          "File strong opposition to injunction",
+          "Continue enforcement operations",
+          "Prosecute property crimes aggressively"
+        ],
+        "summary": "Injunction should fail - enforcement continues - prosecute property crimes."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Weekend economic shutdown nearly complete in affected areas",
+          "Monday workforce participation is critical unknown",
+          "Some businesses may not reopen"
+        ],
+        "reasoning": "The weekend economic shutdown in affected areas was nearly complete. The critical question is Monday - will workers return? Will businesses reopen? Some small businesses that closed may not have the reserves to survive extended closure. The immigrant workforce in essential industries - healthcare, food processing - may not return to work while they feel unsafe. Monday will reveal whether this is a weekend disruption or an economic transformation.",
+        "recommendations": [
+          "Emergency business assessment Monday",
+          "Workforce participation monitoring",
+          "Small business emergency support planning"
+        ],
+        "summary": "Weekend shutdown complete - Monday workforce return is critical economic test."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 6,
+        "confidence": 70,
+        "key_factors": [
+          "Weekend losses significant but potentially recoverable",
+          "Monday is inflection point for economic trajectory",
+          "Business confidence surveys show sharp decline"
+        ],
+        "reasoning": "Weekend economic losses in the Twin Cities are significant but could be absorbed if normal activity resumes Monday. However, if disruption continues into the work week, we're looking at meaningful Q1 impact. Business confidence surveys conducted over the weekend show sharp declines. Several national companies have expressed concern about Minnesota operations. Monday is the inflection point.",
+        "recommendations": [
+          "Real-time Monday economic monitoring",
+          "Business confidence tracking",
+          "National company communication outreach"
+        ],
+        "summary": "Weekend losses absorbable if Monday normalizes - business confidence sharply down."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 5,
+        "confidence": 68,
+        "key_factors": [
+          "Protest disruption is the economic problem",
+          "Order restoration would end economic damage",
+          "Long-term enforcement benefits remain clear"
+        ],
+        "reasoning": "The economic damage is being caused by protest disruption, not by immigration enforcement. If order is restored and protests end, the economy will normalize quickly. The business community should be demanding order, not policy changes. Capitulating to economic blackmail from protesters would set a terrible precedent. Stand firm, restore order, and the economy will recover.",
+        "recommendations": [
+          "Restore order to restore economy",
+          "Resist economic pressure from protesters",
+          "Maintain enforcement commitment"
+        ],
+        "summary": "Order restoration is economic solution - don't capitulate to protest pressure."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 6.75,
+    "polarization_index": 2.25,
+    "matrix": {
+      "politician": {"left": 9, "center": 7, "right": 6, "avg": 7.33},
+      "news_analyst": {"left": 9, "center": 7, "right": 6, "avg": 7.33},
+      "legal_expert": {"left": 8, "center": 6, "right": 5, "avg": 6.33},
+      "finance_analyst": {"left": 7, "center": 6, "right": 5, "avg": 6.0},
+      "averages": {
+        "left": 8.25,
+        "center": 6.5,
+        "right": 5.5,
+        "overall": 6.75
+      }
+    },
+    "key_events": [
+      "January 11, 2026 (Sunday) - Day 4 after fatal shooting",
+      "Sustained Sunday protests - 10,000+ marchers",
+      "Memorial service for Renee Good - overflow crowd, family speaks",
+      "Renee Good identified as mother of three, healthcare worker",
+      "Federal enforcement reportedly continuing elsewhere in metro",
+      "Emergency injunction hearing scheduled for Monday",
+      "Monday is critical inflection point for crisis trajectory"
+    ]
+  }
+}
