@@ -1,0 +1,383 @@
+{
+  "date": "2026-01-12",
+  "clock": {
+    "rating": 8,
+    "status": "SEVERE",
+    "trend": "Stable",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 197,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 12,
+          "articles": [
+            {
+              "headline": "Minnesota churches respond to ICE presence with prayer, solidarity",
+              "url": "http://www.minnpost.com/greater-minnesota/2026/01/minnesota-churches-respond-to-ice-presence-with-prayer-solidarity/"
+            },
+            {
+              "headline": "The man killed by a US Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "http://www.minnpost.com/metro/2026/01/alex-pretti-the-man-killed-by-a-us-border-patrol-officer-in-minneapolis-was-an-icu-nurse-family-says/"
+            },
+            {
+              "headline": "Rules of the road are at the center of the ICE occupation and resistance",
+              "url": "http://www.minnpost.com/cityscape/2026/01/rules-of-the-road-are-at-the-center-of-the-ice-occupation-and-resistance/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "ICE releases detainee following slapdown from federal judge",
+              "url": "https://minnesotareformer.com/2026/01/27/ice-releases-detainee-following-slapdown-from-federal-judge/"
+            },
+            {
+              "headline": "Democratic AGs stress importance of citizen-generated evidence in challenging ICE",
+              "url": "https://minnesotareformer.com/2026/01/27/repub/democratic-ags-stress-importance-of-citizen-generated-evidence-in-challenging-ice/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 28,
+          "articles": [
+            {
+              "headline": "Ramsey County prosecutor opens investigations into federal officers, calls for public reports",
+              "url": "https://sahanjournal.com/public-safety/ramsey-county-attorney-john-choi-investigates-federal-officers/"
+            },
+            {
+              "headline": "Judge demands ICE leader appear at Minnesota court hearing, says agency isn\u2019t complying with orders",
+              "url": "https://sahanjournal.com/immigration/judge-orders-ice-leader-todd-lyons-appear-court-minnesota/"
+            },
+            {
+              "headline": "Judge weighs Minnesota effort to end Operation Metro Surge, presses DOJ lawyers representing ICE",
+              "url": "https://sahanjournal.com/immigration/judge-considers-minnesota-request-stop-operation-metro-surge/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 27,
+          "articles": [
+            {
+              "headline": "2 federal officers fired shots during encounter that killed Alex Pretti, DHS tells Congress",
+              "url": "https://www.twincities.com/2026/01/27/2-federal-officers-fired-shots-during-encounter-that-killed-alex-pretti-dhs-tells-congress/"
+            },
+            {
+              "headline": "Homeland Security Secretary Kristi Noem faces rising calls for her firing or impeachment",
+              "url": "https://www.twincities.com/2026/01/27/immigration-enforcement-noem/"
+            },
+            {
+              "headline": "Judge orders ICE chief to appear in court or risk contempt over denial of due process",
+              "url": "https://www.twincities.com/2026/01/27/judge-orders-ice-chief-to-appear-in-court-to-explain-why-detainees-have-been-denied-due-process/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "DHS: Two officers fired shots in Pretti shooting; Judge issues temporary order barring removal of 5-",
+              "url": "https://www.mprnews.org/live-updates"
+            },
+            {
+              "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 11,
+          "articles": [
+            {
+              "headline": "FBI director confirms investigation into anti-ICE Signal chats in Minnesota",
+              "url": "https://alphanews.org/fbi-director-confirms-investigation-into-anti-ice-signal-chats-in-minnesota/"
+            },
+            {
+              "headline": "Anti-ICE agitators blocked stairwell to childcare during church storming, court filing\u2026",
+              "url": "https://alphanews.org/anti-ice-agitators-blocked-stairwell-to-childcare-during-church-storming-court-filing-says/"
+            },
+            {
+              "headline": "Appeals court sides with Trump admin to lift Minnesota protest curbs\u2026",
+              "url": "https://alphanews.org/appeals-court-sides-with-trump-admin-to-lift-minnesota-protest-curbs-on-ice-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 7,
+          "articles": [
+            {
+              "headline": "GovernanceElected Democrats Help Direct Anti-ICE CHAOSJanuary 27, 2026 by Grace Keating, Kathryn Joh",
+              "url": "https://www.americanexperiment.org/elected-democrats-help-direct-anti-ice-chaos/"
+            },
+            {
+              "headline": "Public SafetyLawfare and habeas corpusJanuary 27, 2026 by Bill GlahnPerhaps the most successful fron",
+              "url": "https://www.americanexperiment.org/lawfare-and-habeas-corpus/"
+            },
+            {
+              "headline": "EconomyThe war on high housing prices is targeting the wrong villainJanuary 27, 2026 by Martha Njolo",
+              "url": "https://www.americanexperiment.org/the-war-on-high-housing-prices-is-targeting-the-wrong-villain/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 9,
+          "articles": [
+            {
+              "headline": "Federal Judge Orders ICE Chief to Appear in Court over Alleged Denial of Detainees\u2019 Due Process",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/federal-judge-orders-ice-chief-to-appear-in-court-over-alleged-denial-of-detainees-due-process/"
+            },
+            {
+              "headline": "Analysis: Kash Patel Has Fired Less than 150 FBI Employees Since Trump Took Office",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/analysis-kash-patel-has-fired-less-than-150-fbi-employees-since-trump-took-office/"
+            },
+            {
+              "headline": "Bill Would Require Tennessee Cities, Police to Report Immigration-Related Arrests, Benefits Use to N",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/bill-would-require-tennessee-cities-police-to-report-immigration-related-arrests-benefits-use-to-new-state-department/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 18,
+          "articles": [
+            {
+              "headline": "Live UpdatesMinnesota ICE crackdown",
+              "url": "https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-trump-01-27-26"
+            },
+            {
+              "headline": "The rough start of the Trump-approved US TikTok",
+              "url": "https://www.cnn.com/2026/01/27/media/tiktok-trump-ice-epstein-censorship-tech-issues"
+            },
+            {
+              "headline": "After town hall attack, Ilhan Omar condemns \u2018terrorizing\u2019 immigration push and criticism from GOP",
+              "url": "https://www.cnn.com/2026/01/27/politics/ilhan-omar-town-hall-attack-minneapolis-trump"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 20,
+          "articles": [
+            {
+              "headline": "2 federal officers fired shots during encounter that killed Alex Pretti, DHS tells Congress",
+              "url": "https://apnews.com/article/immigration-enforcement-minnesota-ice-b0cec9d1c5bae4b62469011775082300"
+            },
+            {
+              "headline": "Homeland Security Secretary Kristi Noem faces rising calls for her firing or impeachment",
+              "url": "https://apnews.com/article/minneapolis-shootings-kristi-noem-ice-congress-add9ac7b90f5677621009e8a603c0141"
+            },
+            {
+              "headline": "Dozens of protesters arrested at hotel in Manhattan during sit-in over immigration crackdown",
+              "url": "https://apnews.com/article/new-york-hilton-ice-protest-arrests-eae099c947774131d7560a05abd2e851"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 3,
+          "articles": [
+            {
+              "headline": "Fact-checking Trump's claim that anti-ICE protesters are 'paid agitators and insurrectionists'",
+              "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-claim-that-anti-ice-protesters-are-paid-agitators-and-insurrectionists"
+            },
+            {
+              "headline": "DHS tells Congress 2 federal officers fired shots during encounter that killed Alex Pretti",
+              "url": "https://www.pbs.org/newshour/nation/dhs-tells-congress-2-federal-officers-fired-shots-during-encounter-that-killed-alex-pretti"
+            },
+            {
+              "headline": "In Ohio, a bipartisan community group seeks common ground on immigration reform",
+              "url": "https://www.pbs.org/newshour/show/in-ohio-a-bipartisan-community-group-seeks-common-ground-on-immigration-reform"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 25,
+          "articles": [
+            {
+              "headline": "DISCHARGED",
+              "url": "https://www.foxnews.com/us/vcu-anti-ice-nurse-fired-after-referencing-paralytic-drug-in-video-instructing-sabotage-of-ice-agents"
+            },
+            {
+              "headline": "CZAR TAKES CHARGE",
+              "url": "https://www.foxnews.com/politics/border-czar-homan-meets-minnesota-officials-following-immigration-operation-tensions"
+            },
+            {
+              "headline": "GLOBAL ATTENTION",
+              "url": "https://www.foxnews.com/travel/travelers-told-avoid-minneapolis-due-violent-clashes-immigration-authorities"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 33,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "At least 60 anti-ICE protesters arrested for trespassing at NYC Hilton hotel after refusing to leave",
+              "url": "https://nypost.com/2026/01/27/us-news/at-least-60-anti-ice-protesters-arrested-for-trespassing-at-nyc-hilton-hotel-after-refusing-to-leave-lobby-sources/"
+            },
+            {
+              "headline": "Tim Walz, ICE and the Constitution",
+              "url": "https://nypost.com/2026/01/27/opinion/tim-walz-ice-and-thomas-jeffersons-very-worst-idea/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.75,
+    "confidence_weighted_avg": 7.5,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive State Legislator",
+          "summary": "Constitutional emergency - 2 officers confirmed in Pretti shooting - 5-year-old detained - travel advisory issued."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Moderate State Senator",
+          "summary": "Conflicting signals - Homan dialogue vs court rulings and violence - center eroding."
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative State Representative",
+          "summary": "Appeals court win - violence exposes opposition criminality - Walz rhetoric irresponsible."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive Journalist",
+          "summary": "Human devastation - nurse killed, child detained, retaliation against witnesses."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Senior News Editor",
+          "summary": "Complex legal picture - rhetoric from all sides escalating - international attention growing."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Conservative Commentator",
+          "summary": "Media inciting violence - hotel attack ignored - Antifa threats normalized."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 9,
+          "role": "Civil Rights Attorney",
+          "summary": "Legal system fracturing - contempt threatened - due process systematically denied."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Judicial branch fracturing - district vs appeals courts - potential constitutional crisis."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Former Federal Prosecutor",
+          "summary": "Appeals court validates enforcement - contempt threat is overreach - prosecute conspirators."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 8,
+          "role": "Progressive Economist",
+          "summary": "Travel advisory devastates tourism - healthcare worker killed - businesses face retaliation."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Monday failed to stabilize - international reputation damaged - Q1 projections need revision."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Free-Market Economist",
+          "summary": "Court ruling should restore confidence - disruption is from protesters - reject hysteria."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 10,
+        "center": 8,
+        "right": 7,
+        "avg": 8.3
+      },
+      "news_analyst": {
+        "left": 10,
+        "center": 8,
+        "right": 6,
+        "avg": 8.0
+      },
+      "legal_expert": {
+        "left": 9,
+        "center": 7,
+        "right": 5,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 8,
+        "center": 7,
+        "right": 5,
+        "avg": 6.7
+      },
+      "averages": {
+        "left": 9.25,
+        "center": 7.5,
+        "right": 5.75,
+        "overall": 7.5
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}

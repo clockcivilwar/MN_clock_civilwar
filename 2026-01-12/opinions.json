@@ -1,0 +1,260 @@
+{
+  "date": "2026-01-12",
+  "generated_at": "2026-01-27T22:00:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 10,
+        "confidence": 92,
+        "key_factors": [
+          "DHS confirms 2 officers shot unarmed ICU nurse Alex Pretti",
+          "Federal judge threatens ICE chief with contempt for denying due process",
+          "5-year-old child detained - travel advisory issued for Minneapolis"
+        ],
+        "reasoning": "Monday arrived and the crisis didn't stabilize - it exploded. DHS now confirms two federal officers fired shots that killed Alex Pretti, an unarmed ICU nurse. A federal judge had to threaten the ICE chief with contempt for systematically denying detainees due process. They detained a 5-year-old child. International travel advisories now warn people to avoid Minneapolis. We are watching a federal occupation of an American city with constitutional rights being suspended. This is no longer a crisis - it's a constitutional emergency.",
+        "recommendations": [
+          "Emergency legislative session on state sovereignty",
+          "Formal request for federal intervention investigation",
+          "State protection for immigrant communities"
+        ],
+        "summary": "Constitutional emergency - 2 officers confirmed in Pretti shooting - 5-year-old detained - travel advisory issued."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Border czar Homan meeting with MN officials - dialogue opening",
+          "Appeals court ruling creates legal whiplash",
+          "Violence at hotel - rhetoric escalating to 'guerrilla war'"
+        ],
+        "reasoning": "Monday brought conflicting signals. Border czar Homan meeting with Minnesota officials suggests some federal willingness to talk. But the appeals court ruling lifting protest restrictions, combined with the hotel attack and 'guerrilla war' rhetoric from extremist groups, shows both sides are hardening. A 5-year-old being detained is the kind of image that radicalizes moderates. The center cannot hold much longer if both sides keep escalating. Governor Walz's Anne Frank comparison, while emotionally understandable, doesn't help find compromise.",
+        "recommendations": [
+          "Build on Homan meeting for sustained dialogue",
+          "Condemn all violence regardless of source",
+          "Mediation through neutral federal officials"
+        ],
+        "summary": "Conflicting signals - Homan dialogue vs court rulings and violence - center eroding."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Appeals court ruling restores federal authority",
+          "Border czar Homan asserting control",
+          "Violent hotel attack shows lawlessness of opposition"
+        ],
+        "reasoning": "The appeals court ruling lifting protest restrictions is a significant win for the rule of law. Border czar Homan's presence shows the administration is taking this seriously. The violent hotel attack and 'guerrilla war' declarations from Antifa types prove these protesters aren't peaceful - they're criminals. Governor Walz's Nazi comparison is disgraceful and inflammatory. The FBI investigation into those Signal chat groups organizing interference is appropriate. Order is being restored, but the left's violent resistance is extending the crisis.",
+        "recommendations": [
+          "Full support for appeals court ruling implementation",
+          "Prosecute hotel attackers and Signal conspirators",
+          "Demand Walz retract inflammatory Nazi comparison"
+        ],
+        "summary": "Appeals court win - violence exposes opposition criminality - Walz rhetoric irresponsible."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 10,
+        "confidence": 90,
+        "key_factors": [
+          "Alex Pretti story - ICU nurse, family releasing details",
+          "5-year-old child detention - defining image of crisis",
+          "Toy store owner facing retaliation for speaking out"
+        ],
+        "reasoning": "The human stories are devastating. Alex Pretti was an ICU nurse who cared for the sick - killed by two federal officers. A 5-year-old boy, an American citizen by all accounts, detained with his father. A toy store owner facing federal retaliation for speaking to media. These aren't abstractions - these are the faces of federal overreach. The international travel advisory treating Minneapolis like a conflict zone tells you everything. We're documenting history in real time, and it looks like the early stages of authoritarian crackdown.",
+        "recommendations": [
+          "Full profile of 5-year-old and family",
+          "Document retaliation against those who speak out",
+          "International media coordination on coverage"
+        ],
+        "summary": "Human devastation - nurse killed, child detained, retaliation against witnesses."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Multiple court proceedings creating complex legal picture",
+          "Political rhetoric from all sides escalating",
+          "International coverage raising profile"
+        ],
+        "reasoning": "Coverage challenges multiplying. Multiple simultaneous court proceedings require careful legal reporting. The DHS congressional briefing confirming 2 shooters adds important facts but doesn't answer key questions about circumstances. Political rhetoric is escalating dangerously - Walz's Nazi comparison and 'guerrilla war' declarations both poison the discourse. International travel advisories and Olympics-related ICE deployments are broadening the story beyond Minneapolis. We need more verified facts and fewer inflammatory quotes.",
+        "recommendations": [
+          "Dedicated court proceeding tracker",
+          "Fact-check all political rhetoric rigorously",
+          "International context reporting"
+        ],
+        "summary": "Complex legal picture - rhetoric from all sides escalating - international attention growing."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "Media ignoring violent hotel attack by protesters",
+          "FBI investigation into Signal chats barely covered",
+          "Antifa 'guerrilla war' declaration downplayed"
+        ],
+        "reasoning": "The media bias is now dangerous. Violent rioters attacked a Minneapolis hotel - barely a footnote. The FBI is investigating organized criminal conspiracy through Signal chats - media calls it 'community organizing.' An Antifa leader declared 'guerrilla war' - media treats it as protected speech. Meanwhile, every enforcement action is portrayed as an atrocity. The toy store 'retaliation' story is one-sided nonsense - maybe ICE is just doing its job in that area. The media is actively inciting violence while pretending to report.",
+        "recommendations": [
+          "Equal coverage of protest violence",
+          "Report on FBI Signal investigation fully",
+          "Interview ICE officers and their families"
+        ],
+        "summary": "Media inciting violence - hotel attack ignored - Antifa threats normalized."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Federal judge threatens ICE chief with contempt",
+          "Due process being systematically denied",
+          "Appeals court ruling removes protest protections"
+        ],
+        "reasoning": "The legal system is fracturing. A federal judge had to threaten the ICE regional director with contempt because the agency is systematically denying due process to detainees. This isn't isolated incidents - it's policy. Meanwhile, the appeals court stripped away protest buffer zones, exposing demonstrators to federal agents with documented aggression. The 5-year-old detention shows they're not even following their own stated priorities. We're filing emergency motions on multiple fronts simultaneously. The courts are our last line of defense.",
+        "recommendations": [
+          "Pursue contempt proceedings against ICE leadership",
+          "Emergency appeals on buffer zone ruling",
+          "Class action on systematic due process denial"
+        ],
+        "summary": "Legal system fracturing - contempt threatened - due process systematically denied."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Conflicting court rulings creating legal chaos",
+          "District court threatening contempt vs appeals court lifting restrictions",
+          "Constitutional crisis between judicial and executive branches"
+        ],
+        "reasoning": "We're witnessing a potential constitutional crisis unfold in real time. District courts are threatening executive branch officials with contempt while appeals courts expand executive authority. This judicial conflict mirrors the political conflict. The systematic due process denial allegations, if proven, would represent serious constitutional violations. However, the appeals court ruling shows higher courts remain deferential to federal immigration authority. This could ultimately reach the Supreme Court, but that takes time the situation may not allow.",
+        "recommendations": [
+          "Document all judicial conflicts for academic record",
+          "Analyze precedential implications of contempt threat",
+          "Track circuit split development"
+        ],
+        "summary": "Judicial branch fracturing - district vs appeals courts - potential constitutional crisis."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 80,
+        "key_factors": [
+          "Appeals court victory validates federal authority",
+          "FBI investigation into obstruction conspiracy",
+          "Contempt threat is judicial overreach"
+        ],
+        "reasoning": "The appeals court ruling is the correct application of law - federal immigration authority is supreme and protest restrictions were unconstitutional interference with lawful operations. The district judge's contempt threat is performative judicial overreach that will be reversed. The FBI investigation into the Signal chat conspiracy is appropriate - coordinated interference with federal law enforcement is a crime. Meanwhile, those who attacked the hotel should face federal charges. The legal framework supports enforcement; activist judges are the problem.",
+        "recommendations": [
+          "Appeal any contempt finding immediately",
+          "Pursue federal charges for hotel attackers",
+          "Continue enforcement under appeals court ruling"
+        ],
+        "summary": "Appeals court validates enforcement - contempt threat is overreach - prosecute conspirators."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Travel advisory devastating tourism industry",
+          "Healthcare worker killed - sector already in crisis",
+          "Small businesses facing retaliation for speaking out"
+        ],
+        "reasoning": "Monday revealed the economic catastrophe is deepening. International travel advisories treating Minneapolis as a conflict zone will devastate tourism and business travel for months. They killed a healthcare worker - a sector already facing critical shortages. The toy store retaliation story shows businesses face federal punishment for exercising free speech. Workers aren't returning - they're too afraid. The immigrant workforce that powers Minnesota's economy is in hiding. We're looking at structural economic damage that will outlast this administration.",
+        "recommendations": [
+          "Emergency tourism industry support",
+          "Healthcare workforce protection measures",
+          "Business protection from federal retaliation"
+        ],
+        "summary": "Travel advisory devastates tourism - healthcare worker killed - businesses face retaliation."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 7,
+        "confidence": 75,
+        "key_factors": [
+          "Monday did not bring normalcy",
+          "International reputation damage measurable",
+          "Q1 economic projections need revision"
+        ],
+        "reasoning": "The Monday test failed. Workers did not return to normal, businesses did not reopen, the crisis did not stabilize. International travel advisories are unprecedented for a major American city and represent quantifiable reputation damage. Q1 economic projections for the Twin Cities metro need significant downward revision. The Super Bowl ICE presence announcement adds another uncertainty. Corporate relocation conversations that were hypothetical last week are becoming real. Minnesota's economic trajectory has fundamentally shifted.",
+        "recommendations": [
+          "Revise Q1 projections immediately",
+          "Track corporate relocation indicators",
+          "Model multiple scenario outcomes"
+        ],
+        "summary": "Monday failed to stabilize - international reputation damaged - Q1 projections need revision."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 5,
+        "confidence": 72,
+        "key_factors": [
+          "Appeals court ruling should restore business confidence",
+          "Economic disruption caused by protesters, not enforcement",
+          "Long-term rule of law benefits remain"
+        ],
+        "reasoning": "The appeals court ruling should signal to businesses that order will be restored. The economic disruption is caused by lawless protesters and the politicians who enable them, not by lawful immigration enforcement. Travel advisories are media-driven hysteria - Minneapolis isn't actually dangerous if you're not participating in illegal protests. The toy store 'retaliation' is probably just normal enforcement that happened to occur near a business that sought publicity. Restore order, and the economy normalizes. Capitulate, and you've empowered economic blackmail forever.",
+        "recommendations": [
+          "Message that order restoration is imminent",
+          "Reject travel advisory hysteria",
+          "Prosecute economic disruptors"
+        ],
+        "summary": "Court ruling should restore confidence - disruption is from protesters - reject hysteria."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 7.5,
+    "polarization_index": 2.75,
+    "matrix": {
+      "politician": {"left": 10, "center": 8, "right": 7, "avg": 8.33},
+      "news_analyst": {"left": 10, "center": 8, "right": 6, "avg": 8.0},
+      "legal_expert": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "finance_analyst": {"left": 8, "center": 7, "right": 5, "avg": 6.67},
+      "averages": {
+        "left": 9.25,
+        "center": 7.5,
+        "right": 5.75,
+        "overall": 7.5
+      }
+    },
+    "key_events": [
+      "January 12, 2026 (Monday) - Day 5 after fatal shooting",
+      "DHS confirms 2 federal officers fired shots killing Alex Pretti",
+      "Federal judge threatens ICE chief with contempt over due process denial",
+      "5-year-old boy and father detained - judge blocks removal",
+      "Appeals court sides with Trump admin - lifts protest restrictions",
+      "FBI confirms investigation into anti-ICE Signal chats",
+      "Border czar Homan meets with Minnesota officials",
+      "International travel advisory issued for Minneapolis",
+      "Hotel attacked by anti-ICE protesters",
+      "Governor Walz compares ICE to Nazi occupation",
+      "Antifa figure declares 'guerrilla war' against ICE",
+      "Rising calls for DHS Secretary Noem's impeachment"
+    ]
+  }
+}
