@@ -1,0 +1,257 @@
+{
+  "date": "2026-01-14",
+  "generated_at": "2026-01-28T01:30:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 10,
+        "confidence": 94,
+        "key_factors": [
+          "One week anniversary vigils draw 50,000+ across Twin Cities",
+          "DOJ announces investigation into Governor Walz for obstruction",
+          "First physical confrontation between State Patrol and federal agents"
+        ],
+        "reasoning": "One week since Renee Good was killed, and 50,000 people gathered across the Twin Cities for vigils. The community's grief has not diminished - it has organized. The DOJ announcing an investigation into Governor Walz for 'obstruction of federal law enforcement' is an unprecedented attack on state sovereignty. And tonight, the first physical confrontation - State Patrol officers formed a line between federal agents and a church shelter, and there was shoving. No arrests, but the line has been crossed. State and federal officers are now in physical conflict.",
+        "recommendations": [
+          "Full legislative support for Governor against DOJ",
+          "Emergency session on state sovereignty protection",
+          "De-escalation protocols for state-federal encounters"
+        ],
+        "summary": "50K at vigils - DOJ investigating Walz - first physical state-federal confrontation."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Physical confrontation between state and federal officers",
+          "DOJ investigation escalates political stakes",
+          "Supply chain crisis now affecting all residents"
+        ],
+        "reasoning": "We've crossed a threshold. State and federal law enforcement officers physically confronted each other tonight. No one was seriously hurt, but this is the scenario everyone feared. The DOJ investigation of the Governor makes political de-escalation nearly impossible - Walz cannot back down now without appearing to capitulate to federal pressure. Meanwhile, the supply chain crisis is no longer just affecting immigrant communities - grocery rationing is beginning across the metro. Every resident is now feeling this crisis. We desperately need outside mediation.",
+        "recommendations": [
+          "Request federal mediator from outside DOJ",
+          "Emergency economic summit with business leaders",
+          "Bipartisan delegation to Washington"
+        ],
+        "summary": "State-federal officers physically clashed - DOJ investigation traps Walz - crisis affecting all."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "State Patrol physically obstructed federal agents",
+          "DOJ investigation is appropriate response to obstruction",
+          "Supply crisis is result of illegal work stoppage"
+        ],
+        "reasoning": "State Patrol officers physically blocked federal law enforcement tonight. This is not non-cooperation - this is obstruction, and it may be criminal. The DOJ investigation of Governor Walz is entirely appropriate - he ordered state employees to interfere with federal operations. However, I'm deeply concerned about the precedent of state and federal officers in physical conflict. This is dangerous territory. The supply crisis affecting groceries is the direct result of the illegal work stoppage, and the solution is ending the stoppage, not policy concessions. But we need to restore order before someone gets seriously hurt.",
+        "recommendations": [
+          "Support DOJ investigation of Walz",
+          "Call for end to physical obstruction immediately",
+          "National Guard for supply chain, not confrontation"
+        ],
+        "summary": "State Patrol obstruction crossed line - DOJ investigation appropriate - need order before injury."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 10,
+        "confidence": 92,
+        "key_factors": [
+          "One week vigils showed movement's endurance",
+          "Church shelter confrontation was movement's Selma moment",
+          "Renee Good's children led vigil - powerful imagery"
+        ],
+        "reasoning": "The one week anniversary vigils demonstrated this movement's staying power - 50,000 people on a Wednesday evening. The church shelter confrontation, where State Patrol formed a protective line around immigrants seeking sanctuary, will be this movement's defining image. Renee Good's three children led the main vigil, holding candles and photos of their mother. The youngest, age 6, asked 'Why did they hurt my mommy?' National media captured it all. This is the most significant civil rights moment since Ferguson, perhaps since Selma.",
+        "recommendations": [
+          "Full documentation of church confrontation",
+          "Continue following Renee Good's family with consent",
+          "Historical civil rights parallel analysis"
+        ],
+        "summary": "50K vigils show endurance - church confrontation is Selma moment - children lead movement."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Church confrontation requires careful factual reporting",
+          "DOJ investigation is major institutional story",
+          "Supply crisis now affects full readership"
+        ],
+        "reasoning": "The church confrontation requires extremely careful reporting - who initiated contact, what exactly happened, were orders violated? We have conflicting accounts. The DOJ investigation of a sitting governor is a major institutional story requiring constitutional expertise. Coverage is becoming more national as the supply crisis affects everyone - we're now seeing grocery store lines and rationing. This is when accurate local reporting becomes critical; national outlets will simplify and sensationalize. We need to be the factual record.",
+        "recommendations": [
+          "Frame-by-frame analysis of confrontation video",
+          "Constitutional experts on DOJ investigation",
+          "Comprehensive supply chain status reporting"
+        ],
+        "summary": "Church confrontation needs careful verification - DOJ investigation major story - supply crisis universal."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Media portraying state obstruction as heroic",
+          "DOJ investigation covered as 'attack on democracy'",
+          "Supply crisis blamed on enforcement not work stoppage"
+        ],
+        "reasoning": "The media has completely lost objectivity. State police physically obstructing federal law enforcement is being portrayed as heroic civil rights resistance. The DOJ investigation - a completely appropriate response to potential criminal obstruction - is framed as an 'attack on democracy.' The supply crisis, caused entirely by an illegal work stoppage, is blamed on immigration enforcement. The vigil coverage was pure propaganda - emotional manipulation with children while ignoring that Renee Good may have been here illegally and the shooting circumstances remain unclear. The media is not reporting; it's advocating.",
+        "recommendations": [
+          "Demand balanced coverage of confrontation",
+          "Report work stoppage as cause of supply crisis",
+          "Investigate shooting circumstances fully"
+        ],
+        "summary": "Media portrays obstruction as heroism - supply crisis misattributed - propaganda not reporting."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Church sanctuary confrontation raises First Amendment issues",
+          "DOJ investigation of Walz is politically motivated",
+          "State Patrol actions were lawful non-cooperation"
+        ],
+        "reasoning": "The church sanctuary confrontation adds First Amendment religious liberty dimensions to our case. Federal agents attempting to enter a church providing humanitarian shelter implicates the Religious Freedom Restoration Act. State Patrol's actions were lawful - they didn't arrest federal agents, they simply declined to assist and documented potential violations. The DOJ investigation is transparently political intimidation. We're preparing amicus briefs from religious liberty organizations across the political spectrum. The federal overreach now threatens values that unite left and right.",
+        "recommendations": [
+          "Religious liberty coalition building",
+          "Challenge DOJ investigation as political",
+          "Document all church sanctuary incidents"
+        ],
+        "summary": "Church confrontation raises religious liberty - DOJ investigation political - broad coalition possible."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Physical confrontation tests constitutional boundaries",
+          "DOJ investigation unprecedented for non-cooperation",
+          "Church sanctuary adds religious liberty complexity"
+        ],
+        "reasoning": "We're in genuinely unprecedented constitutional territory. The physical confrontation - State Patrol forming a line but not arresting federal agents - tests the boundary between permitted non-cooperation and prohibited obstruction. The DOJ investigation of a governor for a non-cooperation order has no clear precedent. The church sanctuary dimension adds Religious Freedom Restoration Act complexity that could unite unlikely allies. The constitutional questions being raised will take years to fully resolve, but the crisis is happening now. The legal system cannot move fast enough to resolve this politically.",
+        "recommendations": [
+          "Convene constitutional law emergency summit",
+          "Document for future Supreme Court cases",
+          "Analyze religious liberty implications"
+        ],
+        "summary": "Unprecedented constitutional territory - DOJ investigation novel - religious liberty unites strange allies."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 6,
+        "confidence": 80,
+        "key_factors": [
+          "Physical obstruction clearly crosses legal line",
+          "DOJ investigation appropriate and necessary",
+          "Church sanctuary does not override federal law"
+        ],
+        "reasoning": "The church confrontation clearly crossed from non-cooperation to obstruction. State Patrol physically blocking federal agents from executing lawful duties is a federal crime. The DOJ investigation is not only appropriate but necessary - you cannot allow governors to order state employees to physically obstruct federal law enforcement. The church sanctuary argument is legally weak - RFRA does not create a right to harbor immigration violators. The religious liberty framing is clever politics but poor law. Federal authority must be vindicated here or it means nothing.",
+        "recommendations": [
+          "Criminal referrals for State Patrol officers involved",
+          "Expedite DOJ investigation of Walz",
+          "Assert federal authority at church if necessary"
+        ],
+        "summary": "Physical obstruction is criminal - DOJ investigation necessary - church sanctuary legally weak."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Grocery rationing now in effect at major chains",
+          "Healthcare system declared official emergency",
+          "Three more Fortune 500 companies evaluating relocation"
+        ],
+        "reasoning": "The economic crisis has become universal. Major grocery chains implemented rationing - limits on milk, eggs, meat purchases. The healthcare system officially declared an emergency - non-critical services suspended statewide. Three more Fortune 500 companies announced they're 'evaluating' their Minnesota presence, bringing the total to four. This is no longer about immigrant communities - this is about the basic functioning of Minnesota's economy. Every resident is affected. The economic damage is approaching the point of no return for some businesses and institutions.",
+        "recommendations": [
+          "Federal emergency economic declaration request",
+          "Healthcare mutual aid with neighboring states",
+          "Emergency business retention task force"
+        ],
+        "summary": "Grocery rationing begins - healthcare emergency declared - four Fortune 500 companies evaluating exit."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Third day of work stoppage - no signs of ending",
+          "Supply chain crisis now affecting neighboring states",
+          "Consumer confidence collapsed"
+        ],
+        "reasoning": "Day three of the work stoppage and we're seeing systemic economic failure. This is no longer a Minnesota problem - supply chain disruptions are affecting Wisconsin, Iowa, the Dakotas. Minnesota is a logistics hub; when it fails, the region feels it. Consumer confidence has collapsed - people are panic buying what's available, worsening shortages. The Fortune 500 evaluation announcements are the leading indicator; actual relocations would be catastrophic for the tax base. We're modeling scenarios where Q1 GDP for Minnesota is negative 3-5%. This is recession-level damage concentrated in weeks.",
+        "recommendations": [
+          "Regional economic emergency coordination",
+          "Federal disaster economic assistance request",
+          "Real-time supply chain monitoring"
+        ],
+        "summary": "Systemic economic failure - regional supply chains affected - modeling recession-level Q1 damage."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 7,
+        "confidence": 75,
+        "key_factors": [
+          "Economic terrorism achieving its goals",
+          "Rationing is result of illegal action, not enforcement",
+          "Corporate threats are political leverage"
+        ],
+        "reasoning": "The economic terrorism is achieving exactly what it intended - creating pressure for policy change through economic destruction. But capitulating would be catastrophic precedent. The rationing, the shortages, the corporate threats - all of this is the result of an illegal work stoppage, not immigration enforcement. The solution is ending the illegal action, not rewarding it. Yes, there's short-term pain. But if you reward economic terrorism, you'll get more of it. The Fortune 500 threats are political leverage; these companies aren't actually going to relocate because of a temporary enforcement action.",
+        "recommendations": [
+          "End illegal work stoppage through legal means",
+          "No policy concessions under economic duress",
+          "Criminal prosecution of work stoppage organizers"
+        ],
+        "summary": "Economic terrorism working as intended - don't reward it - prosecute organizers."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 8.25,
+    "polarization_index": 2.17,
+    "matrix": {
+      "politician": {"left": 10, "center": 9, "right": 8, "avg": 9.0},
+      "news_analyst": {"left": 10, "center": 8, "right": 7, "avg": 8.33},
+      "legal_expert": {"left": 9, "center": 8, "right": 6, "avg": 7.67},
+      "finance_analyst": {"left": 9, "center": 8, "right": 7, "avg": 8.0},
+      "averages": {
+        "left": 9.5,
+        "center": 8.25,
+        "right": 7.0,
+        "overall": 8.25
+      }
+    },
+    "key_events": [
+      "January 14, 2026 (Wednesday) - Day 7, one week after Renee Good shooting",
+      "One week anniversary vigils draw 50,000+ across Twin Cities",
+      "Renee Good's children lead main vigil - youngest asks 'Why did they hurt my mommy?'",
+      "DOJ announces investigation into Governor Walz for obstruction",
+      "First physical confrontation - State Patrol forms line at church shelter, shoving with federal agents",
+      "Grocery rationing implemented at major chains",
+      "Healthcare system declares official emergency statewide",
+      "Four Fortune 500 companies now evaluating Minnesota presence",
+      "Supply chain disruptions spreading to neighboring states"
+    ]
+  }
+}

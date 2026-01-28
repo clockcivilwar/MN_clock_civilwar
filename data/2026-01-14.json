@@ -1,0 +1,151 @@
+{
+  "date": "2026-01-14",
+  "clock": {
+    "rating": 8,
+    "status": "SEVERE",
+    "trend": "Stable",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 0,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    },
+    "us_national": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.17,
+    "confidence_weighted_avg": 8.2,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive State Legislator",
+          "summary": "50K at vigils - DOJ investigating Walz - first physical state-federal confrontation."
+        },
+        "center": {
+          "rating": 9,
+          "role": "Moderate State Senator",
+          "summary": "State-federal officers physically clashed - DOJ investigation traps Walz - crisis affecting all."
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative State Representative",
+          "summary": "State Patrol obstruction crossed line - DOJ investigation appropriate - need order before injury."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive Journalist",
+          "summary": "50K vigils show endurance - church confrontation is Selma moment - children lead movement."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Senior News Editor",
+          "summary": "Church confrontation needs careful verification - DOJ investigation major story - supply crisis universal."
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative Commentator",
+          "summary": "Media portrays obstruction as heroism - supply crisis misattributed - propaganda not reporting."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 9,
+          "role": "Civil Rights Attorney",
+          "summary": "Church confrontation raises religious liberty - DOJ investigation political - broad coalition possible."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Constitutional Law Professor",
+          "summary": "Unprecedented constitutional territory - DOJ investigation novel - religious liberty unites strange allies."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Former Federal Prosecutor",
+          "summary": "Physical obstruction is criminal - DOJ investigation necessary - church sanctuary legally weak."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 9,
+          "role": "Progressive Economist",
+          "summary": "Grocery rationing begins - healthcare emergency declared - four Fortune 500 companies evaluating exit."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Regional Economist",
+          "summary": "Systemic economic failure - regional supply chains affected - modeling recession-level Q1 damage."
+        },
+        "right": {
+          "rating": 7,
+          "role": "Free-Market Economist",
+          "summary": "Economic terrorism working as intended - don't reward it - prosecute organizers."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 10,
+        "center": 9,
+        "right": 8,
+        "avg": 9.0
+      },
+      "news_analyst": {
+        "left": 10,
+        "center": 8,
+        "right": 7,
+        "avg": 8.3
+      },
+      "legal_expert": {
+        "left": 9,
+        "center": 8,
+        "right": 6,
+        "avg": 7.7
+      },
+      "finance_analyst": {
+        "left": 9,
+        "center": 8,
+        "right": 7,
+        "avg": 8.0
+      },
+      "averages": {
+        "left": 9.5,
+        "center": 8.25,
+        "right": 7.0,
+        "overall": 8.25
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
