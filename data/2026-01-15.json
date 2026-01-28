@@ -1,0 +1,151 @@
+{
+  "date": "2026-01-15",
+  "clock": {
+    "rating": 5,
+    "status": "HIGH",
+    "trend": "Stable",
+    "description": "Significant confrontations, legal battles"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 0,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    },
+    "us_national": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    }
+  },
+  "analysis": {
+    "polarization_index": 1.17,
+    "confidence_weighted_avg": 5.0,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive State Legislator",
+          "summary": "Federal pause announced - both sides step back - bought time but conflict unresolved."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Moderate State Senator",
+          "summary": "Both sides step back - workers returning - five-day window for dialogue."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Conservative State Representative",
+          "summary": "Tactical pause before transition - new administration will restore proper enforcement."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive Journalist",
+          "summary": "Cautious relief - organizing infrastructure intact - Renee Good family demands permanent change."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Senior News Editor",
+          "summary": "Both sides spinning pause differently - underlying conflict unresolved - intermission not ending."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Conservative Commentator",
+          "summary": "Pause is tactical not defeat - media misframing - new administration will restore order."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 5,
+          "role": "Civil Rights Attorney",
+          "summary": "Pause gives preparation time - litigation continues - preparing for post-inauguration battles."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional crisis averted temporarily - questions unresolved - new administration will reset."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Former Federal Prosecutor",
+          "summary": "DOJ investigation continues - evidence preserved - new administration will have full authority."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Economist",
+          "summary": "Workers returning cautiously - supply chains stabilizing - watching for post-inauguration."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Regional Economist",
+          "summary": "Work stoppage ending - preliminary $200-400M losses - uncertainty for Q1."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Free-Market Economist",
+          "summary": "Work stoppage ending proves coordination - market normalizing - lessons learned."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 6,
+        "center": 5,
+        "right": 5,
+        "avg": 5.3
+      },
+      "news_analyst": {
+        "left": 6,
+        "center": 5,
+        "right": 4,
+        "avg": 5.0
+      },
+      "legal_expert": {
+        "left": 5,
+        "center": 5,
+        "right": 4,
+        "avg": 4.7
+      },
+      "finance_analyst": {
+        "left": 5,
+        "center": 5,
+        "right": 4,
+        "avg": 4.7
+      },
+      "averages": {
+        "left": 5.5,
+        "center": 5.0,
+        "right": 4.25,
+        "overall": 5.0
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
