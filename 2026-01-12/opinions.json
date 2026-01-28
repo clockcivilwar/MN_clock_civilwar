@@ -1,0 +1,256 @@
+{
+  "date": "2026-01-12",
+  "generated_at": "2026-01-28T00:00:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Monday protests larger than expected - workers joined instead of returning",
+          "Judge grants partial injunction - limited enforcement pause in residential areas",
+          "Federal government announces appeal, refuses to comply pending appeal"
+        ],
+        "reasoning": "Monday did not bring normalcy - it brought escalation. Workers didn't return to their jobs; they joined the protests. The crowd swelled beyond weekend numbers as the work week began with a general strike in Cedar-Riverside. The judge granted a partial injunction limiting enforcement in residential areas, but the federal government immediately announced an appeal and stated they won't comply pending appeal. We now have open federal defiance of a court order. This is a constitutional crisis.",
+        "recommendations": [
+          "Emergency session on federal court order defiance",
+          "State attorney general enforcement of injunction",
+          "Coordinate with other sanctuary states on response"
+        ],
+        "summary": "Workers joined protests - partial injunction granted but feds refuse to comply - constitutional crisis."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Partial injunction creates legal ambiguity",
+          "Economic disruption now extending into work week",
+          "Federal non-compliance with court order unprecedented"
+        ],
+        "reasoning": "The Monday test gave us answers we didn't want. Significant workforce didn't return - absenteeism in affected areas estimated at 40%. The partial injunction pleased no one: too limited for protesters, too restrictive for federal authorities. The federal government's announcement that they'll continue enforcement pending appeal puts the courts and executive in direct conflict. Both sides are now claiming legal high ground while the situation on the ground deteriorates. We're running out of middle ground.",
+        "recommendations": [
+          "Emergency mediation with federal officials",
+          "Business coalition for de-escalation",
+          "Bipartisan call for enforcement pause during appeal"
+        ],
+        "summary": "Monday test failed - 40% absenteeism - partial injunction satisfies no one - federal defiance."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 7,
+        "confidence": 75,
+        "key_factors": [
+          "Judge's injunction overreaches federal authority",
+          "Organized work stoppage is economic coercion",
+          "Federal appeal will succeed on merits"
+        ],
+        "reasoning": "The injunction is judicial activism that will be overturned on appeal - immigration is federal jurisdiction, period. The organized work stoppage reveals this as coordinated economic warfare, not spontaneous protest. These are not grieving community members; this is organized labor and activist groups using Renee Good's death as a pretext. The federal government is right to continue enforcement pending appeal. However, the situation remains volatile and order must be maintained.",
+        "recommendations": [
+          "Support federal appeal of injunction",
+          "Document organized work stoppage participants",
+          "National Guard visible presence to deter escalation"
+        ],
+        "summary": "Injunction will be overturned - work stoppage is coordinated economic coercion."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "General strike emerging organically in immigrant neighborhoods",
+          "Renee Good's children became faces of movement",
+          "Federal defiance of court order historic"
+        ],
+        "reasoning": "We're witnessing history. The work stoppage isn't organized by unions - it's organic community resistance. Renee Good's three children, who spoke at yesterday's memorial, have become the faces of the movement. Their images are everywhere. The federal government openly defying a court order is unprecedented in modern memory - this is the kind of constitutional confrontation we read about in history books. National and international media are now fully engaged. Minneapolis is the center of the American story right now.",
+        "recommendations": [
+          "Document the organic nature of work stoppage",
+          "Follow Renee Good's family with their consent",
+          "Constitutional crisis framing for national audience"
+        ],
+        "summary": "Organic general strike emerging - Renee Good's children are movement's face - historic federal defiance."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Legal developments require careful reporting",
+          "Work stoppage numbers need verification",
+          "Federal perspective underrepresented in coverage"
+        ],
+        "reasoning": "Complex legal story requiring precision. The partial injunction's exact scope needs clear explanation - what's prohibited, what's allowed. Work stoppage estimates vary wildly from 20% to 60% depending on source. We're seeing federal perspective increasingly absent from coverage as officials decline interviews. The constitutional confrontation framing is legitimate but requires historical context - there are precedents for federal-judicial conflicts. Coverage is tilting toward protest perspective; we need more balance.",
+        "recommendations": [
+          "Legal explainer on injunction scope",
+          "Independent verification of absenteeism data",
+          "Pursue federal officials for on-record response"
+        ],
+        "summary": "Legal complexity requires precision - work stoppage numbers unverified - federal voice missing."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 6,
+        "confidence": 72,
+        "key_factors": [
+          "Media celebrating 'general strike' as heroic resistance",
+          "Judge's political motivations unexamined",
+          "Economic damage to businesses ignored"
+        ],
+        "reasoning": "The media has fully embraced the resistance narrative. They're calling an illegal work stoppage a 'general strike' like it's 1930s labor history. No one is examining the judge's political donations or activist history. The businesses being destroyed by this 'organic' resistance get no coverage. Meanwhile, the actual circumstances of the Renee Good shooting remain uninvestigated - was she resisting? Were officers threatened? These questions aren't even being asked because the narrative is set.",
+        "recommendations": [
+          "Investigate judge's political background",
+          "Cover businesses harmed by work stoppage",
+          "Demand full investigation details of shooting"
+        ],
+        "summary": "Media glorifies illegal work stoppage - judge's bias unexamined - shooting still uninvestigated."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 90,
+        "key_factors": [
+          "Partial injunction victory - residential enforcement limited",
+          "Federal non-compliance creates contempt opportunity",
+          "Pattern evidence for class action strengthening"
+        ],
+        "reasoning": "Major legal victory today, though partial. Judge found sufficient evidence of ethnic targeting to limit residential enforcement pending full hearing. More importantly, the federal government's announced non-compliance creates grounds for contempt proceedings. If they continue enforcement in residential areas, we'll be back in court tomorrow seeking contempt sanctions. The class action is strengthening daily with documented cases. The legal strategy is working, but federal defiance may render courts ineffective.",
+        "recommendations": [
+          "Prepare contempt motion for any violation",
+          "Document all residential enforcement for evidence",
+          "Coordinate with state AG on enforcement mechanisms"
+        ],
+        "summary": "Partial injunction won - federal defiance creates contempt grounds - courts may be ineffective."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 7,
+        "confidence": 75,
+        "key_factors": [
+          "Injunction based on equal protection, not immigration authority",
+          "Federal non-compliance echoes historical confrontations",
+          "Appeals court will likely stay injunction quickly"
+        ],
+        "reasoning": "The judge carefully avoided challenging federal immigration authority directly - the injunction is based on equal protection concerns about ethnic targeting. This is constitutionally clever but practically limited. The federal non-compliance announcement echoes historical confrontations like Little Rock - though roles are reversed. The appeals court will likely issue a stay within days, potentially mooting the conflict. The constitutional system is being tested but hasn't broken.",
+        "recommendations": [
+          "Track appeals court timeline closely",
+          "Analyze equal protection framing for precedent",
+          "Document for constitutional law scholarship"
+        ],
+        "summary": "Injunction based on equal protection - appeals court stay likely soon - system tested but holding."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 78,
+        "key_factors": [
+          "Injunction will be stayed and overturned",
+          "Federal non-compliance legally justified pending appeal",
+          "Work stoppage participants may face consequences"
+        ],
+        "reasoning": "The injunction is legally flawed and will be quickly stayed by the appeals court. Federal immigration authority is plenary - a district judge cannot enjoin enforcement based on speculative equal protection claims. The federal government is correct to continue enforcement pending appeal; this is standard practice for unconstitutional lower court orders. Meanwhile, employers participating in organized work stoppages may face legal exposure. The law remains on the side of enforcement.",
+        "recommendations": [
+          "Expedited appeal with stay request",
+          "Continue enforcement in compliance with appeal stay",
+          "Document employer participation in illegal work stoppage"
+        ],
+        "summary": "Injunction legally flawed - stay imminent - enforcement authority intact."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Work stoppage now in fifth day counting weekend",
+          "Healthcare sector reporting critical staffing shortages",
+          "Food processing plants operating at 50% capacity"
+        ],
+        "reasoning": "The economic impact is no longer theoretical. Healthcare facilities are reporting critical staffing shortages - immigrant workers comprise 25% of healthcare support staff in the metro. Food processing plants in southern Minnesota are operating at 50% or less. The work stoppage that began informally over the weekend has now extended into the formal work week. Businesses that depend on immigrant labor are facing existential threats. This isn't protest - it's economic transformation happening in real time.",
+        "recommendations": [
+          "Emergency healthcare staffing coordination",
+          "Food supply chain monitoring",
+          "Small business emergency support activation"
+        ],
+        "summary": "Healthcare staffing critical - food processing at 50% - economic transformation underway."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 7,
+        "confidence": 78,
+        "key_factors": [
+          "Monday absenteeism confirms extended disruption",
+          "Supply chain impacts beginning to ripple outward",
+          "Business confidence at lowest point in decade"
+        ],
+        "reasoning": "The Monday data confirms our fears - this is not a weekend disruption but an extended crisis. Absenteeism in key sectors ranged from 30-50%. Supply chain impacts are beginning to ripple outward from the Twin Cities to greater Minnesota. Business confidence surveys show the lowest readings in a decade. Some businesses are already making contingency plans for extended disruption or relocation. We've moved from potential crisis to actual economic damage that will take months to recover from even if resolution comes tomorrow.",
+        "recommendations": [
+          "Daily economic impact tracking",
+          "Supply chain vulnerability assessment",
+          "Business retention emergency outreach"
+        ],
+        "summary": "Extended disruption confirmed - supply chains rippling - business confidence decade-low."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 6,
+        "confidence": 70,
+        "key_factors": [
+          "Work stoppage reveals extent of illegal labor dependency",
+          "Market correction to proper wage levels may follow",
+          "Businesses enabled illegal hiring now facing consequences"
+        ],
+        "reasoning": "The work stoppage is painful but revealing. Businesses claiming they can't function without this workforce are admitting to dependency on potentially illegal labor. The market will correct - wages will rise to attract legal workers, or businesses will adapt their models. The businesses suffering most are those that built models dependent on artificially cheap labor. This is a correction, not a catastrophe. Restore order, enforce the law, and the market will adjust.",
+        "recommendations": [
+          "No bailouts for businesses dependent on illegal labor",
+          "Support legal workforce development",
+          "Maintain enforcement to enable market correction"
+        ],
+        "summary": "Work stoppage reveals illegal labor dependency - market correction needed - no bailouts."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 7.33,
+    "polarization_index": 2.17,
+    "matrix": {
+      "politician": {"left": 9, "center": 8, "right": 7, "avg": 8.0},
+      "news_analyst": {"left": 9, "center": 7, "right": 6, "avg": 7.33},
+      "legal_expert": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "finance_analyst": {"left": 8, "center": 7, "right": 6, "avg": 7.0},
+      "averages": {
+        "left": 8.75,
+        "center": 7.25,
+        "right": 6.0,
+        "overall": 7.33
+      }
+    },
+    "key_events": [
+      "January 12, 2026 (Monday) - Day 5 after Renee Good shooting",
+      "Workers joined protests instead of returning - 40% absenteeism in affected areas",
+      "Judge grants partial injunction limiting residential enforcement",
+      "Federal government announces appeal, refuses to comply pending appeal",
+      "Organic work stoppage spreads - healthcare and food processing hit hard",
+      "Renee Good's children become faces of the movement",
+      "Constitutional confrontation between courts and executive branch",
+      "Business confidence at decade low - supply chain impacts beginning"
+    ]
+  }
+}

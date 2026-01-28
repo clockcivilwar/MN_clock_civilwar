@@ -1,0 +1,151 @@
+{
+  "date": "2026-01-12",
+  "clock": {
+    "rating": 7,
+    "status": "SEVERE",
+    "trend": "Stable",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 0,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    },
+    "us_national": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.17,
+    "confidence_weighted_avg": 7.3,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 9,
+          "role": "Progressive State Legislator",
+          "summary": "Workers joined protests - partial injunction granted but feds refuse to comply - constitutional crisis."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Moderate State Senator",
+          "summary": "Monday test failed - 40% absenteeism - partial injunction satisfies no one - federal defiance."
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative State Representative",
+          "summary": "Injunction will be overturned - work stoppage is coordinated economic coercion."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 9,
+          "role": "Progressive Journalist",
+          "summary": "Organic general strike emerging - Renee Good's children are movement's face - historic federal defiance."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Senior News Editor",
+          "summary": "Legal complexity requires precision - work stoppage numbers unverified - federal voice missing."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Conservative Commentator",
+          "summary": "Media glorifies illegal work stoppage - judge's bias unexamined - shooting still uninvestigated."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 9,
+          "role": "Civil Rights Attorney",
+          "summary": "Partial injunction won - federal defiance creates contempt grounds - courts may be ineffective."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Injunction based on equal protection - appeals court stay likely soon - system tested but holding."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Former Federal Prosecutor",
+          "summary": "Injunction legally flawed - stay imminent - enforcement authority intact."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 8,
+          "role": "Progressive Economist",
+          "summary": "Healthcare staffing critical - food processing at 50% - economic transformation underway."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Extended disruption confirmed - supply chains rippling - business confidence decade-low."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Free-Market Economist",
+          "summary": "Work stoppage reveals illegal labor dependency - market correction needed - no bailouts."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 9,
+        "center": 8,
+        "right": 7,
+        "avg": 8.0
+      },
+      "news_analyst": {
+        "left": 9,
+        "center": 7,
+        "right": 6,
+        "avg": 7.3
+      },
+      "legal_expert": {
+        "left": 9,
+        "center": 7,
+        "right": 5,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 8,
+        "center": 7,
+        "right": 6,
+        "avg": 7.0
+      },
+      "averages": {
+        "left": 8.75,
+        "center": 7.25,
+        "right": 6.0,
+        "overall": 7.33
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
