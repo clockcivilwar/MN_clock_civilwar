@@ -1,0 +1,151 @@
+{
+  "date": "2026-01-13",
+  "clock": {
+    "rating": 8,
+    "status": "SEVERE",
+    "trend": "Stable",
+    "description": "Civil disobedience, enforcement conflicts"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 0,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    },
+    "us_national": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.33,
+    "confidence_weighted_avg": 7.6,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive State Legislator",
+          "summary": "Injunction stayed - enforcement resumes aggressively - Walz orders no state cooperation."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Moderate State Senator",
+          "summary": "Appeals stay demoralizing - Walz non-cooperation escalates - second day of economic damage."
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative State Representative",
+          "summary": "Appeals court restores order - Walz non-cooperation may be illegal - challenge it."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 10,
+          "role": "Progressive Journalist",
+          "summary": "Hope crushed by stay - raids resumed within hours - state-federal police in conflict."
+        },
+        "center": {
+          "rating": 8,
+          "role": "Senior News Editor",
+          "summary": "Legal whiplash needs explanation - state-federal conflict under-covered - need federal voice."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Conservative Commentator",
+          "summary": "Media frames correct ruling as loss - Walz obstruction celebrated - economic damage buried."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 9,
+          "role": "Civil Rights Attorney",
+          "summary": "Stay expected but fast - equal protection claims survive - advising Governor on limits."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Anti-commandeering supports non-cooperation - but line with obstruction unclear - new territory."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Former Federal Prosecutor",
+          "summary": "Stay validates authority - monitor for state obstruction - criminal referrals if line crossed."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 8,
+          "role": "Progressive Economist",
+          "summary": "Supply chains breaking - grocery shortages visible - healthcare approaching crisis."
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Absenteeism increasing not decreasing - supply chains visible breaking - first corporate flight signal."
+        },
+        "right": {
+          "rating": 6,
+          "role": "Free-Market Economist",
+          "summary": "Legal certainty restored - work stoppage is terrorism - call corporate bluffs."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 10,
+        "center": 8,
+        "right": 7,
+        "avg": 8.3
+      },
+      "news_analyst": {
+        "left": 10,
+        "center": 8,
+        "right": 6,
+        "avg": 8.0
+      },
+      "legal_expert": {
+        "left": 9,
+        "center": 7,
+        "right": 5,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 8,
+        "center": 7,
+        "right": 6,
+        "avg": 7.0
+      },
+      "averages": {
+        "left": 9.25,
+        "center": 7.5,
+        "right": 6.0,
+        "overall": 7.58
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "date": "2026-01-13",
+  "generated_at": "2026-01-28T01:00:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 10,
+        "confidence": 92,
+        "key_factors": [
+          "Appeals court issues emergency stay - injunction lifted",
+          "Federal enforcement resumes aggressively after stay",
+          "Governor Walz orders State Patrol to not assist federal operations"
+        ],
+        "reasoning": "The appeals court issued an emergency stay within 18 hours - the injunction is gone. Federal enforcement resumed immediately and aggressively, as if making up for lost time. Governor Walz has responded by ordering State Patrol to provide no assistance to federal operations and to document any potential civil rights violations. We now have open state-federal conflict over law enforcement. The community is devastated - the brief hope from the injunction is crushed. We're watching federalism tested to its breaking point.",
+        "recommendations": [
+          "Full state non-cooperation with federal enforcement",
+          "Emergency funding for community legal defense",
+          "Coordinate with other governors on unified response"
+        ],
+        "summary": "Injunction stayed - enforcement resumes aggressively - Walz orders no state cooperation."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Appeals court stay was expected but still demoralizing for protesters",
+          "Governor's non-cooperation order escalates state-federal tensions",
+          "Second day of work stoppage - economic damage mounting"
+        ],
+        "reasoning": "The appeals court stay was legally predictable but politically devastating. The slim hope that courts might provide relief is gone. Governor Walz's non-cooperation order is understandable politically but escalates the state-federal confrontation significantly. We now have state and federal law enforcement operating in the same space with conflicting mandates. This is exactly the scenario that leads to dangerous incidents. Meanwhile, day two of the work stoppage is deepening economic damage. We need off-ramps, not escalation.",
+        "recommendations": [
+          "Back-channel federal negotiations urgently",
+          "Propose enforcement pause for dialogue period",
+          "Business community pressure on both sides"
+        ],
+        "summary": "Appeals stay demoralizing - Walz non-cooperation escalates - second day of economic damage."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Appeals court correctly stayed improper injunction",
+          "Governor Walz's non-cooperation order may be illegal",
+          "Federal authority being properly restored"
+        ],
+        "reasoning": "The appeals court did exactly what we predicted - stayed the activist judge's improper injunction. Federal enforcement is resuming as it should. However, Governor Walz's non-cooperation order is a significant escalation that may itself be illegal - states cannot obstruct federal law enforcement. This order should be challenged. The work stoppage continues but that's economic coercion, not legitimate protest. With the legal framework restored, order should follow if leadership has the will to enforce it.",
+        "recommendations": [
+          "Challenge Walz non-cooperation order legally",
+          "Support federal enforcement operations",
+          "Document state obstruction for potential legal action"
+        ],
+        "summary": "Appeals court restores order - Walz non-cooperation may be illegal - challenge it."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 10,
+        "confidence": 90,
+        "key_factors": [
+          "Community despair after injunction lifted",
+          "Enforcement raids resumed within hours of stay",
+          "State-federal law enforcement now in open conflict"
+        ],
+        "reasoning": "The community's brief hope was crushed in less than a day. Within hours of the appeals court stay, enforcement raids resumed - and they seemed targeted at the most visible protest organizers' neighborhoods. The Walz non-cooperation order means state and federal law enforcement are now operating under conflicting mandates in the same communities. We're covering incidents where State Patrol is documenting federal actions while federal agents are making arrests. This is unprecedented intergovernmental conflict playing out in immigrant neighborhoods.",
+        "recommendations": [
+          "Document enforcement-within-hours-of-stay pattern",
+          "Cover state-federal law enforcement conflicts",
+          "Track any retaliation against organizers"
+        ],
+        "summary": "Hope crushed by stay - raids resumed within hours - state-federal police in conflict."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 8,
+        "confidence": 82,
+        "key_factors": [
+          "Legal whiplash requires clear explanation",
+          "State-federal conflict is legitimate major story",
+          "Need both enforcement and community perspectives"
+        ],
+        "reasoning": "The legal back-and-forth - injunction Monday, stay Tuesday - requires careful explanation for audiences. The Governor's non-cooperation order is a genuinely significant federalism story that deserves serious constitutional analysis, not just political framing. We're struggling to get federal officials on record; DHS is referring all questions to Washington. Community coverage is strong but we need more on how enforcement officers are experiencing this conflict. The state-federal law enforcement tension is under-covered relative to its significance.",
+        "recommendations": [
+          "Constitutional explainer on non-cooperation powers",
+          "Federal officer perspective reporting",
+          "Document state-federal incidents carefully"
+        ],
+        "summary": "Legal whiplash needs explanation - state-federal conflict under-covered - need federal voice."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "Media portrays appeals court ruling as defeat rather than proper law",
+          "Walz non-cooperation order treated as heroic rather than obstructionist",
+          "Economic damage from work stoppage still minimized"
+        ],
+        "reasoning": "The media is framing the appeals court stay as some kind of tragedy rather than the proper application of law. Governor Walz's non-cooperation order - which may well be illegal - is being portrayed as courageous resistance rather than state obstruction of federal law enforcement. Meanwhile, the economic carnage continues to be treated as acceptable collateral damage. Grocery stores are reporting shortages, hospitals are struggling, but that's buried beneath breathless coverage of the 'resistance.' The media has chosen a side.",
+        "recommendations": [
+          "Challenge media framing of court ruling",
+          "Cover economic damage prominently",
+          "Investigate legality of Walz order"
+        ],
+        "summary": "Media frames correct ruling as loss - Walz obstruction celebrated - economic damage buried."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 9,
+        "confidence": 88,
+        "key_factors": [
+          "Stay was expected but speed was unusual",
+          "Equal protection claims still viable for full hearing",
+          "Governor's non-cooperation order opens new legal front"
+        ],
+        "reasoning": "The stay was expected but issued with unusual speed - the appeals court clearly prioritized federal authority. Our equal protection claims remain viable for the full hearing, but that's weeks away. The immediate crisis requires new strategies. Governor Walz's non-cooperation order opens an interesting legal front - while states can't obstruct, they have no affirmative duty to assist. We're advising the Governor's office on the constitutional boundaries. Meanwhile, we're documenting every enforcement action for the class action that will ultimately reach the Supreme Court.",
+        "recommendations": [
+          "Advise Governor on non-cooperation constitutional limits",
+          "Prepare for expedited appeal to full circuit",
+          "Document all enforcement for Supreme Court case"
+        ],
+        "summary": "Stay expected but fast - equal protection claims survive - advising Governor on limits."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Anti-commandeering doctrine supports non-cooperation",
+          "But states cannot actively obstruct federal enforcement",
+          "Walking the line between non-cooperation and obstruction"
+        ],
+        "reasoning": "Governor Walz's non-cooperation order tests an interesting constitutional boundary. The anti-commandeering doctrine (Printz v. United States) clearly allows states to refuse to assist federal enforcement. But states cannot actively obstruct. The question is: where's the line? If State Patrol officers document federal actions, is that monitoring or obstruction? If state officials warn communities of enforcement operations, is that protected speech or interference? These questions have never been litigated in this exact context. We're in constitutional terra incognita.",
+        "recommendations": [
+          "Document state actions for constitutional analysis",
+          "Track any federal challenge to state order",
+          "Analyze historical parallels carefully"
+        ],
+        "summary": "Anti-commandeering supports non-cooperation - but line with obstruction unclear - new territory."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 5,
+        "confidence": 82,
+        "key_factors": [
+          "Appeals court stay validates federal authority",
+          "Governor's order may cross into active obstruction",
+          "Federal prosecution of obstructors possible"
+        ],
+        "reasoning": "The appeals court acted correctly and swiftly. Federal immigration authority is now fully restored in Minnesota. Governor Walz's non-cooperation order is concerning - while passive non-assistance is permitted, any active interference crosses into obstruction of federal law enforcement. If state officials warn targets of imminent enforcement, that's potentially criminal. If State Patrol physically interferes, that's clearly illegal. We should be preparing federal criminal referrals for any state official who crosses the line from non-cooperation to obstruction.",
+        "recommendations": [
+          "Monitor state officials for obstruction",
+          "Prepare federal criminal referrals as needed",
+          "Continue robust enforcement under restored authority"
+        ],
+        "summary": "Stay validates authority - monitor for state obstruction - criminal referrals if line crossed."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 8,
+        "confidence": 85,
+        "key_factors": [
+          "Second day of work stoppage - supply chains breaking",
+          "First grocery shortages reported in Twin Cities",
+          "Healthcare system approaching crisis"
+        ],
+        "reasoning": "Day two of the work stoppage and supply chains are visibly breaking. First reports of grocery shortages in Twin Cities - fresh produce and meat sections noticeably sparse. Three major food processing facilities in southern Minnesota are effectively shut down. The healthcare system is approaching genuine crisis - HCMC reported canceling elective procedures due to staffing. This is no longer theoretical economic damage - it's visible, tangible, affecting everyone. And with the injunction lifted and enforcement resuming, workers have no reason to return. The economic damage will accelerate.",
+        "recommendations": [
+          "Emergency food supply coordination",
+          "Healthcare crisis contingency activation",
+          "Economic damage documentation for federal claims"
+        ],
+        "summary": "Supply chains breaking - grocery shortages visible - healthcare approaching crisis."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Day two absenteeism slightly higher than day one",
+          "Supply chain disruptions now visible to consumers",
+          "First corporate relocation announcement"
+        ],
+        "reasoning": "Economic indicators are uniformly negative. Day two absenteeism in affected sectors actually increased - workers are not returning, they're entrenching. Supply chain disruptions are now visible at the consumer level - grocery store shelves tell the story. Most significantly, a Fortune 500 company announced it's 'evaluating' its Minneapolis headquarters - the first concrete corporate flight signal. We're now in territory where economic damage becomes self-reinforcing. Businesses leave, tax base erodes, services decline, more businesses leave. The spiral has begun.",
+        "recommendations": [
+          "Emergency corporate outreach",
+          "Supply chain emergency coordination",
+          "Scenario planning for extended disruption"
+        ],
+        "summary": "Absenteeism increasing not decreasing - supply chains visible breaking - first corporate flight signal."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 6,
+        "confidence": 72,
+        "key_factors": [
+          "Appeals court ruling should restore business confidence",
+          "Work stoppage is economic terrorism that must end",
+          "Market will adjust to legal labor force"
+        ],
+        "reasoning": "The appeals court ruling restores legal certainty, which is what businesses actually need. The work stoppage is economic terrorism - using economic damage as leverage to change policy. This cannot be rewarded. Yes, there will be short-term pain as the market adjusts to a legal labor force. Some businesses built on illegal labor will fail. That's a correction, not a catastrophe. The corporate 'evaluating headquarters' statement is posturing for political leverage. Stand firm on enforcement and the economy will stabilize around a legal foundation.",
+        "recommendations": [
+          "No policy concessions to economic terrorism",
+          "Support legal workforce development",
+          "Call corporate bluffs on relocation threats"
+        ],
+        "summary": "Legal certainty restored - work stoppage is terrorism - call corporate bluffs."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 7.58,
+    "polarization_index": 2.33,
+    "matrix": {
+      "politician": {"left": 10, "center": 8, "right": 7, "avg": 8.33},
+      "news_analyst": {"left": 10, "center": 8, "right": 6, "avg": 8.0},
+      "legal_expert": {"left": 9, "center": 7, "right": 5, "avg": 7.0},
+      "finance_analyst": {"left": 8, "center": 7, "right": 6, "avg": 7.0},
+      "averages": {
+        "left": 9.25,
+        "center": 7.5,
+        "right": 6.0,
+        "overall": 7.58
+      }
+    },
+    "key_events": [
+      "January 13, 2026 (Tuesday) - Day 6 after Renee Good shooting",
+      "Appeals court issues emergency stay - partial injunction lifted",
+      "Federal enforcement resumes aggressively within hours of stay",
+      "Governor Walz orders State Patrol non-cooperation with federal operations",
+      "State-federal law enforcement now operating under conflicting mandates",
+      "Second day of work stoppage - absenteeism increasing",
+      "First grocery shortages visible in Twin Cities",
+      "Healthcare system approaching crisis - elective procedures canceled",
+      "First Fortune 500 company announces headquarters 'evaluation'"
+    ]
+  }
+}
