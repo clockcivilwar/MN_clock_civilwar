@@ -1,0 +1,151 @@
+{
+  "date": "2026-01-27",
+  "clock": {
+    "rating": 5,
+    "status": "HIGH",
+    "trend": "Stable",
+    "description": "Significant confrontations, legal battles"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 0,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    },
+    "us_national": {
+      "left_leaning": [],
+      "centrist": [],
+      "right_leaning": []
+    }
+  },
+  "analysis": {
+    "polarization_index": 1.58,
+    "confidence_weighted_avg": 5.4,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 7,
+          "role": "Progressive State Legislator",
+          "summary": "Court grants limited injunction - Homan takes over - DOJ pauses subpoenas - progress but no justice."
+        },
+        "center": {
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "Court provides framework - both sides de-escalating - economic pressure driving pragmatism."
+        },
+        "right": {
+          "rating": 5,
+          "role": "Conservative State Representative",
+          "summary": "Court compromise workable - Homan restores professionalism - stability returning."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 7,
+          "role": "Progressive Journalist",
+          "summary": "Pretti family demands accountability - community cautiously hopeful - story continues."
+        },
+        "center": {
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "Court ruling clear - need to track implementation - announcements vs reality."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Conservative Commentator",
+          "summary": "Reasonable flexibility - enforcement continues - media will misframe as defeat."
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 6,
+          "role": "Civil Rights Attorney",
+          "summary": "Partial court victory - residential limit significant - Pretti case proceeding."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional balance achieved - system stressed but held - framework established."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal authority preserved - enforcement continues - DOJ options reserved."
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive Economist",
+          "summary": "Business certainty improving - workforce returning - long-term damage assessment ongoing."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Regional Economist",
+          "summary": "Legal clarity helps planning - confidence recovering - Q2 outlook improving."
+        },
+        "right": {
+          "rating": 4,
+          "role": "Free-Market Economist",
+          "summary": "Market stability returning - economic terrorism didn't win - recovery proceeding."
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 7,
+        "center": 6,
+        "right": 5,
+        "avg": 6.0
+      },
+      "news_analyst": {
+        "left": 7,
+        "center": 6,
+        "right": 4,
+        "avg": 5.7
+      },
+      "legal_expert": {
+        "left": 6,
+        "center": 5,
+        "right": 4,
+        "avg": 5.0
+      },
+      "finance_analyst": {
+        "left": 6,
+        "center": 5,
+        "right": 4,
+        "avg": 5.0
+      },
+      "averages": {
+        "left": 6.5,
+        "center": 5.5,
+        "right": 4.25,
+        "overall": 5.42
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}

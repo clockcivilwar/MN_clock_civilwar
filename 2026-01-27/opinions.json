@@ -1,0 +1,258 @@
+{
+  "date": "2026-01-27",
+  "generated_at": "2026-01-28T02:30:00.000000",
+  "perspectives": {
+    "politician": {
+      "left": {
+        "role": "Progressive State Legislator",
+        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
+        "rating": 7,
+        "confidence": 82,
+        "key_factors": [
+          "Federal court rules for limited injunction on residential enforcement",
+          "Homan takes over operations - promises 'more professional' approach",
+          "DOJ subpoenas paused as part of de-escalation"
+        ],
+        "reasoning": "Real progress today. The federal court finally ruled, granting a limited injunction on residential enforcement - not everything we wanted, but significant. Homan officially took over from Bovino and promised a 'more professional' approach. Most importantly, the DOJ agreed to pause the subpoenas against Governor Walz as part of the de-escalation agreement. But Alex Pretti is still dead. His family held a press conference demanding full accountability. The protests continue, though smaller. We're stepping back from the brink, but justice has not been served.",
+        "recommendations": [
+          "Accept partial court victory while appealing for more",
+          "Hold administration to promised changes",
+          "Continue demanding accountability for Pretti"
+        ],
+        "summary": "Court grants limited injunction - Homan takes over - DOJ pauses subpoenas - progress but no justice."
+      },
+      "center": {
+        "role": "Moderate State Senator",
+        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
+        "rating": 6,
+        "confidence": 78,
+        "key_factors": [
+          "Court ruling provides legal framework for compromise",
+          "Both sides showing willingness to de-escalate",
+          "Economic pressure forcing pragmatism"
+        ],
+        "reasoning": "The court ruling today provides a framework both sides can work with. The limited injunction on residential enforcement addresses the most inflammatory tactics while allowing commercial and targeted enforcement to continue. Homan's tone is notably different from Bovino's - more professional, less confrontational. The DOJ subpoena pause removes a major escalation point. Economic pressure has forced both sides toward pragmatism. We're not out of the woods, but for the first time in days, the trajectory is clearly improving.",
+        "recommendations": [
+          "Formalize de-escalation into written agreement",
+          "Economic recovery coordination",
+          "Establish ongoing communication framework"
+        ],
+        "summary": "Court provides framework - both sides de-escalating - economic pressure driving pragmatism."
+      },
+      "right": {
+        "role": "Conservative State Representative",
+        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "Court ruling allows continued commercial enforcement",
+          "Homan will restore professional operations",
+          "State cooperation improving"
+        ],
+        "reasoning": "The court ruling is a reasonable compromise - residential enforcement is limited, but commercial and targeted enforcement continues. That's workable. Homan is a professional who will run operations properly. The DOJ subpoena pause is a gesture of goodwill, not weakness - those investigations can resume if state obstruction continues. The situation is stabilizing. If the state maintains cooperation and the activists stand down, we can have orderly enforcement without further tragedy.",
+        "recommendations": [
+          "Support Homan's professional approach",
+          "Encourage continued state cooperation",
+          "Focus enforcement on criminal aliens"
+        ],
+        "summary": "Court compromise workable - Homan restores professionalism - stability returning."
+      }
+    },
+    "news_analyst": {
+      "left": {
+        "role": "Progressive Journalist",
+        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
+        "rating": 7,
+        "confidence": 80,
+        "key_factors": [
+          "Pretti family press conference - demanding full accountability",
+          "Court ruling meaningful but limited",
+          "Community cautiously welcoming de-escalation"
+        ],
+        "reasoning": "The Pretti family press conference was powerful - his widow described him as 'a healer who cared for the sickest among us.' They're demanding full accountability, not just policy changes. The court ruling is meaningful but doesn't address the fundamental issues. Community members are cautiously welcoming de-escalation but remain skeptical. The underlying injustices haven't been addressed. This may be the end of the immediate crisis, but the story continues.",
+        "recommendations": [
+          "Continue Pretti family coverage",
+          "Document community skepticism about changes",
+          "Track whether promised reforms are implemented"
+        ],
+        "summary": "Pretti family demands accountability - community cautiously hopeful - story continues."
+      },
+      "center": {
+        "role": "Senior News Editor",
+        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
+        "rating": 6,
+        "confidence": 75,
+        "key_factors": [
+          "Court ruling provides clear legal framework",
+          "Homan's tone shift is newsworthy",
+          "Need to track implementation not just announcements"
+        ],
+        "reasoning": "The court ruling gives us concrete policy to report on - residential enforcement limited, commercial continues. Homan's different tone from Bovino is newsworthy and should be documented. The DOJ subpoena pause is significant. Our job now is to track implementation, not just announcements. Are tactics actually changing on the ground? Are communities actually seeing relief? The gap between policy announcements and ground-level reality needs careful reporting.",
+        "recommendations": [
+          "Ground-level implementation tracking",
+          "Compare Homan vs Bovino operations",
+          "Document actual changes vs announced changes"
+        ],
+        "summary": "Court ruling clear - need to track implementation - announcements vs reality."
+      },
+      "right": {
+        "role": "Conservative Commentator",
+        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
+        "rating": 4,
+        "confidence": 72,
+        "key_factors": [
+          "Administration showing reasonable flexibility",
+          "Court ruling still allows meaningful enforcement",
+          "Media will frame any compromise as defeat"
+        ],
+        "reasoning": "The administration is showing reasonable flexibility without abandoning its mission. The court ruling allows commercial and targeted enforcement to continue - the core mission is intact. Homan will run operations better than Bovino did. The media will inevitably frame any compromise as a defeat for the administration, but that's not accurate. Enforcement continues, just with better optics. The activists didn't win; pragmatism won.",
+        "recommendations": [
+          "Support continued enforcement under new framework",
+          "Counter media narrative of 'defeat'",
+          "Focus on enforcement successes going forward"
+        ],
+        "summary": "Reasonable flexibility - enforcement continues - media will misframe as defeat."
+      }
+    },
+    "legal_expert": {
+      "left": {
+        "role": "Civil Rights Attorney",
+        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
+        "rating": 6,
+        "confidence": 85,
+        "key_factors": [
+          "Court ruling is meaningful but partial victory",
+          "Residential enforcement limit is significant precedent",
+          "Pretti wrongful death case proceeding"
+        ],
+        "reasoning": "The court ruling is a significant partial victory. The residential enforcement limitation creates important precedent for Fourth Amendment protections. It's not everything we sought, but it's enforceable and meaningful. The DOJ subpoena pause removes immediate pressure on state officials. The Pretti wrongful death case is proceeding separately - the family has excellent counsel. Our class action continues. The legal framework is better today than it was yesterday.",
+        "recommendations": [
+          "Enforce injunction aggressively",
+          "Support Pretti family litigation",
+          "Continue class action development"
+        ],
+        "summary": "Partial court victory - residential limit significant - Pretti case proceeding."
+      },
+      "center": {
+        "role": "Constitutional Law Professor",
+        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
+        "rating": 5,
+        "confidence": 78,
+        "key_factors": [
+          "Court ruling balances competing interests",
+          "Constitutional questions partially resolved",
+          "Framework for future conflicts established"
+        ],
+        "reasoning": "The court ruling represents a reasonable constitutional balance. The Fourth Amendment concerns about residential enforcement are addressed without invalidating federal immigration authority entirely. The federalism questions remain somewhat unresolved, but the immediate crisis is past. The DOJ subpoena pause suggests the political branches are finding their own resolution. The constitutional system absorbed a significant stress test. It bent but didn't break.",
+        "recommendations": [
+          "Document ruling for constitutional precedent",
+          "Analyze long-term federalism implications",
+          "Monitor implementation for future cases"
+        ],
+        "summary": "Constitutional balance achieved - system stressed but held - framework established."
+      },
+      "right": {
+        "role": "Former Federal Prosecutor",
+        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
+        "rating": 4,
+        "confidence": 75,
+        "key_factors": [
+          "Court ruling still allows commercial enforcement",
+          "Federal authority largely preserved",
+          "DOJ subpoena pause is tactical, not permanent"
+        ],
+        "reasoning": "The court ruling preserves federal enforcement authority where it matters most - commercial establishments, targeted operations, criminal aliens. The residential limitation is workable. The DOJ subpoena pause is a tactical gesture that can be reversed if state obstruction resumes. Federal authority has been largely preserved. The administration showed flexibility without capitulation. Enforcement can proceed effectively under this framework.",
+        "recommendations": [
+          "Enforce within court framework",
+          "Reserve DOJ options for future if needed",
+          "Focus on criminal alien priorities"
+        ],
+        "summary": "Federal authority preserved - enforcement continues - DOJ options reserved."
+      }
+    },
+    "finance_analyst": {
+      "left": {
+        "role": "Progressive Economist",
+        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
+        "rating": 6,
+        "confidence": 78,
+        "key_factors": [
+          "Court ruling provides business certainty",
+          "Workforce gradually returning",
+          "Long-term economic damage assessment ongoing"
+        ],
+        "reasoning": "The court ruling and de-escalation provide the certainty businesses need. Workforce participation is gradually normalizing. However, the long-term economic damage assessment is still ongoing. Some businesses closed permanently during the crisis. Some workers relocated to other states. The healthcare worker shortage persists. The immediate bleeding has stopped, but recovery will take months. The economic scars will remain even as the political crisis fades.",
+        "recommendations": [
+          "Economic recovery task force",
+          "Healthcare workforce retention",
+          "Small business support continuation"
+        ],
+        "summary": "Business certainty improving - workforce returning - long-term damage assessment ongoing."
+      },
+      "center": {
+        "role": "Regional Economist",
+        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
+        "rating": 5,
+        "confidence": 75,
+        "key_factors": [
+          "Legal clarity enables business planning",
+          "Consumer confidence beginning to recover",
+          "Q1 damage contained, Q2 outlook improving"
+        ],
+        "reasoning": "The legal clarity from the court ruling enables business planning. Consumer confidence indicators are beginning to recover. The Fortune 500 companies that were 'evaluating' their presence have mostly stood down. Q1 damage is now contained and quantifiable; Q2 outlook is improving. Minnesota's economy is resilient; the crisis tested but didn't break it. Long-term trajectory remains positive if stability holds.",
+        "recommendations": [
+          "Finalize Q1 damage assessment",
+          "Business confidence campaign",
+          "Monitor for any re-escalation"
+        ],
+        "summary": "Legal clarity helps planning - confidence recovering - Q2 outlook improving."
+      },
+      "right": {
+        "role": "Free-Market Economist",
+        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
+        "rating": 4,
+        "confidence": 72,
+        "key_factors": [
+          "Market stability returning",
+          "Rule of law framework restored",
+          "Economic terrorism did not succeed long-term"
+        ],
+        "reasoning": "Market stability is returning now that the legal framework is clear. The rule of law - both immigration law and court rulings - is being respected. The economic terrorism of the work stoppage caused damage but did not achieve its goal of ending enforcement. Markets are forward-looking; they see stability ahead. Minnesota's economy will recover quickly once the noise settles. The long-term benefits of orderly enforcement remain.",
+        "recommendations": [
+          "Support market recovery",
+          "Prevent future economic terrorism",
+          "Orderly enforcement within court framework"
+        ],
+        "summary": "Market stability returning - economic terrorism didn't win - recovery proceeding."
+      }
+    }
+  },
+  "summary": {
+    "overall_rating": 5.42,
+    "polarization_index": 1.58,
+    "matrix": {
+      "politician": {"left": 7, "center": 6, "right": 5, "avg": 6.0},
+      "news_analyst": {"left": 7, "center": 6, "right": 4, "avg": 5.67},
+      "legal_expert": {"left": 6, "center": 5, "right": 4, "avg": 5.0},
+      "finance_analyst": {"left": 6, "center": 5, "right": 4, "avg": 5.0},
+      "averages": {
+        "left": 6.5,
+        "center": 5.5,
+        "right": 4.25,
+        "overall": 5.42
+      }
+    },
+    "key_events": [
+      "January 27, 2026 (Monday) - Day 4 after Alex Pretti shooting",
+      "Federal court issues ruling - limited injunction on residential enforcement",
+      "Commercial and targeted enforcement allowed to continue",
+      "Homan officially takes over Minnesota operations from Bovino",
+      "DOJ agrees to pause subpoenas against Governor Walz",
+      "Pretti family holds press conference demanding full accountability",
+      "Workforce participation normalizing",
+      "Consumer confidence beginning to recover",
+      "De-escalation continuing - both sides showing pragmatism",
+      "Constitutional system stressed but held"
+    ]
+  }
+}
