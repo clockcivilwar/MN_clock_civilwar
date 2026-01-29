@@ -335,36 +335,14 @@ function updateClock(rating, status, trend) {
         clockStatus.classList.add(`level-${getSeverityLevel(rating)}`);
     }
 
-    // Update trend row
-    const trendIds = ['trend-overall', 'trend-left', 'trend-center', 'trend-right'];
-    const trendKeys = ['overall', 'left', 'center', 'right'];
-
-    if (typeof trend === 'object' && trend !== null) {
-        trendKeys.forEach((key, i) => {
-            const el = document.getElementById(trendIds[i]);
-            if (el) {
-                const val = trend[key] || 'Stable';
-                el.textContent = val;
-                el.classList.remove('falling', 'stable');
-                if (val.toLowerCase().includes('fall')) {
-                    el.classList.add('falling');
-                } else if (val.toLowerCase().includes('stable')) {
-                    el.classList.add('stable');
-                }
-            }
-        });
-    } else {
-        // Legacy: single string trend
-        const overallEl = document.getElementById('trend-overall');
-        if (overallEl) {
-            const val = trend || 'Stable';
-            overallEl.textContent = val;
-            overallEl.classList.remove('falling', 'stable');
-            if (val.toLowerCase().includes('fall')) {
-                overallEl.classList.add('falling');
-            } else if (val.toLowerCase().includes('stable')) {
-                overallEl.classList.add('stable');
-            }
+    if (clockTrend) {
+        clockTrend.textContent = trend;
+        // Update trend class
+        clockTrend.classList.remove('falling', 'stable');
+        if (trend.toLowerCase().includes('fall') || trend.toLowerCase().includes('down') || trend.toLowerCase().includes('decreas')) {
+            clockTrend.classList.add('falling');
+        } else if (trend.toLowerCase().includes('stable') || trend.toLowerCase().includes('steady')) {
+            clockTrend.classList.add('stable');
         }
     }
 

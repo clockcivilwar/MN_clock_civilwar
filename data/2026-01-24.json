@@ -3,12 +3,7 @@
   "clock": {
     "rating": 8,
     "status": "SEVERE",
-    "trend": {
-      "overall": "Stable",
-      "left": "Stable",
-      "center": "Stable",
-      "right": "Stable"
-    },
+    "trend": "Rising",
     "description": "Civil disobedience, enforcement conflicts"
   },
   "events": [

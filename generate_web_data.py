@@ -325,14 +325,6 @@ def generate_date_data(date_folder):
         }
         polarization = round(matrix["averages"]["left"] - matrix["averages"]["right"], 1)
 
-    # Build trend data (will be populated later when we have previous date)
-    clock["trend"] = {
-        "overall": "Stable",
-        "left": "Stable",
-        "center": "Stable",
-        "right": "Stable"
-    }
-
     # Build full data object
     data = {
         "date": date_folder,
@@ -384,33 +376,12 @@ def main():
         return
 
     # Generate data for each date
-    prev_data = None
     for date in dates:
         data = generate_date_data(date)
-
-        # Compute trends from previous date
-        if prev_data and prev_data.get("analysis", {}).get("matrix", {}).get("averages"):
-            prev_avg = prev_data["analysis"]["matrix"]["averages"]
-            curr_avg = data["analysis"]["matrix"]["averages"]
-
-            def get_trend(curr, prev):
-                diff = curr - prev
-                if abs(diff) < 0.25:
-                    return "Stable"
-                return "Rising" if diff > 0 else "Falling"
-
-            data["clock"]["trend"] = {
-                "overall": get_trend(curr_avg.get("overall", 0), prev_avg.get("overall", 0)),
-                "left": get_trend(curr_avg.get("left", 0), prev_avg.get("left", 0)),
-                "center": get_trend(curr_avg.get("center", 0), prev_avg.get("center", 0)),
-                "right": get_trend(curr_avg.get("right", 0), prev_avg.get("right", 0))
-            }
-
         output_file = os.path.join(DATA_DIR, f"{date}.json")
         with open(output_file, "w") as f:
             json.dump(data, f, indent=2)
         print(f"  Created: {output_file}")
-        prev_data = data
 
     # Update dates.json
     dates_data = {

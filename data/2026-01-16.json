@@ -3,12 +3,7 @@
   "clock": {
     "rating": 4,
     "status": "ELEVATED",
-    "trend": {
-      "overall": "Falling",
-      "left": "Falling",
-      "center": "Falling",
-      "right": "Falling"
-    },
+    "trend": "Stable",
     "description": "Increased tensions, protests"
   },
   "events": [
