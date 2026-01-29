@@ -32,5 +32,11 @@
       { "name": "The Daily Wire", "url": "https://www.dailywire.com" },
       { "name": "New York Post", "url": "https://nypost.com" }
     ]
+  },
+  "us_government": {
+    "official": [
+      { "name": "Department of Justice", "url": "https://www.justice.gov" },
+      { "name": "Supreme Court", "url": "https://www.supremecourt.gov" }
+    ]
   }
 }

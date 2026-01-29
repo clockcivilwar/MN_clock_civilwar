@@ -1,258 +1,323 @@
 {
   "date": "2026-01-27",
-  "generated_at": "2026-01-28T02:30:00.000000",
-  "perspectives": {
-    "politician": {
-      "left": {
-        "role": "Progressive State Legislator",
-        "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions.",
-        "rating": 7,
-        "confidence": 82,
-        "key_factors": [
-          "Federal court rules for limited injunction on residential enforcement",
-          "Homan takes over operations - promises 'more professional' approach",
-          "DOJ subpoenas paused as part of de-escalation"
-        ],
-        "reasoning": "Real progress today. The federal court finally ruled, granting a limited injunction on residential enforcement - not everything we wanted, but significant. Homan officially took over from Bovino and promised a 'more professional' approach. Most importantly, the DOJ agreed to pause the subpoenas against Governor Walz as part of the de-escalation agreement. But Alex Pretti is still dead. His family held a press conference demanding full accountability. The protests continue, though smaller. We're stepping back from the brink, but justice has not been served.",
-        "recommendations": [
-          "Accept partial court victory while appealing for more",
-          "Hold administration to promised changes",
-          "Continue demanding accountability for Pretti"
-        ],
-        "summary": "Court grants limited injunction - Homan takes over - DOJ pauses subpoenas - progress but no justice."
-      },
-      "center": {
-        "role": "Moderate State Senator",
-        "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions.",
-        "rating": 6,
-        "confidence": 78,
-        "key_factors": [
-          "Court ruling provides legal framework for compromise",
-          "Both sides showing willingness to de-escalate",
-          "Economic pressure forcing pragmatism"
-        ],
-        "reasoning": "The court ruling today provides a framework both sides can work with. The limited injunction on residential enforcement addresses the most inflammatory tactics while allowing commercial and targeted enforcement to continue. Homan's tone is notably different from Bovino's - more professional, less confrontational. The DOJ subpoena pause removes a major escalation point. Economic pressure has forced both sides toward pragmatism. We're not out of the woods, but for the first time in days, the trajectory is clearly improving.",
-        "recommendations": [
-          "Formalize de-escalation into written agreement",
-          "Economic recovery coordination",
-          "Establish ongoing communication framework"
-        ],
-        "summary": "Court provides framework - both sides de-escalating - economic pressure driving pragmatism."
-      },
-      "right": {
-        "role": "Conservative State Representative",
-        "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order.",
-        "rating": 5,
-        "confidence": 75,
-        "key_factors": [
-          "Court ruling allows continued commercial enforcement",
-          "Homan will restore professional operations",
-          "State cooperation improving"
-        ],
-        "reasoning": "The court ruling is a reasonable compromise - residential enforcement is limited, but commercial and targeted enforcement continues. That's workable. Homan is a professional who will run operations properly. The DOJ subpoena pause is a gesture of goodwill, not weakness - those investigations can resume if state obstruction continues. The situation is stabilizing. If the state maintains cooperation and the activists stand down, we can have orderly enforcement without further tragedy.",
-        "recommendations": [
-          "Support Homan's professional approach",
-          "Encourage continued state cooperation",
-          "Focus enforcement on criminal aliens"
-        ],
-        "summary": "Court compromise workable - Homan restores professionalism - stability returning."
-      }
+  "opinions": [
+    {
+      "perspective": "politician",
+      "political_leaning": "left",
+      "role": "Progressive State Legislator",
+      "clock_rating": 8,
+      "confidence_level": "high",
+      "key_factors": [
+        "Judge demands ICE leader Todd Lyons appear in court for denying detainees due process",
+        "DHS confirms 2 federal officers fired shots killing Alex Pretti - escalation of lethal force",
+        "FBI investigating anti-ICE Signal chats - chilling effect on free speech and organizing",
+        "Man sprays unknown substance on Rep. Ilhan Omar at Minneapolis town hall",
+        "School leaders and parents condemn ICE actions as abnormal disruption to education",
+        "ICE surveillance technology goes far beyond phone tracking per Sahan Journal investigation"
+      ],
+      "reasoning": "The situation remains deeply alarming. A federal judge had to order the ICE director to personally appear because the agency refuses to comply with court orders - that is a constitutional crisis in real time. The FBI investigation into Signal chats used by organizers is a direct attack on First Amendment rights. The physical attack on Rep. Omar at a town hall shows how federal rhetoric is emboldening violence against elected officials. Meanwhile, DHS now admits two officers fired shots at Alex Pretti, contradicting earlier claims. The pattern of federal lawlessness, surveillance overreach, and political intimidation keeps this at severe levels despite diplomatic gestures.",
+      "recommendations": [
+        "Demand independent special counsel for Pretti investigation",
+        "Pass state legislation protecting organizers from federal surveillance",
+        "Censure resolution against DHS for court non-compliance",
+        "Emergency funding for community safety networks and legal defense"
+      ],
+      "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions."
     },
-    "news_analyst": {
-      "left": {
-        "role": "Progressive Journalist",
-        "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage.",
-        "rating": 7,
-        "confidence": 80,
-        "key_factors": [
-          "Pretti family press conference - demanding full accountability",
-          "Court ruling meaningful but limited",
-          "Community cautiously welcoming de-escalation"
-        ],
-        "reasoning": "The Pretti family press conference was powerful - his widow described him as 'a healer who cared for the sickest among us.' They're demanding full accountability, not just policy changes. The court ruling is meaningful but doesn't address the fundamental issues. Community members are cautiously welcoming de-escalation but remain skeptical. The underlying injustices haven't been addressed. This may be the end of the immediate crisis, but the story continues.",
-        "recommendations": [
-          "Continue Pretti family coverage",
-          "Document community skepticism about changes",
-          "Track whether promised reforms are implemented"
-        ],
-        "summary": "Pretti family demands accountability - community cautiously hopeful - story continues."
-      },
-      "center": {
-        "role": "Senior News Editor",
-        "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting.",
-        "rating": 6,
-        "confidence": 75,
-        "key_factors": [
-          "Court ruling provides clear legal framework",
-          "Homan's tone shift is newsworthy",
-          "Need to track implementation not just announcements"
-        ],
-        "reasoning": "The court ruling gives us concrete policy to report on - residential enforcement limited, commercial continues. Homan's different tone from Bovino is newsworthy and should be documented. The DOJ subpoena pause is significant. Our job now is to track implementation, not just announcements. Are tactics actually changing on the ground? Are communities actually seeing relief? The gap between policy announcements and ground-level reality needs careful reporting.",
-        "recommendations": [
-          "Ground-level implementation tracking",
-          "Compare Homan vs Bovino operations",
-          "Document actual changes vs announced changes"
-        ],
-        "summary": "Court ruling clear - need to track implementation - announcements vs reality."
-      },
-      "right": {
-        "role": "Conservative Commentator",
-        "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored.",
-        "rating": 4,
-        "confidence": 72,
-        "key_factors": [
-          "Administration showing reasonable flexibility",
-          "Court ruling still allows meaningful enforcement",
-          "Media will frame any compromise as defeat"
-        ],
-        "reasoning": "The administration is showing reasonable flexibility without abandoning its mission. The court ruling allows commercial and targeted enforcement to continue - the core mission is intact. Homan will run operations better than Bovino did. The media will inevitably frame any compromise as a defeat for the administration, but that's not accurate. Enforcement continues, just with better optics. The activists didn't win; pragmatism won.",
-        "recommendations": [
-          "Support continued enforcement under new framework",
-          "Counter media narrative of 'defeat'",
-          "Focus on enforcement successes going forward"
-        ],
-        "summary": "Reasonable flexibility - enforcement continues - media will misframe as defeat."
-      }
+    {
+      "perspective": "politician",
+      "political_leaning": "center",
+      "role": "Moderate State Senator",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "St. Paul mayor meets with border czar Tom Homan - diplomatic channels active",
+        "Fox News poll shows 59% of voters say ICE is too aggressive, up 10 points",
+        "Government shutdown risk as Democrats demand ICE reforms",
+        "Appeals court sides with Trump admin lifting protest curbs on ICE agents",
+        "Judge weighs Minnesota effort to end Operation Metro Surge",
+        "Restaurant industry leaders push for ICE reforms - business community engaging"
+      ],
+      "reasoning": "The situation shows contradictory signals. On one hand, diplomatic channels are opening - the St. Paul mayor met with the border czar, and even Fox News polling shows majority disapproval of ICE tactics. The business community is formally engaging through letters to Congress. On the other hand, the appeals court ruling lifting protest restrictions empowers more aggressive enforcement, the government shutdown risk adds federal instability, and the judge demanding ICE leadership appear suggests deep institutional non-compliance. The conflict is shifting from streets to courtrooms and legislatures, which is generally positive, but the underlying tensions remain severe.",
+      "recommendations": [
+        "Support bipartisan federal legislation reforming ICE enforcement protocols",
+        "Facilitate state-federal mediation through governor's office",
+        "Push for independent investigation of Pretti shooting with bipartisan oversight",
+        "Work with business community on economic impact documentation"
+      ],
+      "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions."
     },
-    "legal_expert": {
-      "left": {
-        "role": "Civil Rights Attorney",
-        "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies.",
-        "rating": 6,
-        "confidence": 85,
-        "key_factors": [
-          "Court ruling is meaningful but partial victory",
-          "Residential enforcement limit is significant precedent",
-          "Pretti wrongful death case proceeding"
-        ],
-        "reasoning": "The court ruling is a significant partial victory. The residential enforcement limitation creates important precedent for Fourth Amendment protections. It's not everything we sought, but it's enforceable and meaningful. The DOJ subpoena pause removes immediate pressure on state officials. The Pretti wrongful death case is proceeding separately - the family has excellent counsel. Our class action continues. The legal framework is better today than it was yesterday.",
-        "recommendations": [
-          "Enforce injunction aggressively",
-          "Support Pretti family litigation",
-          "Continue class action development"
-        ],
-        "summary": "Partial court victory - residential limit significant - Pretti case proceeding."
-      },
-      "center": {
-        "role": "Constitutional Law Professor",
-        "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes.",
-        "rating": 5,
-        "confidence": 78,
-        "key_factors": [
-          "Court ruling balances competing interests",
-          "Constitutional questions partially resolved",
-          "Framework for future conflicts established"
-        ],
-        "reasoning": "The court ruling represents a reasonable constitutional balance. The Fourth Amendment concerns about residential enforcement are addressed without invalidating federal immigration authority entirely. The federalism questions remain somewhat unresolved, but the immediate crisis is past. The DOJ subpoena pause suggests the political branches are finding their own resolution. The constitutional system absorbed a significant stress test. It bent but didn't break.",
-        "recommendations": [
-          "Document ruling for constitutional precedent",
-          "Analyze long-term federalism implications",
-          "Monitor implementation for future cases"
-        ],
-        "summary": "Constitutional balance achieved - system stressed but held - framework established."
-      },
-      "right": {
-        "role": "Former Federal Prosecutor",
-        "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations.",
-        "rating": 4,
-        "confidence": 75,
-        "key_factors": [
-          "Court ruling still allows commercial enforcement",
-          "Federal authority largely preserved",
-          "DOJ subpoena pause is tactical, not permanent"
-        ],
-        "reasoning": "The court ruling preserves federal enforcement authority where it matters most - commercial establishments, targeted operations, criminal aliens. The residential limitation is workable. The DOJ subpoena pause is a tactical gesture that can be reversed if state obstruction resumes. Federal authority has been largely preserved. The administration showed flexibility without capitulation. Enforcement can proceed effectively under this framework.",
-        "recommendations": [
-          "Enforce within court framework",
-          "Reserve DOJ options for future if needed",
-          "Focus on criminal alien priorities"
-        ],
-        "summary": "Federal authority preserved - enforcement continues - DOJ options reserved."
-      }
+    {
+      "perspective": "politician",
+      "political_leaning": "right",
+      "role": "Conservative State Representative",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "VP Vance visits Minneapolis defending ICE operations - strong leadership presence",
+        "Appeals court sides with Trump administration lifting protest curbs on ICE",
+        "FBI investigating anti-ICE Signal chats exposing organized obstruction",
+        "ICE reveals arrests of serious criminals in 24-hour period",
+        "Anti-ICE activists arrested for storming St. Paul church service",
+        "Axis of anarchy investigation links protest movement to DSA, communist groups"
+      ],
+      "reasoning": "Law enforcement is winning the legal and operational battles. The appeals court correctly restored ICE's ability to operate without protest-imposed restrictions. The FBI investigation into Signal chats will expose the organized nature of obstruction efforts. VP Vance's visit to Minneapolis demonstrates this administration will not be intimidated. ICE continues to arrest dangerous criminals while the opposition resorts to disrupting church services and rioting at hotels. The prior video showing Pretti's confrontational behavior with ICE before the shooting will reframe that narrative. The situation is elevated but manageable as federal authority is being restored.",
+      "recommendations": [
+        "Support federal prosecution of obstruction organizers identified in Signal chats",
+        "Push for state legislation requiring cooperation with federal immigration authorities",
+        "Investigate local officials who directed non-cooperation with ICE",
+        "Highlight ICE criminal arrest record to counter media narrative"
+      ],
+      "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order."
     },
-    "finance_analyst": {
-      "left": {
-        "role": "Progressive Economist",
-        "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks.",
-        "rating": 6,
-        "confidence": 78,
-        "key_factors": [
-          "Court ruling provides business certainty",
-          "Workforce gradually returning",
-          "Long-term economic damage assessment ongoing"
-        ],
-        "reasoning": "The court ruling and de-escalation provide the certainty businesses need. Workforce participation is gradually normalizing. However, the long-term economic damage assessment is still ongoing. Some businesses closed permanently during the crisis. Some workers relocated to other states. The healthcare worker shortage persists. The immediate bleeding has stopped, but recovery will take months. The economic scars will remain even as the political crisis fades.",
-        "recommendations": [
-          "Economic recovery task force",
-          "Healthcare workforce retention",
-          "Small business support continuation"
-        ],
-        "summary": "Business certainty improving - workforce returning - long-term damage assessment ongoing."
-      },
-      "center": {
-        "role": "Regional Economist",
-        "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy.",
-        "rating": 5,
-        "confidence": 75,
-        "key_factors": [
-          "Legal clarity enables business planning",
-          "Consumer confidence beginning to recover",
-          "Q1 damage contained, Q2 outlook improving"
-        ],
-        "reasoning": "The legal clarity from the court ruling enables business planning. Consumer confidence indicators are beginning to recover. The Fortune 500 companies that were 'evaluating' their presence have mostly stood down. Q1 damage is now contained and quantifiable; Q2 outlook is improving. Minnesota's economy is resilient; the crisis tested but didn't break it. Long-term trajectory remains positive if stability holds.",
-        "recommendations": [
-          "Finalize Q1 damage assessment",
-          "Business confidence campaign",
-          "Monitor for any re-escalation"
-        ],
-        "summary": "Legal clarity helps planning - confidence recovering - Q2 outlook improving."
-      },
-      "right": {
-        "role": "Free-Market Economist",
-        "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations.",
-        "rating": 4,
-        "confidence": 72,
-        "key_factors": [
-          "Market stability returning",
-          "Rule of law framework restored",
-          "Economic terrorism did not succeed long-term"
-        ],
-        "reasoning": "Market stability is returning now that the legal framework is clear. The rule of law - both immigration law and court rulings - is being respected. The economic terrorism of the work stoppage caused damage but did not achieve its goal of ending enforcement. Markets are forward-looking; they see stability ahead. Minnesota's economy will recover quickly once the noise settles. The long-term benefits of orderly enforcement remain.",
-        "recommendations": [
-          "Support market recovery",
-          "Prevent future economic terrorism",
-          "Orderly enforcement within court framework"
-        ],
-        "summary": "Market stability returning - economic terrorism didn't win - recovery proceeding."
-      }
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "left",
+      "role": "Progressive Journalist",
+      "clock_rating": 8,
+      "confidence_level": "high",
+      "key_factors": [
+        "Bruce Springsteen releases 'Streets of Minneapolis' - crisis enters American cultural consciousness",
+        "CNN hosting primetime town hall on Minneapolis situation",
+        "Growing memorial for Alex Pretti - ICU nurse narrative deeply resonant",
+        "Pretti family retains lawyer who helped prosecute George Floyd case",
+        "Immigrant Defense Network expanding constitutional observer training statewide",
+        "Physical attack on Rep. Omar at town hall meeting"
+      ],
+      "reasoning": "Minneapolis is becoming this generation's defining civil rights story. Bruce Springsteen writing a protest song, CNN dedicating a primetime town hall, the Pretti family hiring the Floyd case prosecutor - these are markers of a crisis that has transcended local politics into national cultural reckoning. The ICE occupation comparison to George Floyd's aftermath by MinnPost is apt but understates the difference: this is federally orchestrated. The attack on Rep. Omar shows how the climate of intimidation extends beyond immigrant communities to elected officials. The community response - observer training going statewide, memorial growing - shows organic resistance deepening.",
+      "recommendations": [
+        "Deep investigation into DHS contradictions on Pretti shooting timeline",
+        "Profile immigrant families affected by ICE surveillance technology",
+        "Follow the money on organized counter-protest movements",
+        "Track the legal battles as the central narrative going forward"
+      ],
+      "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage."
+    },
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "center",
+      "role": "Senior News Editor",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "238 articles extracted from 18 sources - saturation coverage continues",
+        "DHS tells Congress 2 officers fired shots in Pretti incident - key factual development",
+        "Fox News poll: 59% say ICE too aggressive, up 10 points since July",
+        "Both diplomatic (mayor-border czar meeting) and confrontational (appeals court, FBI probe) tracks active",
+        "National protest movement spreading to NYC (Hilton arrests including de Blasio's son)",
+        "Competing narratives: NYPost reports Pretti's prior confrontation with ICE"
+      ],
+      "reasoning": "Coverage quality is improving as facts emerge. The DHS disclosure that two officers fired shots is a significant development that changes the investigation profile. The Fox News poll showing majority disapproval of ICE tactics across their own audience is a leading indicator of political pressure to change course. However, competing narratives are hardening - the NYPost release of prior Pretti confrontation footage versus the growing memorial narrative. The spread of protests to NYC suggests this is becoming a national movement rather than a Minnesota-specific crisis. The government shutdown threat over ICE funding adds a systemic risk dimension. Media coverage gaps remain around ICE detainee conditions and the actual immigration enforcement outcomes.",
+      "recommendations": [
+        "Verify DHS claims about the Pretti shooting against independent evidence",
+        "Contextual reporting on Fox News poll shift and what it means politically",
+        "Cover the legal battles in depth - they will determine the outcome",
+        "Report on economic impacts with data, not just anecdotes"
+      ],
+      "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting."
+    },
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "right",
+      "role": "Conservative Commentator",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "Video emerges of Pretti spitting at ICE and kicking out tail light in prior confrontation",
+        "Anti-ICE agitators blocked stairwell to childcare during church storming",
+        "Axis of anarchy investigation links movement to DSA, communists, CCP-tied network",
+        "Somali woman from viral meme arrested for participating in Minneapolis riot",
+        "ICE reveals arrests of violent criminals in 24-hour window",
+        "Elected Democrats directing anti-ICE chaos per American Experiment reporting"
+      ],
+      "reasoning": "The mainstream media continues to lionize Alex Pretti while burying the video of his prior aggressive confrontation with ICE agents. The protest movement's true nature is being exposed - blocking stairwells to childcare centers, rioting at hotels, ties to communist and CCP-linked organizations. ICE is doing exactly what it should: removing dangerous criminals from communities. The 59% poll number is a product of relentless one-sided media coverage. What's underreported is the silent majority of Minnesotans who want law and order. VP Vance's visit was a powerful signal of resolve. The appeals court ruling confirms federal authority is legally sound.",
+      "recommendations": [
+        "Amplify ICE criminal arrest records to counter media narrative",
+        "Investigate funding sources behind organized protest movement",
+        "Report on communities harmed by illegal immigration",
+        "Cover the Pretti prior confrontation video more prominently"
+      ],
+      "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "left",
+      "role": "Civil Rights Attorney",
+      "clock_rating": 8,
+      "confidence_level": "high",
+      "key_factors": [
+        "Federal judge orders ICE Chief Todd Lyons to personally appear - agency defying court orders",
+        "Federal lawsuit alleging detainees held at Whipple Building without attorney access",
+        "FBI investigating anti-ICE Signal chats - First Amendment implications",
+        "Ramsey County prosecutor opens investigations into federal officers",
+        "Pretti family retains George Floyd case prosecutor",
+        "State and feds clash in court over preserving evidence in Pretti killing"
+      ],
+      "reasoning": "The legal landscape is extraordinary. A federal judge having to order ICE's director to personally appear because the agency is not complying with court orders is a constitutional emergency. The Whipple Building lawsuit alleging detention without attorney access is a textbook due process violation. The FBI's investigation into Signal chats used by organizers raises grave First Amendment concerns about criminalizing protected speech and association. Meanwhile, the evidence preservation battle in the Pretti case suggests potential spoliation. The Pretti family hiring the George Floyd case prosecutor signals this will become a landmark civil rights case. The legal infrastructure for accountability is being built, but federal defiance of judicial authority is deeply concerning.",
+      "recommendations": [
+        "File emergency contempt motions if ICE continues defying court orders",
+        "Challenge FBI Signal chat investigation on First Amendment grounds",
+        "Pursue Section 1983 claims against individual federal officers",
+        "Coordinate with Ramsey County prosecutor on parallel investigations"
+      ],
+      "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "center",
+      "role": "Constitutional Law Professor",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "Appeals court sides with Trump admin lifting protest curbs - federalism tested",
+        "Judge weighs Minnesota effort to end Operation Metro Surge - state sovereignty at stake",
+        "Federal judge demands ICE director appear - institutional non-compliance",
+        "Government shutdown risk over ICE funding - separation of powers dimension",
+        "FBI Signal chat investigation - First Amendment vs. obstruction of justice boundary",
+        "Lawfare analysis from American Experiment highlights habeas corpus battles"
+      ],
+      "reasoning": "We are witnessing the most significant federalism crisis since the civil rights era. The appeals court lifting protest restrictions strengthens federal operational authority, but the trial court ordering ICE's director to personally appear suggests the agency is operating outside legal boundaries. These contradictory judicial signals will ultimately require Supreme Court resolution. The FBI investigation into organizing chats tests the line between protected association and criminal obstruction. The government shutdown threat adds a separation of powers dimension - Congress may ultimately resolve what courts cannot. The legal system is being stress-tested on multiple fronts simultaneously, but it is functioning, which prevents a full constitutional breakdown.",
+      "recommendations": [
+        "Academic analysis of the federalism implications for law review publication",
+        "Track the appellate trajectory - this will reach the Supreme Court",
+        "Convene bipartisan legal scholars to propose enforcement framework",
+        "Document precedent implications for future state-federal conflicts"
+      ],
+      "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "right",
+      "role": "Former Federal Prosecutor",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "Appeals court correctly lifts unconstitutional protest restrictions on ICE agents",
+        "FBI investigating Signal chat networks coordinating obstruction of federal operations",
+        "St. Paul woman and Inver Grove Heights teacher charged in ICE encounters",
+        "Federal court process working - both sides presenting arguments",
+        "DOJ defending ICE operations effectively in court proceedings",
+        "Prior Pretti confrontation video provides context for use-of-force analysis"
+      ],
+      "reasoning": "The legal system is working in favor of federal authority. The appeals court ruling is constitutionally correct - you cannot impose protest-based restrictions on federal law enforcement operations. The FBI's investigation into Signal chat networks will likely produce conspiracy and obstruction charges against key organizers. Criminal charges against individuals who physically interfered with ICE operations (the teacher, the St. Paul woman) send appropriate deterrent signals. The Pretti shooting investigation will benefit from the prior confrontation video showing his aggressive behavior toward federal agents. While activists use the courts as a delaying tactic through habeas petitions, federal supremacy in immigration will ultimately prevail.",
+      "recommendations": [
+        "Pursue conspiracy charges against Signal chat organizers",
+        "File sanctions against attorneys filing frivolous habeas petitions",
+        "Investigate state officials who directed non-cooperation for obstruction",
+        "Build prosecution case against protest organizers under 8 USC 1324"
+      ],
+      "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "left",
+      "role": "Progressive Economist",
+      "clock_rating": 8,
+      "confidence_level": "high",
+      "key_factors": [
+        "Restaurant industry leaders formally push for ICE reforms in letters to Congress",
+        "Government shutdown risk over ICE funding - federal fiscal instability",
+        "Food producers and vendors event addressing ICE impacts on supply chain",
+        "CNN reporting on daily life disruption in Minneapolis - economic activity suppressed",
+        "ICE enforcement at Super Bowl planned - tourism and hospitality threat",
+        "Ongoing surveillance technology deployment chilling business activity in immigrant communities"
+      ],
+      "reasoning": "The economic damage is becoming impossible to ignore. Restaurant industry leaders - a traditionally conservative business sector - writing to Congress demanding ICE reforms signals the economic pain has crossed partisan lines. The food supply chain disruption event in St. Paul indicates agricultural and food production impacts are materializing. DHS confirming ICE operations at the Super Bowl threatens Minnesota's hospitality and tourism economy at the worst possible moment. A potential government shutdown over ICE funding would compound the economic damage with federal worker furloughs and contract freezes. The daily life disruption CNN is documenting translates directly to reduced consumer spending, business closures, and workforce flight.",
+      "recommendations": [
+        "Commission emergency economic impact study of ICE operations in Minnesota",
+        "Quantify projected Super Bowl economic losses from ICE enforcement presence",
+        "Document business closures and workforce departures for congressional testimony",
+        "Model government shutdown scenarios and Minnesota-specific impacts"
+      ],
+      "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "center",
+      "role": "Regional Economist",
+      "clock_rating": 6,
+      "confidence_level": "high",
+      "key_factors": [
+        "Restaurant industry bipartisan push for reform signals business community consensus",
+        "Government shutdown risk adds federal funding uncertainty for Minnesota",
+        "Super Bowl ICE enforcement plans create event-specific economic risk",
+        "St. Paul mayor engaging border czar directly on economic harm",
+        "Food supply chain concerns prompting organized response from producers",
+        "Leadership changes in federal enforcement suggest tactical recalibration"
+      ],
+      "reasoning": "The economic picture is mixed but concerning. The restaurant industry engagement is a significant indicator - when business lobbies Congress on immigration, the economic pain is real and measurable. The Super Bowl ICE enforcement announcement is a major risk factor for Minnesota's hospitality sector during its biggest event. However, the St. Paul mayor's meeting with the border czar and federal leadership changes suggest some recognition that the current approach is economically unsustainable. The government shutdown risk adds systemic uncertainty but may paradoxically force a political resolution. Minnesota's economy remains fundamentally sound, but continued enforcement at current levels will produce measurable GDP impacts in Q1 2026.",
+      "recommendations": [
+        "Model Super Bowl economic scenarios with and without ICE enforcement",
+        "Track labor market indicators in immigrant-heavy sectors weekly",
+        "Assess government shutdown contingency plans for state-funded programs",
+        "Monitor business investment and expansion decisions for chilling effects"
+      ],
+      "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "right",
+      "role": "Free-Market Economist",
+      "clock_rating": 4,
+      "confidence_level": "medium",
+      "key_factors": [
+        "Appeals court restoring ICE operational freedom supports rule of law, good for business certainty",
+        "Government shutdown risk is a political tactic, not an economic inevitability",
+        "Restaurant industry letter is typical special interest lobbying for cheap labor",
+        "Leadership change at ICE operations shows adaptive management",
+        "Criminal arrests by ICE reduce public safety costs for local taxpayers",
+        "Long-term economic benefits of enforcement outweigh short-term disruption"
+      ],
+      "reasoning": "The economic hysteria is overblown. Restaurant industry letters to Congress are predictable - businesses that rely on below-market immigrant labor will always oppose enforcement. The real economic story is the long-term benefit of a legal labor market and reduced public service burdens. The appeals court ruling provides legal certainty that supports business planning. The government shutdown threat is political theater - Democrats are using ICE funding as leverage, which markets have learned to discount. The Super Bowl will proceed normally; ICE is targeting criminals, not football fans. Short-term disruptions are the price of restoring rule of law, and Minnesota's diversified economy can absorb them. The leadership transition shows smart management, not weakness.",
+      "recommendations": [
+        "Quantify taxpayer savings from reduced illegal immigration costs",
+        "Publish analysis of wage benefits for legal workers from enforcement",
+        "Counter restaurant industry narrative with fiscal impact data",
+        "Monitor actual vs. predicted economic indicators to show disruption is overstated"
+      ],
+      "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations."
     }
-  },
+  ],
   "summary": {
-    "overall_rating": 5.42,
-    "polarization_index": 1.58,
-    "matrix": {
-      "politician": {"left": 7, "center": 6, "right": 5, "avg": 6.0},
-      "news_analyst": {"left": 7, "center": 6, "right": 4, "avg": 5.67},
-      "legal_expert": {"left": 6, "center": 5, "right": 4, "avg": 5.0},
-      "finance_analyst": {"left": 6, "center": 5, "right": 4, "avg": 5.0},
-      "averages": {
-        "left": 6.5,
-        "center": 5.5,
-        "right": 4.25,
-        "overall": 5.42
-      }
+    "date": "2026-01-27",
+    "average_rating": 6.5,
+    "median_rating": 7.0,
+    "rating_range": {
+      "min": 4,
+      "max": 8
     },
-    "key_events": [
-      "January 27, 2026 (Monday) - Day 4 after Alex Pretti shooting",
-      "Federal court issues ruling - limited injunction on residential enforcement",
-      "Commercial and targeted enforcement allowed to continue",
-      "Homan officially takes over Minnesota operations from Bovino",
-      "DOJ agrees to pause subpoenas against Governor Walz",
-      "Pretti family holds press conference demanding full accountability",
-      "Workforce participation normalizing",
-      "Consumer confidence beginning to recover",
-      "De-escalation continuing - both sides showing pragmatism",
-      "Constitutional system stressed but held"
-    ]
+    "consensus_areas": [
+      "Legal battles are now the primary arena - courts will determine outcome",
+      "Alex Pretti shooting remains the central catalytic event",
+      "Public opinion shifting against ICE (Fox poll: 59% say too aggressive)",
+      "Business community formally engaging against current enforcement approach",
+      "Government shutdown risk adds systemic instability"
+    ],
+    "divergence_areas": [
+      "Whether Pretti's prior confrontation video changes the shooting narrative",
+      "Whether FBI Signal chat investigation is protecting law or suppressing rights",
+      "Whether economic disruption is severe or manageable",
+      "Whether appeals court ruling represents constitutional correctness or dangerous overreach",
+      "Whether protest movement is organic civil rights movement or organized far-left operation"
+    ],
+    "key_developments": [
+      "DHS tells Congress 2 federal officers fired shots killing Alex Pretti",
+      "Federal judge orders ICE Chief Todd Lyons to appear in court",
+      "Appeals court sides with Trump admin, lifts protest curbs on ICE",
+      "Bruce Springsteen releases 'Streets of Minneapolis' protest song",
+      "Fox News poll: 59% say ICE too aggressive, up 10 points",
+      "Government shutdown risk as Democrats demand ICE reforms",
+      "VP Vance visits Minneapolis defending ICE operations",
+      "Pretti family retains George Floyd case prosecutor",
+      "Man attacks Rep. Omar at Minneapolis town hall",
+      "FBI confirms investigation into anti-ICE Signal chats",
+      "DHS confirms ICE enforcement at Super Bowl"
+    ],
+    "data_sources": {
+      "total_articles_extracted": 238,
+      "total_sources_scraped": 18,
+      "high_relevance_articles": 41,
+      "source_categories": ["minnesota_local", "us_national", "us_government"]
+    }
   }
 }

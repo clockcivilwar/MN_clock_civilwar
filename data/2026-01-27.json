@@ -1,10 +1,10 @@
 {
   "date": "2026-01-27",
   "clock": {
-    "rating": 5,
-    "status": "HIGH",
+    "rating": 7,
+    "status": "SEVERE",
     "trend": "Stable",
-    "description": "Significant confrontations, legal battles"
+    "description": "Civil disobedience, enforcement conflicts"
   },
   "events": [
     {
@@ -13,122 +13,356 @@
     }
   ],
   "news": {
-    "total_articles": 0,
+    "total_articles": 214,
     "total_sources": 18,
     "minnesota_local": {
-      "left_leaning": [],
-      "centrist": [],
-      "right_leaning": []
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 16,
+          "articles": [
+            {
+              "headline": "\u2018Sanctuary\u2019 label obscures actual levels of ICE cooperation across Minnesota",
+              "url": "https://www.minnpost.com/public-safety/2026/01/sanctuary-label-obscures-actual-levels-of-ice-cooperation-across-minnesota/"
+            },
+            {
+              "headline": "Who paid for the Target Center \u2018ICE Out\u2019 rally?",
+              "url": "https://www.minnpost.com/metro/2026/01/who-paid-for-the-target-center-ice-out-rally/"
+            },
+            {
+              "headline": "School leaders, parents and students condemn ICE action: \u2018None of this is normal\u2019",
+              "url": "https://www.minnpost.com/news/2026/01/school-leaders-parents-and-students-condemn-ice-action-none-of-this-is-normal/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Bruce Springsteen releases anti-ICE protest song: \u2018Streets of Minneapolis\u2019",
+              "url": "https://minnesotareformer.com/briefs/bruce-springsteen-releases-anti-ice-protest-song-streets-of-minneapolis/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 28,
+          "articles": [
+            {
+              "headline": "ICE isn\u2019t just tracking your phone. The surveillance technology goes further than that.",
+              "url": "https://sahanjournal.com/immigration/ice-surveillance-technology-facial-recognition-phones-minnesota/"
+            },
+            {
+              "headline": "Bravery in the face of fear: Immigrant Defense Network goes statewide with constitutional observer t",
+              "url": "https://sahanjournal.com/immigration/ice-constitutional-observer-training-minnesota-midwest-expansion/"
+            },
+            {
+              "headline": "Ramsey County prosecutor opens investigations into federal officers, calls for public reports",
+              "url": "https://sahanjournal.com/public-safety/ramsey-county-attorney-john-choi-investigates-federal-officers/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 27,
+          "articles": [
+            {
+              "headline": "Partial federal shutdown seems increasingly likely as Democrats demand major changes to ICE",
+              "url": "https://www.twincities.com/2026/01/28/partial-government-shutdown/"
+            },
+            {
+              "headline": "St. Paul woman, Inver Grove Heights teacher charged in ICE encounters",
+              "url": "https://www.twincities.com/2026/01/28/inver-grove-heights-teacher-charged-ice-collision/"
+            },
+            {
+              "headline": "St. Paul mayor meets with border czar, tells him of \u2018harm\u2019 from ICE surge",
+              "url": "https://www.twincities.com/2026/01/28/st-paul-mayor-meets-with-border-czar/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "The man killed by a U.S. Border Patrol officer in Minneapolis was an ICU nurse, family says",
+              "url": "https://www.mprnews.org/story/2026/01/24/alex-pretti-was-fatally-shot-in-minneapolis-by-us-border-patrol-officer"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 11,
+          "articles": [
+            {
+              "headline": "Several arrested for anti-ICE riot at Maple Grove hotel",
+              "url": "https://alphanews.org/several-arrested-for-anti-ice-riot-at-maple-grove-hotel/"
+            },
+            {
+              "headline": "Left-wingers are trying to push an anti-ICE narrative. Here are the facts they don\u2019t want you to kno",
+              "url": "https://alphanews.org/left-wingers-are-trying-to-push-an-anti-ice-narrative-here-are-the-facts-they-dont-want-you-to-know/"
+            },
+            {
+              "headline": "Anti-ICE activists arrested for storming St. Paul church service",
+              "url": "https://alphanews.org/anti-ice-activists-arrested-for-storming-st-paul-church-service/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 6,
+          "articles": [
+            {
+              "headline": "Public SafetyAmerican Experiment marks two-year anniversary of arson fireJanuary 28, 2026 by Bill Wa",
+              "url": "https://www.americanexperiment.org/american-experiment-marks-two-year-anniversary-of-arson-fire/"
+            },
+            {
+              "headline": "GovernanceElected Democrats Help Direct Anti-ICE CHAOSJanuary 27, 2026 by Grace Keating, Kathryn Joh",
+              "url": "https://www.americanexperiment.org/elected-democrats-help-direct-anti-ice-chaos/"
+            },
+            {
+              "headline": "Public SafetyLawfare and habeas corpusJanuary 27, 2026 by Bill GlahnPerhaps the most successful fron",
+              "url": "https://www.americanexperiment.org/lawfare-and-habeas-corpus/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 9,
+          "articles": [
+            {
+              "headline": "Federal Judge Orders ICE Chief to Appear in Court over Alleged Denial of Detainees\u2019 Due Process",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/federal-judge-orders-ice-chief-to-appear-in-court-over-alleged-denial-of-detainees-due-process/"
+            },
+            {
+              "headline": "Analysis: Kash Patel Has Fired Less than 150 FBI Employees Since Trump Took Office",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/analysis-kash-patel-has-fired-less-than-150-fbi-employees-since-trump-took-office/"
+            },
+            {
+              "headline": "Bill Would Require Tennessee Cities, Police to Report Immigration-Related Arrests, Benefits Use to N",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/bill-would-require-tennessee-cities-police-to-report-immigration-related-arrests-benefits-use-to-new-state-department/"
+            }
+          ]
+        }
+      ]
     },
     "us_national": {
-      "left_leaning": [],
-      "centrist": [],
-      "right_leaning": []
+      "left_leaning": [
+        {
+          "name": "MSNBC",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Castro, Crockett visit 5-year-old in ICE detention center in Texas",
+              "url": "https://www.ms.now/news/joaquin-castro-visit-5-year-old-in-ice-detention-center-in-texas"
+            }
+          ]
+        },
+        {
+          "name": "CNN",
+          "count": 19,
+          "articles": [
+            {
+              "headline": "Live UpdatesMinnesota ICE crackdown",
+              "url": "https://www.cnn.com/us/live-news/minneapolis-ice-trump-01-28-26"
+            },
+            {
+              "headline": "VideoCNN reporter asks Jerome Powell what advice he\u2019d give to successor1:35",
+              "url": "https://www.cnn.com/2026/01/28/business/video/jerome-powell-fed-chair-advice-succesor-digvid"
+            },
+            {
+              "headline": "FBI searching Fulton County elections office as it investigates alleged voter fraud",
+              "url": "https://www.cnn.com/2026/01/28/politics/fulton-county-election-office-fbi-warrant"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 21,
+          "articles": [
+            {
+              "headline": "Homeland Security Secretary Kristi Noem faces rising calls for her firing or impeachment",
+              "url": "https://apnews.com/article/minneapolis-shootings-kristi-noem-ice-congress-add9ac7b90f5677621009e8a603c0141"
+            },
+            {
+              "headline": "Family of Alex Pretti retains lawyer who helped prosecute the George Floyd case",
+              "url": "https://apnews.com/article/immigration-enforcement-minnesota-protester-alex-pretti-dfe7d30628cffeb1ceb6f940943e7b33"
+            },
+            {
+              "headline": "Georgia has been a central target for Trump\u2019s stolen election false claims",
+              "url": "https://apnews.com/article/fbi-georgia-elections-office-fulton-county-28e736037521b17197760d2394f0ab43"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 3,
+          "articles": [
+            {
+              "headline": "Minneapolis residents remain skeptical after immigration enforcement leadership change",
+              "url": "https://www.pbs.org/newshour/show/minneapolis-residents-remain-skeptical-after-immigration-enforcement-leadership-change"
+            },
+            {
+              "headline": "Mississippi sends 135 snowplows to help clear ice and snow from traffic-clogged highwaysByRuss Bynum",
+              "url": "https://www.pbs.org/newshour/nation/mississippi-sends-135-snowplows-to-help-clear-ice-and-snow-from-traffic-clogged-highways"
+            },
+            {
+              "headline": "In Ohio, a bipartisan community group seeks common ground on immigration reform",
+              "url": "https://www.pbs.org/newshour/show/in-ohio-a-bipartisan-community-group-seeks-common-ground-on-immigration-reform"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 30,
+          "articles": [
+            {
+              "headline": "MEME TO MUGSHOT",
+              "url": "https://www.foxnews.com/us/viral-bananas-rice-somali-woman-arrested-allegedly-participating-minneapolis-riot"
+            },
+            {
+              "headline": "ICE flips script on protesters with announcement of who they arrested in 24-hour period",
+              "url": "https://www.foxnews.com/politics/ice-reveals-worst-of-the-worst-arrests-in-just-one-day-after-rounding-up-thugs-convicted-of-vile-crimes"
+            },
+            {
+              "headline": "IMMIGRATION",
+              "url": "https://www.foxnews.com/category/us/immigration"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 41,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "No one seems to want to be Kathy Hochul\u2019s running mate \u2014 governor snubbed twice trying to fill NYS p",
+              "url": "https://nypost.com/2026/01/28/us-news/hochul-snubbed-twice-in-hunt-for-running-mate-as-she-struggles-to-fill-nys-lieutenant-governor-post/"
+            },
+            {
+              "headline": "Alex Pretti appears to spit at ICE, kick out tail light in previous Minneapolis confrontation before",
+              "url": "https://nypost.com/2026/01/28/us-news/alex-pretti-appears-to-spit-at-ice-kick-out-tail-light-in-previous-minneapolis-confrontation-before-he-was-shot-by-border-patrol/"
+            }
+          ]
+        }
+      ]
     }
   },
   "analysis": {
-    "polarization_index": 1.58,
-    "confidence_weighted_avg": 5.4,
+    "polarization_index": 4.0,
+    "confidence_weighted_avg": 6.8,
     "perspectives": {
       "politician": {
         "left": {
-          "rating": 7,
-          "role": "Progressive State Legislator",
-          "summary": "Court grants limited injunction - Homan takes over - DOJ pauses subpoenas - progress but no justice."
+          "rating": 9,
+          "role": "Progressive Democratic State Legislator from Minneapolis",
+          "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."
         },
         "center": {
-          "rating": 6,
-          "role": "Moderate State Senator",
-          "summary": "Court provides framework - both sides de-escalating - economic pressure driving pragmatism."
+          "rating": 7,
+          "role": "Moderate Independent State Senator",
+          "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."
         },
         "right": {
-          "rating": 5,
-          "role": "Conservative State Representative",
-          "summary": "Court compromise workable - Homan restores professionalism - stability returning."
+          "rating": 6,
+          "role": "Conservative Republican Representative",
+          "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."
         }
       },
       "news_analyst": {
         "left": {
-          "rating": 7,
+          "rating": 9,
           "role": "Progressive Journalist",
-          "summary": "Pretti family demands accountability - community cautiously hopeful - story continues."
+          "summary": "Defining story of the era. Federal government occupation of Minneapolis."
         },
         "center": {
-          "rating": 6,
-          "role": "Senior News Editor",
-          "summary": "Court ruling clear - need to track implementation - announcements vs reality."
+          "rating": 7,
+          "role": "Senior Editor",
+          "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."
         },
         "right": {
-          "rating": 4,
+          "rating": 5,
           "role": "Conservative Commentator",
-          "summary": "Reasonable flexibility - enforcement continues - media will misframe as defeat."
+          "summary": "Mainstream media disinformation campaign against federal law enforcement."
         }
       },
       "legal_expert": {
         "left": {
-          "rating": 6,
-          "role": "Civil Rights Attorney",
-          "summary": "Partial court victory - residential limit significant - Pretti case proceeding."
+          "rating": 9,
+          "role": "ACLU Immigration Rights Attorney",
+          "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."
         },
         "center": {
-          "rating": 5,
+          "rating": 7,
           "role": "Constitutional Law Professor",
-          "summary": "Constitutional balance achieved - system stressed but held - framework established."
+          "summary": "Genuinely novel territory. Federal government likely prevails legally."
         },
         "right": {
           "rating": 4,
           "role": "Former Federal Prosecutor",
-          "summary": "Federal authority preserved - enforcement continues - DOJ options reserved."
+          "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."
         }
       },
       "finance_analyst": {
         "left": {
-          "rating": 6,
+          "rating": 8,
           "role": "Progressive Economist",
-          "summary": "Business certainty improving - workforce returning - long-term damage assessment ongoing."
+          "summary": "Economic damage severe. Could set Minnesota back a decade."
         },
         "center": {
-          "rating": 5,
-          "role": "Regional Economist",
-          "summary": "Legal clarity helps planning - confidence recovering - Q2 outlook improving."
+          "rating": 6,
+          "role": "Federal Reserve Economist",
+          "summary": "Meaningful but not severe impacts yet. Duration is key variable."
         },
         "right": {
           "rating": 4,
           "role": "Free-Market Economist",
-          "summary": "Market stability returning - economic terrorism didn't win - recovery proceeding."
+          "summary": "Market correction, not crisis. Enforcement creates level playing field."
         }
       }
     },
     "matrix": {
       "politician": {
-        "left": 7,
-        "center": 6,
-        "right": 5,
-        "avg": 6.0
+        "left": 9,
+        "center": 7,
+        "right": 6,
+        "avg": 7.3
       },
       "news_analyst": {
-        "left": 7,
-        "center": 6,
-        "right": 4,
-        "avg": 5.7
+        "left": 9,
+        "center": 7,
+        "right": 5,
+        "avg": 7.0
       },
       "legal_expert": {
-        "left": 6,
-        "center": 5,
+        "left": 9,
+        "center": 7,
         "right": 4,
-        "avg": 5.0
+        "avg": 6.7
       },
       "finance_analyst": {
-        "left": 6,
-        "center": 5,
+        "left": 8,
+        "center": 6,
         "right": 4,
-        "avg": 5.0
+        "avg": 6.0
       },
       "averages": {
-        "left": 6.5,
-        "center": 5.5,
-        "right": 4.25,
-        "overall": 5.42
+        "left": 8.75,
+        "center": 6.75,
+        "right": 4.75,
+        "overall": 6.75
       }
     }
   },

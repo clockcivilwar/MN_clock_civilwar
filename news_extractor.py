@@ -153,6 +153,9 @@ def build_search_url(base_url, source_name):
         "foxnews.com": f"https://www.foxnews.com/search-results/search?q={encoded_query}",
         "dailywire.com": f"https://www.dailywire.com/search?query={encoded_query}",
         "nypost.com": f"https://nypost.com/search/{encoded_query}/",
+        "justice.gov": f"https://www.justice.gov/search?keys={encoded_query}",
+        "supremecourt.gov": f"https://www.supremecourt.gov/search.aspx?Search={encoded_query}",
+        "theminnesotasun.com": f"https://theminnesotasun.com/search?q={encoded_query}",
     }
 
     for domain, search_url in search_patterns.items():
@@ -250,6 +253,9 @@ def main():
             "left_leaning": [],
             "centrist": [],
             "right_leaning": []
+        },
+        "us_government": {
+            "official": []
         }
     }
 
@@ -267,6 +273,20 @@ def main():
                 all_results[region][leaning].append(result)
                 time.sleep(2)  # Rate limiting between sources
 
+    # Process government sources
+    if "us_government" in sources:
+        print(f"\n{'='*60}")
+        print("Region: US_GOVERNMENT")
+        print("=" * 60)
+
+        for category in sources["us_government"]:
+            print(f"\n--- {category.replace('_', ' ').title()} ---")
+
+            for source in sources["us_government"][category]:
+                result = scrape_source(source)
+                all_results["us_government"][category].append(result)
+                time.sleep(2)
+
     # Save results
     with open(OUTPUT_FILE, "w") as f:
         json.dump(all_results, f, indent=2)
@@ -280,6 +300,12 @@ def main():
     for region in ["minnesota_local", "us_national"]:
         for leaning in ["left_leaning", "centrist", "right_leaning"]:
             for source in all_results[region][leaning]:
+                total_articles += len(source["articles"])
+
+    # Count government sources
+    if "us_government" in all_results:
+        for category in all_results["us_government"]:
+            for source in all_results["us_government"][category]:
                 total_articles += len(source["articles"])
 
     print(f"\nTotal relevant articles found: {total_articles}")
