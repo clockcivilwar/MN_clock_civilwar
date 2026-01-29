@@ -31,7 +31,11 @@ source clockcivilwar/bin/activate
 python3 news_extractor.py DATE
 python3 analyze_results.py DATE
 
-# 3. Generate 12 AI opinions (interactive in chat)
+# 3. Generate 12 AI opinions using 3 independent passes
+# Pass 1: Analyze news from LEFT perspective (4 roles)
+# Pass 2: Analyze news from CENTER perspective (4 roles)
+# Pass 3: Analyze news from RIGHT perspective (4 roles)
+# Each pass is independent — leanings may diverge on the same events
 # Save to DATE/opinions.json
 
 # 4. Generate web data
@@ -60,6 +64,18 @@ git push
 
 Note: Include the prompt in opinions.json for transparency (no institution names in roles).
 
+### Three-Pass Methodology
+
+Opinions are generated in **three independent analytical passes** to ensure the left/center/right trend lines can diverge:
+
+1. **LEFT pass:** Analyze all news through progressive lens — 4 left-leaning roles rate independently
+2. **CENTER pass:** Analyze all news through balanced lens — 4 centrist roles rate independently
+3. **RIGHT pass:** Analyze all news through conservative lens — 4 right-leaning roles rate independently
+
+This prevents the common bias of all leanings moving in lockstep. The same event can push different leanings in opposite directions (e.g., a Fox poll showing ICE disapproval might lower center ratings but raise right ratings due to political anxiety).
+
+### News Sources (20)
+
 ## Clock Scale
 
 | Rating | Status |
@@ -71,8 +87,8 @@ Note: Include the prompt in opinions.json for transparency (no institution names
 | 9-10 | CRITICAL |
 | 11-12 | MIDNIGHT |
 
-## News Sources (18)
-
 **MN Local:** MinnPost, MN Reformer, Sahan Journal, Star Tribune, Pioneer Press, MPR News, Alpha News, American Experiment, MN Sun
 
 **National:** MSNBC, CNN, NY Times, AP News, Reuters, PBS, Fox News, Daily Wire, NY Post
+
+**Government:** Department of Justice, Supreme Court

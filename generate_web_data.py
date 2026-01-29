@@ -239,41 +239,74 @@ def generate_date_data(date_folder):
     news = extract_news_for_web(news_results)
 
     # Use opinions.json if available, otherwise fall back to markdown parsing
-    if opinions and "perspectives" in opinions:
+    if opinions and ("perspectives" in opinions or "opinions" in opinions):
         print(f"  Using AI-generated opinions from opinions.json")
         perspectives = {}
         matrix = {}
 
-        for persp_name, leanings in opinions["perspectives"].items():
-            perspectives[persp_name] = {}
-            matrix[persp_name] = {}
+        if "perspectives" in opinions:
+            # Legacy nested dict format: perspectives.politician.left.rating
+            for persp_name, leanings in opinions["perspectives"].items():
+                perspectives[persp_name] = {}
+                matrix[persp_name] = {}
 
-            for leaning, data in leanings.items():
-                perspectives[persp_name][leaning] = {
-                    "rating": data.get("rating", 0),
-                    "role": data.get("role", ""),
-                    "summary": data.get("summary", "")
+                for leaning, data in leanings.items():
+                    perspectives[persp_name][leaning] = {
+                        "rating": data.get("rating", 0),
+                        "role": data.get("role", ""),
+                        "summary": data.get("summary", "")
+                    }
+                    matrix[persp_name][leaning] = data.get("rating", 0)
+
+                ratings = [d.get("rating", 0) for d in leanings.values()]
+                matrix[persp_name]["avg"] = round(sum(ratings) / len(ratings), 1) if ratings else 0
+
+        elif "opinions" in opinions:
+            # Array format: opinions[].perspective, political_leaning, clock_rating
+            leaning_map = {"left": "left", "center": "center", "right": "right"}
+
+            for op in opinions["opinions"]:
+                persp = op.get("perspective", "")
+                leaning = op.get("political_leaning", "")
+                rating = op.get("clock_rating", 0)
+                role = op.get("role", "")
+                reasoning = op.get("reasoning", "")
+                # Use first sentence of reasoning as summary
+                summary = reasoning.split(". ")[0] + "." if reasoning else ""
+
+                if persp not in perspectives:
+                    perspectives[persp] = {}
+                    matrix[persp] = {}
+
+                perspectives[persp][leaning] = {
+                    "rating": rating,
+                    "role": role,
+                    "summary": summary[:120]
                 }
-                matrix[persp_name][leaning] = data.get("rating", 0)
+                matrix[persp][leaning] = rating
 
-            # Calculate average for this perspective
-            ratings = [d.get("rating", 0) for d in leanings.values()]
-            matrix[persp_name]["avg"] = round(sum(ratings) / len(ratings), 1) if ratings else 0
+            # Calculate averages per perspective
+            for persp_name in matrix:
+                if persp_name == "averages":
+                    continue
+                ratings = [v for k, v in matrix[persp_name].items() if k in leaning_map]
+                matrix[persp_name]["avg"] = round(sum(ratings) / len(ratings), 1) if ratings else 0
 
         # Calculate overall averages
-        left_ratings = [opinions["perspectives"][p].get("left", {}).get("rating", 0)
-                        for p in opinions["perspectives"]]
-        center_ratings = [opinions["perspectives"][p].get("center", {}).get("rating", 0)
-                          for p in opinions["perspectives"]]
-        right_ratings = [opinions["perspectives"][p].get("right", {}).get("rating", 0)
-                         for p in opinions["perspectives"]]
+        persp_keys = [k for k in matrix if k != "averages"]
+        left_ratings = [matrix[p].get("left", 0) for p in persp_keys]
+        center_ratings = [matrix[p].get("center", 0) for p in persp_keys]
+        right_ratings = [matrix[p].get("right", 0) for p in persp_keys]
 
         matrix["averages"] = {
             "left": round(sum(left_ratings) / len(left_ratings), 2) if left_ratings else 0,
             "center": round(sum(center_ratings) / len(center_ratings), 2) if center_ratings else 0,
             "right": round(sum(right_ratings) / len(right_ratings), 2) if right_ratings else 0,
-            "overall": opinions.get("summary", {}).get("overall_rating", 0)
+            "overall": 0
         }
+        matrix["averages"]["overall"] = round(
+            (matrix["averages"]["left"] + matrix["averages"]["center"] + matrix["averages"]["right"]) / 3, 2
+        )
 
         # Update clock rating from opinions
         clock["rating"] = round(matrix["averages"]["overall"])

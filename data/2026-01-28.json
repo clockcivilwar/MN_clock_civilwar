@@ -265,108 +265,108 @@
     }
   },
   "analysis": {
-    "polarization_index": 4.0,
+    "polarization_index": 0,
     "confidence_weighted_avg": 6.8,
     "perspectives": {
       "politician": {
         "left": {
           "rating": 9,
-          "role": "Progressive Democratic State Legislator from Minneapolis",
-          "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."
+          "role": "Progressive State Legislator",
+          "summary": "ICE attempting to enter a foreign consulate violates the Vienna Convention and internationalizes what was already a dome"
         },
         "center": {
-          "rating": 7,
-          "role": "Moderate Independent State Senator",
-          "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "The political dynamics are shifting in a way that favors resolution."
         },
         "right": {
           "rating": 6,
-          "role": "Conservative Republican Representative",
-          "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."
+          "role": "Conservative State Representative",
+          "summary": "The political situation is deteriorating for enforcement supporters."
         }
       },
       "news_analyst": {
         "left": {
           "rating": 9,
           "role": "Progressive Journalist",
-          "summary": "Defining story of the era. Federal government occupation of Minneapolis."
+          "summary": "Minneapolis is evolving from protest to systemic resistance."
         },
         "center": {
-          "rating": 7,
-          "role": "Senior Editor",
-          "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "The media landscape is becoming more nuanced."
         },
         "right": {
-          "rating": 5,
+          "rating": 6,
           "role": "Conservative Commentator",
-          "summary": "Mainstream media disinformation campaign against federal law enforcement."
+          "summary": "I have to be honest: we're losing the narrative war."
         }
       },
       "legal_expert": {
         "left": {
           "rating": 9,
-          "role": "ACLU Immigration Rights Attorney",
-          "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."
+          "role": "Civil Rights Attorney",
+          "summary": "The legal situation has reached unprecedented severity."
         },
         "center": {
           "rating": 7,
           "role": "Constitutional Law Professor",
-          "summary": "Genuinely novel territory. Federal government likely prevails legally."
+          "summary": "The constitutional complexity keeps expanding."
         },
         "right": {
-          "rating": 4,
+          "rating": 5,
           "role": "Former Federal Prosecutor",
-          "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."
+          "summary": "The legal framework continues to favor federal authority."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 8,
           "role": "Progressive Economist",
-          "summary": "Economic damage severe. Could set Minnesota back a decade."
+          "summary": "$500 million in National Guard costs alone is a massive waste."
         },
         "center": {
           "rating": 6,
-          "role": "Federal Reserve Economist",
-          "summary": "Meaningful but not severe impacts yet. Duration is key variable."
+          "role": "Regional Economist",
+          "summary": "The economic picture is stabilizing."
         },
         "right": {
-          "rating": 4,
+          "rating": 5,
           "role": "Free-Market Economist",
-          "summary": "Market correction, not crisis. Enforcement creates level playing field."
+          "summary": "The economic argument for enforcement is getting harder to make politically, even if the long-term fundamentals are soun"
         }
       }
     },
     "matrix": {
       "politician": {
         "left": 9,
-        "center": 7,
+        "center": 6,
         "right": 6,
-        "avg": 7.3
+        "avg": 7.0
       },
       "news_analyst": {
         "left": 9,
-        "center": 7,
-        "right": 5,
+        "center": 6,
+        "right": 6,
         "avg": 7.0
       },
       "legal_expert": {
         "left": 9,
         "center": 7,
-        "right": 4,
-        "avg": 6.7
+        "right": 5,
+        "avg": 7.0
       },
       "finance_analyst": {
         "left": 8,
         "center": 6,
-        "right": 4,
-        "avg": 6.0
+        "right": 5,
+        "avg": 6.3
       },
       "averages": {
         "left": 8.75,
-        "center": 6.75,
-        "right": 4.75,
-        "overall": 6.75
+        "center": 6.25,
+        "right": 5.5,
+        "overall": 6.83
       }
     }
   },

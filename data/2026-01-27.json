@@ -1,10 +1,10 @@
 {
   "date": "2026-01-27",
   "clock": {
-    "rating": 7,
-    "status": "SEVERE",
+    "rating": 6,
+    "status": "HIGH",
     "trend": "Stable",
-    "description": "Civil disobedience, enforcement conflicts"
+    "description": "Significant confrontations, legal battles"
   },
   "events": [
     {
@@ -261,95 +261,95 @@
     }
   },
   "analysis": {
-    "polarization_index": 4.0,
-    "confidence_weighted_avg": 6.8,
+    "polarization_index": 0,
+    "confidence_weighted_avg": 6.5,
     "perspectives": {
       "politician": {
         "left": {
-          "rating": 9,
-          "role": "Progressive Democratic State Legislator from Minneapolis",
-          "summary": "Federal occupation unprecedented. One more incident away from catastrophic violence."
+          "rating": 8,
+          "role": "Progressive State Legislator",
+          "summary": "The situation remains deeply alarming."
         },
         "center": {
           "rating": 7,
-          "role": "Moderate Independent State Senator",
-          "summary": "Extremely serious but not yet at point of no return. Cooler heads could prevail."
+          "role": "Moderate State Senator",
+          "summary": "The situation shows contradictory signals."
         },
         "right": {
-          "rating": 6,
-          "role": "Conservative Republican Representative",
-          "summary": "Unrest manufactured by radical left. Federal officers doing their lawful duty."
+          "rating": 5,
+          "role": "Conservative State Representative",
+          "summary": "Law enforcement is winning the legal and operational battles."
         }
       },
       "news_analyst": {
         "left": {
-          "rating": 9,
+          "rating": 8,
           "role": "Progressive Journalist",
-          "summary": "Defining story of the era. Federal government occupation of Minneapolis."
+          "summary": "Minneapolis is becoming this generation's defining civil rights story."
         },
         "center": {
           "rating": 7,
-          "role": "Senior Editor",
-          "summary": "Federal agencies stonewalling. Both sides have legitimate grievances."
+          "role": "Senior News Editor",
+          "summary": "Coverage quality is improving as facts emerge."
         },
         "right": {
           "rating": 5,
           "role": "Conservative Commentator",
-          "summary": "Mainstream media disinformation campaign against federal law enforcement."
+          "summary": "The mainstream media continues to lionize Alex Pretti while burying the video of his prior aggressive confrontation with"
         }
       },
       "legal_expert": {
         "left": {
-          "rating": 9,
-          "role": "ACLU Immigration Rights Attorney",
-          "summary": "Constitutional crisis of the highest order. Lawlessness wearing a badge."
+          "rating": 8,
+          "role": "Civil Rights Attorney",
+          "summary": "The legal landscape is extraordinary."
         },
         "center": {
           "rating": 7,
           "role": "Constitutional Law Professor",
-          "summary": "Genuinely novel territory. Federal government likely prevails legally."
+          "summary": "We are witnessing the most significant federalism crisis since the civil rights era."
         },
         "right": {
-          "rating": 4,
+          "rating": 5,
           "role": "Former Federal Prosecutor",
-          "summary": "Immigration enforcement exclusively federal jurisdiction. Shooting justified."
+          "summary": "The legal system is working in favor of federal authority."
         }
       },
       "finance_analyst": {
         "left": {
           "rating": 8,
           "role": "Progressive Economist",
-          "summary": "Economic damage severe. Could set Minnesota back a decade."
+          "summary": "The economic damage is becoming impossible to ignore."
         },
         "center": {
           "rating": 6,
-          "role": "Federal Reserve Economist",
-          "summary": "Meaningful but not severe impacts yet. Duration is key variable."
+          "role": "Regional Economist",
+          "summary": "The economic picture is mixed but concerning."
         },
         "right": {
           "rating": 4,
           "role": "Free-Market Economist",
-          "summary": "Market correction, not crisis. Enforcement creates level playing field."
+          "summary": "The economic hysteria is overblown."
         }
       }
     },
     "matrix": {
       "politician": {
-        "left": 9,
-        "center": 7,
-        "right": 6,
-        "avg": 7.3
-      },
-      "news_analyst": {
-        "left": 9,
+        "left": 8,
         "center": 7,
         "right": 5,
-        "avg": 7.0
+        "avg": 6.7
+      },
+      "news_analyst": {
+        "left": 8,
+        "center": 7,
+        "right": 5,
+        "avg": 6.7
       },
       "legal_expert": {
-        "left": 9,
+        "left": 8,
         "center": 7,
-        "right": 4,
+        "right": 5,
         "avg": 6.7
       },
       "finance_analyst": {
@@ -359,10 +359,10 @@
         "avg": 6.0
       },
       "averages": {
-        "left": 8.75,
+        "left": 8.0,
         "center": 6.75,
         "right": 4.75,
-        "overall": 6.75
+        "overall": 6.5
       }
     }
   },

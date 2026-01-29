@@ -28,7 +28,7 @@
   },
   "analysis": {
     "polarization_index": 1.17,
-    "confidence_weighted_avg": 5.0,
+    "confidence_weighted_avg": 4.9,
     "perspectives": {
       "politician": {
         "left": {
@@ -128,7 +128,7 @@
         "left": 5.5,
         "center": 5.0,
         "right": 4.25,
-        "overall": 5.0
+        "overall": 4.92
       }
     }
   },

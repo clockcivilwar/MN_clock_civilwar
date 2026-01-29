@@ -1,7 +1,7 @@
 {
   "date": "2026-01-23",
   "clock": {
-    "rating": 7,
+    "rating": 8,
     "status": "SEVERE",
     "trend": "Stable",
     "description": "Civil disobedience, enforcement conflicts"
@@ -242,7 +242,7 @@
   },
   "analysis": {
     "polarization_index": 2.67,
-    "confidence_weighted_avg": 7.4,
+    "confidence_weighted_avg": 7.6,
     "perspectives": {
       "politician": {
         "left": {
@@ -342,7 +342,7 @@
         "left": 9.75,
         "center": 8.0,
         "right": 5.0,
-        "overall": 7.42
+        "overall": 7.58
       }
     }
   },
