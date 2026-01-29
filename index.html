@@ -22,38 +22,6 @@
         <!-- Clock Section -->
         <section id="clock-section">
             <div class="clock-wrapper">
-                <!-- Trend Chart -->
-                <div class="trend-chart-container">
-                    <h3>Trend</h3>
-                    <svg id="trend-chart" viewBox="0 0 220 250">
-                        <!-- Y-axis labels (showing key decimal values) -->
-                        <text x="30" y="15" class="chart-label">12.0</text>
-                        <text x="30" y="48" class="chart-label">10.0</text>
-                        <text x="30" y="82" class="chart-label">8.0</text>
-                        <text x="30" y="115" class="chart-label">6.0</text>
-                        <text x="30" y="148" class="chart-label">4.0</text>
-                        <text x="30" y="182" class="chart-label">2.0</text>
-                        <text x="30" y="215" class="chart-label">0.0</text>
-                        <!-- Grid lines -->
-                        <line x1="45" y1="10" x2="200" y2="10" class="grid-line" />
-                        <line x1="45" y1="43" x2="200" y2="43" class="grid-line dashed" />
-                        <line x1="45" y1="77" x2="200" y2="77" class="grid-line dashed" />
-                        <line x1="45" y1="110" x2="200" y2="110" class="grid-line" />
-                        <line x1="45" y1="143" x2="200" y2="143" class="grid-line dashed" />
-                        <line x1="45" y1="177" x2="200" y2="177" class="grid-line dashed" />
-                        <line x1="45" y1="210" x2="200" y2="210" class="grid-line" />
-                        <!-- Y-axis -->
-                        <line x1="45" y1="10" x2="45" y2="210" class="axis-line" />
-                        <!-- X-axis -->
-                        <line x1="45" y1="210" x2="200" y2="210" class="axis-line" />
-                        <!-- Trend line (dynamic) -->
-                        <polyline id="trend-line" class="trend-line" points="" />
-                        <!-- Data points (dynamic) -->
-                        <g id="trend-points"></g>
-                    </svg>
-                    <div id="chart-tooltip" class="chart-tooltip"></div>
-                </div>
-
                 <!-- Analog Clock -->
                 <div class="analog-clock-container">
                     <div class="analog-clock" id="analog-clock">
@@ -183,6 +151,47 @@
                 <p class="description">Civil disobedience, enforcement conflicts</p>
             </div>
             </div><!-- end clock-wrapper -->
+
+            <!-- Trend Chart (full width below clock) -->
+            <div class="trend-chart-container">
+                <h3>Trend</h3>
+                <div class="trend-legend">
+                    <span class="legend-item legend-overall"><span class="legend-swatch"></span>Overall</span>
+                    <span class="legend-item legend-left"><span class="legend-swatch"></span>Left</span>
+                    <span class="legend-item legend-center"><span class="legend-swatch"></span>Center</span>
+                    <span class="legend-item legend-right"><span class="legend-swatch"></span>Right</span>
+                </div>
+                <svg id="trend-chart" viewBox="0 0 700 280">
+                    <!-- Y-axis labels -->
+                    <text x="30" y="25" class="chart-label">12.0</text>
+                    <text x="30" y="58" class="chart-label">10.0</text>
+                    <text x="30" y="92" class="chart-label">8.0</text>
+                    <text x="30" y="125" class="chart-label">6.0</text>
+                    <text x="30" y="158" class="chart-label">4.0</text>
+                    <text x="30" y="192" class="chart-label">2.0</text>
+                    <text x="30" y="225" class="chart-label">0.0</text>
+                    <!-- Grid lines -->
+                    <line x1="45" y1="20" x2="680" y2="20" class="grid-line" />
+                    <line x1="45" y1="53" x2="680" y2="53" class="grid-line dashed" />
+                    <line x1="45" y1="87" x2="680" y2="87" class="grid-line dashed" />
+                    <line x1="45" y1="120" x2="680" y2="120" class="grid-line" />
+                    <line x1="45" y1="153" x2="680" y2="153" class="grid-line dashed" />
+                    <line x1="45" y1="187" x2="680" y2="187" class="grid-line dashed" />
+                    <line x1="45" y1="220" x2="680" y2="220" class="grid-line" />
+                    <!-- Y-axis -->
+                    <line x1="45" y1="20" x2="45" y2="220" class="axis-line" />
+                    <!-- X-axis -->
+                    <line x1="45" y1="220" x2="680" y2="220" class="axis-line" />
+                    <!-- Trend lines (dynamic) -->
+                    <polyline id="trend-line-left" class="trend-line trend-line-left" points="" />
+                    <polyline id="trend-line-right" class="trend-line trend-line-right" points="" />
+                    <polyline id="trend-line-center" class="trend-line trend-line-center" points="" />
+                    <polyline id="trend-line" class="trend-line trend-line-overall" points="" />
+                    <!-- Data points (dynamic) -->
+                    <g id="trend-points"></g>
+                </svg>
+                <div id="chart-tooltip" class="chart-tooltip"></div>
+            </div>
         </section>
 
         <!-- Scale Reference -->

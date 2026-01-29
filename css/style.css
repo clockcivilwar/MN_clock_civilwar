@@ -184,22 +184,50 @@ h4 {
 
 /* Trend Chart */
 .trend-chart-container {
-    width: 220px;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto 0;
     position: relative;
 }
 
 .trend-chart-container h3 {
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     color: var(--color-text-muted);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
+.trend-legend {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--color-text-muted);
+}
+
+.legend-swatch {
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+}
+
+.legend-overall .legend-swatch { background: var(--color-warning); height: 3px; }
+.legend-left .legend-swatch { background: #3498db; height: 2px; }
+.legend-center .legend-swatch { background: #95a5a6; height: 2px; }
+.legend-right .legend-swatch { background: #e74c3c; height: 2px; }
+
 #trend-chart {
     width: 100%;
-    height: 250px;
+    height: 280px;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
 }
@@ -228,8 +256,30 @@ h4 {
 
 #trend-chart .trend-line {
     fill: none;
-    stroke: var(--color-warning);
     stroke-width: 2;
+}
+
+#trend-chart .trend-line-overall {
+    stroke: var(--color-warning);
+    stroke-width: 3;
+}
+
+#trend-chart .trend-line-left {
+    stroke: #3498db;
+    stroke-width: 1.5;
+    opacity: 0.7;
+}
+
+#trend-chart .trend-line-center {
+    stroke: #95a5a6;
+    stroke-width: 1.5;
+    opacity: 0.7;
+}
+
+#trend-chart .trend-line-right {
+    stroke: #e74c3c;
+    stroke-width: 1.5;
+    opacity: 0.7;
 }
 
 #trend-chart .data-point {

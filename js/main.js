@@ -504,30 +504,38 @@ function showLoading(show) {
 function renderTrendChart() {
     const pointsContainer = document.getElementById('trend-points');
     const trendLine = document.getElementById('trend-line');
+    const trendLineLeft = document.getElementById('trend-line-left');
+    const trendLineCenter = document.getElementById('trend-line-center');
+    const trendLineRight = document.getElementById('trend-line-right');
     const tooltip = document.getElementById('chart-tooltip');
 
     if (!pointsContainer || !trendLine || availableDates.length === 0) return;
 
-    // Chart dimensions
+    // Chart dimensions (wider layout)
     const chartLeft = 45;
-    const chartRight = 200;
-    const chartTop = 10;
-    const chartBottom = 210;
+    const chartRight = 680;
+    const chartTop = 20;
+    const chartBottom = 220;
     const chartWidth = chartRight - chartLeft;
     const chartHeight = chartBottom - chartTop;
 
-    // Calculate positions
+    // Calculate positions for all series
     const points = [];
+    const leftPoints = [];
+    const centerPoints = [];
+    const rightPoints = [];
     const sortedDates = [...availableDates].sort();
 
     sortedDates.forEach((date, index) => {
         const data = allDatesData[date];
         if (!data) return;
 
+        const avg = data.analysis && data.analysis.matrix && data.analysis.matrix.averages;
+
         // Use precise rating from analysis matrix
         let rating = data.clock.rating;
-        if (data.analysis && data.analysis.matrix && data.analysis.matrix.averages) {
-            rating = data.analysis.matrix.averages.overall;
+        if (avg) {
+            rating = avg.overall;
         }
 
         // X position: spread points evenly
@@ -542,13 +550,34 @@ function renderTrendChart() {
         const y = chartBottom - (rating / 12) * chartHeight;
 
         points.push({ date, rating, x, y });
+
+        // Left/Center/Right series
+        if (avg) {
+            const leftRating = avg.left || 0;
+            const centerRating = avg.center || 0;
+            const rightRating = avg.right || 0;
+            leftPoints.push({ x, y: chartBottom - (leftRating / 12) * chartHeight });
+            centerPoints.push({ x, y: chartBottom - (centerRating / 12) * chartHeight });
+            rightPoints.push({ x, y: chartBottom - (rightRating / 12) * chartHeight });
+        }
     });
 
-    // Draw trend line
+    // Draw left/center/right trend lines
+    if (trendLineLeft && leftPoints.length > 0) {
+        trendLineLeft.setAttribute('points', leftPoints.map(p => `${p.x},${p.y}`).join(' '));
+    }
+    if (trendLineCenter && centerPoints.length > 0) {
+        trendLineCenter.setAttribute('points', centerPoints.map(p => `${p.x},${p.y}`).join(' '));
+    }
+    if (trendLineRight && rightPoints.length > 0) {
+        trendLineRight.setAttribute('points', rightPoints.map(p => `${p.x},${p.y}`).join(' '));
+    }
+
+    // Draw overall trend line
     const linePoints = points.map(p => `${p.x},${p.y}`).join(' ');
     trendLine.setAttribute('points', linePoints);
 
-    // Draw data points
+    // Draw data points (overall only)
     pointsContainer.innerHTML = '';
 
     points.forEach(point => {
@@ -556,7 +585,7 @@ function renderTrendChart() {
         const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
         circle.setAttribute('cx', point.x);
         circle.setAttribute('cy', point.y);
-        circle.setAttribute('r', 6);
+        circle.setAttribute('r', 5);
         circle.setAttribute('class', 'data-point');
         circle.setAttribute('data-date', point.date);
         circle.setAttribute('data-rating', point.rating);
@@ -575,15 +604,23 @@ function renderTrendChart() {
         // Hover handlers
         circle.addEventListener('mouseenter', function(e) {
             const date = this.getAttribute('data-date');
-            const rating = parseFloat(this.getAttribute('data-rating'));
-            tooltip.textContent = `${formatDateShort(date)}: ${rating.toFixed(2)}/12`;
+            const ratingVal = parseFloat(this.getAttribute('data-rating'));
+            const data = allDatesData[date];
+            const avg = data && data.analysis && data.analysis.matrix && data.analysis.matrix.averages;
+            let text = `${formatDateShort(date)}: ${ratingVal.toFixed(2)}`;
+            if (avg) {
+                text += ` (L:${avg.left.toFixed(1)} C:${avg.center.toFixed(1)} R:${avg.right.toFixed(1)})`;
+            }
+            tooltip.textContent = text;
             tooltip.classList.add('visible');
 
-            // Position tooltip
-            const rect = document.getElementById('trend-chart').getBoundingClientRect();
+            // Position tooltip relative to SVG
+            const svgRect = document.getElementById('trend-chart').getBoundingClientRect();
             const containerRect = document.querySelector('.trend-chart-container').getBoundingClientRect();
-            tooltip.style.left = (point.x - 30) + 'px';
-            tooltip.style.top = (point.y - 35) + 'px';
+            const scaleX = svgRect.width / 700;
+            const scaleY = svgRect.height / 280;
+            tooltip.style.left = (point.x * scaleX) + 'px';
+            tooltip.style.top = (point.y * scaleY - 30) + 'px';
         });
 
         circle.addEventListener('mouseleave', function() {
@@ -592,13 +629,15 @@ function renderTrendChart() {
 
         pointsContainer.appendChild(circle);
 
-        // Add date label below point
-        const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        label.setAttribute('x', point.x);
-        label.setAttribute('y', chartBottom + 15);
-        label.setAttribute('class', 'point-label');
-        label.textContent = formatDateShort(point.date);
-        pointsContainer.appendChild(label);
+        // Add date label for select dates (avoid clutter with many dates)
+        if (sortedDates.length <= 14 || index % Math.ceil(sortedDates.length / 14) === 0 || index === sortedDates.length - 1) {
+            const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            label.setAttribute('x', point.x);
+            label.setAttribute('y', chartBottom + 15);
+            label.setAttribute('class', 'point-label');
+            label.textContent = formatDateShort(point.date);
+            pointsContainer.appendChild(label);
+        }
     });
 }
 
