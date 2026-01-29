@@ -3,7 +3,12 @@
   "clock": {
     "rating": 5,
     "status": "HIGH",
-    "trend": "Stable",
+    "trend": {
+      "overall": "Falling",
+      "left": "Falling",
+      "center": "Falling",
+      "right": "Falling"
+    },
     "description": "Significant confrontations, legal battles"
   },
   "events": [

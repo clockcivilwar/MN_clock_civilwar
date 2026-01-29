@@ -3,7 +3,12 @@
   "clock": {
     "rating": 2,
     "status": "PEACEFUL",
-    "trend": "Stable",
+    "trend": {
+      "overall": "Rising",
+      "left": "Rising",
+      "center": "Stable",
+      "right": "Stable"
+    },
     "description": "Normal political discourse"
   },
   "events": [
