@@ -307,6 +307,21 @@ h4 {
     text-anchor: middle;
 }
 
+#trend-chart .event-marker-line {
+    stroke: #ffffff;
+    stroke-width: 1;
+    stroke-dasharray: 4, 3;
+    opacity: 0.35;
+}
+
+#trend-chart .event-label {
+    fill: #ffffff;
+    font-size: 10px;
+    font-family: var(--font-mono);
+    text-anchor: middle;
+    opacity: 0.8;
+}
+
 .chart-tooltip {
     position: absolute;
     background: var(--color-surface-alt);

@@ -639,6 +639,34 @@ function renderTrendChart() {
             pointsContainer.appendChild(label);
         }
     });
+
+    // Draw event annotations
+    const events = [
+        { date: '2026-01-08', label: 'Renee Good shot' },
+        { date: '2026-01-24', label: 'Alex Pretti shot' }
+    ];
+
+    events.forEach(evt => {
+        const pt = points.find(p => p.date === evt.date);
+        if (!pt) return;
+
+        // Vertical marker line
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', pt.x);
+        line.setAttribute('y1', chartTop);
+        line.setAttribute('x2', pt.x);
+        line.setAttribute('y2', chartBottom);
+        line.setAttribute('class', 'event-marker-line');
+        pointsContainer.appendChild(line);
+
+        // Label
+        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', pt.x);
+        text.setAttribute('y', 10);
+        text.setAttribute('class', 'event-label');
+        text.textContent = evt.label;
+        pointsContainer.appendChild(text);
+    });
 }
 
 // Update trend chart active state
