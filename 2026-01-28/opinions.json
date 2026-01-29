@@ -1,0 +1,324 @@
+{
+  "date": "2026-01-28",
+  "opinions": [
+    {
+      "perspective": "politician",
+      "political_leaning": "left",
+      "role": "Progressive State Legislator",
+      "clock_rating": 9,
+      "confidence_level": "high",
+      "key_factors": [
+        "ICE attempted to enter Ecuadorian consulate in Minneapolis - violation of international law",
+        "St. Paul activist Thao Xiong taken by ICE at Hallie Q. Brown Center - targeting community institutions",
+        "Justice Department bracing for more resignations over Minnesota operations",
+        "Red Lake Nation restricts ICE entry - tribal sovereignty being asserted against federal overreach",
+        "DHS and Border Patrol veterans publicly say Minnesota deployment is 'causing chaos'",
+        "Senators Klobuchar and Smith pay tribute to Minnesota victims on Senate floor"
+      ],
+      "reasoning": "ICE attempting to enter a foreign consulate is an extraordinary escalation - this violates the Vienna Convention and internationalizes what was already a domestic crisis. The arrest of an activist at Hallie Q. Brown Center, a historic Black community institution in St. Paul, shows ICE is deliberately targeting spaces of cultural significance to intimidate communities. When DOJ career attorneys are resigning rather than defend these operations and DHS veterans publicly call the deployment chaotic, the federal government's own institutional legitimacy is collapsing. Red Lake Nation's assertion of tribal sovereignty adds yet another constitutional dimension. This is no longer a local immigration dispute - it's a multi-dimensional crisis touching international law, tribal sovereignty, and the internal integrity of federal institutions.",
+      "recommendations": [
+        "Formal state resolution condemning Vienna Convention violation at Ecuadorian consulate",
+        "Emergency legislation protecting tribal sovereignty from federal immigration operations",
+        "Support DOJ whistleblowers with state-level legal protections",
+        "Coordinate with Minnesota's congressional delegation on shutdown leverage for ICE reforms"
+      ],
+      "prompt": "You are a progressive state legislator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Impact on immigrant communities and sanctuary city policies, (2) State vs federal authority conflicts, (3) Civil rights implications, (4) Community trust in law enforcement, (5) Potential for civil unrest or resistance. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to de-escalate tensions."
+    },
+    {
+      "perspective": "politician",
+      "political_leaning": "center",
+      "role": "Moderate State Senator",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "Ecuadorian consulate incident creates international diplomatic complications",
+        "DHS/Border Patrol veterans break ranks saying deployment is 'causing chaos'",
+        "National Guard deployments have cost taxpayers nearly $500 million",
+        "Government shutdown increasingly likely as Democrats demand ICE reforms",
+        "New Pretti videos show prior scuffle, complicating narratives on both sides",
+        "St. Paul mayor continuing engagement with border czar on harm from surge"
+      ],
+      "reasoning": "The situation is not improving despite diplomatic gestures. The consulate incident is deeply concerning - regardless of immigration policy views, entering a foreign diplomatic mission violates basic international norms. The $500 million National Guard cost is becoming a fiscal issue that crosses party lines. Internal dissent from DHS and Border Patrol veterans suggests the operation itself is poorly managed, not just politically controversial. The government shutdown threat adds federal instability. However, the new Pretti videos showing a prior confrontation with officers suggest the situation is more complicated than either side wants to acknowledge. Both sides need to step back, but the escalation dynamics keep overriding diplomacy.",
+      "recommendations": [
+        "Bipartisan condemnation of consulate violation regardless of immigration stance",
+        "Call for independent cost-benefit analysis of Operation Metro Surge",
+        "Support government funding deal that includes ICE operational reforms",
+        "Push for independent review board for federal law enforcement in Minnesota"
+      ],
+      "prompt": "You are a moderate independent state senator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Balancing federal immigration law with local concerns, (2) Economic impacts on businesses and workforce, (3) Public safety for all residents, (4) Constitutional boundaries between state and federal powers, (5) Finding common ground between opposing sides. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended bipartisan solutions."
+    },
+    {
+      "perspective": "politician",
+      "political_leaning": "right",
+      "role": "Conservative State Representative",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "New videos show Alex Pretti had prior physical confrontation with federal officers",
+        "AP reports 'shadow network' defying ICE and hiding immigrants from federal authorities",
+        "Viral Somali woman from protest arrested in connection to Minneapolis riot",
+        "Appeals court ruling remains in force supporting ICE operational authority",
+        "Democrats threatening government shutdown to force ICE changes - political hostage-taking",
+        "Immigration was Republican electoral strength - need to maintain resolve"
+      ],
+      "reasoning": "The new Pretti videos validate what many suspected - this was not an innocent bystander but someone with a pattern of confronting federal officers. The AP's own reporting on a 'shadow network' defying ICE confirms organized obstruction of federal law. Democrats threatening to shut down the government unless ICE is neutered is irresponsible political extremism. The riot arrests are producing accountability. The appeals court ruling stands, and federal authority is being maintained. The leaked veteran concerns are typical of bureaucratic resistance to any administration change. The real crisis is not enforcement - it's the organized lawlessness of the resistance. Republicans need to hold firm going into midterms.",
+      "recommendations": [
+        "Publicize Pretti prior confrontation videos to reframe narrative",
+        "Investigate and prosecute the 'shadow network' sheltering illegal immigrants",
+        "Oppose government shutdown - fund DHS fully including ICE operations",
+        "Call for DOJ investigation of organized obstruction networks"
+      ],
+      "prompt": "You are a conservative state representative. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Rule of law and enforcement of federal immigration policy, (2) Public safety and border security concerns, (3) State cooperation with federal authorities, (4) Impact of illegal immigration on local communities, (5) Support for law enforcement operations. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, reasoning, and recommended actions to restore order."
+    },
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "left",
+      "role": "Progressive Journalist",
+      "clock_rating": 9,
+      "confidence_level": "high",
+      "key_factors": [
+        "MSNBC analysis: protesting is only small part of Minneapolis resistance - deeper civic movement",
+        "AP documents 'shadow network' protecting immigrants - unprecedented civic defiance",
+        "Hundreds mourn Alex Pretti - community grief becoming political movement",
+        "U.S. Cardinal urges defunding ICE - religious establishment joining opposition",
+        "CNN analysis warns de-escalation may be short-lived",
+        "ICE arrest at Hallie Q. Brown Center connects immigration to Black community institutions"
+      ],
+      "reasoning": "The Minneapolis story is evolving from protest to systemic resistance. The AP's documentation of shadow networks protecting immigrants reveals a level of organized civic defiance not seen since the Underground Railroad. A U.S. Cardinal calling for ICE defunding means the Catholic Church - traditionally conservative on many issues - has sided against federal enforcement. The arrest at Hallie Q. Brown Center, a pillar of St. Paul's Black community, forges connections between immigration enforcement and the broader racial justice movement. CNN's own analysis warns the de-escalation narrative is premature. The mourning for Pretti is crystallizing into a political movement. This story has moved beyond immigration into fundamental questions about state power and civic resistance.",
+      "recommendations": [
+        "Deep reporting on shadow networks - this is the most important unreported story",
+        "Profile the DHS and DOJ career officials who are resigning and why",
+        "Document the consulate incident's international implications",
+        "Track the tribal sovereignty dimension as Red Lake Nation acts"
+      ],
+      "prompt": "You are a progressive journalist covering immigration and civil rights. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Human stories of affected immigrant families, (2) Historical parallels to civil rights struggles, (3) Community organizing and resistance movements, (4) Media coverage bias and framing, (5) Escalation patterns and warning signs. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key narratives emerging, and what stories need more coverage."
+    },
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "center",
+      "role": "Senior News Editor",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "244 articles extracted from 20 sources - coverage intensity increasing day over day",
+        "Dueling video narratives: new Pretti scuffle footage vs. growing memorial coverage",
+        "Internal federal dissent: DOJ resignations, DHS veteran criticism - significant sourced reporting",
+        "Ecuadorian consulate incident adds verified international dimension",
+        "AP Republican midterm concerns piece signals political calculus shifting",
+        "CNN de-escalation analysis contradicts diplomatic progress narrative"
+      ],
+      "reasoning": "The media landscape is fragmenting along predictable lines but with some notable crossovers. The Pioneer Press report on DHS/Border Patrol veterans criticizing the deployment is significant because it's sourced from within the enforcement community itself. The new Pretti videos are being framed very differently - centrist outlets report the scuffle factually, right-leaning outlets emphasize his aggression, left-leaning outlets note it doesn't justify lethal force. The consulate incident is undeniable and reported across the spectrum. The AP piece on Republican midterm concerns suggests the political ground is shifting. Coverage gaps persist around actual immigration enforcement outcomes and detainee conditions. The volume of coverage (244 articles) indicates this remains the dominant national story.",
+      "recommendations": [
+        "Independent verification of consulate incident details from Ecuadorian government",
+        "Fact-check both sides' claims about Pretti videos in full context",
+        "Interview DOJ career attorneys on the record about resignations",
+        "Track midterm polling shifts on immigration issue specifically"
+      ],
+      "prompt": "You are a senior news editor focused on balanced reporting. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Factual accuracy and verification of claims from all sides, (2) Diverse perspectives from affected communities, (3) Historical context and precedents, (4) Data and statistics on immigration enforcement, (5) Tone and rhetoric from political leaders. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, assessment of media coverage quality, and gaps in reporting."
+    },
+    {
+      "perspective": "news_analyst",
+      "political_leaning": "right",
+      "role": "Conservative Commentator",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "New video proves Pretti had history of physical confrontation with ICE agents",
+        "AP exposes organized 'shadow network' harboring illegal immigrants from federal law",
+        "Viral Somali riot participant arrested - accountability happening",
+        "Obama 2010 clip defending deportations goes viral - hypocrisy exposed",
+        "Democrats threatening government shutdown as political hostage strategy",
+        "American Experiment marks 2-year anniversary of arson by left-wing extremists"
+      ],
+      "reasoning": "The narrative the mainstream media built around Alex Pretti is crumbling. New video clearly shows him physically confronting federal officers in a prior incident - spitting at agents and kicking out a tail light. The AP inadvertently exposed the organized criminal network harboring illegal immigrants from federal law enforcement. The viral Obama clip defending deportations exposes Democratic hypocrisy. Meanwhile, the American Experiment arson anniversary reminds us who the real domestic extremists are. The 'DHS veteran' critics are the same deep state bureaucrats who resisted enforcement under every Republican administration. The Cardinal calling for ICE defunding represents the same institutional left-wing capture that has infected every major institution. The real story remains: organized lawlessness is being confronted by legitimate law enforcement.",
+      "recommendations": [
+        "Lead with Pretti prior confrontation video in all coverage",
+        "Investigate the AP-documented shadow network for criminal prosecution",
+        "Run the Obama deportation clip alongside Democratic shutdown threats",
+        "Profile the American Experiment arson as example of left-wing political violence"
+      ],
+      "prompt": "You are a conservative commentator. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Mainstream media bias in covering immigration enforcement, (2) Underreported crimes by illegal immigrants, (3) Sanctuary city policies undermining federal law, (4) Silent majority support for enforcement, (5) Activist group activities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, media bias examples, and stories being ignored."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "left",
+      "role": "Civil Rights Attorney",
+      "clock_rating": 9,
+      "confidence_level": "high",
+      "key_factors": [
+        "ICE attempted to enter Ecuadorian consulate - Vienna Convention violation",
+        "Federal lawsuit: detainees held at Whipple Building without attorney access",
+        "Appeals court says Noem's Venezuelan TPS decision was illegal",
+        "Red Lake Nation asserts tribal sovereignty restricting ICE entry",
+        "DOJ attorneys resigning rather than defend Minnesota operations",
+        "ICE arrest at community center raises sensitive location policy violations"
+      ],
+      "reasoning": "The legal situation has reached a new level of severity. ICE attempting to enter a foreign consulate violates the Vienna Convention on Consular Relations, to which the US is a signatory - this is not merely a domestic law issue but an international law violation that could trigger diplomatic consequences. The Whipple Building detention without attorney access is a Sixth Amendment violation on its face. The appeals court ruling against Noem's Venezuelan TPS decision shows federal courts are willing to check executive overreach on immigration. Red Lake Nation's assertion of tribal sovereignty introduces a new legal dimension - tribal lands have distinct legal status that federal immigration enforcement must respect. The DOJ resignations indicate career attorneys believe the legal positions being taken are indefensible. This is an unprecedented legal crisis across multiple jurisdictions and legal frameworks.",
+      "recommendations": [
+        "File emergency motion regarding Vienna Convention violation with international law dimensions",
+        "Challenge Whipple Building detentions on Sixth Amendment grounds",
+        "Coordinate with Red Lake Nation on tribal sovereignty legal framework",
+        "Document DOJ resignations for potential future accountability proceedings"
+      ],
+      "prompt": "You are a civil rights attorney focused on immigration. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fourth Amendment violations and due process concerns, (2) State vs federal jurisdiction conflicts, (3) Constitutionality of National Guard domestic deployment, (4) Civil rights of immigrant communities, (5) Legal challenges and injunctions possible. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, key legal vulnerabilities, and litigation strategies."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "center",
+      "role": "Constitutional Law Professor",
+      "clock_rating": 7,
+      "confidence_level": "high",
+      "key_factors": [
+        "Vienna Convention implications of consulate incident - international treaty dimension",
+        "Appellate courts splitting - one lifts protest curbs, another strikes Noem TPS decision",
+        "Red Lake Nation tribal sovereignty assertion creates Indian law complications",
+        "DOJ internal resignations raise professional responsibility questions",
+        "Government shutdown threat tests spending power vs. executive enforcement",
+        "Multiple concurrent legal frameworks being tested simultaneously"
+      ],
+      "reasoning": "The constitutional complexity is expanding rapidly. We now have at least five distinct legal frameworks being tested: federal immigration authority (Supremacy Clause), state sovereignty (10th Amendment), tribal sovereignty (Indian Commerce Clause), international law (Vienna Convention), and congressional spending power (shutdown threat). The appellate courts are already splitting - one panel lifts protest restrictions while another strikes the Venezuelan TPS decision. This fragmentation guarantees Supreme Court involvement. The DOJ resignations raise serious professional responsibility questions about whether government attorneys are being asked to take positions they believe are legally indefensible. The tribal sovereignty dimension is particularly complex because it involves a separate body of constitutional law. The legal system is functioning but straining under the volume and complexity of simultaneous challenges.",
+      "recommendations": [
+        "Academic symposium on the multi-framework constitutional crisis",
+        "Track circuit splits for Supreme Court cert petition predictions",
+        "Analyze the tribal sovereignty dimension separately from state-federal conflict",
+        "Monitor DOJ attorney ethics complaints and bar association responses"
+      ],
+      "prompt": "You are a constitutional law professor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federalism and 10th Amendment issues, (2) Posse Comitatus Act implications, (3) Historical precedents for state-federal conflicts, (4) Legal frameworks for immigration enforcement, (5) Judicial review possibilities. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, constitutional analysis, and likely legal outcomes."
+    },
+    {
+      "perspective": "legal_expert",
+      "political_leaning": "right",
+      "role": "Former Federal Prosecutor",
+      "clock_rating": 5,
+      "confidence_level": "high",
+      "key_factors": [
+        "Prior Pretti confrontation video supports reasonable force analysis",
+        "AP documents organized 'shadow network' - clear violation of 8 USC 1324 (harboring)",
+        "Appeals court correctly upheld federal operational authority",
+        "Democratic shutdown threat is political interference with law enforcement",
+        "DOJ resignations are self-selection of attorneys unwilling to enforce the law",
+        "Teacher and St. Paul woman charged - criminal consequences for obstruction"
+      ],
+      "reasoning": "The legal trajectory favors federal authority. The appeals court ruling confirms that protest restrictions cannot be imposed on federal law enforcement operations - a basic principle of federal supremacy. The AP's own reporting of a 'shadow network' harboring immigrants from federal authorities describes textbook violations of 8 USC 1324, carrying penalties up to 5 years imprisonment. The prior Pretti video is critical for the use-of-force analysis - it establishes he had a history of physical confrontation with federal agents, which any reasonable officer would consider. DOJ attorneys resigning are exercising their right to leave, but their positions will be filled by attorneys who will enforce the law. The consulate issue is being overblown - ICE did not enter, and consular immunity does not protect individuals with removal orders. Criminal charges against obstruction actors are deterring interference.",
+      "recommendations": [
+        "Grand jury investigation into shadow network under 8 USC 1324",
+        "Include prior Pretti video in formal use-of-force review documentation",
+        "File sanctions against state attorneys interfering with federal operations",
+        "Prepare obstruction cases against public officials who directed non-cooperation"
+      ],
+      "prompt": "You are a former federal prosecutor. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Federal supremacy in immigration matters, (2) State obstruction of federal law enforcement, (3) Legal consequences for sanctuary policies, (4) Authority of executive branch on immigration, (5) Criminal penalties for harboring illegal aliens. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, legal justifications for enforcement, and prosecution recommendations."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "left",
+      "role": "Progressive Economist",
+      "clock_rating": 8,
+      "confidence_level": "high",
+      "key_factors": [
+        "National Guard deployments have cost taxpayers nearly $500 million",
+        "Government shutdown increasingly likely - federal fiscal crisis looming",
+        "Restaurant industry formally pushing Congress for ICE reforms",
+        "ICE arrest at Hallie Q. Brown Center chills community economic activity",
+        "CNN live updates documenting daily disruption to Minneapolis economic life",
+        "Immigration was Republican strength but political calculus shifting - market uncertainty"
+      ],
+      "reasoning": "The fiscal picture is devastating. $500 million in National Guard costs alone represents a massive misallocation of public resources. A government shutdown triggered by the ICE funding fight would compound this with federal worker furloughs, contract freezes, and disrupted services across Minnesota. The arrest at Hallie Q. Brown Center will further suppress economic activity in immigrant and minority communities who already face reduced consumer confidence. The restaurant industry's formal congressional engagement confirms workforce disruptions are real and measured in lost revenue. The AP reporting on shifting Republican midterm calculations introduces political uncertainty that markets hate. Minnesota's economy is absorbing damage across multiple sectors simultaneously while facing the prospect of federal fiscal disruption.",
+      "recommendations": [
+        "Full accounting of Operation Metro Surge costs including National Guard",
+        "Model government shutdown impact on Minnesota federal workers and contractors",
+        "Survey of immigrant-owned businesses on revenue impacts since January",
+        "Track Q1 2026 economic indicators for enforcement-related declines"
+      ],
+      "prompt": "You are a progressive economist specializing in labor markets. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Economic contributions of immigrant workers, (2) Costs of mass deportation to the economy, (3) Impact on agriculture, healthcare, and service industries, (4) Tax revenue implications, (5) Business community concerns. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic impact projections, and market risks."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "center",
+      "role": "Regional Economist",
+      "clock_rating": 6,
+      "confidence_level": "high",
+      "key_factors": [
+        "$500 million National Guard deployment cost is a significant fiscal concern",
+        "Government shutdown risk creates planning uncertainty for businesses and government",
+        "Restaurant industry lobbying indicates measurable workforce disruptions",
+        "Consulate incident could affect Minnesota's international business relationships",
+        "Federal Reserve press conference noted amid ongoing uncertainty",
+        "Political midterm uncertainty adding to business planning challenges"
+      ],
+      "reasoning": "The economic risks are becoming more concrete and quantifiable. The $500M National Guard cost figure provides the first hard fiscal data point. A government shutdown would directly affect over 50,000 federal employees in Minnesota and their dependent economic activity. The consulate incident introduces international business risk - Minnesota companies with Latin American trade relationships may face complications. The restaurant industry engagement provides sector-specific evidence of labor market disruption. However, Minnesota's core economy - healthcare, finance, technology, education - remains structurally sound. The Federal Reserve's interest rate stance adds background monetary context. The primary economic risk is now the government shutdown, which would have broad rather than sector-specific impacts.",
+      "recommendations": [
+        "Publish Minnesota-specific government shutdown impact analysis",
+        "Survey employers across sectors on workforce availability changes",
+        "Assess international trade relationship risks from consulate incident",
+        "Monitor consumer confidence surveys for enforcement-related declines"
+      ],
+      "prompt": "You are a regional economist analyzing Minnesota's economy. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Labor market disruptions and workforce availability, (2) Business investment uncertainty, (3) Regional economic stability indicators, (4) Housing market and consumer spending impacts, (5) Long-term economic growth projections. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, economic data analysis, and risk assessment for Minnesota's economy."
+    },
+    {
+      "perspective": "finance_analyst",
+      "political_leaning": "right",
+      "role": "Free-Market Economist",
+      "clock_rating": 4,
+      "confidence_level": "medium",
+      "key_factors": [
+        "National Guard costs are an investment in rule of law that benefits the business environment",
+        "Government shutdown threat is Democratic political hostage-taking, not economic fundamentals",
+        "Restaurant industry lobbying reflects desire for cheap illegal labor, not genuine economic concern",
+        "ICE criminal arrest record shows public safety dividend of enforcement",
+        "Minnesota's diversified economy easily absorbs temporary enforcement disruption",
+        "Federal Reserve maintaining steady policy provides economic stability"
+      ],
+      "reasoning": "The economic doom narrative remains exaggerated. The $500M National Guard figure sounds large but represents a fraction of federal spending and is an investment in restoring rule of law. The government shutdown threat is entirely a Democratic political choice - they can fund the government anytime they choose. The restaurant industry letter is transparent lobbying for continued access to below-market illegal labor that depresses wages for American workers. Minnesota's GDP is over $400 billion - the temporary disruption from enforcement operations is economically marginal. What matters for long-term economic health is a stable legal framework and enforced labor laws. The Federal Reserve's steady policy shows the broader economy is sound. Markets have learned to discount government shutdown theater. The real economic damage comes from lawlessness, not from restoring order.",
+      "recommendations": [
+        "Publish analysis comparing enforcement costs to fiscal costs of illegal immigration",
+        "Document wage benefits for legal workers in enforcement-affected sectors",
+        "Counter shutdown hysteria with historical data on prior shutdowns' minimal economic impact",
+        "Highlight Minnesota economic fundamentals that are unaffected by enforcement"
+      ],
+      "prompt": "You are a free-market economist. Analyze the following news about ICE enforcement and National Guard deployment in Minnesota. Consider: (1) Fiscal costs of illegal immigration on state services, (2) Wage depression effects on American workers, (3) Rule of law benefits for business environment, (4) Welfare and public benefits costs, (5) Long-term economic benefits of enforcement. Based on your analysis, rate the MN Civil War Clock from 0 (complete peace) to 12 (midnight - imminent civil conflict). Provide your rating, cost-benefit analysis, and economic policy recommendations."
+    }
+  ],
+  "summary": {
+    "date": "2026-01-28",
+    "average_rating": 6.75,
+    "median_rating": 7.0,
+    "rating_range": {
+      "min": 4,
+      "max": 9
+    },
+    "consensus_areas": [
+      "Ecuadorian consulate incident is a significant new dimension regardless of political stance",
+      "Government shutdown risk is real and would have broad impacts",
+      "Pretti prior confrontation videos complicate the narrative for all sides",
+      "Internal federal dissent (DOJ resignations, DHS veteran criticism) is notable",
+      "National Guard costs are now quantified at $500 million"
+    ],
+    "divergence_areas": [
+      "Whether consulate incident was a Vienna Convention violation or overblown",
+      "Whether DOJ resignations represent principled attorneys or 'deep state' resistance",
+      "Whether shadow network is civil rights heroism or criminal harboring",
+      "Whether $500M National Guard cost is waste or investment in rule of law",
+      "Whether Pretti prior video exonerates officers or is irrelevant to lethal force"
+    ],
+    "key_developments": [
+      "ICE attempted to enter Ecuadorian consulate in Minneapolis - Ecuador issues note of protest",
+      "New videos show Alex Pretti scuffle with federal officers 11 days before death",
+      "DOJ bracing for more resignations over Minnesota operations",
+      "Red Lake Nation restricts ICE entry - tribal sovereignty assertion",
+      "St. Paul activist Thao Xiong taken by ICE at Hallie Q. Brown Center",
+      "DHS/Border Patrol veterans say Minnesota deployment 'causing chaos'",
+      "National Guard deployments cost taxpayers nearly $500 million",
+      "Klobuchar, Smith pay tribute to MN victims on Senate floor, call for ICE reforms",
+      "U.S. Cardinal urges defunding ICE",
+      "AP documents shadow network protecting immigrants in Minneapolis",
+      "Democrats poised to trigger government shutdown over ICE reform demands",
+      "Appeals court says Noem's Venezuelan TPS decision was illegal"
+    ],
+    "data_sources": {
+      "total_articles_extracted": 244,
+      "total_sources_scraped": 20,
+      "high_relevance_articles": 43,
+      "source_categories": ["minnesota_local", "us_national", "us_government"]
+    }
+  }
+}
