@@ -1,0 +1,284 @@
+{
+  "date": "2026-02-02",
+  "clock": {
+    "rating": 0,
+    "status": "PEACEFUL",
+    "trend": "Stable",
+    "description": "Normal political discourse"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 184,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 15,
+          "articles": [
+            {
+              "headline": "Flanagan, Craig take fight to precinct caucuses roiled by ICE operation while Tafoya makes her polit",
+              "url": "https://www.minnpost.com/national/washington/2026/02/flanagan-craig-take-fight-to-precinct-caucuses-roiled-by-ice-operation-while-tafoya-makes-her-political-debut/"
+            },
+            {
+              "headline": "Every DHS officer in Minneapolis is now being issued a body camera",
+              "url": "https://www.minnpost.com/news/2026/02/dhs-secretary-kristi-noem-says-every-officer-in-minneapolis-is-now-being-issued-a-body-camera/"
+            },
+            {
+              "headline": "Stand With Minnesota: Pro athletes speak out on ICE killings of Renee Good, Alex Pretti",
+              "url": "https://www.minnpost.com/sports/2026/01/stand-with-minnesota-pro-athletes-speak-out-on-ice-killings-of-renee-good-alex-pretti/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "How ICE is watching you",
+              "url": "https://minnesotareformer.com/2026/02/03/how-ice-is-watching-you/"
+            },
+            {
+              "headline": "Noem: Body cameras to be deployed to immigration agents, starting in Minneapolis",
+              "url": "https://minnesotareformer.com/2026/02/02/repub/noem-body-cameras-to-be-deployed-to-immigration-agents-starting-in-minneapolis/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 31,
+          "articles": [
+            {
+              "headline": "Where do Minnesota Republicans stand on immigration and the Good and Pretti killings? Sahan asked al",
+              "url": "https://sahanjournal.com/democracy-politics/minnesota-republicans-lawmakers-governors-race-immigration/"
+            },
+            {
+              "headline": "Make plans for your kids, Minnesota advocates urge immigrant parents in ICE crosshairs",
+              "url": "https://sahanjournal.com/news-partners/minn-advocates-urge-immigrant-parents-to-make-plans-with-kids/"
+            },
+            {
+              "headline": "5-year-old Liam Conejo Ramos and father return to Minnesota from ICE facility in Texas",
+              "url": "https://sahanjournal.com/news-partners/us-immigration-enforcement-boy-detained/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 25,
+          "articles": [
+            {
+              "headline": "Hennepin County Attorney\u2019s Office demands evidence in Renee Good investigation",
+              "url": "https://www.twincities.com/2026/02/02/hennepin-county-attorneys-office-demands-evidence-in-renee-good-investigation/"
+            },
+            {
+              "headline": "Every Homeland Security officer in Minneapolis is now being issued a body-worn camera, Noem says",
+              "url": "https://www.twincities.com/2026/02/02/every-homeland-security-officer-in-minneapolis-is-now-being-issued-a-body-worn-camera-noem-says/"
+            },
+            {
+              "headline": "More departures at the US attorney\u2019s office in Minnesota, AP sources say",
+              "url": "https://www.twincities.com/2026/02/03/more-departures-at-the-us-attorneys-office-in-minnesota-ap-sources-say/"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 12,
+          "articles": [
+            {
+              "headline": "Anti-ICE agitators set up blockade on Minneapolis street, check drivers\u2019 license\u2026",
+              "url": "https://alphanews.org/anti-ice-agitators-set-up-blockade-on-minneapolis-street-check-drivers-license-plates/"
+            },
+            {
+              "headline": "Democrat Brad Tabke helps lead local \u2018ICE Watch\u2019 group that teaches\u2026",
+              "url": "https://alphanews.org/democrat-brad-tabke-helps-lead-local-ice-watch-group-that-teaches-people-how-to-follow-federal-agents/"
+            },
+            {
+              "headline": "FBI director confirms investigation into anti-ICE Signal chats in Minnesota",
+              "url": "https://alphanews.org/fbi-director-confirms-investigation-into-anti-ice-signal-chats-in-minnesota/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Spending & TaxesMass resignations from U.S. Attorney\u2019s Office\u00a0will hinder the fight against fraud in",
+              "url": "https://www.americanexperiment.org/mass-resignations-from-u-s-attorneys-office-will-hinder-the-fight-against-fraud-in-minnesota/"
+            },
+            {
+              "headline": "Public SafetyThe habeas exodusFebruary 3, 2026 by Bill GlahnFrom the Star Tribune, Another wave of d",
+              "url": "https://www.americanexperiment.org/habeas-tsunami/"
+            },
+            {
+              "headline": "Public SafetyKSTP poll finds that Minnesotans favor local law enforcement helping federal immigratio",
+              "url": "https://www.americanexperiment.org/kstp-poll-finds-that-minnesotans-favor-local-law-enforcement-helping-federal-immigration-authorities-by-14-points/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Biden Admin Awarded 3-Year Grant to Nashville Electric Service Before Trump\u2019s Anti-DEI Executive Ord",
+              "url": "https://thestarnewsnetwork.com/2026/01/31/biden-admin-awarded-3-year-grant-to-nashville-electric-service-before-trumps-anti-dei-executive-orders/"
+            },
+            {
+              "headline": "Commentary: EU\u2019s New Immigration Deal Shows It Doesn\u2019t Care About Western Civilization",
+              "url": "https://thestarnewsnetwork.com/2026/01/31/commentary-eus-new-immigration-deal-shows-it-doesnt-care-about-western-civilization/"
+            },
+            {
+              "headline": "Commentary: The Campaign Against ICE Is All About Open Borders",
+              "url": "https://thestarnewsnetwork.com/2026/01/27/commentary-the-campaign-against-ice-is-all-about-open-borders/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 14,
+          "articles": [
+            {
+              "headline": "Security, rare earths and ice: Why Trump wants Greenland",
+              "url": "https://www.cnn.com/videos/title-2584778"
+            },
+            {
+              "headline": "Illustration by Yukari Schrickel, CNN",
+              "url": "https://www.cnn.com/2026/02/03/us/testimony-dhs-ice-dc-vis"
+            },
+            {
+              "headline": "VideoDon Lemon defends his reporting of anti-ICE protest in church1:14",
+              "url": "https://www.cnn.com/2026/02/03/us/video/don-lemon-defends-his-reporting-of-anti-ice-protest-in-church-digvid"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 14,
+          "articles": [
+            {
+              "headline": "UK politician Peter Mandelson quits House of Lords, could face police probe over Epstein ties",
+              "url": "https://apnews.com/article/uk-peter-mandelson-jeffrey-epstein-allegations-police-bd7d7f9831ad1eeaee4e5c7a951f2aeb"
+            },
+            {
+              "headline": "X offices raided in France as prosecutors investigate child abuse images and deepfakes",
+              "url": "https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc"
+            },
+            {
+              "headline": "Immigration enforcement officer scuffle with bystanders in the snow",
+              "url": "https://apnews.com/video/immigration-enforcement-officer-scuffle-with-bystanders-in-the-snow-a8ba57e1091a4a619b419d32552ce930"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "British politician Peter Mandelson quits House of Lords, could face police investigation over Epstei",
+              "url": "https://www.pbs.org/newshour/world/british-politician-peter-mandelson-quits-house-of-lords-could-face-police-investigation-over-epstein-ties"
+            },
+            {
+              "headline": "In Ohio, a bipartisan community group seeks common ground on immigration reform",
+              "url": "https://www.pbs.org/newshour/show/in-ohio-a-bipartisan-community-group-seeks-common-ground-on-immigration-reform"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 26,
+          "articles": [
+            {
+              "headline": "SUDDEN LOSS",
+              "url": "https://www.foxnews.com/entertainment/former-voice-contestant-dies-26-after-snake-bit-her-her-sleep"
+            },
+            {
+              "headline": "PARTY IN CHAOS",
+              "url": "https://www.foxnews.com/politics/house-dems-clash-over-schumer-trump-deal-jeffries-blasts-lack-ice-reforms"
+            },
+            {
+              "headline": "STAGE SCRUTINY",
+              "url": "https://www.foxnews.com/sports/nfls-roger-goodell-believes-bad-bunny-understands-super-bowl-lx-platform-meant-unite-amid-ice-outcry"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 27,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Dark money\u2018Grassroots\u2019 anti-ICE campaigns funded by left-wing billionaire donors: sources",
+              "url": "https://nypost.com/2026/02/03/us-news/grassroots-anti-ice-campaigns-funded-by-left-wing-billionaire-donors-sources/"
+            },
+            {
+              "headline": "Tragic endThree teen hockey players killed in car crash on way to practice",
+              "url": "https://nypost.com/2026/02/03/sports/three-teen-hockey-players-killed-in-crash-on-way-to-practice-in-canada/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.2,
+    "confidence_weighted_avg": 0.0,
+    "perspectives": {
+      "": {
+        "": {
+          "rating": 0,
+          "role": "Free-Market Economist",
+          "summary": "As a free-market economist, I view February 2nd as representing the administration's serious commitment to correcting di"
+        }
+      }
+    },
+    "matrix": {
+      "": {
+        "": 0,
+        "avg": 0
+      },
+      "averages": {
+        "left": 0.0,
+        "center": 0.0,
+        "right": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
