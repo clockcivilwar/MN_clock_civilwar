@@ -1,10 +1,10 @@
 {
   "date": "2026-02-01",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 6,
+    "status": "HIGH",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Significant confrontations, legal battles"
   },
   "events": [
     {
@@ -242,26 +242,107 @@
   },
   "analysis": {
     "polarization_index": 2.0,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 6.2,
     "perspectives": {
-      "": {
-        "": {
-          "rating": 0,
+      "politician": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive State Legislator",
+          "summary": "Body camera deployment and Republican political vulnerability on killings show accountability pressure working; FBI surv"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "Body cameras offer de-escalation opportunity but implementation details matter; US Attorney exodus and complex public op"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative State Representative",
+          "summary": "Appeals court restores federal authority and polls show public supports cooperation, but $3.3M in organized funding enab"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Journalist",
+          "summary": "Body cameras forced by sustained pressure demonstrate movement power; surveillance expos\u00e9s and Republican accountability"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "Partisan framing overwhelming factual verification across multiple stories; missing implementation details, on-ground ob"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative Commentator",
+          "summary": "Media establishment buries polling showing public supports cooperation, ignores illegal checkpoints, defends Soros fundi"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 6,
+          "role": "Civil Rights Attorney",
+          "summary": "Body cameras create valuable accountability infrastructure for civil rights litigation despite appeals court limiting im"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Constitutional Law Professor",
+          "summary": "Appeals court affirms traditional executive deference while body cameras show political accountability working; FBI inve"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Former Federal Prosecutor",
+          "summary": "Appeals court vindicates federal authority and evidence supports multiple criminal prosecutions for obstruction, illegal"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Economist",
+          "summary": "Sustained organizing infrastructure and body cameras may reduce economic volatility while cooperation framework signals "
+        },
+        "center": {
+          "rating": 6,
+          "role": "Regional Economist",
+          "summary": "Extended duration past one month without resolution timeline transitions from temporary shock to structural uncertainty "
+        },
+        "right": {
+          "rating": 7,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I view February 1st as providing both good news - appeals court enabling continued enforceme"
+          "summary": "Appeals court enables continued labor market normalization while polling shows public recognizes benefits, but $3.3M in "
         }
       }
     },
     "matrix": {
-      "": {
-        "": 0,
-        "avg": 0
+      "politician": {
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "avg": 6.0
+      },
+      "news_analyst": {
+        "left": 5,
+        "center": 6,
+        "right": 8,
+        "avg": 6.3
+      },
+      "legal_expert": {
+        "left": 6,
+        "center": 6,
+        "right": 7,
+        "avg": 6.3
+      },
+      "finance_analyst": {
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "avg": 6.0
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 5.25,
+        "center": 6.0,
+        "right": 7.25,
+        "overall": 6.17
       }
     }
   },

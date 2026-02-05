@@ -1,10 +1,10 @@
 {
   "date": "2026-02-04",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 6,
+    "status": "HIGH",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Significant confrontations, legal battles"
   },
   "events": [
     {
@@ -260,26 +260,107 @@
   },
   "analysis": {
     "polarization_index": 6.25,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 5.9,
     "perspectives": {
-      "": {
-        "": {
-          "rating": 0,
+      "politician": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive State Legislator",
+          "summary": "700-agent withdrawal holding steady; community resistance normalizing into cultural practice; institutional frameworks d"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Moderate State Senator",
+          "summary": "700-agent withdrawal holding but policy uncertainty persists; local governments asserting authority through proper chann"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Conservative State Representative",
+          "summary": "700-agent withdrawal solidifying as permanent surrender; media celebrating illegal obstruction as 'pop-up parties'; fede"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive Journalist",
+          "summary": "MPR's 'pop-up parties' framing brilliantly normalizes resistance; institutional actors formalizing opposition through la"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Senior News Editor",
+          "summary": "MPR 'pop-up parties' framing substitutes advocacy for neutral reporting; federal arrests need detailed verification; law"
+        },
+        "right": {
+          "rating": 10,
+          "role": "Conservative Commentator",
+          "summary": "State-funded MPR celebrating illegal blockades as 'pop-up parties'; federal agents being threatened and doxxed with medi"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 3,
+          "role": "Civil Rights Attorney",
+          "summary": "School districts lawsuit advancing strong 'sensitive locations' framework; St. Paul ordinance asserts local accountabili"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Constitutional Law Professor",
+          "summary": "School lawsuit and St. Paul ordinance raise novel constitutional questions requiring judicial resolution; potential fede"
+        },
+        "right": {
+          "rating": 10,
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal agents threatened and endangered; organized obstruction proliferating with only two prosecutions; frivolous laws"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive Economist",
+          "summary": "700-agent withdrawal holding steady enables economic recovery; community support networks helping workers return; busine"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Regional Economist",
+          "summary": "700-agent withdrawal provides first planning baseline but ongoing uncertainties (blockades, lawsuit, policy permanence) "
+        },
+        "right": {
+          "rating": 9,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, February 4th confirms that the 700-agent withdrawal has permanently aborted the labor market"
+          "summary": "700-agent withdrawal permanently abandoning labor market correction; organized blockades creating lawless environment un"
         }
       }
     },
     "matrix": {
-      "": {
-        "": 0,
-        "avg": 0
+      "politician": {
+        "left": 3,
+        "center": 5,
+        "right": 9,
+        "avg": 5.7
+      },
+      "news_analyst": {
+        "left": 3,
+        "center": 5,
+        "right": 10,
+        "avg": 6.0
+      },
+      "legal_expert": {
+        "left": 3,
+        "center": 6,
+        "right": 10,
+        "avg": 6.3
+      },
+      "finance_analyst": {
+        "left": 3,
+        "center": 5,
+        "right": 9,
+        "avg": 5.7
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 3.0,
+        "center": 5.25,
+        "right": 9.5,
+        "overall": 5.92
       }
     }
   },

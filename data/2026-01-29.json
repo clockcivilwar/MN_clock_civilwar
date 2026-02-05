@@ -1,10 +1,10 @@
 {
   "date": "2026-01-29",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 7,
+    "status": "SEVERE",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Civil disobedience, enforcement conflicts"
   },
   "events": [
     {
@@ -266,38 +266,107 @@
   },
   "analysis": {
     "polarization_index": 2.25,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 7.4,
     "perspectives": {
-      "": {
+      "politician": {
         "left": {
-          "rating": 0,
-          "role": "Progressive Economist",
-          "summary": "As an economist, I'm watching the labor market signals closely."
+          "rating": 7,
+          "role": "Progressive State Legislator",
+          "summary": "DOJ investigation and federal resignations show accountability systems engaging; organized peaceful resistance demonstra"
         },
         "center": {
-          "rating": 0,
-          "role": "Regional Economist",
-          "summary": "As a regional economist, I'm analyzing Minnesota's economy through the lens of uncertainty costs and productivity shocks"
+          "rating": 8,
+          "role": "Moderate State Senator",
+          "summary": "Two civilian deaths and institutional breakdown create severe crisis, but Homan's cooperation offer suggests negotiation"
         },
         "right": {
-          "rating": 0,
+          "rating": 9,
+          "role": "Conservative State Representative",
+          "summary": "Organized violent insurgency against federal law enforcement coordinated through Signal chats and funded groups; incendi"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive Journalist",
+          "summary": "Press freedom under attack but cultural resistance exploding; human stories driving national movement as Minnesota becom"
+        },
+        "center": {
+          "rating": 8,
+          "role": "Senior News Editor",
+          "summary": "ICE credibility collapse, conflicting death narratives, and lack of Republican official comment create information crisi"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Conservative Commentator",
+          "summary": "Coordinated mainstream media narrative delegitimizing federal law enforcement while ignoring crimes; FBI-confirmed organ"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 6,
+          "role": "Civil Rights Attorney",
+          "summary": "Federal courts asserting authority over ICE, DOJ civil rights investigation activated, robust legal defense network fili"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional checks and balances operating under extreme stress; DOJ investigating ICE, courts asserting authority, ha"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal authority being correctly exercised but facing organized lawfare obstruction; mass habeas filings, prosecutor re"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive Economist",
+          "summary": "Business community demonstrating economic solidarity through closures and advocacy; healthcare and service sector disrup"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Measurable economic disruption across healthcare, hospitality, food sectors; business community expressing concern throu"
+        },
+        "right": {
+          "rating": 8,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I analyze the Minnesota situation through labor economics, public finance, and rule-of-law b"
+          "summary": "Severe economic disruption and business uncertainty from enforcement chaos; dependency on potentially illegal labor expo"
         }
       }
     },
     "matrix": {
-      "": {
-        "left": 0,
-        "center": 0,
-        "right": 0,
-        "avg": 0.0
+      "politician": {
+        "left": 7,
+        "center": 8,
+        "right": 9,
+        "avg": 8.0
+      },
+      "news_analyst": {
+        "left": 6,
+        "center": 8,
+        "right": 9,
+        "avg": 7.7
+      },
+      "legal_expert": {
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "avg": 7.0
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 6.25,
+        "center": 7.5,
+        "right": 8.5,
+        "overall": 7.42
       }
     }
   },

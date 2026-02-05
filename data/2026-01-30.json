@@ -1,10 +1,10 @@
 {
   "date": "2026-01-30",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 7,
+    "status": "SEVERE",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Civil disobedience, enforcement conflicts"
   },
   "events": [
     {
@@ -266,38 +266,107 @@
   },
   "analysis": {
     "polarization_index": 4.25,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 7.2,
     "perspectives": {
-      "": {
+      "politician": {
         "left": {
-          "rating": 0,
-          "role": "Progressive Economist",
-          "summary": "As a progressive economist, I'm analyzing the January 30 economic landscape through the lens of labor market adjustments"
+          "rating": 6,
+          "role": "Progressive State Legislator",
+          "summary": "DOJ investigation and Homan's cooperation offer create diplomatic pathway; massive peaceful cultural resistance shows or"
         },
         "center": {
-          "rating": 0,
-          "role": "Regional Economist",
-          "summary": "As a regional economist, I'm analyzing Minnesota's economy through labor market indicators, business confidence measures"
+          "rating": 7,
+          "role": "Moderate State Senator",
+          "summary": "Homan's cooperation offer creates diplomatic opening but terms undefined; ongoing enforcement despite civilian deaths sh"
         },
         "right": {
-          "rating": 0,
+          "rating": 10,
+          "role": "Conservative State Representative",
+          "summary": "Violent attacks on federal officers escalating, Governor's Nazi rhetoric incites violence, FBI confirms coordinated insu"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Journalist",
+          "summary": "Cultural resistance achieving critical mass with Springsteen concert, protest songs, national media attention; human sto"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Senior News Editor",
+          "summary": "Exemplary accountability journalism (Sahan survey of Republicans) alongside verification challenges (new Pretti videos, "
+        },
+        "right": {
+          "rating": 10,
+          "role": "Conservative Commentator",
+          "summary": "Coordinated mainstream media/Hollywood campaign glorifying resistance to federal law enforcement; FBI investigation into"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 5,
+          "role": "Civil Rights Attorney",
+          "summary": "Federal courts actively intervening to release detainees and enforce compliance; DOJ investigation progressing; ICE cred"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional checks operating under stress: courts compelling executive compliance, DOJ investigating ICE, habeas corp"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal enforcement authority correctly affirmed by courts; coordinated lawfare overwhelming system; violent attacks on "
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Economist",
+          "summary": "Business community organizing economic power through shutdowns and Congressional advocacy; healthcare quantifying public"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Economy under measurable stress but adapting through collective business action and market adjustments; healthcare and r"
+        },
+        "right": {
+          "rating": 9,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I analyze the Minnesota situation through cost-benefit analysis, labor market effects, and r"
+          "summary": "Economic deadweight loss from business shutdowns; restaurant industry dependency on potentially illegal labor exposed; m"
         }
       }
     },
     "matrix": {
-      "": {
-        "left": 0,
-        "center": 0,
-        "right": 0,
-        "avg": 0.0
+      "politician": {
+        "left": 6,
+        "center": 7,
+        "right": 10,
+        "avg": 7.7
+      },
+      "news_analyst": {
+        "left": 5,
+        "center": 7,
+        "right": 10,
+        "avg": 7.3
+      },
+      "legal_expert": {
+        "left": 5,
+        "center": 7,
+        "right": 9,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 5,
+        "center": 7,
+        "right": 9,
+        "avg": 7.0
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 5.25,
+        "center": 7.0,
+        "right": 9.5,
+        "overall": 7.25
       }
     }
   },

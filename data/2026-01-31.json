@@ -1,10 +1,10 @@
 {
   "date": "2026-01-31",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 7,
+    "status": "SEVERE",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Civil disobedience, enforcement conflicts"
   },
   "events": [
     {
@@ -266,26 +266,107 @@
   },
   "analysis": {
     "polarization_index": 2.8,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 6.9,
     "perspectives": {
-      "": {
-        "": {
-          "rating": 0,
+      "politician": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive State Legislator",
+          "summary": "DOJ investigation and Homan cooperation offer provide de-escalation opportunities, though FBI probe of protestors and co"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Moderate State Senator",
+          "summary": "Judge's refusal to halt surge blocks legal resolution while Homan's vague cooperation offer and competing federal priori"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative State Representative",
+          "summary": "FBI revelations of organized protest funding and coordination channels demonstrate this is an orchestrated insurrection "
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Journalist",
+          "summary": "Courts protecting children, DOJ investigating shootings, and cultural icons joining resistance shows accountability mech"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Senior News Editor",
+          "summary": "Fractured media landscape with highly partisan coverage and limited factual investigation into policy details creates in"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Conservative Commentator",
+          "summary": "Media establishment ignores FBI evidence of organized protest coordination while amplifying emotional manipulation stori"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 6,
+          "role": "Civil Rights Attorney",
+          "summary": "Court ordering ICE leader to appear for non-compliance and DOJ civil rights investigation create accountability mechanis"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "Constitutional crisis involves all three federal branches plus state-federal tensions with traditional deference doctrin"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Former Federal Prosecutor",
+          "summary": "Federal supremacy in immigration enforcement clearly established legally, but inadequate criminal prosecution of obstruc"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Economist",
+          "summary": "Business community actively opposing operations through congressional advocacy while mounting healthcare and supply chai"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "Extended duration with no clear resolution timeline transitions crisis from temporary disruption to structural economic "
+        },
+        "right": {
+          "rating": 8,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I view January 31st as illustrating the fundamental problem with current policy analysis: sh"
+          "summary": "Special interest lobbying against enforcement ignores massive fiscal costs of illegal immigration and long-term benefits"
         }
       }
     },
     "matrix": {
-      "": {
-        "": 0,
-        "avg": 0
+      "politician": {
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "avg": 7.0
+      },
+      "news_analyst": {
+        "left": 5,
+        "center": 7,
+        "right": 9,
+        "avg": 7.0
+      },
+      "legal_expert": {
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 5,
+        "center": 7,
+        "right": 8,
+        "avg": 6.7
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 5.5,
+        "center": 7.0,
+        "right": 8.25,
+        "overall": 6.92
       }
     }
   },

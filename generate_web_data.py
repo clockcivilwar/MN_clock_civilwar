@@ -262,17 +262,20 @@ def generate_date_data(date_folder):
                 matrix[persp_name]["avg"] = round(sum(ratings) / len(ratings), 1) if ratings else 0
 
         elif "opinions" in opinions:
-            # Array format: opinions[].perspective, political_leaning, clock_rating
+            # Array format: opinions[].category, leaning, rating
             leaning_map = {"left": "left", "center": "center", "right": "right"}
 
             for op in opinions["opinions"]:
-                persp = op.get("perspective", "")
-                leaning = op.get("political_leaning", "")
-                rating = op.get("clock_rating", 0)
+                # Support both old and new formats
+                persp = op.get("category", op.get("perspective", ""))
+                leaning = op.get("leaning", op.get("political_leaning", ""))
+                rating = op.get("rating", op.get("clock_rating", 0))
                 role = op.get("role", "")
-                reasoning = op.get("reasoning", "")
-                # Use first sentence of reasoning as summary
-                summary = reasoning.split(". ")[0] + "." if reasoning else ""
+                # Use summary if available, otherwise first sentence of reasoning
+                summary = op.get("summary", "")
+                if not summary:
+                    reasoning = op.get("reasoning", "")
+                    summary = reasoning.split(". ")[0] + "." if reasoning else ""
 
                 if persp not in perspectives:
                     perspectives[persp] = {}

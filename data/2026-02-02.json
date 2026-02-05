@@ -1,10 +1,10 @@
 {
   "date": "2026-02-02",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 6,
+    "status": "HIGH",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Significant confrontations, legal battles"
   },
   "events": [
     {
@@ -242,26 +242,107 @@
   },
   "analysis": {
     "polarization_index": 2.2,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 6.5,
     "perspectives": {
-      "": {
-        "": {
-          "rating": 0,
+      "politician": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive State Legislator",
+          "summary": "Local accountability and cultural pressure intensify but $45B detention expansion signals federal long-term commitment; "
+        },
+        "center": {
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "Schumer-Trump negotiations offer resolution pathway but House Democratic resistance and $45B detention expansion complic"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Conservative State Representative",
+          "summary": "Administration's $45B commitment and Schumer negotiating position show progress but progressive obstruction and state-le"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Journalist",
+          "summary": "Grammy cultural platform and local prosecutor accountability demonstrate resistance power, but $45B detention expansion "
+        },
+        "center": {
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "Coverage relies heavily on anonymous sources and partisan characterizations without verified facts; $45B figure, deal te"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative Commentator",
+          "summary": "Mainstream media amplifies celebrity anti-ICE propaganda, celebrates absurd political correctness, buries Democratic pol"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 6,
+          "role": "Civil Rights Attorney",
+          "summary": "State prosecutorial accountability engaging and negotiations may include enforceable reforms, but $45B detention expansi"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Constitutional Law Professor",
+          "summary": "State criminal jurisdiction claim over federal agents raises profound federalism questions while $45B appropriations pro"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Former Federal Prosecutor",
+          "summary": "State criminal investigation of federal agents represents extraordinary threat to federal supremacy requiring immediate "
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 6,
+          "role": "Progressive Economist",
+          "summary": "$45B detention expansion signals permanent structural labor market disruption rather than temporary enforcement; require"
+        },
+        "center": {
+          "rating": 7,
+          "role": "Regional Economist",
+          "summary": "$45B infrastructure signals structural policy shift requiring strategic adaptation rather than crisis management; Februa"
+        },
+        "right": {
+          "rating": 7,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I view February 2nd as representing the administration's serious commitment to correcting di"
+          "summary": "$45B detention expansion enables systematic market correction removing illegal labor distortions; early wage growth evid"
         }
       }
     },
     "matrix": {
-      "": {
-        "": 0,
-        "avg": 0
+      "politician": {
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "avg": 6.0
+      },
+      "news_analyst": {
+        "left": 5,
+        "center": 6,
+        "right": 8,
+        "avg": 6.3
+      },
+      "legal_expert": {
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "avg": 7.0
+      },
+      "finance_analyst": {
+        "left": 6,
+        "center": 7,
+        "right": 7,
+        "avg": 6.7
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 5.5,
+        "center": 6.5,
+        "right": 7.5,
+        "overall": 6.5
       }
     }
   },

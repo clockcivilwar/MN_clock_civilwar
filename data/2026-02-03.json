@@ -1,10 +1,10 @@
 {
   "date": "2026-02-03",
   "clock": {
-    "rating": 0,
-    "status": "PEACEFUL",
+    "rating": 6,
+    "status": "HIGH",
     "trend": "Stable",
-    "description": "Normal political discourse"
+    "description": "Significant confrontations, legal battles"
   },
   "events": [
     {
@@ -246,26 +246,107 @@
   },
   "analysis": {
     "polarization_index": 5.7,
-    "confidence_weighted_avg": 0.0,
+    "confidence_weighted_avg": 6.0,
     "perspectives": {
-      "": {
-        "": {
-          "rating": 0,
+      "politician": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive State Legislator",
+          "summary": "700-agent withdrawal represents major de-escalation and vindication of resistance; PBS poll shows public turning against"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Moderate State Senator",
+          "summary": "700-officer withdrawal suggests de-escalation but 150+ federal prosecutions indicate strategy shift to legal pressure; u"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Conservative State Representative",
+          "summary": "700-agent withdrawal represents catastrophic surrender to mob rule; state judicial system corrupted by sanctuary ideolog"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 3,
+          "role": "Progressive Journalist",
+          "summary": "700-agent withdrawal vindicates sustained community resistance; PBS poll shows narrative shift to civil rights issue; de"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Senior News Editor",
+          "summary": "700-officer withdrawal lacks critical details on timeline and rationale; PBS poll methodology not reported; government l"
+        },
+        "right": {
+          "rating": 10,
+          "role": "Conservative Commentator",
+          "summary": "Mainstream media celebrating federal surrender while ignoring violent criminals released by corrupt judges; PBS manufact"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 3,
+          "role": "Civil Rights Attorney",
+          "summary": "700-agent withdrawal reduces Fourth Amendment exposure; school lawsuit creates strong 'sensitive locations' framework; s"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Constitutional Law Professor",
+          "summary": "700-agent withdrawal reduces immediate friction but state judicial authority assertions and substantive due process clai"
+        },
+        "right": {
+          "rating": 10,
+          "role": "Former Federal Prosecutor",
+          "summary": "State judicial obstruction and 700-agent withdrawal represent catastrophic collapse of federal supremacy; grossly inadeq"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 4,
+          "role": "Progressive Economist",
+          "summary": "700-agent withdrawal reduces immediate disruption risk likely due to business pressure; economic damage from six weeks a"
+        },
+        "center": {
+          "rating": 5,
+          "role": "Regional Economist",
+          "summary": "700-agent withdrawal creates policy uncertainty potentially complicating rather than simplifying business planning; Janu"
+        },
+        "right": {
+          "rating": 9,
           "role": "Free-Market Economist",
-          "summary": "As a free-market economist, I view February 3rd's 700-agent withdrawal as an economic policy disaster: the administratio"
+          "summary": "700-agent withdrawal abandons labor market correction halfway through adjustment process; guarantees maximum disruption "
         }
       }
     },
     "matrix": {
-      "": {
-        "": 0,
-        "avg": 0
+      "politician": {
+        "left": 3,
+        "center": 5,
+        "right": 9,
+        "avg": 5.7
+      },
+      "news_analyst": {
+        "left": 3,
+        "center": 5,
+        "right": 10,
+        "avg": 6.0
+      },
+      "legal_expert": {
+        "left": 3,
+        "center": 6,
+        "right": 10,
+        "avg": 6.3
+      },
+      "finance_analyst": {
+        "left": 4,
+        "center": 5,
+        "right": 9,
+        "avg": 6.0
       },
       "averages": {
-        "left": 0.0,
-        "center": 0.0,
-        "right": 0.0,
-        "overall": 0.0
+        "left": 3.25,
+        "center": 5.25,
+        "right": 9.5,
+        "overall": 6.0
       }
     }
   },
