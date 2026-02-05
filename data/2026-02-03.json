@@ -1,0 +1,288 @@
+{
+  "date": "2026-02-03",
+  "clock": {
+    "rating": 0,
+    "status": "PEACEFUL",
+    "trend": "Stable",
+    "description": "Normal political discourse"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 199,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 18,
+          "articles": [
+            {
+              "headline": "\u2018You\u2019re not going to investigate a federal officer\u2019",
+              "url": "http://www.minnpost.com/national/2026/02/youre-not-going-to-investigate-a-federal-officer/"
+            },
+            {
+              "headline": "County attorneys nix proposal for Minnesota sheriffs to coordinate with ICE",
+              "url": "http://www.minnpost.com/national/washington/2026/02/county-attorneys-nix-proposal-for-minnesota-sheriffs-to-coordinate-with-ice/"
+            },
+            {
+              "headline": "Pregnant people hiding from ICE face \u2018impossible choice\u2019",
+              "url": "http://www.minnpost.com/glean/2026/02/pregnant-people-hiding-from-ice-face-impossible-choice/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "Two men charged with assaulting agents in ICE shooting released by a judge, re-detained by ICE",
+              "url": "https://minnesotareformer.com/2026/02/05/two-men-charged-with-assaulting-agents-in-ice-shooting-released-by-a-judge-re-detained-by-ice/"
+            },
+            {
+              "headline": "\u2018You\u2019re not going to investigate a federal officer\u2019",
+              "url": "https://minnesotareformer.com/2026/02/05/youre-not-going-to-investigate-a-federal-officer/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 32,
+          "articles": [
+            {
+              "headline": "\u2018I felt hopeless\u2019: Hmong refugee stranded in Texas after release from ICE detention",
+              "url": "https://sahanjournal.com/immigration/ice-detainees-stranded-after-release/"
+            },
+            {
+              "headline": "\u2018None of this should be legal\u2019: Minnesota districts and teachers union sue to stop ICE near schools",
+              "url": "https://sahanjournal.com/education/minnesota-schools-ice-lawsuit/"
+            },
+            {
+              "headline": "Columbia Heights fourth-grader and her mother released from ICE detention after school officials cal",
+              "url": "https://sahanjournal.com/education/columbia-heights-fourth-grader-held-by-ice/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 25,
+          "articles": [
+            {
+              "headline": "During immigration enforcement surge, St. Paul Council introduces ordinance barring officer face cov",
+              "url": "https://www.twincities.com/2026/02/04/new-st-paul-ordinance-officer-face-coverings/"
+            },
+            {
+              "headline": "Trump\u2019s border czar is pulling 700 immigration officers out of Minnesota immediately",
+              "url": "https://www.twincities.com/2026/02/04/trumps-border-czar-is-pulling-700-immigration-officers-out-of-minnesota-immediately/"
+            },
+            {
+              "headline": "Here\u2019s how to support small businesses in Twin Cities impacted by ICE surge",
+              "url": "https://www.twincities.com/2026/02/04/heres-how-to-support-small-businesses-in-twin-cities-impacted-by-ice-surge/"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 11,
+          "articles": [
+            {
+              "headline": "Bombshell report exposes militant tactics of anti-ICE network in Minnesota",
+              "url": "https://alphanews.org/bombshell-report-exposes-militant-tactics-of-anti-ice-network-in-minnesota/"
+            },
+            {
+              "headline": "Police union leader says blocking ICE coordination led to deadly Minneapolis shootings",
+              "url": "https://alphanews.org/police-union-leader-says-blocking-ice-coordination-led-to-deadly-minneapolis-shootings/"
+            },
+            {
+              "headline": "Minnesota officials acknowledge ICE authority as Homan stresses importance of cooperation",
+              "url": "https://alphanews.org/minnesota-officials-acknowledge-ice-authority-as-homan-stresses-importance-of-cooperation/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "EducationPrecinct caucuses across the state pass school choice resolutionFebruary 4, 2026 by Bill Wa",
+              "url": "https://www.americanexperiment.org/precinct-caucuses-across-the-state-pass-school-choice-resolution/"
+            },
+            {
+              "headline": "Public SafetyPolice federation leaders critical of police tactics surrendering to politicsFebruary 4",
+              "url": "https://www.americanexperiment.org/police-federation-leaders-critical-of-police-tactics-surrendering-to-politics/"
+            },
+            {
+              "headline": "Health CareMinnesota healthcare providers must stop anti-ICE rhetoricFebruary 4, 2026 by Matt DeanTh",
+              "url": "https://www.americanexperiment.org/minnesota-healthcare-providers-must-stop-anti-ice-rhetoric/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 9,
+          "articles": [
+            {
+              "headline": "Newly-Minted Democrat Governor Terminates ICE Cooperation Agreements Across State",
+              "url": "https://thestarnewsnetwork.com/2026/02/04/newly-minted-democrat-governor-terminates-ice-cooperation-agreements-across-state/"
+            },
+            {
+              "headline": "NIH Opens East Palestine Office to Study Long-Term Health Effects of Ohio Train Derailment",
+              "url": "https://thestarnewsnetwork.com/2026/02/04/nih-opens-east-palestine-office-to-study-long-term-health-effects-of-ohio-train-derailment/"
+            },
+            {
+              "headline": "Commentary: EU\u2019s New Immigration Deal Shows It Doesn\u2019t Care About Western Civilization",
+              "url": "https://thestarnewsnetwork.com/2026/01/31/commentary-eus-new-immigration-deal-shows-it-doesnt-care-about-western-civilization/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 16,
+          "articles": [
+            {
+              "headline": "Intelligence director Tulsi Gabbard\u2019s office obtained and tested voting machines in Puerto Rico",
+              "url": "https://www.cnn.com/2026/02/04/politics/gabbard-office-obtained-voting-machines-puerto-rico"
+            },
+            {
+              "headline": "Trump says Gabbard joined FBI agents at Fulton County elections office at AG Bondi\u2019s \u2018insistence\u2019",
+              "url": "https://www.cnn.com/politics/live-news/trump-administration-news-02-05-26?post-id=cml9k2f3u00003b64hq4u3470"
+            },
+            {
+              "headline": "Cheng Xin/Getty Images",
+              "url": "https://www.cnn.com/2026/02/05/investing/bitcoin-price"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 15,
+          "articles": [
+            {
+              "headline": "Live updates: Democrats demand \u2018dramatic changes\u2019 for ICE",
+              "url": "https://apnews.com/live/donald-trump-news-updates-2-5-2026"
+            },
+            {
+              "headline": "The detention of New Jersey kebab shop owners sparked change. Deportation still looms",
+              "url": "https://apnews.com/article/immigration-new-jersey-kebab-detention-570110d5f525acfd7a623a9da2126123"
+            },
+            {
+              "headline": "Bitcoin\u2019s monthslong slide continues, hitting fresh 15-month low of $67,000",
+              "url": "https://apnews.com/article/bitcoin-prices-falling-cryptocurrency-markets-investment-199a22ac65a675eb67bac89177ddf09b"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 4,
+          "articles": [
+            {
+              "headline": "Poll: Nearly two-thirds of Americans say ICE has gone too far in immigration crackdown",
+              "url": "https://www.pbs.org/newshour/politics/poll-nearly-two-thirds-of-americans-say-ice-has-gone-too-far-in-immigration-crackdown"
+            },
+            {
+              "headline": "Immigration agents' surveillance tools and tactics raise questions about civil liberties",
+              "url": "https://www.pbs.org/newshour/show/immigration-agents-surveillance-tools-and-tactics-raise-questions-about-civil-liberties"
+            },
+            {
+              "headline": "Democrats demand 'dramatic changes' for ICE on masks, cameras and judicial warrantsByMary Clare Jalo",
+              "url": "https://www.pbs.org/newshour/politics/democrats-demand-dramatic-changes-for-ice-on-masks-cameras-and-judicial-warrants"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 36,
+          "articles": [
+            {
+              "headline": "DODGE AND WEAVE",
+              "url": "https://www.foxnews.com/media/mayor-jacob-frey-avoids-question-opposing-obama-era-immigration-policy-now-pushed-trump"
+            },
+            {
+              "headline": "DECISION TIME",
+              "url": "https://www.foxnews.com/politics/anti-ice-legislation-heads-to-desk-of-rising-star-democrat-governor-testing-his-presidential-ambitions"
+            },
+            {
+              "headline": "Rep. Ayanna Pressley faces scrutiny over rising net worth and property-related debts",
+              "url": "https://www.foxnews.com/politics/pressley-says-nothing-see-here-when-asked-about-her-dramatic-multimillion-dollar-wealth-jump-office"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 23,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Police say they believe Nancy Guthrie \u2018is still out there\u2019 \u2014 but still have no suspects",
+              "url": "https://nypost.com/2026/02/05/us-news/savannah-guthrie-missing-mom-live-updates/"
+            },
+            {
+              "headline": "Justice Ketanji Brown Jackson removed any shred of impartiality by applauding anti-ICE speeches at t",
+              "url": "https://nypost.com/2026/02/04/opinion/miranda-devine-justice-ketanji-brown-jackson-removed-any-shred-of-impartiality-by-applauding-anti-ice-speeches-at-the-grammys/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 5.7,
+    "confidence_weighted_avg": 0.0,
+    "perspectives": {
+      "": {
+        "": {
+          "rating": 0,
+          "role": "Free-Market Economist",
+          "summary": "As a free-market economist, I view February 3rd's 700-agent withdrawal as an economic policy disaster: the administratio"
+        }
+      }
+    },
+    "matrix": {
+      "": {
+        "": 0,
+        "avg": 0
+      },
+      "averages": {
+        "left": 0.0,
+        "center": 0.0,
+        "right": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
