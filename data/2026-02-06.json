@@ -1,0 +1,385 @@
+{
+  "date": "2026-02-06",
+  "clock": {
+    "rating": 6,
+    "status": "HIGH",
+    "trend": "Stable",
+    "description": "Significant confrontations, legal battles"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 171,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 16,
+          "articles": [
+            {
+              "headline": "Small cities consider their options as they respond to ICE\u2019s prolonged presence",
+              "url": "https://www.minnpost.com/greater-minnesota/2026/02/small-cities-consider-their-options-as-they-respond-to-ices-prolonged-presence/"
+            },
+            {
+              "headline": "DHS requests to expedite deportation of 5-year-old Liam Conejo Ramos and family",
+              "url": "https://www.minnpost.com/glean/2026/02/dhs-requests-to-expedite-deportation-of-5-year-old-liam-conejo-ramos-and-family/"
+            },
+            {
+              "headline": "\u2018You\u2019re not going to investigate a federal officer\u2019",
+              "url": "https://www.minnpost.com/national/2026/02/youre-not-going-to-investigate-a-federal-officer/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Report: Poor policy language may have cost $1.7B across 14 Medicaid services in Minnesota",
+              "url": "https://minnesotareformer.com/2026/02/06/report-poor-policy-language-may-have-cost-minnesota-1-7b-across-14-medicaid-services/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 33,
+          "articles": [
+            {
+              "headline": "He offered to pay his own way home, but a Chilean man arrested by ICE remains stuck in jail",
+              "url": "https://sahanjournal.com/immigration/he-offered-to-pay-his-own-way-home-but-a-chilean-man-arrested-by-ice-remains-stuck-in-jail/"
+            },
+            {
+              "headline": "Refugees\u2019 futures remain uncertain as legal battle over Operation PARRIS proceeds",
+              "url": "https://sahanjournal.com/immigration/operation-parris-minneapolis-woman-arrested-detained-immigration/"
+            },
+            {
+              "headline": "Left behind: Pets suffer as ICE raids disrupt immigrant families in Minnesota",
+              "url": "https://sahanjournal.com/immigration/rescue-organizations-help-pets-affected-by-ice-surge-minnesota/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 21,
+          "articles": [
+            {
+              "headline": "U.S. seeks to expedite deportation of 5-year-old Liam Conejo Ramos",
+              "url": "https://www.twincities.com/2026/02/06/u-s-seeks-to-expedite-deportation-of-5-year-old-liam-conejo-ramos/"
+            },
+            {
+              "headline": "Far-right provocateur faces felony charge for damage to \u2018Prosecute ICE\u2019 sculpture",
+              "url": "https://www.twincities.com/2026/02/06/far-right-provocateur-faces-felony-charge-for-damage-to-prosecute-ice-sculpture/"
+            },
+            {
+              "headline": "Twin Cities child care centers on edge, parent patrols watch for ICE",
+              "url": "https://www.twincities.com/2026/02/06/twin-cities-child-care-centers-on-edge-parent-patrols-watch-for-ice/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Immigration enforcement in Minnesota",
+              "url": "https://www.mprnews.org/ice-in-minnesota"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 10,
+          "articles": [
+            {
+              "headline": "Student says professor conducted \u2018ICE drill\u2019 in class, told students to\u2026",
+              "url": "https://alphanews.org/student-says-professor-conducted-ice-drill-in-class-told-students-to-use-their-bodies-as-shields/"
+            },
+            {
+              "headline": "Moriarty, public defender criticize ICE for detaining alleged child sex abusers\u2026",
+              "url": "https://alphanews.org/moriarty-public-defender-criticize-ice-for-detaining-alleged-child-sex-abusers-at-county-courthouse/"
+            },
+            {
+              "headline": "Democrat Brad Tabke helps lead local \u2018ICE Watch\u2019 group that teaches people how to follow federal age",
+              "url": "https://alphanews.org/democrat-brad-tabke-helps-lead-local-ice-watch-group-that-teaches-people-how-to-follow-federal-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 4,
+          "articles": [
+            {
+              "headline": "EducationPrecinct caucuses across the state pass school choice resolutionFebruary 4, 2026 by Bill Wa",
+              "url": "https://www.americanexperiment.org/precinct-caucuses-across-the-state-pass-school-choice-resolution/"
+            },
+            {
+              "headline": "Public SafetyPolice federation leaders critical of police tactics surrendering to politicsFebruary 4",
+              "url": "https://www.americanexperiment.org/police-federation-leaders-critical-of-police-tactics-surrendering-to-politics/"
+            },
+            {
+              "headline": "TIFs may also potentially capture some natural growth in property values and take credit for them,  ",
+              "url": "https://nhc.org/policy-guide/tax-increment-financing-the-basics/#:~:text=TIFs%20are%20used%20to%20finance,the%20status%20quo%20before%20improvements."
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "President Formally Launches TrumpRx That Lowers Prescription Drug Prices",
+              "url": "https://thestarnewsnetwork.com/2026/02/06/president-formally-launches-trumprx-that-lowers-prescription-drug-prices/"
+            },
+            {
+              "headline": "Minnesota Sheriff Won\u2019t Back Out Of ICE Partnership",
+              "url": "https://thestarnewsnetwork.com/2026/02/06/minnesota-sheriff-wont-back-out-of-ice-partnership/"
+            },
+            {
+              "headline": "Mamdani Signs EO Requiring ICE to Have a Warrant to Enter City Property",
+              "url": "https://thestarnewsnetwork.com/2026/02/06/mamdani-signs-eo-requiring-ice-to-have-a-warrant-to-enter-city-property/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "MSNBC",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Federal appeals court gives Trump a win on immigration detention policy",
+              "url": "https://www.ms.now/news/federal-appeals-court-gives-trump-a-win-on-immigration-detention-policy"
+            }
+          ]
+        },
+        {
+          "name": "CNN",
+          "count": 5,
+          "articles": [
+            {
+              "headline": "Peter Mandelson",
+              "url": "https://www.cnn.com/2026/02/06/uk/uk-police-searching-peter-mandelson-linked-properties-intl"
+            },
+            {
+              "headline": "Mostafa Bassim/Anadolu/Getty Images",
+              "url": "https://www.cnn.com/2026/02/06/politics/appeals-court-trump-immigration-detention-policy"
+            },
+            {
+              "headline": "She thought ICE agents were taking her to school. The 10-year-old ended up 1,200 miles away in a det",
+              "url": "https://www.cnn.com/2026/02/06/us/minnesota-children-detained-immigration"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 11,
+          "articles": [
+            {
+              "headline": "Immigrant whose skull was broken in eight places during ICE arrest says beating was unprovoked",
+              "url": "https://apnews.com/article/immigration-enforcement-minneapolis-hospital-ice-beating-assault-4e77742e0629fc7f127c0aa38b3d2a70"
+            },
+            {
+              "headline": "Leadership changes in Minnesota follow tensions among agencies over immigration enforcement tactics",
+              "url": "https://apnews.com/article/immigration-homan-ice-customs-border-protection-trump-159819be7b0dbe3a56c93e2c92370d82"
+            },
+            {
+              "headline": "Accused militant is taken into custody in the deadly 2012 Benghazi attack",
+              "url": "https://apnews.com/article/fbi-benghazi-justice-department-a0eadc00e01e892e6dba827ccfadbae0"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 5,
+          "articles": [
+            {
+              "headline": "How effective will TrumpRX be at lowering prescription drug prices for Americans?",
+              "url": "https://www.pbs.org/newshour/show/how-effective-will-trumprx-be-at-lowering-prescription-drug-prices-for-americans"
+            },
+            {
+              "headline": "How public opinion shifting against ICE may affect the DHS funding showdown in Congress",
+              "url": "https://www.pbs.org/newshour/show/how-public-opinion-shifting-against-ice-may-affect-the-dhs-funding-showdown-in-congress"
+            },
+            {
+              "headline": "Poll: Nearly two-thirds of Americans say ICE has gone too far in immigration crackdown",
+              "url": "https://www.pbs.org/newshour/politics/poll-nearly-two-thirds-of-americans-say-ice-has-gone-too-far-in-immigration-crackdown"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 26,
+          "articles": [
+            {
+              "headline": "NFL great calls the league corrupt, slams its choice of Bad Bunny for halftime show",
+              "url": "https://www.foxnews.com/sports/nfl-legend-blasts-league-choosing-bad-bunny-halftime-performer-anything-money"
+            },
+            {
+              "headline": "Trump's War Secretary awards Purple Hearts to National Guard members after ambush attack",
+              "url": "https://www.foxnews.com/politics/hegseth-says-national-guard-members-shot-dc-ambush-afghan-national-receive-purple-heart"
+            },
+            {
+              "headline": "NYC mayor condemns federal immigration agents in religiously charged speech",
+              "url": "https://www.foxnews.com/media/mamdani-quotes-quran-bible-support-sanctuary-city-status"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 29,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Olympic star, who ditched Team USA for Great Britain, posts graphic anti-ICE message in snow",
+              "url": "https://nypost.com/2026/02/07/sports/winter-olympics-2026-british-skier-gus-kenworthy-posts-anti-ice-message-ahead-of-milan-cortina-games/"
+            },
+            {
+              "headline": "Exhibit AAlleged hospice scammer showed off $4M California dream home in splashy WSJ spread days bef",
+              "url": "https://nypost.com/2026/02/06/us-news/alleged-california-hospice-fraudster-showed-off-4m-home/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 3.5,
+    "confidence_weighted_avg": 6.2,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive State Legislator",
+          "summary": "Detention of children shipped to Texas, documented skull fractures from ICE arrest, 5th Circuit mandatory detention ruli"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "Bovino reassignment signals institutional reform, but children detained in Texas, congressional access denied, and 5th C"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative State Representative",
+          "summary": "FBI confirms organized protest funding, 5th Circuit upholds enforcement authority, but Bovino reassignment signals conce"
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 4,
+          "role": "Progressive Journalist",
+          "summary": "CNN's detained child and AP's skull fracture investigation provide devastating human stories while Bovino reassignment s"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "Strongest day for verified reporting: AP skull fracture evidence, CNN child detention documentation, congressional acces"
+        },
+        "right": {
+          "rating": 9,
+          "role": "Conservative Commentator",
+          "summary": "Media deploys coordinated propaganda using detained children and unverified injury claims while ignoring FBI-confirmed o"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 5,
+          "role": "Civil Rights Attorney",
+          "summary": "5th Circuit mandatory detention ruling creates urgent circuit split, while Castaneda skull fractures and Zuna child dete"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Constitutional Law Professor",
+          "summary": "5th Circuit mandatory detention ruling creates first appellate precedent heading toward Supreme Court, while congression"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Former Federal Prosecutor",
+          "summary": "5th Circuit ruling and FBI investigation provide strongest legal foundation for enforcement, warranting slight de-escala"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 4,
+          "role": "Progressive Economist",
+          "summary": "Child care sector crisis reveals cascading economic damage across labor market, while Bovino reassignment offers hope fo"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Regional Economist",
+          "summary": "Child care sector dual disruption and measurable school attendance declines provide first quantifiable economic damage i"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Free-Market Economist",
+          "summary": "5th Circuit ruling provides critical legal certainty that supports long-term economic efficiency, but DHS funding chaos "
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 5,
+        "center": 6,
+        "right": 8,
+        "avg": 6.3
+      },
+      "news_analyst": {
+        "left": 4,
+        "center": 6,
+        "right": 9,
+        "avg": 6.3
+      },
+      "legal_expert": {
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "avg": 6.0
+      },
+      "finance_analyst": {
+        "left": 4,
+        "center": 6,
+        "right": 8,
+        "avg": 6.0
+      },
+      "averages": {
+        "left": 4.5,
+        "center": 6.0,
+        "right": 8.0,
+        "overall": 6.17
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
