@@ -1,0 +1,379 @@
+{
+  "date": "2026-02-07",
+  "clock": {
+    "rating": 6,
+    "status": "HIGH",
+    "trend": "Stable",
+    "description": "Significant confrontations, legal battles"
+  },
+  "events": [
+    {
+      "title": "Data extraction",
+      "description": "See full analysis for details"
+    }
+  ],
+  "news": {
+    "total_articles": 183,
+    "total_sources": 18,
+    "minnesota_local": {
+      "left_leaning": [
+        {
+          "name": "MinnPost",
+          "count": 18,
+          "articles": [
+            {
+              "headline": "Federal authorities announce an end to the immigration crackdown in Minnesota",
+              "url": "http://www.minnpost.com/metro/2026/02/federal-authorities-announce-an-end-to-the-immigration-crackdown-in-minnesota/"
+            },
+            {
+              "headline": "Latest polling shows disapproval of Trump on immigration",
+              "url": "http://www.minnpost.com/national/2026/02/latest-poll-shows-disapproval-of-trump-on-immigration/"
+            },
+            {
+              "headline": "In occupied Minneapolis, neighborhood barricades rightly slow injustice",
+              "url": "http://www.minnpost.com/cityscape/2026/02/in-occupied-minneapolis-neighborhood-barricades-rightly-slow-injustice/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Reformer",
+          "count": 1,
+          "articles": [
+            {
+              "headline": "Why is ICE seizing people\u2019s phones and documents?",
+              "url": "https://minnesotareformer.com/2026/02/12/why-is-ice-seizing-peoples-phones-and-documents/"
+            }
+          ]
+        },
+        {
+          "name": "Sahan Journal",
+          "count": 32,
+          "articles": [
+            {
+              "headline": "Federal authorities announce an end to the immigration crackdown in Minnesota",
+              "url": "https://sahanjournal.com/immigration/ap-us-immigration-enforcement-minnesota-4/"
+            },
+            {
+              "headline": "Opinion: For Minnesota elder care facilities, ICE crackdown hits close to home",
+              "url": "https://sahanjournal.com/opinion/immigration-enforcement-minnesota-elder-care/"
+            },
+            {
+              "headline": "She followed every rule. ICE put her in an ankle monitor.",
+              "url": "https://sahanjournal.com/immigration/ice-isap-check-in-ankle-monitor/"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Pioneer Press",
+          "count": 17,
+          "articles": [
+            {
+              "headline": "Federal authorities announce an end to the immigration crackdown in Minnesota",
+              "url": "https://www.twincities.com/2026/02/12/federal-authorities-announce-an-end-to-the-immigration-crackdown-in-minnesota/"
+            },
+            {
+              "headline": "St. Paul City Council: Hotels should tell ICE they\u2019re not welcome",
+              "url": "https://www.twincities.com/2026/02/11/st-paul-council-resolution-hotels-not-housing-ice/"
+            },
+            {
+              "headline": "Girl Scouts moving cookie sales online in response to ICE actions",
+              "url": "https://www.twincities.com/2026/02/11/girl-scouts-moving-cookie-sales-online-in-response-to-ice-actions/"
+            }
+          ]
+        },
+        {
+          "name": "MPR News",
+          "count": 2,
+          "articles": [
+            {
+              "headline": "ICE surge in Minnesota will end soon. Walz backs $10M aid package for small businesses",
+              "url": "https://www.mprnews.org/live-updates"
+            },
+            {
+              "headline": "ICE officers in Minnesota directed not to interact with 'agitators' in new orders",
+              "url": "https://www.mprnews.org/story/2026/01/29/ice-officers-in-minnesota-directed-not-to-interact-with-agitators-in-new-orders"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Alpha News",
+          "count": 10,
+          "articles": [
+            {
+              "headline": "ICE surge to end in Minnesota, border czar Tom Homan announces",
+              "url": "https://alphanews.org/ice-surge-to-end-in-minnesota-border-czar-tom-homan-announces/"
+            },
+            {
+              "headline": "EXCLUSIVE: \u2018We need help in Minnesota\u2019\u2014Legislator voices concerns about voter roll integrity",
+              "url": "https://alphanews.org/exclusive-we-need-help-in-minnesota-legislator-voices-concerns-about-voter-roll-integrity/"
+            },
+            {
+              "headline": "\u2018Get your f\u2014ing guns\u2019: Antifa zealot charged with unhinged threats against ICE",
+              "url": "https://alphanews.org/get-your-f-ing-guns-antifa-zealot-charged-with-unhinged-threats-against-ice/"
+            }
+          ]
+        },
+        {
+          "name": "Center of the American Experiment",
+          "count": 7,
+          "articles": [
+            {
+              "headline": "Public Safety\u2018Metro Surge\u2019 winds downFebruary 12, 2026 by Bill GlahnAll good things must end. <sniff",
+              "url": "https://www.americanexperiment.org/metro-surge-winds-down/"
+            },
+            {
+              "headline": "Public SafetyHabeas and squatter\u2019s rightsFebruary 11, 2026 by Bill GlahnDemocratic federal judges ar",
+              "url": "https://www.americanexperiment.org/habeas-and-squatters-rights/"
+            },
+            {
+              "headline": "CultureMinneapolis Yoga Karens Have an Anti-ICE MELTDOWNFebruary 10, 2026 by Grace Keating, Kathryn ",
+              "url": "https://www.americanexperiment.org/minneapolis-yoga-karens-have-an-anti-ice-meltdown/"
+            }
+          ]
+        },
+        {
+          "name": "Minnesota Sun",
+          "count": 8,
+          "articles": [
+            {
+              "headline": "Lawmaker Probing J6 Is Worried U.S. Capitol Police Intelligence Was Politicized Against Republicans",
+              "url": "https://thestarnewsnetwork.com/2026/02/11/lawmaker-probing-j6-is-worried-u-s-capitol-police-intelligence-was-politicized-against-republicans/"
+            },
+            {
+              "headline": "Dems Push Judicial Warrant Mandate for ICE Arrest Powers",
+              "url": "https://thestarnewsnetwork.com/2026/02/11/dems-push-judicial-warrant-mandate-for-ice-arrest-powers/"
+            },
+            {
+              "headline": "Police Detain, Release Man in Connection to Nancy Guthrie Kidnapping",
+              "url": "https://thestarnewsnetwork.com/2026/02/11/police-detain-release-man-in-connection-to-nancy-guthrie-kidnapping/"
+            }
+          ]
+        }
+      ]
+    },
+    "us_national": {
+      "left_leaning": [
+        {
+          "name": "CNN",
+          "count": 10,
+          "articles": [
+            {
+              "headline": "VideoHoman: \u2018Wrong\u2019 to say US is backing down from immigration enforcement2:33",
+              "url": "https://www.cnn.com/2026/02/12/politics/video/minneapolis-ice-homan-ends-immigration-operation-digvid"
+            },
+            {
+              "headline": "Mass deportations still \u2018what this country is going to get,\u2019 Homan says",
+              "url": "https://www.cnn.com/politics/live-news/trump-administration-news-02-12-26?post-id=cmljjkjgg000r356pah1rfwpx"
+            },
+            {
+              "headline": "LiveSenate panel hearing with leaders from key federal immigration agencies",
+              "url": "https://www.cnn.com/live-video-2"
+            }
+          ]
+        }
+      ],
+      "centrist": [
+        {
+          "name": "Associated Press",
+          "count": 20,
+          "articles": [
+            {
+              "headline": "Live updates: Federal authorities announce end to Minnesota immigration crackdown",
+              "url": "https://apnews.com/live/trump-immigration-climate-change-2-12-2026"
+            },
+            {
+              "headline": "What independents think of Trump\u2019s recent immigration actions, according to a new AP-NORC poll",
+              "url": "https://apnews.com/article/trump-immigration-ice-minneapolis-deportation-42aff472ccf1ecd7b92ba0c90469c9e7"
+            },
+            {
+              "headline": "Lawyers of Chicago woman shot by federal agents say documents show how DHS lies about investigations",
+              "url": "https://apnews.com/article/immigration-chicago-shooting-crackdown-border-f05c446c37bf0cd7e7e2ad1dcfa104b1"
+            }
+          ]
+        },
+        {
+          "name": "PBS NewsHour",
+          "count": 5,
+          "articles": [
+            {
+              "headline": "WATCH: Border czar Tom Homan announces end to immigration crackdown in Minnesota",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-border-czar-tom-homan-holds-news-conference-in-minneapolis"
+            },
+            {
+              "headline": "Raskin accuses Justice Department of 'spying' on lawmakers reviewing Epstein files",
+              "url": "https://www.pbs.org/newshour/politics/raskin-accuses-justice-department-of-spying-on-lawmakers-reviewing-epstein-files"
+            },
+            {
+              "headline": "Minnesota immigration crackdown is ending, Homan saysBySteve Karnowski, Associated Press",
+              "url": "https://www.pbs.org/newshour/politics/homan-announces-end-to-minnesota-immigration-crackdown"
+            }
+          ]
+        }
+      ],
+      "right_leaning": [
+        {
+          "name": "Fox News",
+          "count": 26,
+          "articles": [
+            {
+              "headline": "'THREAT' THWARTED",
+              "url": "https://www.foxnews.com/us/ice-accuses-honduran-alien-ramming-law-enforcement-vehicle-before-agent-shoots-out-tires"
+            },
+            {
+              "headline": "OUTKICKDisney's disastrous 'Snow White' remake lost them an absolute fortune, new filings reveal",
+              "url": "https://www.outkick.com/analysis/disney-snow-white-remake-box-office-loss-rachel-zegler-bomb"
+            },
+            {
+              "headline": "Trump admin demands answers from 7-Eleven after ICE agents denied service",
+              "url": "https://www.foxnews.com/politics/trump-administration-threatens-7-eleven-partnership-after-federal-agents-denied-service-minneapolis-store"
+            }
+          ]
+        },
+        {
+          "name": "New York Post",
+          "count": 27,
+          "articles": [
+            {
+              "headline": "Full price?! In this economy? Shop smarter with Post Wanted. SIGN UP NOW",
+              "url": "https://email.nypost.com/post-wanted/"
+            },
+            {
+              "headline": "Inside \u2018sinister\u2019 Olympics ice dancing controversy that left married Americans crushed against polar",
+              "url": "https://nypost.com/2026/02/12/sports/why-olympics-ice-dancing-upset-was-so-controversial-as-french-duo-beats-married-american-couple/"
+            },
+            {
+              "headline": "Border czar Tom Homan announces end of ICE surge in Minnesota",
+              "url": "https://nypost.com/2026/02/12/us-news/tom-homan-announces-end-of-ice-surge-in-minnesota/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "polarization_index": 2.5,
+    "confidence_weighted_avg": 6.1,
+    "perspectives": {
+      "politician": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive State Legislator",
+          "summary": "Renee Good memorial galvanizes community one month after ICE killing, 700+ habeas petitions overwhelm courts with 57% de"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Moderate State Senator",
+          "summary": "Federal courts overwhelmed by 700+ habeas petitions requiring judges from four states, U.S. Attorney's office collapses "
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative State Representative",
+          "summary": "Neighborhood blockades physically obstruct federal agents, 700+ habeas petitions represent coordinated legal warfare, U."
+        }
+      },
+      "news_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Journalist",
+          "summary": "Renee Good memorial transforms grief into sustained movement, 700+ habeas petitions and 96 court violations quantify jud"
+        },
+        "center": {
+          "rating": 6,
+          "role": "Senior News Editor",
+          "summary": "Hard data emerges on judicial crisis: 700+ habeas petitions, 96 court order violations, 57% detainee win rate, U.S. Atto"
+        },
+        "right": {
+          "rating": 8,
+          "role": "Conservative Commentator",
+          "summary": "Media normalizes illegal street blockades as 'parties,' 700 habeas petitions represent coordinated legal warfare not jus"
+        }
+      },
+      "legal_expert": {
+        "left": {
+          "rating": 5,
+          "role": "Civil Rights Attorney",
+          "summary": "57% detainee success rate in 700+ habeas cases proves systemic unlawful detention, 96 court order violations constitute "
+        },
+        "center": {
+          "rating": 6,
+          "role": "Constitutional Law Professor",
+          "summary": "Most significant state-federal constitutional crisis since desegregation, with inverted dynamics. 96 court order violati"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Former Federal Prosecutor",
+          "summary": "Street blockades constitute prosecutable federal obstruction, habeas flood is coordinated legal warfare, prosecutor depa"
+        }
+      },
+      "finance_analyst": {
+        "left": {
+          "rating": 5,
+          "role": "Progressive Economist",
+          "summary": "Elder care crisis deepens as work-permit holders fear commuting, neighborhood blockades reshape commercial geography, U."
+        },
+        "center": {
+          "rating": 5,
+          "role": "Regional Economist",
+          "summary": "700-agent drawdown not yet producing economic recovery, elder care vacancy rates doubling to 25-30%, federal court comme"
+        },
+        "right": {
+          "rating": 7,
+          "role": "Free-Market Economist",
+          "summary": "Elder care crisis reflects labor market distortion from artificially cheap immigrant labor, blockades impose self-inflic"
+        }
+      }
+    },
+    "matrix": {
+      "politician": {
+        "left": 5,
+        "center": 6,
+        "right": 8,
+        "avg": 6.3
+      },
+      "news_analyst": {
+        "left": 5,
+        "center": 6,
+        "right": 8,
+        "avg": 6.3
+      },
+      "legal_expert": {
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "avg": 6.0
+      },
+      "finance_analyst": {
+        "left": 5,
+        "center": 5,
+        "right": 7,
+        "avg": 5.7
+      },
+      "averages": {
+        "left": 5.0,
+        "center": 5.75,
+        "right": 7.5,
+        "overall": 6.08
+      }
+    }
+  },
+  "watch": {
+    "escalation": [
+      "Additional fatal incidents",
+      "National Guard deployment",
+      "Federal arrests of state officials",
+      "Spread to other cities",
+      "Counter-protests or militia involvement"
+    ],
+    "deescalation": [
+      "Federal pause in operations",
+      "Independent investigation",
+      "Release of detained children",
+      "Withdrawal of legal actions",
+      "State-federal dialogue"
+    ]
+  }
+}
